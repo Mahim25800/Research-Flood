@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Safe test-time adaptation for SAR flood mapping: physics-checked self-training with a flood-level miss-rate guarantee"
+type: software
+repository-code: "https://github.com/Mahim25800/Research-Flood"
+license: MIT
