@@ -1,0 +1,5018 @@
+{
+ "V0|all": {
+  "none": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.2720800428582339,
+     "max_fnr": 0.43752726290790506,
+     "sd_fnr": 0.12046613541468104,
+     "meeting": null,
+     "mean_iou": 0.5505444404913793
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.01009592453446347,
+     "max_fnr": 0.03270843721394071,
+     "sd_fnr": 0.011733385830842135,
+     "meeting": 11,
+     "mean_iou": 0.18922995648836158
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12348167925338971,
+     "max_fnr": 0.2686391741156432,
+     "sd_fnr": 0.0822008621016336,
+     "meeting": 9,
+     "mean_iou": 0.4787797762906994
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23220848909149802,
+     "max_fnr": 0.41080095826957563,
+     "sd_fnr": 0.11908324986543817,
+     "meeting": 7,
+     "mean_iou": 0.5433567652224024
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.2277,
+      "iou": 0.6371,
+      "precision": 0.7844
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0011,
+      "iou": 0.2485,
+      "precision": 0.2485
+     },
+     "crc_0.2": {
+      "threshold": 0.18,
+      "fnr": 0.042,
+      "iou": 0.6047,
+      "precision": 0.6211
+     },
+     "crc_0.3": {
+      "threshold": 0.4,
+      "fnr": 0.1539,
+      "iou": 0.6638,
+      "precision": 0.755
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.4375,
+      "iou": 0.4725,
+      "precision": 0.747
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0324,
+      "iou": 0.1877,
+      "precision": 0.1889
+     },
+     "crc_0.2": {
+      "threshold": 0.22,
+      "fnr": 0.2686,
+      "iou": 0.5656,
+      "precision": 0.7139
+     },
+     "crc_0.3": {
+      "threshold": 0.446,
+      "fnr": 0.4108,
+      "iou": 0.4895,
+      "precision": 0.7432
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.3404,
+      "iou": 0.5255,
+      "precision": 0.721
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0061,
+      "iou": 0.1523,
+      "precision": 0.1524
+     },
+     "crc_0.2": {
+      "threshold": 0.207,
+      "fnr": 0.196,
+      "iou": 0.4785,
+      "precision": 0.5417
+     },
+     "crc_0.3": {
+      "threshold": 0.428,
+      "fnr": 0.3126,
+      "iou": 0.525,
+      "precision": 0.6896
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.056,
+      "iou": 0.8454,
+      "precision": 0.8901
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0,
+      "iou": 0.3341,
+      "precision": 0.3341
+     },
+     "crc_0.2": {
+      "threshold": 0.174,
+      "fnr": 0.011,
+      "iou": 0.7391,
+      "precision": 0.7452
+     },
+     "crc_0.3": {
+      "threshold": 0.379,
+      "fnr": 0.0357,
+      "iou": 0.8169,
+      "precision": 0.8424
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.1984,
+      "iou": 0.7449,
+      "precision": 0.9133
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0046,
+      "iou": 0.511,
+      "precision": 0.5122
+     },
+     "crc_0.2": {
+      "threshold": 0.191,
+      "fnr": 0.1067,
+      "iou": 0.7885,
+      "precision": 0.8705
+     },
+     "crc_0.3": {
+      "threshold": 0.402,
+      "fnr": 0.1687,
+      "iou": 0.7628,
+      "precision": 0.9026
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.3634,
+      "iou": 0.2459,
+      "precision": 0.286
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0327,
+      "iou": 0.0867,
+      "precision": 0.0869
+     },
+     "crc_0.2": {
+      "threshold": 0.202,
+      "fnr": 0.1683,
+      "iou": 0.1623,
+      "precision": 0.1679
+     },
+     "crc_0.3": {
+      "threshold": 0.43,
+      "fnr": 0.3195,
+      "iou": 0.2287,
+      "precision": 0.2562
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.3186,
+      "iou": 0.5355,
+      "precision": 0.7144
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.001,
+      "iou": 0.1238,
+      "precision": 0.1238
+     },
+     "crc_0.2": {
+      "threshold": 0.186,
+      "fnr": 0.0798,
+      "iou": 0.4168,
+      "precision": 0.4324
+     },
+     "crc_0.3": {
+      "threshold": 0.418,
+      "fnr": 0.2553,
+      "iou": 0.5342,
+      "precision": 0.6539
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.4269,
+      "iou": 0.2725,
+      "precision": 0.3419
+     },
+     "crc_0.1": {
+      "threshold": 0.006,
+      "fnr": 0.0092,
+      "iou": 0.0793,
+      "precision": 0.0793
+     },
+     "crc_0.2": {
+      "threshold": 0.214,
+      "fnr": 0.2364,
+      "iou": 0.2119,
+      "precision": 0.2267
+     },
+     "crc_0.3": {
+      "threshold": 0.444,
+      "fnr": 0.397,
+      "iou": 0.2677,
+      "precision": 0.325
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0746,
+      "iou": 0.6665,
+      "precision": 0.7044
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0001,
+      "iou": 0.1469,
+      "precision": 0.1469
+     },
+     "crc_0.2": {
+      "threshold": 0.175,
+      "fnr": 0.0188,
+      "iou": 0.4279,
+      "precision": 0.4314
+     },
+     "crc_0.3": {
+      "threshold": 0.381,
+      "fnr": 0.0496,
+      "iou": 0.6007,
+      "precision": 0.6201
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.2774,
+      "iou": 0.641,
+      "precision": 0.8502
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0052,
+      "iou": 0.1448,
+      "precision": 0.1449
+     },
+     "crc_0.2": {
+      "threshold": 0.189,
+      "fnr": 0.0972,
+      "iou": 0.5357,
+      "precision": 0.5685
+     },
+     "crc_0.3": {
+      "threshold": 0.411,
+      "fnr": 0.2181,
+      "iou": 0.6446,
+      "precision": 0.7859
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.2719,
+      "iou": 0.4693,
+      "precision": 0.569
+     },
+     "crc_0.1": {
+      "threshold": 0.006,
+      "fnr": 0.0186,
+      "iou": 0.0665,
+      "precision": 0.0666
+     },
+     "crc_0.2": {
+      "threshold": 0.196,
+      "fnr": 0.1335,
+      "iou": 0.3357,
+      "precision": 0.354
+     },
+     "crc_0.3": {
+      "threshold": 0.414,
+      "fnr": 0.233,
+      "iou": 0.443,
+      "precision": 0.5118
+     }
+    }
+   }
+  },
+  "tent": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.41739794619689685,
+     "max_fnr": 0.9940549176977669,
+     "sd_fnr": 0.23510250102653965,
+     "meeting": null,
+     "mean_iou": 0.5220084642993327
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.007498937668147978,
+     "max_fnr": 0.042886717857464327,
+     "sd_fnr": 0.012805465533548813,
+     "meeting": 11,
+     "mean_iou": 0.18289067119955343
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.13524671533838778,
+     "max_fnr": 0.5239160943095844,
+     "sd_fnr": 0.15465507107507306,
+     "meeting": 8,
+     "mean_iou": 0.43253738579085554
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23854496581468493,
+     "max_fnr": 0.9081713441316607,
+     "sd_fnr": 0.2479907329886097,
+     "meeting": 8,
+     "mean_iou": 0.5194346246550676
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.177,
+      "iou": 0.6631,
+      "precision": 0.7735
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0009,
+      "iou": 0.253,
+      "precision": 0.2531
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.02,
+      "iou": 0.5164,
+      "precision": 0.5219
+     },
+     "crc_0.3": {
+      "threshold": 0.034,
+      "fnr": 0.052,
+      "iou": 0.5949,
+      "precision": 0.6149
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.4582,
+      "iou": 0.4676,
+      "precision": 0.7735
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0429,
+      "iou": 0.166,
+      "precision": 0.1672
+     },
+     "crc_0.2": {
+      "threshold": 0.014,
+      "fnr": 0.1123,
+      "iou": 0.5267,
+      "precision": 0.5643
+     },
+     "crc_0.3": {
+      "threshold": 0.038,
+      "fnr": 0.177,
+      "iou": 0.5933,
+      "precision": 0.6801
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.5744,
+      "iou": 0.4011,
+      "precision": 0.8743
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0168,
+      "iou": 0.1668,
+      "precision": 0.1673
+     },
+     "crc_0.2": {
+      "threshold": 0.015,
+      "fnr": 0.209,
+      "iou": 0.4495,
+      "precision": 0.5101
+     },
+     "crc_0.3": {
+      "threshold": 0.048,
+      "fnr": 0.4049,
+      "iou": 0.5009,
+      "precision": 0.7597
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1205,
+      "iou": 0.8517,
+      "precision": 0.9642
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0001,
+      "iou": 0.3759,
+      "precision": 0.3759
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.015,
+      "iou": 0.754,
+      "precision": 0.7628
+     },
+     "crc_0.3": {
+      "threshold": 0.034,
+      "fnr": 0.0352,
+      "iou": 0.8139,
+      "precision": 0.8387
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2821,
+      "iou": 0.6805,
+      "precision": 0.9289
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0172,
+      "iou": 0.5127,
+      "precision": 0.5173
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.0787,
+      "iou": 0.7506,
+      "precision": 0.802
+     },
+     "crc_0.3": {
+      "threshold": 0.037,
+      "fnr": 0.1268,
+      "iou": 0.7691,
+      "precision": 0.8658
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.5817,
+      "iou": 0.3146,
+      "precision": 0.5594
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0001,
+      "iou": 0.075,
+      "precision": 0.075
+     },
+     "crc_0.2": {
+      "threshold": 0.017,
+      "fnr": 0.3409,
+      "iou": 0.189,
+      "precision": 0.2094
+     },
+     "crc_0.3": {
+      "threshold": 0.05,
+      "fnr": 0.4467,
+      "iou": 0.2773,
+      "precision": 0.3573
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.3911,
+      "iou": 0.5241,
+      "precision": 0.7902
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0003,
+      "iou": 0.0909,
+      "precision": 0.0909
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.0348,
+      "iou": 0.3093,
+      "precision": 0.3128
+     },
+     "crc_0.3": {
+      "threshold": 0.037,
+      "fnr": 0.1296,
+      "iou": 0.4499,
+      "precision": 0.4822
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.9941,
+      "iou": 0.0059,
+      "precision": 0.9261
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0011,
+      "iou": 0.0651,
+      "precision": 0.0651
+     },
+     "crc_0.2": {
+      "threshold": 0.02,
+      "fnr": 0.5239,
+      "iou": 0.2373,
+      "precision": 0.3212
+     },
+     "crc_0.3": {
+      "threshold": 0.082,
+      "fnr": 0.9082,
+      "iou": 0.0882,
+      "precision": 0.6928
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.1905,
+      "iou": 0.7397,
+      "precision": 0.8957
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0,
+      "iou": 0.1321,
+      "precision": 0.1321
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.0197,
+      "iou": 0.4129,
+      "precision": 0.4164
+     },
+     "crc_0.3": {
+      "threshold": 0.034,
+      "fnr": 0.0481,
+      "iou": 0.5946,
+      "precision": 0.613
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.3575,
+      "iou": 0.6236,
+      "precision": 0.955
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0017,
+      "iou": 0.1267,
+      "precision": 0.1268
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.0635,
+      "iou": 0.4099,
+      "precision": 0.4216
+     },
+     "crc_0.3": {
+      "threshold": 0.038,
+      "fnr": 0.1528,
+      "iou": 0.6182,
+      "precision": 0.6958
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.4642,
+      "iou": 0.4701,
+      "precision": 0.7931
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0014,
+      "iou": 0.0476,
+      "precision": 0.0476
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.0699,
+      "iou": 0.2022,
+      "precision": 0.2053
+     },
+     "crc_0.3": {
+      "threshold": 0.037,
+      "fnr": 0.1428,
+      "iou": 0.4135,
+      "precision": 0.4441
+     }
+    }
+   }
+  },
+  "st": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.30585301399904863,
+     "max_fnr": 0.5017050136054892,
+     "sd_fnr": 0.1375488817483297,
+     "meeting": null,
+     "mean_iou": 0.5550929472398555
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.010301091882054924,
+     "max_fnr": 0.06562525582537639,
+     "sd_fnr": 0.01815011173088985,
+     "meeting": 11,
+     "mean_iou": 0.20177257424256254
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12455080452375396,
+     "max_fnr": 0.3128531027778317,
+     "sd_fnr": 0.10118879737876327,
+     "meeting": 8,
+     "mean_iou": 0.4787873080975668
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23194675323482003,
+     "max_fnr": 0.43788408852331095,
+     "sd_fnr": 0.14462147476791853,
+     "meeting": 7,
+     "mean_iou": 0.5527629368058444
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.1882,
+      "iou": 0.6693,
+      "precision": 0.7923
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.003,
+      "iou": 0.379,
+      "precision": 0.3795
+     },
+     "crc_0.2": {
+      "threshold": 0.032,
+      "fnr": 0.0162,
+      "iou": 0.5399,
+      "precision": 0.5447
+     },
+     "crc_0.3": {
+      "threshold": 0.148,
+      "fnr": 0.0571,
+      "iou": 0.6478,
+      "precision": 0.6742
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.5017,
+      "iou": 0.4312,
+      "precision": 0.762
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0114,
+      "iou": 0.0852,
+      "precision": 0.0853
+     },
+     "crc_0.2": {
+      "threshold": 0.038,
+      "fnr": 0.159,
+      "iou": 0.5636,
+      "precision": 0.6308
+     },
+     "crc_0.3": {
+      "threshold": 0.239,
+      "fnr": 0.3979,
+      "iou": 0.5001,
+      "precision": 0.7469
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.4769,
+      "iou": 0.4775,
+      "precision": 0.8456
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0054,
+      "iou": 0.1409,
+      "precision": 0.1411
+     },
+     "crc_0.2": {
+      "threshold": 0.046,
+      "fnr": 0.3129,
+      "iou": 0.5186,
+      "precision": 0.6789
+     },
+     "crc_0.3": {
+      "threshold": 0.252,
+      "fnr": 0.4379,
+      "iou": 0.4992,
+      "precision": 0.8168
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1397,
+      "iou": 0.8373,
+      "precision": 0.969
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0003,
+      "iou": 0.4938,
+      "precision": 0.4939
+     },
+     "crc_0.2": {
+      "threshold": 0.032,
+      "fnr": 0.018,
+      "iou": 0.767,
+      "precision": 0.778
+     },
+     "crc_0.3": {
+      "threshold": 0.148,
+      "fnr": 0.0591,
+      "iou": 0.8478,
+      "precision": 0.8955
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2682,
+      "iou": 0.6927,
+      "precision": 0.9283
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0059,
+      "iou": 0.4795,
+      "precision": 0.4809
+     },
+     "crc_0.2": {
+      "threshold": 0.035,
+      "fnr": 0.0924,
+      "iou": 0.7806,
+      "precision": 0.848
+     },
+     "crc_0.3": {
+      "threshold": 0.178,
+      "fnr": 0.1885,
+      "iou": 0.7489,
+      "precision": 0.9066
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.4283,
+      "iou": 0.2484,
+      "precision": 0.3051
+     },
+     "crc_0.1": {
+      "threshold": 0.006,
+      "fnr": 0.0656,
+      "iou": 0.093,
+      "precision": 0.0937
+     },
+     "crc_0.2": {
+      "threshold": 0.044,
+      "fnr": 0.2778,
+      "iou": 0.1819,
+      "precision": 0.1956
+     },
+     "crc_0.3": {
+      "threshold": 0.235,
+      "fnr": 0.3853,
+      "iou": 0.2287,
+      "precision": 0.267
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.1857,
+      "iou": 0.5825,
+      "precision": 0.6717
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.002,
+      "iou": 0.1281,
+      "precision": 0.1282
+     },
+     "crc_0.2": {
+      "threshold": 0.032,
+      "fnr": 0.0248,
+      "iou": 0.3452,
+      "precision": 0.3482
+     },
+     "crc_0.3": {
+      "threshold": 0.155,
+      "fnr": 0.0904,
+      "iou": 0.5035,
+      "precision": 0.53
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.438,
+      "iou": 0.252,
+      "precision": 0.3135
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0165,
+      "iou": 0.0862,
+      "precision": 0.0863
+     },
+     "crc_0.2": {
+      "threshold": 0.041,
+      "fnr": 0.2119,
+      "iou": 0.2029,
+      "precision": 0.2147
+     },
+     "crc_0.3": {
+      "threshold": 0.23,
+      "fnr": 0.37,
+      "iou": 0.2473,
+      "precision": 0.2893
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0941,
+      "iou": 0.7071,
+      "precision": 0.7631
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0004,
+      "iou": 0.1584,
+      "precision": 0.1584
+     },
+     "crc_0.2": {
+      "threshold": 0.032,
+      "fnr": 0.0253,
+      "iou": 0.4728,
+      "precision": 0.4787
+     },
+     "crc_0.3": {
+      "threshold": 0.148,
+      "fnr": 0.0576,
+      "iou": 0.6343,
+      "precision": 0.6599
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.27,
+      "iou": 0.6907,
+      "precision": 0.9276
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0026,
+      "iou": 0.1295,
+      "precision": 0.1296
+     },
+     "crc_0.2": {
+      "threshold": 0.035,
+      "fnr": 0.0964,
+      "iou": 0.5271,
+      "precision": 0.5585
+     },
+     "crc_0.3": {
+      "threshold": 0.184,
+      "fnr": 0.21,
+      "iou": 0.6939,
+      "precision": 0.8509
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3737,
+      "iou": 0.5175,
+      "precision": 0.7486
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0002,
+      "iou": 0.0458,
+      "precision": 0.0458
+     },
+     "crc_0.2": {
+      "threshold": 0.037,
+      "fnr": 0.1354,
+      "iou": 0.367,
+      "precision": 0.3893
+     },
+     "crc_0.3": {
+      "threshold": 0.208,
+      "fnr": 0.2976,
+      "iou": 0.529,
+      "precision": 0.6819
+     }
+    }
+   }
+  },
+  "phys": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.28769697809181366,
+     "max_fnr": 0.4341604102404925,
+     "sd_fnr": 0.12574778611523751,
+     "meeting": null,
+     "mean_iou": 0.5670193417313631
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.009229412415349714,
+     "max_fnr": 0.04207815790844614,
+     "sd_fnr": 0.013195372127554747,
+     "meeting": 11,
+     "mean_iou": 0.19172282382611838
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12411089057927681,
+     "max_fnr": 0.29831781636141275,
+     "sd_fnr": 0.09894231955553362,
+     "meeting": 9,
+     "mean_iou": 0.4888420750497424
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.2312427630903984,
+     "max_fnr": 0.4066946454476282,
+     "sd_fnr": 0.13266569815878929,
+     "meeting": 7,
+     "mean_iou": 0.5644609694900224
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.1488,
+      "iou": 0.6808,
+      "precision": 0.7727
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0021,
+      "iou": 0.3532,
+      "precision": 0.3534
+     },
+     "crc_0.2": {
+      "threshold": 0.037,
+      "fnr": 0.0151,
+      "iou": 0.5358,
+      "precision": 0.5403
+     },
+     "crc_0.3": {
+      "threshold": 0.199,
+      "fnr": 0.0573,
+      "iou": 0.6535,
+      "precision": 0.6805
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.43,
+      "iou": 0.487,
+      "precision": 0.7699
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0191,
+      "iou": 0.102,
+      "precision": 0.1022
+     },
+     "crc_0.2": {
+      "threshold": 0.045,
+      "fnr": 0.1376,
+      "iou": 0.5885,
+      "precision": 0.6495
+     },
+     "crc_0.3": {
+      "threshold": 0.293,
+      "fnr": 0.3469,
+      "iou": 0.5409,
+      "precision": 0.7589
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.4342,
+      "iou": 0.506,
+      "precision": 0.8272
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.005,
+      "iou": 0.14,
+      "precision": 0.1401
+     },
+     "crc_0.2": {
+      "threshold": 0.057,
+      "fnr": 0.297,
+      "iou": 0.5226,
+      "precision": 0.6707
+     },
+     "crc_0.3": {
+      "threshold": 0.315,
+      "fnr": 0.4067,
+      "iou": 0.5172,
+      "precision": 0.8014
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1225,
+      "iou": 0.8498,
+      "precision": 0.9643
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0001,
+      "iou": 0.4499,
+      "precision": 0.45
+     },
+     "crc_0.2": {
+      "threshold": 0.038,
+      "fnr": 0.0174,
+      "iou": 0.7645,
+      "precision": 0.7751
+     },
+     "crc_0.3": {
+      "threshold": 0.2,
+      "fnr": 0.0598,
+      "iou": 0.8508,
+      "precision": 0.8995
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2584,
+      "iou": 0.6996,
+      "precision": 0.9251
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0044,
+      "iou": 0.4523,
+      "precision": 0.4532
+     },
+     "crc_0.2": {
+      "threshold": 0.042,
+      "fnr": 0.0917,
+      "iou": 0.7719,
+      "precision": 0.8371
+     },
+     "crc_0.3": {
+      "threshold": 0.242,
+      "fnr": 0.2,
+      "iou": 0.7399,
+      "precision": 0.9077
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.4322,
+      "iou": 0.2545,
+      "precision": 0.3156
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0421,
+      "iou": 0.0874,
+      "precision": 0.0878
+     },
+     "crc_0.2": {
+      "threshold": 0.057,
+      "fnr": 0.2983,
+      "iou": 0.1918,
+      "precision": 0.2089
+     },
+     "crc_0.3": {
+      "threshold": 0.314,
+      "fnr": 0.4038,
+      "iou": 0.2403,
+      "precision": 0.287
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.2161,
+      "iou": 0.5803,
+      "precision": 0.6908
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0012,
+      "iou": 0.1092,
+      "precision": 0.1093
+     },
+     "crc_0.2": {
+      "threshold": 0.038,
+      "fnr": 0.0329,
+      "iou": 0.3733,
+      "precision": 0.3781
+     },
+     "crc_0.3": {
+      "threshold": 0.221,
+      "fnr": 0.1325,
+      "iou": 0.5422,
+      "precision": 0.5911
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.4311,
+      "iou": 0.229,
+      "precision": 0.2771
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0258,
+      "iou": 0.0933,
+      "precision": 0.0935
+     },
+     "crc_0.2": {
+      "threshold": 0.049,
+      "fnr": 0.1953,
+      "iou": 0.1805,
+      "precision": 0.1888
+     },
+     "crc_0.3": {
+      "threshold": 0.302,
+      "fnr": 0.3733,
+      "iou": 0.2217,
+      "precision": 0.2554
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0966,
+      "iou": 0.7099,
+      "precision": 0.7682
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0002,
+      "iou": 0.1512,
+      "precision": 0.1512
+     },
+     "crc_0.2": {
+      "threshold": 0.038,
+      "fnr": 0.0269,
+      "iou": 0.4862,
+      "precision": 0.4928
+     },
+     "crc_0.3": {
+      "threshold": 0.201,
+      "fnr": 0.065,
+      "iou": 0.6521,
+      "precision": 0.6831
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.2697,
+      "iou": 0.6997,
+      "precision": 0.9435
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0015,
+      "iou": 0.1246,
+      "precision": 0.1247
+     },
+     "crc_0.2": {
+      "threshold": 0.044,
+      "fnr": 0.1185,
+      "iou": 0.5707,
+      "precision": 0.6182
+     },
+     "crc_0.3": {
+      "threshold": 0.252,
+      "fnr": 0.2288,
+      "iou": 0.7093,
+      "precision": 0.8983
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3251,
+      "iou": 0.5406,
+      "precision": 0.7309
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0001,
+      "iou": 0.0456,
+      "precision": 0.0456
+     },
+     "crc_0.2": {
+      "threshold": 0.045,
+      "fnr": 0.1344,
+      "iou": 0.3914,
+      "precision": 0.4167
+     },
+     "crc_0.3": {
+      "threshold": 0.265,
+      "fnr": 0.2695,
+      "iou": 0.5413,
+      "precision": 0.6764
+     }
+    }
+   }
+  },
+  "otsu": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.2671407631834597,
+     "max_fnr": 0.3824745075364206,
+     "sd_fnr": 0.0841628938814398,
+     "meeting": null,
+     "mean_iou": 0.3691188054568028
+    }
+   }
+  }
+ },
+ "V0|clean": {
+  "none": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.20158521692526155,
+     "max_fnr": 0.40440722674912205,
+     "sd_fnr": 0.1159693655561532,
+     "meeting": null,
+     "mean_iou": 0.5897648512461715
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.01038795501387383,
+     "max_fnr": 0.03445181076728057,
+     "sd_fnr": 0.010210768270819095,
+     "meeting": 11,
+     "mean_iou": 0.30133261924977206
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12337717644121185,
+     "max_fnr": 0.2810000762526744,
+     "sd_fnr": 0.08371866070879978,
+     "meeting": 9,
+     "mean_iou": 0.5731165363992533
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.2356049433198699,
+     "max_fnr": 0.5043279668424169,
+     "sd_fnr": 0.14256203003170165,
+     "meeting": 8,
+     "mean_iou": 0.581663655364943
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.1972,
+      "iou": 0.7104,
+      "precision": 0.8606
+     },
+     "crc_0.1": {
+      "threshold": 0.018,
+      "fnr": 0.0013,
+      "iou": 0.4837,
+      "precision": 0.484
+     },
+     "crc_0.2": {
+      "threshold": 0.317,
+      "fnr": 0.0726,
+      "iou": 0.736,
+      "precision": 0.781
+     },
+     "crc_0.3": {
+      "threshold": 0.558,
+      "fnr": 0.2346,
+      "iou": 0.6896,
+      "precision": 0.8744
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.3722,
+      "iou": 0.5992,
+      "precision": 0.9293
+     },
+     "crc_0.1": {
+      "threshold": 0.02,
+      "fnr": 0.0105,
+      "iou": 0.374,
+      "precision": 0.3755
+     },
+     "crc_0.2": {
+      "threshold": 0.363,
+      "fnr": 0.281,
+      "iou": 0.6703,
+      "precision": 0.9081
+     },
+     "crc_0.3": {
+      "threshold": 0.592,
+      "fnr": 0.4347,
+      "iou": 0.5464,
+      "precision": 0.9423
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.153,
+      "iou": 0.6705,
+      "precision": 0.7629
+     },
+     "crc_0.1": {
+      "threshold": 0.02,
+      "fnr": 0.0078,
+      "iou": 0.2728,
+      "precision": 0.2734
+     },
+     "crc_0.2": {
+      "threshold": 0.327,
+      "fnr": 0.1135,
+      "iou": 0.6413,
+      "precision": 0.6987
+     },
+     "crc_0.3": {
+      "threshold": 0.546,
+      "fnr": 0.165,
+      "iou": 0.6736,
+      "precision": 0.777
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.0488,
+      "iou": 0.887,
+      "precision": 0.9293
+     },
+     "crc_0.1": {
+      "threshold": 0.018,
+      "fnr": 0.0002,
+      "iou": 0.5555,
+      "precision": 0.5556
+     },
+     "crc_0.2": {
+      "threshold": 0.305,
+      "fnr": 0.022,
+      "iou": 0.8569,
+      "precision": 0.8737
+     },
+     "crc_0.3": {
+      "threshold": 0.525,
+      "fnr": 0.0531,
+      "iou": 0.8878,
+      "precision": 0.9343
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.1544,
+      "iou": 0.7969,
+      "precision": 0.9326
+     },
+     "crc_0.1": {
+      "threshold": 0.02,
+      "fnr": 0.0111,
+      "iou": 0.7632,
+      "precision": 0.7698
+     },
+     "crc_0.2": {
+      "threshold": 0.326,
+      "fnr": 0.1103,
+      "iou": 0.8218,
+      "precision": 0.915
+     },
+     "crc_0.3": {
+      "threshold": 0.546,
+      "fnr": 0.1693,
+      "iou": 0.7868,
+      "precision": 0.937
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.1904,
+      "iou": 0.0542,
+      "precision": 0.0549
+     },
+     "crc_0.1": {
+      "threshold": 0.018,
+      "fnr": 0.0014,
+      "iou": 0.0138,
+      "precision": 0.0138
+     },
+     "crc_0.2": {
+      "threshold": 0.319,
+      "fnr": 0.0806,
+      "iou": 0.0375,
+      "precision": 0.0376
+     },
+     "crc_0.3": {
+      "threshold": 0.561,
+      "fnr": 0.25,
+      "iou": 0.0587,
+      "precision": 0.0599
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0776,
+      "iou": 0.7528,
+      "precision": 0.8037
+     },
+     "crc_0.1": {
+      "threshold": 0.019,
+      "fnr": 0.0059,
+      "iou": 0.2296,
+      "precision": 0.23
+     },
+     "crc_0.2": {
+      "threshold": 0.311,
+      "fnr": 0.0462,
+      "iou": 0.6275,
+      "precision": 0.6472
+     },
+     "crc_0.3": {
+      "threshold": 0.531,
+      "fnr": 0.0842,
+      "iou": 0.7665,
+      "precision": 0.8246
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.3342,
+      "iou": 0.3116,
+      "precision": 0.3694
+     },
+     "crc_0.1": {
+      "threshold": 0.022,
+      "fnr": 0.0204,
+      "iou": 0.1106,
+      "precision": 0.1108
+     },
+     "crc_0.2": {
+      "threshold": 0.359,
+      "fnr": 0.2643,
+      "iou": 0.2879,
+      "precision": 0.3211
+     },
+     "crc_0.3": {
+      "threshold": 0.583,
+      "fnr": 0.3827,
+      "iou": 0.318,
+      "precision": 0.3961
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0729,
+      "iou": 0.6774,
+      "precision": 0.7155
+     },
+     "crc_0.1": {
+      "threshold": 0.018,
+      "fnr": 0.0013,
+      "iou": 0.194,
+      "precision": 0.1941
+     },
+     "crc_0.2": {
+      "threshold": 0.309,
+      "fnr": 0.0358,
+      "iou": 0.562,
+      "precision": 0.574
+     },
+     "crc_0.3": {
+      "threshold": 0.53,
+      "fnr": 0.0799,
+      "iou": 0.6896,
+      "precision": 0.7335
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.4044,
+      "iou": 0.5203,
+      "precision": 0.8044
+     },
+     "crc_0.1": {
+      "threshold": 0.022,
+      "fnr": 0.0199,
+      "iou": 0.1991,
+      "precision": 0.1999
+     },
+     "crc_0.2": {
+      "threshold": 0.341,
+      "fnr": 0.177,
+      "iou": 0.6276,
+      "precision": 0.7255
+     },
+     "crc_0.3": {
+      "threshold": 0.603,
+      "fnr": 0.5043,
+      "iou": 0.4563,
+      "precision": 0.8516
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.2123,
+      "iou": 0.5071,
+      "precision": 0.5874
+     },
+     "crc_0.1": {
+      "threshold": 0.025,
+      "fnr": 0.0345,
+      "iou": 0.1182,
+      "precision": 0.1187
+     },
+     "crc_0.2": {
+      "threshold": 0.336,
+      "fnr": 0.1539,
+      "iou": 0.4355,
+      "precision": 0.473
+     },
+     "crc_0.3": {
+      "threshold": 0.558,
+      "fnr": 0.2339,
+      "iou": 0.5249,
+      "precision": 0.6251
+     }
+    }
+   }
+  },
+  "tent": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.3556938991597377,
+     "max_fnr": 0.9925867417043089,
+     "sd_fnr": 0.24669594786236948,
+     "meeting": null,
+     "mean_iou": 0.5579204977646063
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.007771442108660551,
+     "max_fnr": 0.02713481801707877,
+     "sd_fnr": 0.0076342232434087505,
+     "meeting": 11,
+     "mean_iou": 0.26193410497940345
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.1377234493409499,
+     "max_fnr": 0.8615835246299541,
+     "sd_fnr": 0.23233223455559562,
+     "meeting": 10,
+     "mean_iou": 0.5164398217769203
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23465720612318258,
+     "max_fnr": 0.9682817860933528,
+     "sd_fnr": 0.2515356476391619,
+     "meeting": 9,
+     "mean_iou": 0.5765787395222545
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.1376,
+      "iou": 0.7437,
+      "precision": 0.8438
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0017,
+      "iou": 0.4698,
+      "precision": 0.4702
+     },
+     "crc_0.2": {
+      "threshold": 0.024,
+      "fnr": 0.0204,
+      "iou": 0.6346,
+      "precision": 0.6431
+     },
+     "crc_0.3": {
+      "threshold": 0.086,
+      "fnr": 0.0679,
+      "iou": 0.7069,
+      "precision": 0.7454
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.3886,
+      "iou": 0.5987,
+      "precision": 0.9665
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0064,
+      "iou": 0.2124,
+      "precision": 0.2126
+     },
+     "crc_0.2": {
+      "threshold": 0.025,
+      "fnr": 0.0398,
+      "iou": 0.7267,
+      "precision": 0.7492
+     },
+     "crc_0.3": {
+      "threshold": 0.093,
+      "fnr": 0.1422,
+      "iou": 0.779,
+      "precision": 0.8945
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.4095,
+      "iou": 0.5439,
+      "precision": 0.8732
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0135,
+      "iou": 0.2463,
+      "precision": 0.2472
+     },
+     "crc_0.2": {
+      "threshold": 0.027,
+      "fnr": 0.1306,
+      "iou": 0.6221,
+      "precision": 0.6862
+     },
+     "crc_0.3": {
+      "threshold": 0.106,
+      "fnr": 0.2646,
+      "iou": 0.63,
+      "precision": 0.8147
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.11,
+      "iou": 0.8687,
+      "precision": 0.9733
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0013,
+      "iou": 0.6714,
+      "precision": 0.672
+     },
+     "crc_0.2": {
+      "threshold": 0.024,
+      "fnr": 0.0218,
+      "iou": 0.8578,
+      "precision": 0.8745
+     },
+     "crc_0.3": {
+      "threshold": 0.085,
+      "fnr": 0.0493,
+      "iou": 0.8867,
+      "precision": 0.9294
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2373,
+      "iou": 0.7318,
+      "precision": 0.9475
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0271,
+      "iou": 0.7311,
+      "precision": 0.7464
+     },
+     "crc_0.2": {
+      "threshold": 0.026,
+      "fnr": 0.0799,
+      "iou": 0.8151,
+      "precision": 0.8772
+     },
+     "crc_0.3": {
+      "threshold": 0.092,
+      "fnr": 0.1327,
+      "iou": 0.8033,
+      "precision": 0.9159
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.4696,
+      "iou": 0.1069,
+      "precision": 0.1181
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0016,
+      "iou": 0.0105,
+      "precision": 0.0105
+     },
+     "crc_0.2": {
+      "threshold": 0.027,
+      "fnr": 0.1319,
+      "iou": 0.0508,
+      "precision": 0.0512
+     },
+     "crc_0.3": {
+      "threshold": 0.107,
+      "fnr": 0.2707,
+      "iou": 0.0879,
+      "precision": 0.0908
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0821,
+      "iou": 0.7939,
+      "precision": 0.8545
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0025,
+      "iou": 0.1266,
+      "precision": 0.1267
+     },
+     "crc_0.2": {
+      "threshold": 0.024,
+      "fnr": 0.0202,
+      "iou": 0.4227,
+      "precision": 0.4264
+     },
+     "crc_0.3": {
+      "threshold": 0.084,
+      "fnr": 0.0417,
+      "iou": 0.6145,
+      "precision": 0.6314
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.9926,
+      "iou": 0.0074,
+      "precision": 0.9967
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0063,
+      "iou": 0.0663,
+      "precision": 0.0663
+     },
+     "crc_0.2": {
+      "threshold": 0.063,
+      "fnr": 0.8616,
+      "iou": 0.1334,
+      "precision": 0.7853
+     },
+     "crc_0.3": {
+      "threshold": 0.253,
+      "fnr": 0.9683,
+      "iou": 0.0317,
+      "precision": 0.984
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.1883,
+      "iou": 0.7447,
+      "precision": 0.9002
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.001,
+      "iou": 0.1679,
+      "precision": 0.168
+     },
+     "crc_0.2": {
+      "threshold": 0.024,
+      "fnr": 0.035,
+      "iou": 0.55,
+      "precision": 0.5612
+     },
+     "crc_0.3": {
+      "threshold": 0.088,
+      "fnr": 0.0835,
+      "iou": 0.7078,
+      "precision": 0.7566
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.4975,
+      "iou": 0.4795,
+      "precision": 0.9129
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.011,
+      "iou": 0.1102,
+      "precision": 0.1103
+     },
+     "crc_0.2": {
+      "threshold": 0.026,
+      "fnr": 0.0821,
+      "iou": 0.5214,
+      "precision": 0.5469
+     },
+     "crc_0.3": {
+      "threshold": 0.117,
+      "fnr": 0.3519,
+      "iou": 0.5543,
+      "precision": 0.7929
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3995,
+      "iou": 0.518,
+      "precision": 0.7905
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0131,
+      "iou": 0.0688,
+      "precision": 0.0689
+     },
+     "crc_0.2": {
+      "threshold": 0.026,
+      "fnr": 0.0916,
+      "iou": 0.3463,
+      "precision": 0.3588
+     },
+     "crc_0.3": {
+      "threshold": 0.1,
+      "fnr": 0.2083,
+      "iou": 0.5404,
+      "precision": 0.6299
+     }
+    }
+   }
+  },
+  "st": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.23207464578842443,
+     "max_fnr": 0.44703354669130674,
+     "sd_fnr": 0.11338843998314722,
+     "meeting": null,
+     "mean_iou": 0.5930883756414382
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.009026119636394324,
+     "max_fnr": 0.03830869103744477,
+     "sd_fnr": 0.01001511261261111,
+     "meeting": 11,
+     "mean_iou": 0.2681978921625412
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12376258770300387,
+     "max_fnr": 0.2654292037946667,
+     "sd_fnr": 0.08120333139362307,
+     "meeting": 8,
+     "mean_iou": 0.5842947536900666
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23350064987795668,
+     "max_fnr": 0.4900669677899732,
+     "sd_fnr": 0.12670025092976941,
+     "meeting": 8,
+     "mean_iou": 0.5884421860866603
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.1487,
+      "iou": 0.75,
+      "precision": 0.863
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0017,
+      "iou": 0.5272,
+      "precision": 0.5277
+     },
+     "crc_0.2": {
+      "threshold": 0.087,
+      "fnr": 0.0209,
+      "iou": 0.676,
+      "precision": 0.6859
+     },
+     "crc_0.3": {
+      "threshold": 0.454,
+      "fnr": 0.1347,
+      "iou": 0.7531,
+      "precision": 0.8532
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.447,
+      "iou": 0.5399,
+      "precision": 0.958
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0038,
+      "iou": 0.1172,
+      "precision": 0.1173
+     },
+     "crc_0.2": {
+      "threshold": 0.118,
+      "fnr": 0.211,
+      "iou": 0.717,
+      "precision": 0.8871
+     },
+     "crc_0.3": {
+      "threshold": 0.584,
+      "fnr": 0.4901,
+      "iou": 0.5005,
+      "precision": 0.9644
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.2617,
+      "iou": 0.6501,
+      "precision": 0.8449
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0102,
+      "iou": 0.2511,
+      "precision": 0.2517
+     },
+     "crc_0.2": {
+      "threshold": 0.111,
+      "fnr": 0.1747,
+      "iou": 0.6695,
+      "precision": 0.78
+     },
+     "crc_0.3": {
+      "threshold": 0.503,
+      "fnr": 0.2623,
+      "iou": 0.6499,
+      "precision": 0.8451
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1296,
+      "iou": 0.8551,
+      "precision": 0.9798
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0012,
+      "iou": 0.6741,
+      "precision": 0.6746
+     },
+     "crc_0.2": {
+      "threshold": 0.089,
+      "fnr": 0.0378,
+      "iou": 0.8782,
+      "precision": 0.9096
+     },
+     "crc_0.3": {
+      "threshold": 0.446,
+      "fnr": 0.1163,
+      "iou": 0.865,
+      "precision": 0.9761
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2231,
+      "iou": 0.7444,
+      "precision": 0.9467
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0089,
+      "iou": 0.6958,
+      "precision": 0.7002
+     },
+     "crc_0.2": {
+      "threshold": 0.101,
+      "fnr": 0.1149,
+      "iou": 0.8165,
+      "precision": 0.9133
+     },
+     "crc_0.3": {
+      "threshold": 0.487,
+      "fnr": 0.22,
+      "iou": 0.7469,
+      "precision": 0.9462
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.1943,
+      "iou": 0.0603,
+      "precision": 0.0611
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0134,
+      "iou": 0.0155,
+      "precision": 0.0156
+     },
+     "crc_0.2": {
+      "threshold": 0.098,
+      "fnr": 0.0969,
+      "iou": 0.0431,
+      "precision": 0.0433
+     },
+     "crc_0.3": {
+      "threshold": 0.475,
+      "fnr": 0.1887,
+      "iou": 0.0596,
+      "precision": 0.0604
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0757,
+      "iou": 0.7038,
+      "precision": 0.7469
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0044,
+      "iou": 0.1643,
+      "precision": 0.1645
+     },
+     "crc_0.2": {
+      "threshold": 0.089,
+      "fnr": 0.0327,
+      "iou": 0.533,
+      "precision": 0.5428
+     },
+     "crc_0.3": {
+      "threshold": 0.427,
+      "fnr": 0.069,
+      "iou": 0.6885,
+      "precision": 0.7255
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.3734,
+      "iou": 0.288,
+      "precision": 0.3477
+     },
+     "crc_0.1": {
+      "threshold": 0.009,
+      "fnr": 0.0383,
+      "iou": 0.1249,
+      "precision": 0.1255
+     },
+     "crc_0.2": {
+      "threshold": 0.129,
+      "fnr": 0.2654,
+      "iou": 0.2692,
+      "precision": 0.2982
+     },
+     "crc_0.3": {
+      "threshold": 0.549,
+      "fnr": 0.3852,
+      "iou": 0.2879,
+      "precision": 0.3513
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0919,
+      "iou": 0.715,
+      "precision": 0.7708
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0026,
+      "iou": 0.2204,
+      "precision": 0.2206
+     },
+     "crc_0.2": {
+      "threshold": 0.09,
+      "fnr": 0.045,
+      "iou": 0.6053,
+      "precision": 0.6231
+     },
+     "crc_0.3": {
+      "threshold": 0.434,
+      "fnr": 0.086,
+      "iou": 0.7073,
+      "precision": 0.7578
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.2804,
+      "iou": 0.6719,
+      "precision": 0.9102
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0102,
+      "iou": 0.109,
+      "precision": 0.1092
+     },
+     "crc_0.2": {
+      "threshold": 0.106,
+      "fnr": 0.146,
+      "iou": 0.6888,
+      "precision": 0.7807
+     },
+     "crc_0.3": {
+      "threshold": 0.511,
+      "fnr": 0.283,
+      "iou": 0.6704,
+      "precision": 0.9116
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3269,
+      "iou": 0.5456,
+      "precision": 0.7422
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0047,
+      "iou": 0.0504,
+      "precision": 0.0505
+     },
+     "crc_0.2": {
+      "threshold": 0.119,
+      "fnr": 0.2161,
+      "iou": 0.5305,
+      "precision": 0.6214
+     },
+     "crc_0.3": {
+      "threshold": 0.53,
+      "fnr": 0.3333,
+      "iou": 0.5439,
+      "precision": 0.7469
+     }
+    }
+   }
+  },
+  "phys": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.207052558258503,
+     "max_fnr": 0.3726540452035972,
+     "sd_fnr": 0.09816817039113,
+     "meeting": null,
+     "mean_iou": 0.6092091450172692
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.009930706130170643,
+     "max_fnr": 0.04886908728885379,
+     "sd_fnr": 0.013202162285077717,
+     "meeting": 11,
+     "mean_iou": 0.26074793419015313
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12281716073103309,
+     "max_fnr": 0.2790050930154107,
+     "sd_fnr": 0.07603815962579129,
+     "meeting": 10,
+     "mean_iou": 0.5983515773033335
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23339311601475254,
+     "max_fnr": 0.44786335520738485,
+     "sd_fnr": 0.11834400827956017,
+     "meeting": 8,
+     "mean_iou": 0.5978859161854583
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.1123,
+      "iou": 0.7586,
+      "precision": 0.8391
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0011,
+      "iou": 0.5126,
+      "precision": 0.5128
+     },
+     "crc_0.2": {
+      "threshold": 0.121,
+      "fnr": 0.0218,
+      "iou": 0.6828,
+      "precision": 0.6933
+     },
+     "crc_0.3": {
+      "threshold": 0.557,
+      "fnr": 0.1277,
+      "iou": 0.7572,
+      "precision": 0.8516
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.3524,
+      "iou": 0.6267,
+      "precision": 0.9509
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0033,
+      "iou": 0.1149,
+      "precision": 0.115
+     },
+     "crc_0.2": {
+      "threshold": 0.154,
+      "fnr": 0.16,
+      "iou": 0.7654,
+      "precision": 0.896
+     },
+     "crc_0.3": {
+      "threshold": 0.66,
+      "fnr": 0.4479,
+      "iou": 0.5407,
+      "precision": 0.9631
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.2187,
+      "iou": 0.6745,
+      "precision": 0.8314
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0143,
+      "iou": 0.2831,
+      "precision": 0.2842
+     },
+     "crc_0.2": {
+      "threshold": 0.155,
+      "fnr": 0.1618,
+      "iou": 0.6752,
+      "precision": 0.7764
+     },
+     "crc_0.3": {
+      "threshold": 0.594,
+      "fnr": 0.2339,
+      "iou": 0.6692,
+      "precision": 0.841
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1129,
+      "iou": 0.8685,
+      "precision": 0.9765
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0008,
+      "iou": 0.6372,
+      "precision": 0.6376
+     },
+     "crc_0.2": {
+      "threshold": 0.125,
+      "fnr": 0.0394,
+      "iou": 0.8811,
+      "precision": 0.9142
+     },
+     "crc_0.3": {
+      "threshold": 0.557,
+      "fnr": 0.1276,
+      "iou": 0.8577,
+      "precision": 0.9806
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2142,
+      "iou": 0.7511,
+      "precision": 0.9445
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0055,
+      "iou": 0.6639,
+      "precision": 0.6664
+     },
+     "crc_0.2": {
+      "threshold": 0.146,
+      "fnr": 0.1295,
+      "iou": 0.8069,
+      "precision": 0.9169
+     },
+     "crc_0.3": {
+      "threshold": 0.596,
+      "fnr": 0.2377,
+      "iou": 0.7321,
+      "precision": 0.9487
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.189,
+      "iou": 0.0634,
+      "precision": 0.0643
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0142,
+      "iou": 0.0154,
+      "precision": 0.0154
+     },
+     "crc_0.2": {
+      "threshold": 0.142,
+      "fnr": 0.113,
+      "iou": 0.0479,
+      "precision": 0.0482
+     },
+     "crc_0.3": {
+      "threshold": 0.586,
+      "fnr": 0.2082,
+      "iou": 0.0663,
+      "precision": 0.0675
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0713,
+      "iou": 0.7172,
+      "precision": 0.759
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0035,
+      "iou": 0.1396,
+      "precision": 0.1396
+     },
+     "crc_0.2": {
+      "threshold": 0.125,
+      "fnr": 0.0395,
+      "iou": 0.5851,
+      "precision": 0.5995
+     },
+     "crc_0.3": {
+      "threshold": 0.537,
+      "fnr": 0.0742,
+      "iou": 0.7249,
+      "precision": 0.7696
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.3727,
+      "iou": 0.2623,
+      "precision": 0.3107
+     },
+     "crc_0.1": {
+      "threshold": 0.009,
+      "fnr": 0.0489,
+      "iou": 0.1234,
+      "precision": 0.1242
+     },
+     "crc_0.2": {
+      "threshold": 0.189,
+      "fnr": 0.279,
+      "iou": 0.24,
+      "precision": 0.2646
+     },
+     "crc_0.3": {
+      "threshold": 0.651,
+      "fnr": 0.4167,
+      "iou": 0.2663,
+      "precision": 0.3289
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0945,
+      "iou": 0.7183,
+      "precision": 0.7766
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0021,
+      "iou": 0.2129,
+      "precision": 0.213
+     },
+     "crc_0.2": {
+      "threshold": 0.127,
+      "fnr": 0.0514,
+      "iou": 0.6275,
+      "precision": 0.6495
+     },
+     "crc_0.3": {
+      "threshold": 0.547,
+      "fnr": 0.0997,
+      "iou": 0.7236,
+      "precision": 0.7866
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.2605,
+      "iou": 0.6947,
+      "precision": 0.9198
+     },
+     "crc_0.1": {
+      "threshold": 0.008,
+      "fnr": 0.0114,
+      "iou": 0.1149,
+      "precision": 0.1151
+     },
+     "crc_0.2": {
+      "threshold": 0.153,
+      "fnr": 0.1565,
+      "iou": 0.7275,
+      "precision": 0.8411
+     },
+     "crc_0.3": {
+      "threshold": 0.612,
+      "fnr": 0.2885,
+      "iou": 0.6766,
+      "precision": 0.9326
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.279,
+      "iou": 0.5661,
+      "precision": 0.7248
+     },
+     "crc_0.1": {
+      "threshold": 0.007,
+      "fnr": 0.0042,
+      "iou": 0.0503,
+      "precision": 0.0503
+     },
+     "crc_0.2": {
+      "threshold": 0.165,
+      "fnr": 0.1991,
+      "iou": 0.5425,
+      "precision": 0.6271
+     },
+     "crc_0.3": {
+      "threshold": 0.618,
+      "fnr": 0.3052,
+      "iou": 0.5622,
+      "precision": 0.7465
+     }
+    }
+   }
+  },
+  "otsu": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.17423101513167405,
+     "max_fnr": 0.3160201368143973,
+     "sd_fnr": 0.08149742771153383,
+     "meeting": null,
+     "mean_iou": 0.3892676366749815
+    }
+   }
+  }
+ },
+ "V1|all": {
+  "none": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.2610776792584701,
+     "max_fnr": 0.4695313203209926,
+     "sd_fnr": 0.10364950809613505,
+     "meeting": null,
+     "mean_iou": 0.5552627899975126
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.010281563985021268,
+     "max_fnr": 0.038095178926441355,
+     "sd_fnr": 0.010185290983777783,
+     "meeting": 11,
+     "mean_iou": 0.2719023490409472
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.1228348223469219,
+     "max_fnr": 0.29242627763506823,
+     "sd_fnr": 0.07736962813810634,
+     "meeting": 10,
+     "mean_iou": 0.5119041973084467
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23161197528023747,
+     "max_fnr": 0.4564001190913056,
+     "sd_fnr": 0.10654296389929666,
+     "meeting": 9,
+     "mean_iou": 0.5526049570449612
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.3014,
+      "iou": 0.5837,
+      "precision": 0.7802
+     },
+     "crc_0.1": {
+      "threshold": 0.015,
+      "fnr": 0.0014,
+      "iou": 0.2797,
+      "precision": 0.2798
+     },
+     "crc_0.2": {
+      "threshold": 0.235,
+      "fnr": 0.0964,
+      "iou": 0.6393,
+      "precision": 0.6861
+     },
+     "crc_0.3": {
+      "threshold": 0.451,
+      "fnr": 0.2635,
+      "iou": 0.6018,
+      "precision": 0.767
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.4695,
+      "iou": 0.4557,
+      "precision": 0.7637
+     },
+     "crc_0.1": {
+      "threshold": 0.017,
+      "fnr": 0.0179,
+      "iou": 0.3511,
+      "precision": 0.3533
+     },
+     "crc_0.2": {
+      "threshold": 0.273,
+      "fnr": 0.2924,
+      "iou": 0.5676,
+      "precision": 0.7415
+     },
+     "crc_0.3": {
+      "threshold": 0.481,
+      "fnr": 0.4564,
+      "iou": 0.4652,
+      "precision": 0.7632
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.3126,
+      "iou": 0.5615,
+      "precision": 0.754
+     },
+     "crc_0.1": {
+      "threshold": 0.016,
+      "fnr": 0.0087,
+      "iou": 0.2041,
+      "precision": 0.2045
+     },
+     "crc_0.2": {
+      "threshold": 0.246,
+      "fnr": 0.1548,
+      "iou": 0.4841,
+      "precision": 0.5312
+     },
+     "crc_0.3": {
+      "threshold": 0.455,
+      "fnr": 0.2876,
+      "iou": 0.5629,
+      "precision": 0.7284
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1023,
+      "iou": 0.8375,
+      "precision": 0.9258
+     },
+     "crc_0.1": {
+      "threshold": 0.015,
+      "fnr": 0.0012,
+      "iou": 0.5441,
+      "precision": 0.5445
+     },
+     "crc_0.2": {
+      "threshold": 0.222,
+      "fnr": 0.0321,
+      "iou": 0.8078,
+      "precision": 0.8301
+     },
+     "crc_0.3": {
+      "threshold": 0.421,
+      "fnr": 0.0778,
+      "iou": 0.8411,
+      "precision": 0.9053
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2373,
+      "iou": 0.7171,
+      "precision": 0.923
+     },
+     "crc_0.1": {
+      "threshold": 0.016,
+      "fnr": 0.0081,
+      "iou": 0.6036,
+      "precision": 0.6066
+     },
+     "crc_0.2": {
+      "threshold": 0.24,
+      "fnr": 0.122,
+      "iou": 0.7846,
+      "precision": 0.8806
+     },
+     "crc_0.3": {
+      "threshold": 0.442,
+      "fnr": 0.2105,
+      "iou": 0.7364,
+      "precision": 0.9164
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.3552,
+      "iou": 0.3041,
+      "precision": 0.3653
+     },
+     "crc_0.1": {
+      "threshold": 0.017,
+      "fnr": 0.0145,
+      "iou": 0.0992,
+      "precision": 0.0993
+     },
+     "crc_0.2": {
+      "threshold": 0.254,
+      "fnr": 0.1936,
+      "iou": 0.2252,
+      "precision": 0.238
+     },
+     "crc_0.3": {
+      "threshold": 0.461,
+      "fnr": 0.3285,
+      "iou": 0.2941,
+      "precision": 0.3435
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.2124,
+      "iou": 0.5941,
+      "precision": 0.7075
+     },
+     "crc_0.1": {
+      "threshold": 0.015,
+      "fnr": 0.0004,
+      "iou": 0.127,
+      "precision": 0.127
+     },
+     "crc_0.2": {
+      "threshold": 0.221,
+      "fnr": 0.0254,
+      "iou": 0.4079,
+      "precision": 0.4123
+     },
+     "crc_0.3": {
+      "threshold": 0.433,
+      "fnr": 0.1548,
+      "iou": 0.579,
+      "precision": 0.6477
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.2239,
+      "iou": 0.214,
+      "precision": 0.2281
+     },
+     "crc_0.1": {
+      "threshold": 0.016,
+      "fnr": 0.0087,
+      "iou": 0.0857,
+      "precision": 0.0858
+     },
+     "crc_0.2": {
+      "threshold": 0.23,
+      "fnr": 0.0735,
+      "iou": 0.1602,
+      "precision": 0.1623
+     },
+     "crc_0.3": {
+      "threshold": 0.437,
+      "fnr": 0.1777,
+      "iou": 0.2021,
+      "precision": 0.2114
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0855,
+      "iou": 0.6723,
+      "precision": 0.7175
+     },
+     "crc_0.1": {
+      "threshold": 0.016,
+      "fnr": 0.0063,
+      "iou": 0.2191,
+      "precision": 0.2194
+     },
+     "crc_0.2": {
+      "threshold": 0.223,
+      "fnr": 0.0379,
+      "iou": 0.4903,
+      "precision": 0.5
+     },
+     "crc_0.3": {
+      "threshold": 0.42,
+      "fnr": 0.0697,
+      "iou": 0.6314,
+      "precision": 0.6628
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.2868,
+      "iou": 0.6529,
+      "precision": 0.8854
+     },
+     "crc_0.1": {
+      "threshold": 0.016,
+      "fnr": 0.0079,
+      "iou": 0.3117,
+      "precision": 0.3125
+     },
+     "crc_0.2": {
+      "threshold": 0.248,
+      "fnr": 0.1643,
+      "iou": 0.6163,
+      "precision": 0.7013
+     },
+     "crc_0.3": {
+      "threshold": 0.451,
+      "fnr": 0.2625,
+      "iou": 0.6549,
+      "precision": 0.8539
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.2849,
+      "iou": 0.5149,
+      "precision": 0.6477
+     },
+     "crc_0.1": {
+      "threshold": 0.019,
+      "fnr": 0.0381,
+      "iou": 0.1657,
+      "precision": 0.1668
+     },
+     "crc_0.2": {
+      "threshold": 0.247,
+      "fnr": 0.1586,
+      "iou": 0.4475,
+      "precision": 0.4887
+     },
+     "crc_0.3": {
+      "threshold": 0.45,
+      "fnr": 0.2586,
+      "iou": 0.5097,
+      "precision": 0.62
+     }
+    }
+   }
+  },
+  "tent": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.42316036375916205,
+     "max_fnr": 0.6964778245571914,
+     "sd_fnr": 0.12981488776813413,
+     "meeting": null,
+     "mean_iou": 0.5181112189534204
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.008256264463267252,
+     "max_fnr": 0.06184314700645099,
+     "sd_fnr": 0.01739453496672002,
+     "meeting": 11,
+     "mean_iou": 0.16893013379941488
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12298806741875032,
+     "max_fnr": 0.402516370412926,
+     "sd_fnr": 0.11283443358905579,
+     "meeting": 8,
+     "mean_iou": 0.4620540895393155
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23228881835284004,
+     "max_fnr": 0.5490769402261989,
+     "sd_fnr": 0.15872332413017087,
+     "meeting": 8,
+     "mean_iou": 0.5586658528187932
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.2749,
+      "iou": 0.5983,
+      "precision": 0.7738
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0044,
+      "iou": 0.3125,
+      "precision": 0.313
+     },
+     "crc_0.2": {
+      "threshold": 0.012,
+      "fnr": 0.0371,
+      "iou": 0.5595,
+      "precision": 0.5718
+     },
+     "crc_0.3": {
+      "threshold": 0.05,
+      "fnr": 0.0773,
+      "iou": 0.6195,
+      "precision": 0.6534
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.4074,
+      "iou": 0.5049,
+      "precision": 0.7733
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0001,
+      "iou": 0.0792,
+      "precision": 0.0792
+     },
+     "crc_0.2": {
+      "threshold": 0.012,
+      "fnr": 0.045,
+      "iou": 0.4755,
+      "precision": 0.4864
+     },
+     "crc_0.3": {
+      "threshold": 0.054,
+      "fnr": 0.1296,
+      "iou": 0.6258,
+      "precision": 0.6901
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.6069,
+      "iou": 0.3725,
+      "precision": 0.8765
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0014,
+      "iou": 0.1344,
+      "precision": 0.1344
+     },
+     "crc_0.2": {
+      "threshold": 0.016,
+      "fnr": 0.2497,
+      "iou": 0.5316,
+      "precision": 0.646
+     },
+     "crc_0.3": {
+      "threshold": 0.083,
+      "fnr": 0.4897,
+      "iou": 0.4618,
+      "precision": 0.8294
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.3508,
+      "iou": 0.6413,
+      "precision": 0.9814
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0013,
+      "iou": 0.3354,
+      "precision": 0.3356
+     },
+     "crc_0.2": {
+      "threshold": 0.012,
+      "fnr": 0.0671,
+      "iou": 0.7904,
+      "precision": 0.838
+     },
+     "crc_0.3": {
+      "threshold": 0.056,
+      "fnr": 0.1706,
+      "iou": 0.7901,
+      "precision": 0.9435
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.3676,
+      "iou": 0.6064,
+      "precision": 0.9365
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0144,
+      "iou": 0.3494,
+      "precision": 0.3512
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.1223,
+      "iou": 0.75,
+      "precision": 0.8375
+     },
+     "crc_0.3": {
+      "threshold": 0.059,
+      "fnr": 0.2098,
+      "iou": 0.726,
+      "precision": 0.8993
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.5595,
+      "iou": 0.3314,
+      "precision": 0.5725
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0037,
+      "iou": 0.0923,
+      "precision": 0.0923
+     },
+     "crc_0.2": {
+      "threshold": 0.015,
+      "fnr": 0.2116,
+      "iou": 0.2022,
+      "precision": 0.2138
+     },
+     "crc_0.3": {
+      "threshold": 0.074,
+      "fnr": 0.3951,
+      "iou": 0.3091,
+      "precision": 0.3873
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.3521,
+      "iou": 0.5809,
+      "precision": 0.8489
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0001,
+      "iou": 0.1009,
+      "precision": 0.1009
+     },
+     "crc_0.2": {
+      "threshold": 0.012,
+      "fnr": 0.0164,
+      "iou": 0.3031,
+      "precision": 0.3047
+     },
+     "crc_0.3": {
+      "threshold": 0.05,
+      "fnr": 0.0765,
+      "iou": 0.504,
+      "precision": 0.5259
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.6965,
+      "iou": 0.2245,
+      "precision": 0.463
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0618,
+      "iou": 0.1103,
+      "precision": 0.1111
+     },
+     "crc_0.2": {
+      "threshold": 0.019,
+      "fnr": 0.4025,
+      "iou": 0.2379,
+      "precision": 0.2833
+     },
+     "crc_0.3": {
+      "threshold": 0.089,
+      "fnr": 0.5491,
+      "iou": 0.2575,
+      "precision": 0.3751
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.2953,
+      "iou": 0.6765,
+      "precision": 0.9442
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0002,
+      "iou": 0.1463,
+      "precision": 0.1463
+     },
+     "crc_0.2": {
+      "threshold": 0.012,
+      "fnr": 0.0504,
+      "iou": 0.5315,
+      "precision": 0.5469
+     },
+     "crc_0.3": {
+      "threshold": 0.053,
+      "fnr": 0.1269,
+      "iou": 0.6957,
+      "precision": 0.774
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.3485,
+      "iou": 0.6432,
+      "precision": 0.9806
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0006,
+      "iou": 0.1441,
+      "precision": 0.1441
+     },
+     "crc_0.2": {
+      "threshold": 0.013,
+      "fnr": 0.0866,
+      "iou": 0.476,
+      "precision": 0.4985
+     },
+     "crc_0.3": {
+      "threshold": 0.057,
+      "fnr": 0.1845,
+      "iou": 0.6762,
+      "precision": 0.7983
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3953,
+      "iou": 0.5192,
+      "precision": 0.786
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0028,
+      "iou": 0.0534,
+      "precision": 0.0534
+     },
+     "crc_0.2": {
+      "threshold": 0.012,
+      "fnr": 0.0642,
+      "iou": 0.2247,
+      "precision": 0.2282
+     },
+     "crc_0.3": {
+      "threshold": 0.055,
+      "fnr": 0.1461,
+      "iou": 0.4796,
+      "precision": 0.5225
+     }
+    }
+   }
+  },
+  "st": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.37559698754867005,
+     "max_fnr": 0.8313320025326252,
+     "sd_fnr": 0.18160233529190203,
+     "meeting": null,
+     "mean_iou": 0.5262645124645927
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.010618352198861196,
+     "max_fnr": 0.07090082287942058,
+     "sd_fnr": 0.02088276758945324,
+     "meeting": 11,
+     "mean_iou": 0.18868606310147087
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12232862336029503,
+     "max_fnr": 0.3179189925372068,
+     "sd_fnr": 0.09064802132398715,
+     "meeting": 8,
+     "mean_iou": 0.5216942754152242
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.2332680807563329,
+     "max_fnr": 0.4274428428926255,
+     "sd_fnr": 0.11617715934969937,
+     "meeting": 7,
+     "mean_iou": 0.5782095502181608
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.8313,
+      "iou": 0.1533,
+      "precision": 0.6277
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.001,
+      "iou": 0.238,
+      "precision": 0.2381
+     },
+     "crc_0.2": {
+      "threshold": 0.03,
+      "fnr": 0.0744,
+      "iou": 0.6388,
+      "precision": 0.6735
+     },
+     "crc_0.3": {
+      "threshold": 0.162,
+      "fnr": 0.3649,
+      "iou": 0.5474,
+      "precision": 0.7985
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.4146,
+      "iou": 0.4992,
+      "precision": 0.7722
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0001,
+      "iou": 0.0732,
+      "precision": 0.0732
+     },
+     "crc_0.2": {
+      "threshold": 0.031,
+      "fnr": 0.0908,
+      "iou": 0.5858,
+      "precision": 0.6222
+     },
+     "crc_0.3": {
+      "threshold": 0.143,
+      "fnr": 0.2354,
+      "iou": 0.6054,
+      "precision": 0.7441
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.3927,
+      "iou": 0.5336,
+      "precision": 0.8147
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0009,
+      "iou": 0.1406,
+      "precision": 0.1407
+     },
+     "crc_0.2": {
+      "threshold": 0.038,
+      "fnr": 0.2422,
+      "iou": 0.5286,
+      "precision": 0.6361
+     },
+     "crc_0.3": {
+      "threshold": 0.159,
+      "fnr": 0.3448,
+      "iou": 0.5418,
+      "precision": 0.7578
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1948,
+      "iou": 0.7906,
+      "precision": 0.9776
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0005,
+      "iou": 0.4431,
+      "precision": 0.4432
+     },
+     "crc_0.2": {
+      "threshold": 0.028,
+      "fnr": 0.0236,
+      "iou": 0.7871,
+      "precision": 0.8023
+     },
+     "crc_0.3": {
+      "threshold": 0.12,
+      "fnr": 0.0707,
+      "iou": 0.8473,
+      "precision": 0.9057
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2812,
+      "iou": 0.6831,
+      "precision": 0.9323
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.013,
+      "iou": 0.5283,
+      "precision": 0.532
+     },
+     "crc_0.2": {
+      "threshold": 0.031,
+      "fnr": 0.0935,
+      "iou": 0.7847,
+      "precision": 0.8538
+     },
+     "crc_0.3": {
+      "threshold": 0.134,
+      "fnr": 0.1738,
+      "iou": 0.7585,
+      "precision": 0.9025
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.415,
+      "iou": 0.3234,
+      "precision": 0.4196
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0289,
+      "iou": 0.1077,
+      "precision": 0.1081
+     },
+     "crc_0.2": {
+      "threshold": 0.037,
+      "fnr": 0.2214,
+      "iou": 0.2404,
+      "precision": 0.258
+     },
+     "crc_0.3": {
+      "threshold": 0.157,
+      "fnr": 0.3298,
+      "iou": 0.2938,
+      "precision": 0.3435
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.2131,
+      "iou": 0.6239,
+      "precision": 0.7506
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0,
+      "iou": 0.0887,
+      "precision": 0.0887
+     },
+     "crc_0.2": {
+      "threshold": 0.028,
+      "fnr": 0.0346,
+      "iou": 0.4509,
+      "precision": 0.4583
+     },
+     "crc_0.3": {
+      "threshold": 0.123,
+      "fnr": 0.0949,
+      "iou": 0.5685,
+      "precision": 0.6045
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.5368,
+      "iou": 0.2877,
+      "precision": 0.4316
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0709,
+      "iou": 0.1261,
+      "precision": 0.1274
+     },
+     "crc_0.2": {
+      "threshold": 0.042,
+      "fnr": 0.3179,
+      "iou": 0.2619,
+      "precision": 0.2984
+     },
+     "crc_0.3": {
+      "threshold": 0.172,
+      "fnr": 0.4274,
+      "iou": 0.2917,
+      "precision": 0.3729
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.1404,
+      "iou": 0.7368,
+      "precision": 0.8376
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0004,
+      "iou": 0.1496,
+      "precision": 0.1496
+     },
+     "crc_0.2": {
+      "threshold": 0.029,
+      "fnr": 0.0504,
+      "iou": 0.5477,
+      "precision": 0.5641
+     },
+     "crc_0.3": {
+      "threshold": 0.122,
+      "fnr": 0.0888,
+      "iou": 0.672,
+      "precision": 0.7191
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.3844,
+      "iou": 0.6097,
+      "precision": 0.9845
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0004,
+      "iou": 0.1315,
+      "precision": 0.1315
+     },
+     "crc_0.2": {
+      "threshold": 0.031,
+      "fnr": 0.1044,
+      "iou": 0.5708,
+      "precision": 0.6115
+     },
+     "crc_0.3": {
+      "threshold": 0.144,
+      "fnr": 0.2424,
+      "iou": 0.6889,
+      "precision": 0.8836
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3272,
+      "iou": 0.5476,
+      "precision": 0.7465
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0006,
+      "iou": 0.0487,
+      "precision": 0.0487
+     },
+     "crc_0.2": {
+      "threshold": 0.031,
+      "fnr": 0.0923,
+      "iou": 0.3419,
+      "precision": 0.3542
+     },
+     "crc_0.3": {
+      "threshold": 0.137,
+      "fnr": 0.1931,
+      "iou": 0.5452,
+      "precision": 0.6269
+     }
+    }
+   }
+  },
+  "phys": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.3097805769199434,
+     "max_fnr": 0.5017849537969926,
+     "sd_fnr": 0.10810683153505829,
+     "meeting": null,
+     "mean_iou": 0.5750544898482423
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.009169389827215884,
+     "max_fnr": 0.07080364364948023,
+     "sd_fnr": 0.020093222202972532,
+     "meeting": 11,
+     "mean_iou": 0.19001064322287797
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12301645506980964,
+     "max_fnr": 0.28092800448167743,
+     "sd_fnr": 0.08905289806884428,
+     "meeting": 8,
+     "mean_iou": 0.5300183028878466
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23069047806408252,
+     "max_fnr": 0.4264939162943845,
+     "sd_fnr": 0.11353840701618405,
+     "meeting": 8,
+     "mean_iou": 0.5919032798779281
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.3088,
+      "iou": 0.5985,
+      "precision": 0.8169
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0023,
+      "iou": 0.3343,
+      "precision": 0.3346
+     },
+     "crc_0.2": {
+      "threshold": 0.033,
+      "fnr": 0.0414,
+      "iou": 0.6177,
+      "precision": 0.6346
+     },
+     "crc_0.3": {
+      "threshold": 0.199,
+      "fnr": 0.1498,
+      "iou": 0.6698,
+      "precision": 0.7594
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.3866,
+      "iou": 0.5208,
+      "precision": 0.7753
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0001,
+      "iou": 0.0723,
+      "precision": 0.0723
+     },
+     "crc_0.2": {
+      "threshold": 0.036,
+      "fnr": 0.1015,
+      "iou": 0.6059,
+      "precision": 0.6505
+     },
+     "crc_0.3": {
+      "threshold": 0.233,
+      "fnr": 0.2836,
+      "iou": 0.5846,
+      "precision": 0.7607
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.3847,
+      "iou": 0.5393,
+      "precision": 0.8137
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0017,
+      "iou": 0.1444,
+      "precision": 0.1444
+     },
+     "crc_0.2": {
+      "threshold": 0.046,
+      "fnr": 0.2454,
+      "iou": 0.5386,
+      "precision": 0.653
+     },
+     "crc_0.3": {
+      "threshold": 0.251,
+      "fnr": 0.3527,
+      "iou": 0.5472,
+      "precision": 0.7797
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1369,
+      "iou": 0.8364,
+      "precision": 0.9644
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0006,
+      "iou": 0.4536,
+      "precision": 0.4537
+     },
+     "crc_0.2": {
+      "threshold": 0.032,
+      "fnr": 0.0188,
+      "iou": 0.7759,
+      "precision": 0.7876
+     },
+     "crc_0.3": {
+      "threshold": 0.179,
+      "fnr": 0.0627,
+      "iou": 0.8531,
+      "precision": 0.9047
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.271,
+      "iou": 0.6916,
+      "precision": 0.9309
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0068,
+      "iou": 0.4384,
+      "precision": 0.4397
+     },
+     "crc_0.2": {
+      "threshold": 0.036,
+      "fnr": 0.0912,
+      "iou": 0.7845,
+      "precision": 0.8515
+     },
+     "crc_0.3": {
+      "threshold": 0.209,
+      "fnr": 0.1911,
+      "iou": 0.748,
+      "precision": 0.9086
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.4127,
+      "iou": 0.3173,
+      "precision": 0.4083
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0172,
+      "iou": 0.0973,
+      "precision": 0.0974
+     },
+     "crc_0.2": {
+      "threshold": 0.046,
+      "fnr": 0.2477,
+      "iou": 0.2478,
+      "precision": 0.2698
+     },
+     "crc_0.3": {
+      "threshold": 0.255,
+      "fnr": 0.3649,
+      "iou": 0.3009,
+      "precision": 0.3638
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.2328,
+      "iou": 0.6153,
+      "precision": 0.7566
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0,
+      "iou": 0.09,
+      "precision": 0.09
+     },
+     "crc_0.2": {
+      "threshold": 0.033,
+      "fnr": 0.0386,
+      "iou": 0.4648,
+      "precision": 0.4737
+     },
+     "crc_0.3": {
+      "threshold": 0.193,
+      "fnr": 0.1225,
+      "iou": 0.5938,
+      "precision": 0.6475
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.5018,
+      "iou": 0.259,
+      "precision": 0.3504
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0708,
+      "iou": 0.1245,
+      "precision": 0.1257
+     },
+     "crc_0.2": {
+      "threshold": 0.049,
+      "fnr": 0.2809,
+      "iou": 0.228,
+      "precision": 0.2502
+     },
+     "crc_0.3": {
+      "threshold": 0.272,
+      "fnr": 0.4265,
+      "iou": 0.2568,
+      "precision": 0.3175
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.131,
+      "iou": 0.7371,
+      "precision": 0.8292
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0007,
+      "iou": 0.1554,
+      "precision": 0.1554
+     },
+     "crc_0.2": {
+      "threshold": 0.033,
+      "fnr": 0.0486,
+      "iou": 0.5474,
+      "precision": 0.5631
+     },
+     "crc_0.3": {
+      "threshold": 0.186,
+      "fnr": 0.0919,
+      "iou": 0.6872,
+      "precision": 0.7386
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.3282,
+      "iou": 0.6613,
+      "precision": 0.9768
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0005,
+      "iou": 0.1335,
+      "precision": 0.1335
+     },
+     "crc_0.2": {
+      "threshold": 0.038,
+      "fnr": 0.1256,
+      "iou": 0.617,
+      "precision": 0.6769
+     },
+     "crc_0.3": {
+      "threshold": 0.224,
+      "fnr": 0.2476,
+      "iou": 0.7171,
+      "precision": 0.9386
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3131,
+      "iou": 0.549,
+      "precision": 0.7323
+     },
+     "crc_0.1": {
+      "threshold": 0.003,
+      "fnr": 0.0001,
+      "iou": 0.0466,
+      "precision": 0.0466
+     },
+     "crc_0.2": {
+      "threshold": 0.037,
+      "fnr": 0.1134,
+      "iou": 0.4027,
+      "precision": 0.4246
+     },
+     "crc_0.3": {
+      "threshold": 0.223,
+      "fnr": 0.2442,
+      "iou": 0.5524,
+      "precision": 0.6724
+     }
+    }
+   }
+  },
+  "otsu": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.2671407631834597,
+     "max_fnr": 0.3824745075364206,
+     "sd_fnr": 0.0841628938814398,
+     "meeting": null,
+     "mean_iou": 0.3691188054568028
+    }
+   }
+  }
+ },
+ "V1|clean": {
+  "none": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.20342252139194958,
+     "max_fnr": 0.41989893578694437,
+     "sd_fnr": 0.11838227512586084,
+     "meeting": null,
+     "mean_iou": 0.5799804298545874
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.010481405492166026,
+     "max_fnr": 0.045746151020892314,
+     "sd_fnr": 0.012274625669305029,
+     "meeting": 11,
+     "mean_iou": 0.3466059901867094
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12453559741245605,
+     "max_fnr": 0.3307957631977143,
+     "sd_fnr": 0.0949727721899028,
+     "meeting": 9,
+     "mean_iou": 0.5641208102093662
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.2341643458074821,
+     "max_fnr": 0.4936419770490879,
+     "sd_fnr": 0.14144447910282176,
+     "meeting": 8,
+     "mean_iou": 0.5684761455733413
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.2689,
+      "iou": 0.6561,
+      "precision": 0.8648
+     },
+     "crc_0.1": {
+      "threshold": 0.025,
+      "fnr": 0.0024,
+      "iou": 0.4922,
+      "precision": 0.4928
+     },
+     "crc_0.2": {
+      "threshold": 0.325,
+      "fnr": 0.1405,
+      "iou": 0.709,
+      "precision": 0.802
+     },
+     "crc_0.3": {
+      "threshold": 0.562,
+      "fnr": 0.3142,
+      "iou": 0.6288,
+      "precision": 0.8832
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.4184,
+      "iou": 0.5605,
+      "precision": 0.9392
+     },
+     "crc_0.1": {
+      "threshold": 0.027,
+      "fnr": 0.0097,
+      "iou": 0.4619,
+      "precision": 0.464
+     },
+     "crc_0.2": {
+      "threshold": 0.354,
+      "fnr": 0.2802,
+      "iou": 0.6751,
+      "precision": 0.9157
+     },
+     "crc_0.3": {
+      "threshold": 0.589,
+      "fnr": 0.4918,
+      "iou": 0.4951,
+      "precision": 0.9505
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.1459,
+      "iou": 0.6924,
+      "precision": 0.7853
+     },
+     "crc_0.1": {
+      "threshold": 0.026,
+      "fnr": 0.0052,
+      "iou": 0.3223,
+      "precision": 0.3228
+     },
+     "crc_0.2": {
+      "threshold": 0.314,
+      "fnr": 0.0869,
+      "iou": 0.646,
+      "precision": 0.6883
+     },
+     "crc_0.3": {
+      "threshold": 0.537,
+      "fnr": 0.157,
+      "iou": 0.6935,
+      "precision": 0.7963
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.0942,
+      "iou": 0.8714,
+      "precision": 0.9582
+     },
+     "crc_0.1": {
+      "threshold": 0.025,
+      "fnr": 0.0025,
+      "iou": 0.7053,
+      "precision": 0.7066
+     },
+     "crc_0.2": {
+      "threshold": 0.305,
+      "fnr": 0.0439,
+      "iou": 0.8835,
+      "precision": 0.9208
+     },
+     "crc_0.3": {
+      "threshold": 0.528,
+      "fnr": 0.103,
+      "iou": 0.8661,
+      "precision": 0.9617
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.1998,
+      "iou": 0.7626,
+      "precision": 0.9421
+     },
+     "crc_0.1": {
+      "threshold": 0.028,
+      "fnr": 0.0136,
+      "iou": 0.7416,
+      "precision": 0.7492
+     },
+     "crc_0.2": {
+      "threshold": 0.322,
+      "fnr": 0.1275,
+      "iou": 0.8107,
+      "precision": 0.9196
+     },
+     "crc_0.3": {
+      "threshold": 0.547,
+      "fnr": 0.2218,
+      "iou": 0.7452,
+      "precision": 0.9462
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.1498,
+      "iou": 0.0738,
+      "precision": 0.0747
+     },
+     "crc_0.1": {
+      "threshold": 0.025,
+      "fnr": 0.0034,
+      "iou": 0.0157,
+      "precision": 0.0157
+     },
+     "crc_0.2": {
+      "threshold": 0.308,
+      "fnr": 0.058,
+      "iou": 0.0489,
+      "precision": 0.049
+     },
+     "crc_0.3": {
+      "threshold": 0.541,
+      "fnr": 0.1845,
+      "iou": 0.0788,
+      "precision": 0.0803
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0503,
+      "iou": 0.7737,
+      "precision": 0.8068
+     },
+     "crc_0.1": {
+      "threshold": 0.025,
+      "fnr": 0.0017,
+      "iou": 0.1665,
+      "precision": 0.1665
+     },
+     "crc_0.2": {
+      "threshold": 0.301,
+      "fnr": 0.0253,
+      "iou": 0.6108,
+      "precision": 0.6206
+     },
+     "crc_0.3": {
+      "threshold": 0.519,
+      "fnr": 0.0529,
+      "iou": 0.7835,
+      "precision": 0.8193
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.1805,
+      "iou": 0.2348,
+      "precision": 0.2476
+     },
+     "crc_0.1": {
+      "threshold": 0.025,
+      "fnr": 0.002,
+      "iou": 0.0997,
+      "precision": 0.0997
+     },
+     "crc_0.2": {
+      "threshold": 0.31,
+      "fnr": 0.0691,
+      "iou": 0.195,
+      "precision": 0.1979
+     },
+     "crc_0.3": {
+      "threshold": 0.547,
+      "fnr": 0.2196,
+      "iou": 0.2436,
+      "precision": 0.2615
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.0842,
+      "iou": 0.6837,
+      "precision": 0.7295
+     },
+     "crc_0.1": {
+      "threshold": 0.028,
+      "fnr": 0.0118,
+      "iou": 0.2653,
+      "precision": 0.2661
+     },
+     "crc_0.2": {
+      "threshold": 0.306,
+      "fnr": 0.0488,
+      "iou": 0.5673,
+      "precision": 0.5843
+     },
+     "crc_0.3": {
+      "threshold": 0.525,
+      "fnr": 0.0894,
+      "iou": 0.6937,
+      "precision": 0.7444
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.4199,
+      "iou": 0.5269,
+      "precision": 0.8517
+     },
+     "crc_0.1": {
+      "threshold": 0.029,
+      "fnr": 0.0172,
+      "iou": 0.3204,
+      "precision": 0.3222
+     },
+     "crc_0.2": {
+      "threshold": 0.364,
+      "fnr": 0.3308,
+      "iou": 0.5647,
+      "precision": 0.7834
+     },
+     "crc_0.3": {
+      "threshold": 0.589,
+      "fnr": 0.4936,
+      "iou": 0.4743,
+      "precision": 0.8821
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.2258,
+      "iou": 0.5439,
+      "precision": 0.6465
+     },
+     "crc_0.1": {
+      "threshold": 0.036,
+      "fnr": 0.0457,
+      "iou": 0.2219,
+      "precision": 0.2243
+     },
+     "crc_0.2": {
+      "threshold": 0.329,
+      "fnr": 0.1589,
+      "iou": 0.4944,
+      "precision": 0.5453
+     },
+     "crc_0.3": {
+      "threshold": 0.551,
+      "fnr": 0.2479,
+      "iou": 0.5507,
+      "precision": 0.6728
+     }
+    }
+   }
+  },
+  "tent": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.3590032751092816,
+     "max_fnr": 0.6560445618278906,
+     "sd_fnr": 0.14463804234372982,
+     "meeting": null,
+     "mean_iou": 0.5571120191900872
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.007915366251628874,
+     "max_fnr": 0.03722261989978525,
+     "sd_fnr": 0.012302988773348166,
+     "meeting": 11,
+     "mean_iou": 0.21838743807465055
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12354976666229046,
+     "max_fnr": 0.42214021836612114,
+     "sd_fnr": 0.10676991242122542,
+     "meeting": 10,
+     "mean_iou": 0.5547427104832727
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.2315332056704781,
+     "max_fnr": 0.5637614263734274,
+     "sd_fnr": 0.1367848361002927,
+     "meeting": 9,
+     "mean_iou": 0.6036107757942578
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.2377,
+      "iou": 0.6714,
+      "precision": 0.8492
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0025,
+      "iou": 0.4567,
+      "precision": 0.4572
+     },
+     "crc_0.2": {
+      "threshold": 0.027,
+      "fnr": 0.0413,
+      "iou": 0.6683,
+      "precision": 0.6881
+     },
+     "crc_0.3": {
+      "threshold": 0.135,
+      "fnr": 0.1021,
+      "iou": 0.7048,
+      "precision": 0.7663
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.3274,
+      "iou": 0.6449,
+      "precision": 0.94
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0002,
+      "iou": 0.0525,
+      "precision": 0.0525
+     },
+     "crc_0.2": {
+      "threshold": 0.026,
+      "fnr": 0.0204,
+      "iou": 0.6877,
+      "precision": 0.6977
+     },
+     "crc_0.3": {
+      "threshold": 0.137,
+      "fnr": 0.1118,
+      "iou": 0.7988,
+      "precision": 0.8881
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.4648,
+      "iou": 0.4979,
+      "precision": 0.8772
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0002,
+      "iou": 0.1634,
+      "precision": 0.1634
+     },
+     "crc_0.2": {
+      "threshold": 0.035,
+      "fnr": 0.1848,
+      "iou": 0.6518,
+      "precision": 0.7648
+     },
+     "crc_0.3": {
+      "threshold": 0.179,
+      "fnr": 0.3656,
+      "iou": 0.5718,
+      "precision": 0.8528
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.3399,
+      "iou": 0.6529,
+      "precision": 0.9836
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0062,
+      "iou": 0.5769,
+      "precision": 0.5789
+     },
+     "crc_0.2": {
+      "threshold": 0.031,
+      "fnr": 0.117,
+      "iou": 0.8312,
+      "precision": 0.9342
+     },
+     "crc_0.3": {
+      "threshold": 0.158,
+      "fnr": 0.244,
+      "iou": 0.7389,
+      "precision": 0.9703
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.3281,
+      "iou": 0.651,
+      "precision": 0.9545
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0288,
+      "iou": 0.6173,
+      "precision": 0.6288
+     },
+     "crc_0.2": {
+      "threshold": 0.032,
+      "fnr": 0.1392,
+      "iou": 0.7899,
+      "precision": 0.9056
+     },
+     "crc_0.3": {
+      "threshold": 0.155,
+      "fnr": 0.2264,
+      "iou": 0.7358,
+      "precision": 0.9377
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.495,
+      "iou": 0.1028,
+      "precision": 0.1144
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0019,
+      "iou": 0.0119,
+      "precision": 0.0119
+     },
+     "crc_0.2": {
+      "threshold": 0.032,
+      "fnr": 0.137,
+      "iou": 0.0496,
+      "precision": 0.05
+     },
+     "crc_0.3": {
+      "threshold": 0.167,
+      "fnr": 0.2954,
+      "iou": 0.091,
+      "precision": 0.0946
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0641,
+      "iou": 0.8286,
+      "precision": 0.8785
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0001,
+      "iou": 0.0902,
+      "precision": 0.0902
+     },
+     "crc_0.2": {
+      "threshold": 0.026,
+      "fnr": 0.0138,
+      "iou": 0.4592,
+      "precision": 0.4622
+     },
+     "crc_0.3": {
+      "threshold": 0.125,
+      "fnr": 0.0346,
+      "iou": 0.6814,
+      "precision": 0.6984
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.656,
+      "iou": 0.2591,
+      "precision": 0.5123
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0372,
+      "iou": 0.1219,
+      "precision": 0.1225
+     },
+     "crc_0.2": {
+      "threshold": 0.05,
+      "fnr": 0.4221,
+      "iou": 0.3044,
+      "precision": 0.3914
+     },
+     "crc_0.3": {
+      "threshold": 0.217,
+      "fnr": 0.5638,
+      "iou": 0.2929,
+      "precision": 0.4712
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.2931,
+      "iou": 0.6798,
+      "precision": 0.9466
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0002,
+      "iou": 0.1506,
+      "precision": 0.1506
+     },
+     "crc_0.2": {
+      "threshold": 0.03,
+      "fnr": 0.0949,
+      "iou": 0.6589,
+      "precision": 0.7078
+     },
+     "crc_0.3": {
+      "threshold": 0.149,
+      "fnr": 0.1901,
+      "iou": 0.7266,
+      "precision": 0.876
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.4136,
+      "iou": 0.5741,
+      "precision": 0.9648
+     },
+     "crc_0.1": {
+      "threshold": 0.001,
+      "fnr": 0.0001,
+      "iou": 0.0956,
+      "precision": 0.0956
+     },
+     "crc_0.2": {
+      "threshold": 0.03,
+      "fnr": 0.0986,
+      "iou": 0.6139,
+      "precision": 0.658
+     },
+     "crc_0.3": {
+      "threshold": 0.154,
+      "fnr": 0.2204,
+      "iou": 0.719,
+      "precision": 0.9024
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.3294,
+      "iou": 0.5656,
+      "precision": 0.7831
+     },
+     "crc_0.1": {
+      "threshold": 0.002,
+      "fnr": 0.0097,
+      "iou": 0.0654,
+      "precision": 0.0655
+     },
+     "crc_0.2": {
+      "threshold": 0.03,
+      "fnr": 0.0898,
+      "iou": 0.3874,
+      "precision": 0.4028
+     },
+     "crc_0.3": {
+      "threshold": 0.15,
+      "fnr": 0.1928,
+      "iou": 0.5788,
+      "precision": 0.6717
+     }
+    }
+   }
+  },
+  "st": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.3154254645758193,
+     "max_fnr": 0.819801066928425,
+     "sd_fnr": 0.20818910589820955,
+     "meeting": null,
+     "mean_iou": 0.5463389137321207
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.010225941515756802,
+     "max_fnr": 0.0670731205621241,
+     "sd_fnr": 0.018395371808781272,
+     "meeting": 11,
+     "mean_iou": 0.26104396442528716
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12270728240513794,
+     "max_fnr": 0.3093574901883346,
+     "sd_fnr": 0.07790119011853622,
+     "meeting": 9,
+     "mean_iou": 0.6129027850038958
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.24619425251174462,
+     "max_fnr": 0.6911333463225992,
+     "sd_fnr": 0.17979053290774968,
+     "meeting": 8,
+     "mean_iou": 0.5764670013526555
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.8198,
+      "iou": 0.1743,
+      "precision": 0.8426
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0022,
+      "iou": 0.4718,
+      "precision": 0.4723
+     },
+     "crc_0.2": {
+      "threshold": 0.093,
+      "fnr": 0.2015,
+      "iou": 0.697,
+      "precision": 0.8457
+     },
+     "crc_0.3": {
+      "threshold": 0.371,
+      "fnr": 0.6911,
+      "iou": 0.2963,
+      "precision": 0.8794
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.3316,
+      "iou": 0.6406,
+      "precision": 0.9392
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0007,
+      "iou": 0.0669,
+      "precision": 0.0669
+     },
+     "crc_0.2": {
+      "threshold": 0.076,
+      "fnr": 0.0633,
+      "iou": 0.8031,
+      "precision": 0.8492
+     },
+     "crc_0.3": {
+      "threshold": 0.273,
+      "fnr": 0.2331,
+      "iou": 0.7155,
+      "precision": 0.9144
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.1869,
+      "iou": 0.6887,
+      "precision": 0.8182
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0037,
+      "iou": 0.28,
+      "precision": 0.2802
+     },
+     "crc_0.2": {
+      "threshold": 0.085,
+      "fnr": 0.1343,
+      "iou": 0.6567,
+      "precision": 0.7312
+     },
+     "crc_0.3": {
+      "threshold": 0.26,
+      "fnr": 0.1634,
+      "iou": 0.6834,
+      "precision": 0.7887
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1846,
+      "iou": 0.8064,
+      "precision": 0.9865
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0018,
+      "iou": 0.6686,
+      "precision": 0.6695
+     },
+     "crc_0.2": {
+      "threshold": 0.074,
+      "fnr": 0.0455,
+      "iou": 0.8821,
+      "precision": 0.9208
+     },
+     "crc_0.3": {
+      "threshold": 0.25,
+      "fnr": 0.1067,
+      "iou": 0.8688,
+      "precision": 0.9695
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2381,
+      "iou": 0.7325,
+      "precision": 0.95
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0154,
+      "iou": 0.6926,
+      "precision": 0.7002
+     },
+     "crc_0.2": {
+      "threshold": 0.082,
+      "fnr": 0.1109,
+      "iou": 0.8177,
+      "precision": 0.9106
+     },
+     "crc_0.3": {
+      "threshold": 0.263,
+      "fnr": 0.1797,
+      "iou": 0.7777,
+      "precision": 0.9374
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.2159,
+      "iou": 0.084,
+      "precision": 0.0859
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0065,
+      "iou": 0.0178,
+      "precision": 0.0178
+     },
+     "crc_0.2": {
+      "threshold": 0.077,
+      "fnr": 0.0735,
+      "iou": 0.0588,
+      "precision": 0.0591
+     },
+     "crc_0.3": {
+      "threshold": 0.256,
+      "fnr": 0.1402,
+      "iou": 0.0753,
+      "precision": 0.0763
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0673,
+      "iou": 0.7826,
+      "precision": 0.8294
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0009,
+      "iou": 0.126,
+      "precision": 0.1261
+     },
+     "crc_0.2": {
+      "threshold": 0.073,
+      "fnr": 0.0322,
+      "iou": 0.6351,
+      "precision": 0.6488
+     },
+     "crc_0.3": {
+      "threshold": 0.239,
+      "fnr": 0.0493,
+      "iou": 0.7216,
+      "precision": 0.7496
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.4702,
+      "iou": 0.3301,
+      "precision": 0.4668
+     },
+     "crc_0.1": {
+      "threshold": 0.006,
+      "fnr": 0.0671,
+      "iou": 0.1518,
+      "precision": 0.1535
+     },
+     "crc_0.2": {
+      "threshold": 0.108,
+      "fnr": 0.3094,
+      "iou": 0.3311,
+      "precision": 0.3888
+     },
+     "crc_0.3": {
+      "threshold": 0.308,
+      "fnr": 0.4056,
+      "iou": 0.339,
+      "precision": 0.441
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.1382,
+      "iou": 0.7431,
+      "precision": 0.8436
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0041,
+      "iou": 0.2147,
+      "precision": 0.2149
+     },
+     "crc_0.2": {
+      "threshold": 0.077,
+      "fnr": 0.0741,
+      "iou": 0.6482,
+      "precision": 0.6837
+     },
+     "crc_0.3": {
+      "threshold": 0.25,
+      "fnr": 0.1087,
+      "iou": 0.7202,
+      "precision": 0.7895
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.5469,
+      "iou": 0.446,
+      "precision": 0.9661
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0037,
+      "iou": 0.1203,
+      "precision": 0.1204
+     },
+     "crc_0.2": {
+      "threshold": 0.09,
+      "fnr": 0.1769,
+      "iou": 0.7022,
+      "precision": 0.827
+     },
+     "crc_0.3": {
+      "threshold": 0.311,
+      "fnr": 0.422,
+      "iou": 0.5574,
+      "precision": 0.9401
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.2701,
+      "iou": 0.5815,
+      "precision": 0.7409
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0064,
+      "iou": 0.0609,
+      "precision": 0.061
+     },
+     "crc_0.2": {
+      "threshold": 0.084,
+      "fnr": 0.1282,
+      "iou": 0.5098,
+      "precision": 0.5511
+     },
+     "crc_0.3": {
+      "threshold": 0.269,
+      "fnr": 0.2082,
+      "iou": 0.5859,
+      "precision": 0.6926
+     }
+    }
+   }
+  },
+  "phys": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.23264855507848853,
+     "max_fnr": 0.43952558438032235,
+     "sd_fnr": 0.10669425008517724,
+     "meeting": null,
+     "mean_iou": 0.611920588647477
+    },
+    "crc_0.1": {
+     "mean_fnr": 0.009318070824778629,
+     "max_fnr": 0.0728079052814323,
+     "sd_fnr": 0.020371655203460595,
+     "meeting": 11,
+     "mean_iou": 0.24610069428739936
+    },
+    "crc_0.2": {
+     "mean_fnr": 0.12168758593756399,
+     "max_fnr": 0.31306000543035567,
+     "sd_fnr": 0.0754479744011497,
+     "meeting": 10,
+     "mean_iou": 0.6262591544654499
+    },
+    "crc_0.3": {
+     "mean_fnr": 0.23435477869974408,
+     "max_fnr": 0.4617612453615712,
+     "sd_fnr": 0.11644348487625282,
+     "meeting": 8,
+     "mean_iou": 0.6088367067843362
+    }
+   },
+   "events": {
+    "Bolivia": {
+     "default": {
+      "fnr": 0.2624,
+      "iou": 0.6777,
+      "precision": 0.893
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0013,
+      "iou": 0.5124,
+      "precision": 0.5127
+     },
+     "crc_0.2": {
+      "threshold": 0.117,
+      "fnr": 0.071,
+      "iou": 0.7403,
+      "precision": 0.7846
+     },
+     "crc_0.3": {
+      "threshold": 0.501,
+      "fnr": 0.2628,
+      "iou": 0.6775,
+      "precision": 0.8932
+     }
+    },
+    "Ghana": {
+     "default": {
+      "fnr": 0.2996,
+      "iou": 0.6688,
+      "precision": 0.937
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0005,
+      "iou": 0.0539,
+      "precision": 0.0539
+     },
+     "crc_0.2": {
+      "threshold": 0.124,
+      "fnr": 0.1041,
+      "iou": 0.8007,
+      "precision": 0.8829
+     },
+     "crc_0.3": {
+      "threshold": 0.515,
+      "fnr": 0.3056,
+      "iou": 0.6641,
+      "precision": 0.9383
+     }
+    },
+    "India": {
+     "default": {
+      "fnr": 0.1815,
+      "iou": 0.6925,
+      "precision": 0.8181
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0024,
+      "iou": 0.2268,
+      "precision": 0.2269
+     },
+     "crc_0.2": {
+      "threshold": 0.131,
+      "fnr": 0.1392,
+      "iou": 0.6733,
+      "precision": 0.7555
+     },
+     "crc_0.3": {
+      "threshold": 0.471,
+      "fnr": 0.1787,
+      "iou": 0.6926,
+      "precision": 0.8154
+     }
+    },
+    "Mekong": {
+     "default": {
+      "fnr": 0.1273,
+      "iou": 0.857,
+      "precision": 0.9794
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.001,
+      "iou": 0.6187,
+      "precision": 0.619
+     },
+     "crc_0.2": {
+      "threshold": 0.111,
+      "fnr": 0.0405,
+      "iou": 0.8845,
+      "precision": 0.9187
+     },
+     "crc_0.3": {
+      "threshold": 0.449,
+      "fnr": 0.1154,
+      "iou": 0.8658,
+      "precision": 0.9761
+     }
+    },
+    "Nigeria": {
+     "default": {
+      "fnr": 0.2286,
+      "iou": 0.7406,
+      "precision": 0.9488
+     },
+     "crc_0.1": {
+      "threshold": 0.005,
+      "fnr": 0.0129,
+      "iou": 0.6873,
+      "precision": 0.6936
+     },
+     "crc_0.2": {
+      "threshold": 0.128,
+      "fnr": 0.1222,
+      "iou": 0.8129,
+      "precision": 0.9167
+     },
+     "crc_0.3": {
+      "threshold": 0.488,
+      "fnr": 0.2258,
+      "iou": 0.7428,
+      "precision": 0.9482
+     }
+    },
+    "Pakistan": {
+     "default": {
+      "fnr": 0.1904,
+      "iou": 0.0837,
+      "precision": 0.0854
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0054,
+      "iou": 0.0159,
+      "precision": 0.0159
+     },
+     "crc_0.2": {
+      "threshold": 0.12,
+      "fnr": 0.0872,
+      "iou": 0.0644,
+      "precision": 0.0648
+     },
+     "crc_0.3": {
+      "threshold": 0.473,
+      "fnr": 0.1837,
+      "iou": 0.0827,
+      "precision": 0.0843
+     }
+    },
+    "Paraguay": {
+     "default": {
+      "fnr": 0.0616,
+      "iou": 0.7859,
+      "precision": 0.8287
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0004,
+      "iou": 0.1001,
+      "precision": 0.1001
+     },
+     "crc_0.2": {
+      "threshold": 0.11,
+      "fnr": 0.0354,
+      "iou": 0.6615,
+      "precision": 0.678
+     },
+     "crc_0.3": {
+      "threshold": 0.429,
+      "fnr": 0.0576,
+      "iou": 0.7723,
+      "precision": 0.8106
+     }
+    },
+    "Somalia": {
+     "default": {
+      "fnr": 0.4395,
+      "iou": 0.297,
+      "precision": 0.3872
+     },
+     "crc_0.1": {
+      "threshold": 0.006,
+      "fnr": 0.0728,
+      "iou": 0.1598,
+      "precision": 0.1619
+     },
+     "crc_0.2": {
+      "threshold": 0.172,
+      "fnr": 0.3131,
+      "iou": 0.2891,
+      "precision": 0.333
+     },
+     "crc_0.3": {
+      "threshold": 0.568,
+      "fnr": 0.4618,
+      "iou": 0.296,
+      "precision": 0.3967
+     }
+    },
+    "Spain": {
+     "default": {
+      "fnr": 0.1289,
+      "iou": 0.744,
+      "precision": 0.836
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0031,
+      "iou": 0.1812,
+      "precision": 0.1813
+     },
+     "crc_0.2": {
+      "threshold": 0.118,
+      "fnr": 0.077,
+      "iou": 0.6658,
+      "precision": 0.705
+     },
+     "crc_0.3": {
+      "threshold": 0.452,
+      "fnr": 0.1235,
+      "iou": 0.7401,
+      "precision": 0.8263
+     }
+    },
+    "Sri-Lanka": {
+     "default": {
+      "fnr": 0.3761,
+      "iou": 0.6072,
+      "precision": 0.9577
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.002,
+      "iou": 0.1015,
+      "precision": 0.1015
+     },
+     "crc_0.2": {
+      "threshold": 0.139,
+      "fnr": 0.1732,
+      "iou": 0.7434,
+      "precision": 0.8805
+     },
+     "crc_0.3": {
+      "threshold": 0.547,
+      "fnr": 0.3996,
+      "iou": 0.5866,
+      "precision": 0.9621
+     }
+    },
+    "USA": {
+     "default": {
+      "fnr": 0.2632,
+      "iou": 0.5767,
+      "precision": 0.7264
+     },
+     "crc_0.1": {
+      "threshold": 0.004,
+      "fnr": 0.0007,
+      "iou": 0.0496,
+      "precision": 0.0496
+     },
+     "crc_0.2": {
+      "threshold": 0.14,
+      "fnr": 0.1758,
+      "iou": 0.5529,
+      "precision": 0.6269
+     },
+     "crc_0.3": {
+      "threshold": 0.501,
+      "fnr": 0.2634,
+      "iou": 0.5767,
+      "precision": 0.7266
+     }
+    }
+   }
+  },
+  "otsu": {
+   "n": 11,
+   "summary": {
+    "default": {
+     "mean_fnr": 0.17423101513167405,
+     "max_fnr": 0.3160201368143973,
+     "sd_fnr": 0.08149742771153383,
+     "meeting": null,
+     "mean_iou": 0.3892676366749815
+    }
+   }
+  }
+ }
+}

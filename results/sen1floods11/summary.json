@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "event": "Bolivia",
+      "chips": 15,
+      "v0_all": 0.6371,
+      "v1_all": 0.5837,
+      "v0_clean": 0.7104,
+      "v1_clean": 0.6561,
+      "diff_all": -0.0534,
+      "diff_clean": -0.0543
+    },
+    {
+      "event": "Ghana",
+      "chips": 53,
+      "v0_all": 0.4725,
+      "v1_all": 0.4557,
+      "v0_clean": 0.5992,
+      "v1_clean": 0.5605,
+      "diff_all": -0.0168,
+      "diff_clean": -0.0387
+    },
+    {
+      "event": "India",
+      "chips": 68,
+      "v0_all": 0.5255,
+      "v1_all": 0.5615,
+      "v0_clean": 0.6705,
+      "v1_clean": 0.6924,
+      "diff_all": 0.036,
+      "diff_clean": 0.0219
+    },
+    {
+      "event": "Mekong",
+      "chips": 30,
+      "v0_all": 0.8454,
+      "v1_all": 0.8375,
+      "v0_clean": 0.887,
+      "v1_clean": 0.8714,
+      "diff_all": -0.0079,
+      "diff_clean": -0.0156
+    },
+    {
+      "event": "Nigeria",
+      "chips": 18,
+      "v0_all": 0.7449,
+      "v1_all": 0.7171,
+      "v0_clean": 0.7969,
+      "v1_clean": 0.7626,
+      "diff_all": -0.0278,
+      "diff_clean": -0.0343
+    },
+    {
+      "event": "Pakistan",
+      "chips": 28,
+      "v0_all": 0.2459,
+      "v1_all": 0.3041,
+      "v0_clean": 0.0542,
+      "v1_clean": 0.0738,
+      "diff_all": 0.0582,
+      "diff_clean": 0.0196
+    },
+    {
+      "event": "Paraguay",
+      "chips": 67,
+      "v0_all": 0.5355,
+      "v1_all": 0.5941,
+      "v0_clean": 0.7528,
+      "v1_clean": 0.7737,
+      "diff_all": 0.0586,
+      "diff_clean": 0.0209
+    },
+    {
+      "event": "Somalia",
+      "chips": 26,
+      "v0_all": 0.2725,
+      "v1_all": 0.214,
+      "v0_clean": 0.3116,
+      "v1_clean": 0.2348,
+      "diff_all": -0.0585,
+      "diff_clean": -0.0768
+    },
+    {
+      "event": "Spain",
+      "chips": 30,
+      "v0_all": 0.6665,
+      "v1_all": 0.6723,
+      "v0_clean": 0.6774,
+      "v1_clean": 0.6837,
+      "diff_all": 0.0058,
+      "diff_clean": 0.0063
+    },
+    {
+      "event": "Sri-Lanka",
+      "chips": 42,
+      "v0_all": 0.641,
+      "v1_all": 0.6529,
+      "v0_clean": 0.5203,
+      "v1_clean": 0.5269,
+      "diff_all": 0.0119,
+      "diff_clean": 0.0066
+    },
+    {
+      "event": "USA",
+      "chips": 69,
+      "v0_all": 0.4693,
+      "v1_all": 0.5149,
+      "v0_clean": 0.5071,
+      "v1_clean": 0.5439,
+      "diff_all": 0.0456,
+      "diff_clean": 0.0368
+    }
+  ],
+  "mean_diff_all": 0.0047,
+  "median_diff_all": 0.0058,
+  "sign_test_all": {
+    "wins": 6,
+    "losses": 5,
+    "p_two_sided": 1.0
+  },
+  "wilcoxon_p_all": 0.7646,
+  "mean_diff_clean": -0.0098,
+  "sign_test_clean": {
+    "wins": 6,
+    "losses": 5,
+    "p_two_sided": 1.0
+  },
+  "wilcoxon_p_clean": 0.5771,
+  "n_events_complete": 11
+}
