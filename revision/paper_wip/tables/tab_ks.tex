@@ -1,0 +1,17 @@
+\begin{tabular}{lcccccc}
+\toprule
+ & & \multicolumn{3}{c}{Mean rule, target $\alpha$} & \multicolumn{2}{c}{Per-flood rule, $\alpha=\delta=0.2$} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-7}
+Method & 0.5 & 10\% & 20\% & 30\% & IoU & Floods meeting \\
+\midrule
+No adaptation & 0.186 & 0.456 & 0.565 & 0.550 & 0.529 & 21.7/26 \\
+Self-training \citep{chen2026cimttda} & 0.174 & 0.360 & 0.457 & 0.490 & 0.432 & 21.3/26 \\
+TENT & 0.576 & 0.327 & 0.468 & 0.576 & 0.413 & 21.3/26 \\
+AdaBN & 0.570 & 0.400 & 0.562 & 0.584 & 0.535 & 21.0/26 \\
+Physics-checked self-training, adaptive rule & 0.627 & 0.500 & 0.666 & \textbf{0.655} & 0.577 & 21.0/26 \\
+AdaBN + physics check, fixed rule & 0.669 & 0.525 & 0.664 & 0.649 & 0.625 & 21.0/26 \\
+AdaBN + physics check, adaptive rule (proposed) & \textbf{0.673} & \textbf{0.565} & \textbf{0.677} & 0.644 & \textbf{0.652} & 21.0/26 \\
+\midrule
+Otsu threshold on VV (no model) & 0.456 & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}

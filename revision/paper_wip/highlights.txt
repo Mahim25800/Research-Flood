@@ -1,0 +1,5 @@
+- Label-free adaptation with pseudo-labels checked by radar and terrain physics
+- Conformal calibration over flood events bounds the average miss rate on new floods
+- Tested on three datasets, with a pre-registered final test on 30 MMFlood activations
+- Plain test-time adaptation can harm guaranteed maps; the physics check prevents it
+- Results reproduced with a second, pretrained backbone

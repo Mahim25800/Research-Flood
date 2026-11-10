@@ -1,0 +1,22 @@
+\begin{tabular}{llcccccc}
+\toprule
+ & & \multicolumn{3}{c}{$\delta=0.2$ (at least 80\% of floods)} & \multicolumn{3}{c}{$\delta=0.1$ (at least 90\% of floods)} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Dataset & Method & IoU & Meeting & Worst & IoU & Meeting & Worst \\
+\midrule
+Sen1Floods11 & No adaptation & \textbf{0.475} & 9.0/11 (82\%) & 0.26 & \textbf{0.447} & 10.0/11 (91\%) & 0.24 \\
+ & TENT & 0.405 & 9.0/11 (82\%) & 0.48 & 0.345 & 10.0/11 (91\%) & 0.25 \\
+ & AdaBN & 0.459 & 9.0/11 (82\%) & 0.27 & 0.402 & 10.0/11 (91\%) & 0.26 \\
+ & Proposed & 0.459 & 9.0/11 (82\%) & 0.34 & 0.360 & 10.0/11 (91\%) & 0.26 \\
+\midrule
+Kuro Siwo & No adaptation & 0.529 & 21.7/26 (83\%) & 0.23 & 0.500 & 24.0/26 (92\%) & 0.21 \\
+ & TENT & 0.413 & 21.3/26 (82\%) & 0.84 & 0.287 & 24.0/26 (92\%) & 0.45 \\
+ & AdaBN & 0.535 & 21.0/26 (81\%) & 0.83 & 0.315 & 24.0/26 (92\%) & 0.61 \\
+ & Proposed & \textbf{0.652} & 21.0/26 (81\%) & 0.28 & \textbf{0.615} & 24.0/26 (92\%) & 0.26 \\
+\midrule
+MMFlood & No adaptation & 0.082 & 24.0/30 (80\%) & 0.65 & 0.061 & 27.0/30 (90\%) & 0.48 \\
+ & TENT & 0.077 & 24.3/30 (81\%) & 0.39 & 0.068 & 27.3/30 (91\%) & 0.36 \\
+ & AdaBN & 0.072 & 25.0/30 (83\%) & 0.39 & 0.063 & 27.3/30 (91\%) & 0.27 \\
+ & Proposed & \textbf{0.083} & 24.7/30 (82\%) & 0.36 & \textbf{0.074} & 27.0/30 (90\%) & 0.29 \\
+\bottomrule
+\end{tabular}

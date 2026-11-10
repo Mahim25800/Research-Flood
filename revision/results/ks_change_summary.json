@@ -1,0 +1,1 @@
+{"source": "Kaggle notebookda878fed05 v1 (CPU), ks_change.py, 26 Kuro Siwo events, 1962 chips", "mean_iou_missrate": {"change|all": [0.3992, 0.5737], "change|flood": [0.5267, 0.4215], "dark|all": [0.5598, 0.3409], "dark|flood": [0.5318, 0.3372]}}

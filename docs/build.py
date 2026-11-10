@@ -54,7 +54,8 @@ for r in R:
         f.append(f"  edition = {{{d.split()[0]}}}")
     if r["doi"]:
         f.append(f"  doi = {{{r['doi']}}}")
-    f.append(f"  url = {{{r['url']}}}")
+    if not r["doi"]:  # the DOI is the stable link; a URL is kept only where no DOI exists
+        f.append(f"  url = {{{r['url']}}}")
     out.append(f"@{r['type']}{{{r['key']},\n" + ",\n".join(f) + "\n}")
 open("references.bib", "w").write("% PX1 paper references (" + str(len(R)) + " entries), checked online 9-10 Nov 2026\n\n" + "\n\n".join(out) + "\n")
 

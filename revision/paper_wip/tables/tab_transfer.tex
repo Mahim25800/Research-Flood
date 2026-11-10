@@ -1,0 +1,18 @@
+\begin{tabular}{llcccccccc}
+\toprule
+ & & \multicolumn{4}{c}{Same-dataset calibration} & \multicolumn{4}{c}{Source-only calibration (Sen1Floods11)} \\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}
+Dataset & Method & IoU & Miss & Worst & Meeting & IoU & Miss & Worst & Meeting \\
+\midrule
+Kuro Siwo & No adaptation & 0.565 & 0.169 & 0.35 & 15.7/26 & 0.366 & \textit{0.583} & 0.95 & 2.7/26 \\
+ & TENT & 0.468 & 0.176 & 0.92 & 19.7/26 & 0.346 & 0.073 & 0.59 & 23.3/26 \\
+ & AdaBN & 0.562 & 0.171 & 0.88 & 17.7/26 & 0.425 & 0.072 & 0.58 & 23.7/26 \\
+ & Physics check only & 0.666 & 0.171 & 0.85 & 19.0/26 & 0.662 & 0.156 & 0.78 & 19.7/26 \\
+ & Proposed & 0.677 & 0.170 & 0.38 & 17.0/26 & 0.557 & 0.062 & 0.23 & 25.0/26 \\
+\midrule
+MMFlood & No adaptation & 0.110 & 0.176 & 0.72 & 21.0/30 & 0.150 & \textit{0.280} & 0.82 & 16.3/30 \\
+ & TENT & 0.096 & 0.172 & 0.57 & 19.7/30 & 0.103 & 0.186 & 0.61 & 18.7/30 \\
+ & AdaBN & 0.098 & 0.177 & 0.65 & 20.0/30 & 0.128 & \textit{0.242} & 0.74 & 17.3/30 \\
+ & Proposed & 0.112 & 0.177 & 0.78 & 19.7/30 & 0.157 & \textit{0.256} & 0.90 & 17.0/30 \\
+\bottomrule
+\end{tabular}
