@@ -1,5 +1,5 @@
 - Label-free adaptation with pseudo-labels checked by radar and terrain physics
-- Conformal calibration over flood events bounds the average miss rate on new floods
-- Tested on three datasets, with a pre-registered final test on 30 MMFlood activations
-- Plain test-time adaptation can harm guaranteed maps; the physics check prevents it
-- Results reproduced with a second, pretrained backbone
+- Map threshold calibrated over flood events to hold a chosen miss rate
+- At matched miss rates, six adaptation baselines do not beat the unadapted model
+- Adaptation made a source-calibrated threshold valid on Kuro Siwo, not on MMFlood
+- Pre-registered test on 30 MMFlood activations, reported with its negative parts

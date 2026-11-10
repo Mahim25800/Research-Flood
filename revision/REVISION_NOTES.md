@@ -47,3 +47,19 @@ Plan: finalise H6 rule (from stored MMFlood/Kuro Siwo results, label-free) + com
 user a final document to file as an UPDATE on OSF; no GEOID-Flood/FloodPlanet download before the user confirms the update.
 Whether the uploaded file was the first (H1-H5 old) or second draft (H1-H6) was not confirmed; user said "as it is"
 (the last file sent was the H1-H6 version).
+
+## 10 Nov 2026 evening: GPU run collected
+- notebook42da559468 finished (REV_GPU_DONE, kernel version 367979892, 252 min). notebookf299e49801 re-run with commit 543e14f and
+  that version attached (kernel version 368069757) -> results_rev/rev_analysis_cpu3.json (CURRENT; has EATA/SAR/CoTTA/ft on KS,
+  KSf = flood water only, precision, and "otsu" = per-flood Otsu counts [tp, fp, fn, pixels]).
+- Kuro Siwo, 20% target: proposed 0.677; none 0.565; CoTTA 0.574, SAR 0.564, AdaBN 0.562, EATA 0.558, TENT 0.467, ST 0.457;
+  fine-tuned (supervised) 0.657 (p = 0.71 vs proposed). Flood water only: proposed 0.565, ft 0.581, none 0.460.
+- Paper updated (abstract 248 words, baselines, supervised reference, flood-water-only table tab_ksf, model-free/change-detection
+  paragraph, corrected claim about "highest IoU among methods meeting the target" (physics check without AdaBN is higher at 20%),
+  limitations xi-xii, highlights, references.bib regenerated with DOI fix). 23 pages. Backup before this edit: main_before_gpu_results.tex.
+- H6 rule: Otsu dark share (tp+fp)/pixels does NOT separate floods (KS: gain positive at every dark share, rho = 0.28, p = 0.16;
+  MM: rho = -0.39, p = 0.03, no clean cut). Decision: H6 dropped as confirmatory, moved to secondary. Amendment text:
+  preregistration_2_AMENDMENT_1.md (user files it on OSF as an update; no GEOID-Flood download before the user confirms).
+- GPU quota: 28.0 of 30 h used; reset Sat 14 Nov 06:00 Dhaka. Then rev_gpuA.py and rev_gpuB.py.
+- Still open in the paper: graphical abstract (old framing), EATA/SAR/CoTTA on Sen1Floods11 and MMFlood, SAR-pretrained backbone,
+  foundation model, confirmatory GEOID-Flood test, hand check of the 91 references.

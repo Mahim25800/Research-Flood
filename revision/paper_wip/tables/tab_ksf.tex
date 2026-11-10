@@ -1,0 +1,17 @@
+\begin{tabular}{lcccccc}
+\toprule
+ & & \multicolumn{3}{c}{Mean rule, target $\alpha$} & \multicolumn{2}{c}{Per-flood rule, $\alpha=\delta=0.2$} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-7}
+Method & 0.5 & 10\% & 20\% & 30\% & IoU & Floods meeting \\
+\midrule
+No adaptation & 0.158 & 0.365 & 0.460 & 0.466 & 0.444 & 21.0/26 \\
+TENT & 0.481 & 0.265 & 0.350 & 0.441 & 0.327 & 21.7/26 \\
+EATA & 0.473 & 0.357 & 0.469 & 0.484 & 0.438 & 21.0/26 \\
+SAR & 0.502 & 0.317 & 0.455 & 0.496 & 0.429 & 21.3/26 \\
+CoTTA & 0.485 & 0.369 & 0.471 & 0.495 & 0.439 & 21.0/26 \\
+AdaBN & 0.473 & 0.337 & 0.461 & 0.495 & 0.416 & 21.0/26 \\
+AdaBN + physics check, adaptive rule (proposed) & \textbf{0.569} & \textbf{0.439} & \textbf{0.565} & \textbf{0.570} & \textbf{0.534} & 21.0/26 \\
+\midrule
+Fine-tuned on labelled target floods (supervised) & 0.597 & 0.503 & 0.581 & 0.590 & 0.549 & 21.0/26 \\
+\bottomrule
+\end{tabular}
