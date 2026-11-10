@@ -215,12 +215,12 @@ def main():
                     cells.append("-"); continue
                 v = np.array(list(ev.values())); n = len(v)
                 meet = res[D][m]["_meet"].get(r)
-                out["summary"][D][m][r] = [round(float(v[:, 0].mean()), 4), round(float(v[:, 1].mean()), 4), round(float(v[:, 1].max()), 4),
-                                           None if meet is None else round(meet, 2), n, round(float(v[:, 2].mean()), 4),
-                                           round(float(v[:, 3].mean()), 4), round(float(v[:, 4].mean()), 4)]
+                out["summary"][D][m][r] = [round(float(v[:, 0].mean()), 5), round(float(v[:, 1].mean()), 5), round(float(v[:, 1].max()), 5),
+                                           None if meet is None else round(meet, 2), n, round(float(v[:, 2].mean()), 5),
+                                           round(float(v[:, 3].mean()), 5), round(float(v[:, 4].mean()), 5)]
                 cells.append(f"{v[:, 0].mean():.3f} / {v[:, 1].mean():.3f} / {v[:, 1].max():.2f}" + ("" if meet is None else f" / {meet:.1f}"))
             L.append(f"| {m} ({res[D][m]['_models']}, {n}) | " + " | ".join(cells) + " |")
-        out["curves"][D] = {m: [[round(float(np.mean([v[i] for v in res[D][m][f"g_{g}"].values()])), 4) for g in GRID] for i in (0, 1)] for m in res[D]}
+        out["curves"][D] = {m: [[round(float(np.mean([v[i] for v in res[D][m][f"g_{g}"].values()])), 5) for g in GRID] for i in (0, 1)] for m in res[D]}
         for m in res[D]:
             keep = [r for r in ["t0.5", "loeo_0.2", "x_S1F_0.2", "q_0.2_0.2"] if r in res[D][m]]
             out["events"].setdefault(D, {})[m] = {r: {e: [round(float(x), 3) for x in v[:2]] for e, v in res[D][m][r].items()} for r in keep}
@@ -247,7 +247,7 @@ def main():
                   "| A | B | mean A - B | A better on | p | p (Holm) |", "| --- | --- | --- | --- | --- | --- |"]
             for x, pa in zip(rows, adj):
                 L.append(f"| {x[0]} | {x[1]} | {x[2]:+.3f} | {x[3]}/{x[4]} | {x[5]:.2g} | {pa:.2g} |")
-            out["tests"].setdefault(D, {})[r] = [[x[0], x[1], round(x[2], 4), x[3], x[4], float(f"{x[5]:.3g}"), float(f"{pa:.3g}")] for x, pa in zip(rows, adj)]
+            out["tests"].setdefault(D, {})[r] = [[x[0], x[1], round(x[2], 5), x[3], x[4], float(f"{x[5]:.3g}"), float(f"{pa:.3g}")] for x, pa in zip(rows, adj)]
     txt = "\n".join(L)
     print(txt, flush=True)
     os.makedirs(a.out, exist_ok=True)
