@@ -7,7 +7,7 @@ Inputs (copied from F:\\Coding\\Research):
 Histogram layout: h[sub] with sub 0 = all chips; h[sub][0] = dry pixels, h[sub][1] = water pixels,
 1000 bins of predicted water probability. Thresholds and the guarantee follow tta_px1.compute exactly.
 
-Outputs: paper_latex/figures/fig_guarantee.pdf, fig_ks_events.pdf, figures/paper_numbers.json
+Outputs: paper/figures/fig_guarantee.pdf, fig_ks_events.pdf, figures/paper_numbers.json
 """
 import json
 import os

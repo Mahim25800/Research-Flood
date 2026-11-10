@@ -1,6 +1,6 @@
 """Example-map figure from the MAPROW lines that maps.py prints to the Kaggle log.
 
-Usage: python paper_fig_maps.py maps_log.txt  -> paper_latex/figures/fig_maps.pdf/.png and maps_rows.json
+Usage: python paper_fig_maps.py maps_log.txt  -> paper/figures/fig_maps.pdf/.png and maps_rows.json
 """
 import base64
 import json
