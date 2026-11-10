@@ -117,6 +117,36 @@ def load(roots):
     return sets, src
 
 
+def load_otsu(roots, sets):
+    """Per flood: counts of the model-free Otsu split on VV [tp, fp, fn] and the number of labelled pixels.
+    (tp + fp) / pixels is the share of the flood's pixels on the dark side of its own Otsu split; it needs no label."""
+    out = {}
+    pats = {"S1F": ("tta_hist*.npz", ()), "KS": ("ks_hist_m0_v2*.npz", ("r34", "sens", "r50", "_ft")),
+            "MM": ("mm_hist_m0_p*.npz", ("r34", "r50", "_act"))}
+    for D, (pat, excl) in pats.items():
+        if D not in sets:
+            continue
+        seen, acc = set(), {}
+        for p in find(roots, pat, exclude=excl):
+            for k, v in np.load(p).items():
+                if not k.startswith("otsu|"):
+                    continue
+                tag = (os.path.basename(p), k) if D == "MM" else k
+                if tag in seen:
+                    continue
+                seen.add(tag)
+                e = k.split("|")[1]
+                e = e.split("-")[0] if D == "MM" else e
+                acc[e] = acc.get(e, 0) + np.asarray(v)[0].astype(np.int64)
+        d0 = sets[D][0]
+        out[D] = {}
+        for e, c in acc.items():
+            h = d0.get(f"none|V0|{e}")
+            if h is not None and h[0].sum() > 0:
+                out[D][e] = [int(c[0]), int(c[1]), int(c[2]), int(h[0].sum())]
+    return out
+
+
 def per_model(d, m):
     return {k.split("|")[2]: curves(v[0]) for k, v in d.items() if k.startswith(m + "|V0|") and v[0, 1].sum() > 0}
 
@@ -197,7 +227,9 @@ def main():
     for D, models in sets.items():
         print(f"{D}: {len(models)} models; methods " + ", ".join(sorted({k.split('|')[0] for d in models for k in d})), flush=True)
     res = evaluate(sets)
-    out = {"summary": {}, "tests": {}, "curves": {}, "events": {}}
+    out = {"summary": {}, "tests": {}, "curves": {}, "events": {}, "otsu": load_otsu(roots, sets)}
+    for D, v in out["otsu"].items():
+        print(f"{D}: Otsu counts for {len(v)} floods", flush=True)
     L = []
     for D in res:
         rules = [r for r in ["t0.5"] + [f"loeo_{x}" for x in ALPHAS] + [f"x_S1F_{x}" for x in ALPHAS] + [f"x_S1FKS_{x}" for x in ALPHAS]
