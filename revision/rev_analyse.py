@@ -27,7 +27,7 @@ from scipy.stats import wilcoxon
 BINS = 1000
 ALPHAS = [0.1, 0.2, 0.3]
 QRULES = [(0.2, 0.2), (0.2, 0.1), (0.3, 0.2)]
-ORDER = ["none", "tent", "eata", "sar", "cotta", "adabn", "physa", "adabn_physa", "ft"]
+ORDER = ["none", "st", "tent", "eata", "sar", "cotta", "adabn", "phys", "physa", "adabn_phys", "adabn_physa", "ft"]
 GRID = [round(x, 2) for x in np.arange(0.04, 0.501, 0.02)]
 
 
@@ -39,7 +39,8 @@ def curves(h):
     tp, fp, fn = wat_pos, dry_pos, W - wat_pos
     fnr = fn / max(W, 1)
     iou = np.divide(tp, tp + fp + fn, out=np.zeros_like(tp), where=(tp + fp + fn) > 0)
-    return fnr, iou
+    prec = np.divide(tp, tp + fp, out=np.ones_like(tp), where=(tp + fp) > 0)
+    return fnr, iou, prec, fp / max(dry.sum(), 1)
 
 
 def k_crc(cal, alpha):
@@ -141,7 +142,7 @@ def evaluate(sets):
                     if kk:
                         kscal = list(per_model(kk[min(si, len(kk) - 1)], m).values())
                 rules = {}
-                for e, (fnr, iou) in cur.items():
+                for e, (fnr, iou, prec, far) in cur.items():
                     others = [cur[o][0] for o in cur if o != e]
                     r = {"t0.5": BINS // 2}
                     for a in ALPHAS:
@@ -159,7 +160,7 @@ def evaluate(sets):
                     for g in GRID:
                         r[f"g_{g}"] = k_crc(others, g)
                     for name, k in r.items():
-                        acc.setdefault(name, {}).setdefault(e, []).append((iou[k], fnr[k], k / BINS))
+                        acc.setdefault(name, {}).setdefault(e, []).append((iou[k], fnr[k], k / BINS, prec[k], far[k]))
             n_models = len(use)
             res[D][m] = {name: {e: tuple(np.mean(v, axis=0)) for e, v in ev.items() if len(v) == n_models} for name, ev in acc.items()}
             res[D][m]["_models"] = n_models
@@ -215,7 +216,8 @@ def main():
                 v = np.array(list(ev.values())); n = len(v)
                 meet = res[D][m]["_meet"].get(r)
                 out["summary"][D][m][r] = [round(float(v[:, 0].mean()), 4), round(float(v[:, 1].mean()), 4), round(float(v[:, 1].max()), 4),
-                                           None if meet is None else round(meet, 2), n, round(float(v[:, 2].mean()), 4)]
+                                           None if meet is None else round(meet, 2), n, round(float(v[:, 2].mean()), 4),
+                                           round(float(v[:, 3].mean()), 4), round(float(v[:, 4].mean()), 4)]
                 cells.append(f"{v[:, 0].mean():.3f} / {v[:, 1].mean():.3f} / {v[:, 1].max():.2f}" + ("" if meet is None else f" / {meet:.1f}"))
             L.append(f"| {m} ({res[D][m]['_models']}, {n}) | " + " | ".join(cells) + " |")
         out["curves"][D] = {m: [[round(float(np.mean([v[i] for v in res[D][m][f"g_{g}"].values()])), 4) for g in GRID] for i in (0, 1)] for m in res[D]}
