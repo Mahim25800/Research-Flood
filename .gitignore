@@ -1,0 +1,24 @@
+# data and model weights (download with the scripts)
+data/S1Hand/
+data/LabelHand/
+data/S2Hand/
+data/DEM/
+data/HAND/
+data_ks/
+data_ks_hand/
+data_mm/
+mmflood_raw/
+runs/
+runs_loeo/
+*.pt
+*.pth
+# python / latex build files
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.abs

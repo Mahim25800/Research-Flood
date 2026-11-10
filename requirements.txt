@@ -1,0 +1,10 @@
+numpy
+scipy
+torch
+rasterio
+matplotlib
+pillow
+requests
+segmentation-models-pytorch  # only for the ResNet-34 backbone (extensions/r34_patch.py)
+basemap                      # only for analysis/paper_map.py
+basemap-data
