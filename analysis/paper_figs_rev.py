@@ -15,7 +15,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "paper_latex", "figures")
+OUT = os.path.join(os.path.dirname(HERE), "revision", "paper_wip", "figures")
+os.makedirs(OUT, exist_ok=True)
 R = json.load(open(sys.argv[1]))
 GRID = [round(x, 2) for x in np.arange(0.04, 0.501, 0.02)]
 
@@ -25,7 +26,7 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8, "axes.spines.
                      "legend.frameon": False, "pdf.fonttype": 42})
 STYLE = {"none": dict(color="#6b6a66", ls="--", marker="o"), "tent": dict(color="#eb6834", ls="-", marker="s"),
          "adabn": dict(color="#1baf7a", ls="-", marker="^"), "adabn_physa": dict(color="#2a78d6", ls="-", marker="D")}
-LABEL = {"none": "No adaptation", "tent": "TENT", "adabn": "AdaBN", "adabn_physa": "Proposed (AdaBN + physics check)"}
+LABEL = {"none": "No adaptation", "tent": "TENT-R (running statistics)", "adabn": "AdaBN", "adabn_physa": "Proposed (AdaBN + physics check)"}
 SHOW = ["none", "tent", "adabn", "adabn_physa"]
 INK, MUTED = "#0b0b0b", "#52514e"
 

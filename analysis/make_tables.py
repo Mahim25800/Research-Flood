@@ -10,10 +10,10 @@ import sys
 
 R = json.load(open(sys.argv[1]))
 S = R["summary"]
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "paper_latex", "tables")
+OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "revision", "paper_wip", "tables")
 os.makedirs(OUT, exist_ok=True)
-NAME = {"none": "No adaptation", "st": r"Self-training \citep{chen2026cimttda}", "tent": "TENT", "eata": "EATA", "sar": "SAR",
-        "cotta": "CoTTA", "adabn": "AdaBN", "phys": "Physics-checked self-training, fixed rule",
+NAME = {"none": "No adaptation", "st": r"Self-training \citep{chen2026cimttda}", "tent": "TENT-R (running statistics)", "tent_batch": "TENT-B (batch statistics)", "eata": "EATA-inspired",
+        "sar": "SAR-inspired", "cotta": "CoTTA-inspired", "adabn": "AdaBN", "phys": "Physics-checked self-training, fixed rule",
         "physa": "Physics-checked self-training, adaptive rule", "adabn_phys": "AdaBN + physics check, fixed rule",
         "adabn_physa": "AdaBN + physics check, adaptive rule (proposed)", "ft": "Fine-tuned on labelled target floods (supervised)"}
 SHORT = dict(NAME, adabn_physa="Proposed", st="Self-training", ft="Fine-tuned (supervised)", physa="Physics check only")
@@ -62,7 +62,7 @@ def iou_table(D, methods, name, extra_rows=()):
     write(name, L)
 
 
-ALLM = ["none", "st", "tent", "eata", "sar", "cotta", "adabn", "physa", "adabn_phys", "adabn_physa", "ft"]
+ALLM = ["none", "st", "tent", "tent_batch", "eata", "sar", "cotta", "adabn", "physa", "adabn_phys", "adabn_physa", "ft"]
 iou_table("S1F", ["none", "st", "tent", "eata", "sar", "cotta", "adabn", "phys", "physa", "adabn_phys", "adabn_physa"], "tab_s1f")
 iou_table("KS", ALLM, "tab_ks", [r"\midrule", r"Otsu threshold on VV (no model) & 0.456 & -- & -- & -- & -- & -- \\"])
 iou_table("MM", ALLM, "tab_mm", [r"\midrule", r"Otsu threshold on VV (no model) & 0.090 & -- & -- & -- & -- & -- \\"])
