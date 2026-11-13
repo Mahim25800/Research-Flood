@@ -1,0 +1,145 @@
+[{"stream_name":"stderr","time":6.075017769,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.075054765,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.882059285,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.882087187,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.882092549,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.882096828,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.444987749,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.445041988,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.445047638,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.445052202,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":15.83857385,"data":"test_all_baselines_finite_and_source_unchanged (__main__.BaselineTests.test_all_baselines_finite_and_source_unchanged) ... test_all_baselines_finite_and_source_unchanged (__main__.BaselineTests.test_all_baselines_finite_and_source_unchanged) ... \n"}
+,{"stream_name":"stderr","time":20.833331336,"data":"test_all_baselines_finite_and_source_unchanged (__main__.BaselineTests.test_all_baselines_finite_and_source_unchanged) ... ok\n"}
+,{"stream_name":"stderr","time":20.844976431,"data":"test_cotta_confidence_gate_and_logit_average (__main__.BaselineTests.test_cotta_confidence_gate_and_logit_average) ... ok\n"}
+,{"stream_name":"stderr","time":20.856157298,"data":"test_cotta_restore_and_teacher_update (__main__.BaselineTests.test_cotta_restore_and_teacher_update) ... ok\n"}
+,{"stream_name":"stderr","time":20.862924502,"data":"test_eata_fisher_penalty_and_weighted_entropy (__main__.BaselineTests.test_eata_fisher_penalty_and_weighted_entropy) ... ok\n"}
+,{"stream_name":"stderr","time":20.876308871,"data":"test_eata_rejects_redundant_pixels_without_optimizer_step (__main__.BaselineTests.test_eata_rejects_redundant_pixels_without_optimizer_step) ... ok\n"}
+,{"stream_name":"stderr","time":20.887142898,"data":"test_empty_reliability_filter_is_finite_and_does_not_update (__main__.BaselineTests.test_empty_reliability_filter_is_finite_and_does_not_update) ... ok\n"}
+,{"stream_name":"stderr","time":20.898066256,"data":"test_fisher_source_only_nonnegative_and_no_mutation (__main__.BaselineTests.test_fisher_source_only_nonnegative_and_no_mutation) ... ok\n"}
+,{"stream_name":"stderr","time":20.913723568,"data":"test_only_bn_parameters_change_for_entropy_methods (__main__.BaselineTests.test_only_bn_parameters_change_for_entropy_methods) ... ok\n"}
+,{"stream_name":"stderr","time":20.930984816,"data":"test_predict_does_not_update_weights (__main__.BaselineTests.test_predict_does_not_update_weights) ... ok\n"}
+,{"stream_name":"stderr","time":20.94302575,"data":"test_sar_augmentation_inverse_preserves_spatial_pattern (__main__.BaselineTests.test_sar_augmentation_inverse_preserves_spatial_pattern) ... ok\n"}
+,{"stream_name":"stderr","time":20.950946619,"data":"test_sar_recovers_model_optimizer_and_entropy_state (__main__.BaselineTests.test_sar_recovers_model_optimizer_and_entropy_state) ... ok\n"}
+,{"stream_name":"stderr","time":20.958217144,"data":"test_sar_restores_perturbation_on_exception (__main__.BaselineTests.test_sar_restores_perturbation_on_exception) ... ok\n"}
+,{"stream_name":"stderr","time":20.964975948,"data":"test_sar_restores_perturbation_when_second_filter_empty (__main__.BaselineTests.test_sar_restores_perturbation_when_second_filter_empty) ... ok\n"}
+,{"stream_name":"stderr","time":20.972763463,"data":"test_source_holdout_filter_and_named_sensitivities (__main__.BaselineTests.test_source_holdout_filter_and_named_sensitivities) ... ok\n"}
+,{"stream_name":"stderr","time":20.980410136,"data":"test_tent_matches_one_manual_entropy_step (__main__.BaselineTests.test_tent_matches_one_manual_entropy_step) ... ok\n"}
+,{"stream_name":"stderr","time":20.980426613,"data":"\n"}
+,{"stream_name":"stderr","time":20.980432167,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":20.980436211,"data":"Ran 15 tests in 5.345s\n"}
+,{"stream_name":"stderr","time":20.980440072,"data":"\n"}
+,{"stream_name":"stderr","time":20.980443631,"data":"OK\n"}
+,{"stream_name":"stderr","time":21.035962779,"data":"ok\n"}
+,{"stream_name":"stderr","time":21.035984822,"data":"test_cotta_confidence_gate_and_logit_average (__main__.BaselineTests.test_cotta_confidence_gate_and_logit_average) ... ok\n"}
+,{"stream_name":"stderr","time":21.035990699,"data":"test_cotta_restore_and_teacher_update (__main__.BaselineTests.test_cotta_restore_and_teacher_update) ... ok\n"}
+,{"stream_name":"stderr","time":21.035995177,"data":"test_eata_fisher_penalty_and_weighted_entropy (__main__.BaselineTests.test_eata_fisher_penalty_and_weighted_entropy) ... ok\n"}
+,{"stream_name":"stderr","time":21.03599957,"data":"test_eata_rejects_redundant_pixels_without_optimizer_step (__main__.BaselineTests.test_eata_rejects_redundant_pixels_without_optimizer_step) ... ok\n"}
+,{"stream_name":"stderr","time":21.036003716,"data":"test_empty_reliability_filter_is_finite_and_does_not_update (__main__.BaselineTests.test_empty_reliability_filter_is_finite_and_does_not_update) ... ok\n"}
+,{"stream_name":"stderr","time":21.036007565,"data":"test_fisher_source_only_nonnegative_and_no_mutation (__main__.BaselineTests.test_fisher_source_only_nonnegative_and_no_mutation) ... ok\n"}
+,{"stream_name":"stderr","time":21.036011534,"data":"test_only_bn_parameters_change_for_entropy_methods (__main__.BaselineTests.test_only_bn_parameters_change_for_entropy_methods) ... ok\n"}
+,{"stream_name":"stderr","time":21.036015944,"data":"test_predict_does_not_update_weights (__main__.BaselineTests.test_predict_does_not_update_weights) ... ok\n"}
+,{"stream_name":"stderr","time":21.03602041,"data":"test_sar_augmentation_inverse_preserves_spatial_pattern (__main__.BaselineTests.test_sar_augmentation_inverse_preserves_spatial_pattern) ... ok\n"}
+,{"stream_name":"stderr","time":21.036025066,"data":"test_sar_recovers_model_optimizer_and_entropy_state (__main__.BaselineTests.test_sar_recovers_model_optimizer_and_entropy_state) ... ok\n"}
+,{"stream_name":"stderr","time":21.0360298,"data":"test_sar_restores_perturbation_on_exception (__main__.BaselineTests.test_sar_restores_perturbation_on_exception) ... ok\n"}
+,{"stream_name":"stderr","time":21.036034351,"data":"test_sar_restores_perturbation_when_second_filter_empty (__main__.BaselineTests.test_sar_restores_perturbation_when_second_filter_empty) ... ok\n"}
+,{"stream_name":"stderr","time":21.036038646,"data":"test_source_holdout_filter_and_named_sensitivities (__main__.BaselineTests.test_source_holdout_filter_and_named_sensitivities) ... ok\n"}
+,{"stream_name":"stderr","time":21.036060017,"data":"test_tent_matches_one_manual_entropy_step (__main__.BaselineTests.test_tent_matches_one_manual_entropy_step) ... ok\n"}
+,{"stream_name":"stderr","time":21.036063329,"data":"\n"}
+,{"stream_name":"stderr","time":21.036065911,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":21.03606866,"data":"Ran 15 tests in 5.345s\n"}
+,{"stream_name":"stderr","time":21.036071229,"data":"\n"}
+,{"stream_name":"stderr","time":21.036073779,"data":"OK\n"}
+,{"stream_name":"stderr","time":21.036076282,"data":"\n"}
+,{"stream_name":"stderr","time":21.036078802,"data":"ok\n"}
+,{"stream_name":"stderr","time":21.036083075,"data":"test_cotta_confidence_gate_and_logit_average (__main__.BaselineTests.test_cotta_confidence_gate_and_logit_average) ... ok\n"}
+,{"stream_name":"stderr","time":21.036086028,"data":"test_cotta_restore_and_teacher_update (__main__.BaselineTests.test_cotta_restore_and_teacher_update) ... ok\n"}
+,{"stream_name":"stderr","time":21.036088885,"data":"test_eata_fisher_penalty_and_weighted_entropy (__main__.BaselineTests.test_eata_fisher_penalty_and_weighted_entropy) ... ok\n"}
+,{"stream_name":"stderr","time":21.036091682,"data":"test_eata_rejects_redundant_pixels_without_optimizer_step (__main__.BaselineTests.test_eata_rejects_redundant_pixels_without_optimizer_step) ... ok\n"}
+,{"stream_name":"stderr","time":21.036094503,"data":"test_empty_reliability_filter_is_finite_and_does_not_update (__main__.BaselineTests.test_empty_reliability_filter_is_finite_and_does_not_update) ... ok\n"}
+,{"stream_name":"stderr","time":21.036097313,"data":"test_fisher_source_only_nonnegative_and_no_mutation (__main__.BaselineTests.test_fisher_source_only_nonnegative_and_no_mutation) ... ok\n"}
+,{"stream_name":"stderr","time":21.036100077,"data":"test_only_bn_parameters_change_for_entropy_methods (__main__.BaselineTests.test_only_bn_parameters_change_for_entropy_methods) ... ok\n"}
+,{"stream_name":"stderr","time":21.036102863,"data":"test_predict_does_not_update_weights (__main__.BaselineTests.test_predict_does_not_update_weights) ... ok\n"}
+,{"stream_name":"stderr","time":21.036105575,"data":"test_sar_augmentation_inverse_preserves_spatial_pattern (__main__.BaselineTests.test_sar_augmentation_inverse_preserves_spatial_pattern) ... ok\n"}
+,{"stream_name":"stderr","time":21.036108357,"data":"test_sar_recovers_model_optimizer_and_entropy_state (__main__.BaselineTests.test_sar_recovers_model_optimizer_and_entropy_state) ... ok\n"}
+,{"stream_name":"stderr","time":21.036111143,"data":"test_sar_restores_perturbation_on_exception (__main__.BaselineTests.test_sar_restores_perturbation_on_exception) ... ok\n"}
+,{"stream_name":"stderr","time":21.036114031,"data":"test_sar_restores_perturbation_when_second_filter_empty (__main__.BaselineTests.test_sar_restores_perturbation_when_second_filter_empty) ... ok\n"}
+,{"stream_name":"stderr","time":21.036116832,"data":"test_source_holdout_filter_and_named_sensitivities (__main__.BaselineTests.test_source_holdout_filter_and_named_sensitivities) ... ok\n"}
+,{"stream_name":"stderr","time":21.036119617,"data":"test_tent_matches_one_manual_entropy_step (__main__.BaselineTests.test_tent_matches_one_manual_entropy_step) ... ok\n"}
+,{"stream_name":"stderr","time":21.036122536,"data":"\n"}
+,{"stream_name":"stderr","time":21.036125012,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":21.036127722,"data":"Ran 15 tests in 5.345s\n"}
+,{"stream_name":"stderr","time":21.036130329,"data":"\n"}
+,{"stream_name":"stderr","time":21.036132842,"data":"OK\n"}
+,{"stream_name":"stdout","time":23.515250031,"data":"$ /usr/bin/python3 -m pip install -q rasterio\n"}
+,{"stream_name":"stdout","time":28.532369658,"data":"override: ks_download.py\n"}
+,{"stream_name":"stdout","time":28.53346787,"data":"override: baselines_v2.py\n"}
+,{"stream_name":"stdout","time":28.534384897,"data":"override: ks_eval.py\n"}
+,{"stream_name":"stdout","time":28.535167537,"data":"override: sen1floods11_unet_baseline.py\n"}
+,{"stream_name":"stdout","time":28.535953561,"data":"override: run_kaggle.py\n"}
+,{"stream_name":"stdout","time":28.537180558,"data":"override: conformal_px1.py\n"}
+,{"stream_name":"stdout","time":28.538102736,"data":"override: tta_px1.py\n"}
+,{"stream_name":"stdout","time":28.539047748,"data":"override: train_px1.py\n"}
+,{"stream_name":"stdout","time":28.539971172,"data":"override: dem_fetch.py\n"}
+,{"stream_name":"stdout","time":28.540818901,"data":"override: eval_baselines_v2.py\n"}
+,{"stream_name":"stdout","time":28.541598357,"data":"override: download_sen1floods11.py\n"}
+,{"stream_name":"stdout","time":28.542343495,"data":"override: ks_events.json\n"}
+,{"stream_name":"stdout","time":28.543666817,"data":"override: mm_prep.py\n"}
+,{"stream_name":"stdout","time":28.544549236,"data":"override: mm_eval.py\n"}
+,{"stream_name":"stdout","time":28.545281657,"data":"override: verify_baseline_outputs.py\n"}
+,{"stream_name":"stdout","time":28.545974861,"data":"override: test_baselines_v2.py\n"}
+,{"stream_name":"stdout","time":28.547173676,"data":"override: hand_fetch.py\n"}
+,{"stream_name":"stdout","time":40.071543071,"data":"bundle: /kaggle/input/datasets/mahim2580/px1-flood-bundle/px1_part1_code_models/code; 28 models\n"}
+,{"stream_name":"stdout","time":40.072335764,"data":"$ /usr/bin/python3 -u download_sen1floods11.py --out data --workers 16\n"}
+,{"stream_name":"stdout","time":60.865602053,"data":"$ /usr/bin/python3 -u dem_fetch.py --data data --workers 16\n"}
+,{"stream_name":"stdout","time":88.166768692,"data":"$ /usr/bin/python3 -u ks_download.py --splits test_GRD train_GRD --step-mb 512 --k 6\n"}
+,{"stream_name":"stdout","time":432.975994355,"data":"$ /usr/bin/python3 -u hand_fetch.py --data data --ks data_ks --workers 16\n"}
+,{"stream_name":"stdout","time":547.904144853,"data":"setup done in 9 min\n"}
+,{"stream_name":"stdout","time":580.365811844,"data":"{\n"}
+,{"stream_name":"stdout","time":580.365863,"data":"  \"dataset\": \"ks\",\n"}
+,{"stream_name":"stdout","time":580.36586943,"data":"  \"seed\": 0,\n"}
+,{"stream_name":"stdout","time":580.365874636,"data":"  \"mode\": \"smoke\",\n"}
+,{"stream_name":"stdout","time":580.365879521,"data":"  \"events\": 1,\n"}
+,{"stream_name":"stdout","time":580.36588362,"data":"  \"methods\": [\n"}
+,{"stream_name":"stdout","time":580.365887761,"data":"    \"none\",\n"}
+,{"stream_name":"stdout","time":580.365891853,"data":"    \"adabn\",\n"}
+,{"stream_name":"stdout","time":580.365896023,"data":"    \"adabn_physa\",\n"}
+,{"stream_name":"stdout","time":580.365900128,"data":"    \"tent_v2\",\n"}
+,{"stream_name":"stdout","time":580.365904172,"data":"    \"eata_v2\",\n"}
+,{"stream_name":"stdout","time":580.365914948,"data":"    \"sar_v2\",\n"}
+,{"stream_name":"stdout","time":580.365919725,"data":"    \"cotta_v2\",\n"}
+,{"stream_name":"stdout","time":580.365929665,"data":"    \"eata_v2_d09\",\n"}
+,{"stream_name":"stdout","time":580.365933145,"data":"    \"sar_v2_scaled\"\n"}
+,{"stream_name":"stdout","time":580.365935937,"data":"  ],\n"}
+,{"stream_name":"stdout","time":580.365938611,"data":"  \"histogram_files\": 9,\n"}
+,{"stream_name":"stdout","time":580.365941446,"data":"  \"status\": \"verified\"\n"}
+,{"stream_name":"stdout","time":580.365970882,"data":"}\n"}
+,{"stream_name":"stdout","time":580.573185145,"data":"{\n"}
+,{"stream_name":"stdout","time":580.573211537,"data":"  \"dataset\": \"ks\",\n"}
+,{"stream_name":"stdout","time":580.573216003,"data":"  \"seed\": 0,\n"}
+,{"stream_name":"stdout","time":580.573219589,"data":"  \"mode\": \"smoke\",\n"}
+,{"stream_name":"stdout","time":580.573223033,"data":"  \"events\": 1,\n"}
+,{"stream_name":"stdout","time":580.573226701,"data":"  \"methods\": [\n"}
+,{"stream_name":"stdout","time":580.573230344,"data":"    \"none\",\n"}
+,{"stream_name":"stdout","time":580.573252645,"data":"    \"adabn\",\n"}
+,{"stream_name":"stdout","time":580.573256586,"data":"    \"adabn_physa\",\n"}
+,{"stream_name":"stdout","time":580.573262271,"data":"    \"tent_v2\",\n"}
+,{"stream_name":"stdout","time":580.573266396,"data":"    \"eata_v2\",\n"}
+,{"stream_name":"stdout","time":580.573269641,"data":"    \"sar_v2\",\n"}
+,{"stream_name":"stdout","time":580.573273019,"data":"    \"cotta_v2\",\n"}
+,{"stream_name":"stdout","time":580.573276377,"data":"    \"eata_v2_d09\",\n"}
+,{"stream_name":"stdout","time":580.573279857,"data":"    \"sar_v2_scaled\"\n"}
+,{"stream_name":"stdout","time":580.573283609,"data":"  ],\n"}
+,{"stream_name":"stdout","time":580.573286942,"data":"  \"histogram_files\": 9,\n"}
+,{"stream_name":"stdout","time":580.573290308,"data":"  \"status\": \"verified\"\n"}
+,{"stream_name":"stdout","time":580.573294019,"data":"}\n"}
+,{"stream_name":"stdout","time":580.712763149,"data":"Completed smoke_seed0\n"}
+,{"stream_name":"stdout","time":580.714407929,"data":"BASELINES_V2_NOTEBOOK_DONE /kaggle/working/baselines_v2/20261112T141344Z_18bb5d28\n"}
+,{"stream_name":"stderr","time":583.667592149,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":583.667619811,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":583.830875206,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":583.830915443,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":584.56654865,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":584.643646142,"data":"[NbConvertApp] Writing 158555 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":587.088394888,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":587.631478938,"data":"[NbConvertApp] Writing 617622 bytes to __results__.html\n"}
+]

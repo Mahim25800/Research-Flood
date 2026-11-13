@@ -1,0 +1,40 @@
+S1Hand: 446 files, 729 MB
+LabelHand: 446 files, 3 MB
+flood_handlabeled: 4 files, 0 MB
+100/896 files
+200/896 files
+300/896 files
+400/896 files
+500/896 files
+600/896 files
+700/896 files
+800/896 files
+896/896 files
+Download complete.
+DEM: 446 new chips of 446
+DEM_DONE
+test_GRD: 12 shards, 114 GB
+  shard-00000: events {'118': 12, '130': 6, '147': 42, '267': 12, '273': 6, '275': 30, '277': 18}  | 0.28 GB in 0 min (12.9 MB/s)
+  shard-00001: events {'277': 18, '279': 54, '321': 6, '324': 12, '417': 12, '421': 6, '427': 18}  | 0.56 GB in 1 min (12.4 MB/s)
+  shard-00002: events {'427': 90, '437': 6, '445': 6, '470': 18, '492': 6}  | 0.84 GB in 1 min (12.4 MB/s)
+  shard-00003: events {'492': 6, '497': 12, '498': 6, '502': 30, '518': 24, '555': 48}  | 1.12 GB in 2 min (12.5 MB/s)
+  shard-00004: events {'555': 18, '567': 6, '1111004': 102}  | 1.39 GB in 2 min (12.8 MB/s)
+  shard-00005: events {'1111004': 6, '1111005': 24, '1111006': 18, '1111007': 78}  | 1.67 GB in 2 min (12.8 MB/s)
+  shard-00006: events {'1111007': 6, '1111008': 6, '1111009': 114}  | 1.95 GB in 3 min (12.8 MB/s)
+  shard-00007: events {'1111009': 126}  | 2.23 GB in 3 min (12.8 MB/s)
+  shard-00008: events {'1111009': 126}  | 2.51 GB in 3 min (12.9 MB/s)
+  shard-00009: events {'1111009': 24, '1111010': 12, '1111011': 66, '1111013': 24}  | 2.79 GB in 4 min (12.9 MB/s)
+  shard-00010: events {'1111013': 126}  | 3.07 GB in 4 min (12.8 MB/s)
+  shard-00011: events {'1111013': 36}  | 3.15 GB in 4 min (12.8 MB/s)
+train_GRD: 5 shards, 44 GB
+  shard-00000: events {'470': 6, '492': 6, '497': 6, '498': 6, '502': 6, '518': 6, '554': 6, '555': 12, '567': 6, '1111004': 66}  | 3.43 GB in 5 min (12.8 MB/s)
+  shard-00001: events {'1111004': 18, '1111005': 12, '1111006': 8, '1111007': 46, '1111008': 6, '1111009': 36}  | 3.71 GB in 5 min (12.9 MB/s)
+  shard-00002: events {'1111009': 120, '1111010': 6}  | 3.98 GB in 5 min (12.9 MB/s)
+  shard-00003: events {'1111010': 6, '1111011': 30, '1111013': 90}  | 4.26 GB in 6 min (12.9 MB/s)
+  shard-00004: events {'1111013': 36}  | 4.34 GB in 6 min (12.9 MB/s)
+KS_DOWNLOAD_DONE
+HAND layout ok: https://glo-30-hand.s3.us-west-2.amazonaws.com/v1/2021/Copernicus_DSM_COG_10_N23_00_E090_00_HAND.tif  mean 1.37 m, size 57 MB
+Sen1Floods11: 446 new HAND chips (446 total)
+Kuro Siwo: 1962 new HAND chips (1962 total)
+chips with no HAND coverage (all sea or failed): 0
+HAND_DONE

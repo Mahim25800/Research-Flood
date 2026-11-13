@@ -1,0 +1,13 @@
+MMFlood smoke indexed 333 regions; downloading eligible regions on demand
+metadata example: ('EMSR446', {'title': 'Flood in Uganda', 'type': 'Flood', 'country': 'Uganda', 'start': '2020-07-21T07:59:00', 'end': '2020-07-28T14:20:43', 'lat': 0.6297645012334081, 'lon': 30.7828640247248, 'subset': 'train', 'delineations': ['EMSR446_AOI01_DEL_PRODUCT_r1_VECTORS_v2_vector.zip', 'EMSR446_AOI03_DEL_PRODUCT_r1_VECTORS_v1_vector.zip', 'EMSR446_AOI02_DEL_PRODUCT_r1_VECTORS_v1_vector.zip']})
+333 activations; 144 excluded for overlap; 189 kept
+HAND layout ok: https://glo-30-hand.s3.us-west-2.amazonaws.com/v1/2021/Copernicus_DSM_COG_10_N23_00_E090_00_HAND.tif  mean 1.37 m, size 57 MB
+Fetching MMFlood smoke candidate EMSR107-1: 2 radar scenes
+MMFlood smoke transferred 5.7 MiB from ZIP
+Fetching MMFlood smoke candidate EMSR107-2: 2 radar scenes
+MMFlood smoke transferred 13.7 MiB from ZIP
+Fetching MMFlood smoke candidate EMSR107-5: 18 radar scenes
+MMFlood smoke transferred 136.9 MiB from ZIP
+  EMSR107-5 (Slovenia): 44 chips, water px 430302, dry px 11080801
+MMFlood: 1 events, 44 chips
+MM_PREP_DONE

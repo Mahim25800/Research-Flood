@@ -1,0 +1,36 @@
+{
+  "schema": "px1-baselines-v2-run",
+  "dataset": "mm",
+  "mode": "smoke",
+  "status": "completed",
+  "run_id": "20261112T185715Z_383fce57",
+  "files": {
+    "conformal_px1.py": "ba07bbcb7668c9f70f4c087b8e41f09409c0d35cb2d6684c06ba0a2faf4b0f86",
+    "tta_px1.py": "14315c959be6081d03c7e1dded36828971916ef29bd659d0cb4dd86cd79e2d55",
+    "ks_eval.py": "6ed8e7fb7a1cf2449de05aa36b679aaa8b510b4da94a9e240cae0cc78d8c5b73",
+    "sen1floods11_unet_baseline.py": "1972f5127eb34a2a5b3f9e8f35edd1f83053c529b2073d3cf38d43bf1c3e3662",
+    "train_px1.py": "a92d1c6a49dcbe472ee80f84ed9c5fc22cb4b5f3bd463f6334e357ae11ab4ba0",
+    "download_sen1floods11.py": "d89b9295746cae1b36279fc20bd32717d14e76475c3d3730c468efa09356ef5d",
+    "dem_fetch.py": "9f7cc67bb569256cb154ee8295703d7613cc4690c564cdd069e625eaefacff69",
+    "hand_fetch.py": "6d1a3b7903d41396ef7ac102ae1352adae45b8aef1c15d400a8d662f62417054",
+    "ks_download.py": "e79525d43af90f825b4ffe4c62d04299f93c9da62c57ab1819f0457e2529ff60",
+    "baselines_v2.py": "4dde554782cc5ad7e525b15331118f7d1ef121278db0daec92b9c9da196af452",
+    "eval_baselines_v2.py": "579a36126c21c26fb6d1ca2b4d1118739de6dd9acce024be579bfa90db499bc4",
+    "test_baselines_v2.py": "fc031dc4f0f1a7b267603ad8f32e3680a6cb89b937cfba8bdc981ccb8a8f9f77",
+    "verify_baseline_outputs.py": "d03ad1fe8840dcca5e8c8081f76c5becfcf7f7711064711083afcdabaee2fbbe",
+    "mm_eval.py": "e0e12e7f2263d009b41d7fd03a4599846ba4d6988dd2ad80d7c0367567af44e5",
+    "mm_prep.py": "dba32d00cb0740a8aeedfa85fdfaf62e4ede82d625816d1649c210f2e2dc4b5a",
+    "mm_range_zip.py": "bfc99c9c387254b792555f77e790180c46f396e1113303cec731d423c939a964",
+    "ks_events.json": "16a92d6ad5815b863f9acdece74f709153d4abdd859e0faa278afce5a8d2ed2e",
+    "run_kaggle.py": "6ce53a4b47c0335caaa22c3fe73990a86f54efd8ed9e8e2db3d6ba6dc3bf05c3"
+  },
+  "jobs": [
+    {
+      "name": "smoke_seed0",
+      "status": "completed"
+    }
+  ],
+  "cuda": "13.0",
+  "torch": "2.11.0+cu130",
+  "seconds": 353.50683006500003
+}

@@ -1,0 +1,12 @@
+EMSR107-5 none {'comparison_control': True, 'seconds': 0.35150214700001925}
+EMSR107-5 adabn {'comparison_control': True, 'seconds': 3.835006053000029}
+    adaptive dark thresholds VV -15.0 dB, VH -22.0 dB; HAND for 2/2 chips
+    pseudo-labelled share of pixels 0.793
+EMSR107-5 adabn_physa {'comparison_control': True, 'seconds': 6.202643529000056}
+EMSR107-5 tent_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 0, 'selected_pixels': 0, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.4585465950000298}
+EMSR107-5 eata_v2 {'steps': 2, 'updates': 1, 'skipped': 1, 'reliable_pixels': 782409, 'selected_pixels': 386888, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.5720938179999848}
+EMSR107-5 sar_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 781952, 'selected_pixels': 770892, 'recoveries': 2, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.7958975090000422}
+EMSR107-5 cotta_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 0, 'selected_pixels': 0, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 4, 'seconds': 0.9747541500000807}
+EMSR107-5 eata_v2_d09 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 782409, 'selected_pixels': 386892, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.4749948390000327}
+EMSR107-5 sar_v2_scaled {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 782450, 'selected_pixels': 771485, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.7684366080000018}
+BASELINES_V2_DONE

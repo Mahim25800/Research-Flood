@@ -1,0 +1,15 @@
+{
+  "id": "mahim2580/px1-baselines-v2-ks-full",
+  "title": "PX1 baselines v2 KS full",
+  "code_file": "ks_full.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "mahim2580/px1-flood-bundle"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

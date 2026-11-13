@@ -1,0 +1,161 @@
+[{"stream_name":"stderr","time":7.746822639,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.746866764,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":8.827942735,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.827987382,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.827992978,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.827996812,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.490431556,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.490479761,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.490484874,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.490489002,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":20.570816912,"data":"test_all_baselines_finite_and_source_unchanged (__main__.BaselineTests.test_all_baselines_finite_and_source_unchanged) ... test_all_baselines_finite_and_source_unchanged (__main__.BaselineTests.test_all_baselines_finite_and_source_unchanged) ... \n"}
+,{"stream_name":"stderr","time":26.506054218,"data":"test_all_baselines_finite_and_source_unchanged (__main__.BaselineTests.test_all_baselines_finite_and_source_unchanged) ... ok\n"}
+,{"stream_name":"stderr","time":26.519463723,"data":"test_cotta_confidence_gate_and_logit_average (__main__.BaselineTests.test_cotta_confidence_gate_and_logit_average) ... ok\n"}
+,{"stream_name":"stderr","time":26.532548572,"data":"test_cotta_restore_and_teacher_update (__main__.BaselineTests.test_cotta_restore_and_teacher_update) ... ok\n"}
+,{"stream_name":"stderr","time":26.539282666,"data":"test_eata_fisher_penalty_and_weighted_entropy (__main__.BaselineTests.test_eata_fisher_penalty_and_weighted_entropy) ... ok\n"}
+,{"stream_name":"stderr","time":26.553107641,"data":"test_eata_rejects_redundant_pixels_without_optimizer_step (__main__.BaselineTests.test_eata_rejects_redundant_pixels_without_optimizer_step) ... ok\n"}
+,{"stream_name":"stderr","time":26.561598555,"data":"test_empty_reliability_filter_is_finite_and_does_not_update (__main__.BaselineTests.test_empty_reliability_filter_is_finite_and_does_not_update) ... ok\n"}
+,{"stream_name":"stderr","time":26.56890904,"data":"test_fisher_source_only_nonnegative_and_no_mutation (__main__.BaselineTests.test_fisher_source_only_nonnegative_and_no_mutation) ... ok\n"}
+,{"stream_name":"stderr","time":26.583697757,"data":"test_only_bn_parameters_change_for_entropy_methods (__main__.BaselineTests.test_only_bn_parameters_change_for_entropy_methods) ... ok\n"}
+,{"stream_name":"stderr","time":26.597808407,"data":"test_predict_does_not_update_weights (__main__.BaselineTests.test_predict_does_not_update_weights) ... ok\n"}
+,{"stream_name":"stderr","time":26.612113653,"data":"test_sar_augmentation_inverse_preserves_spatial_pattern (__main__.BaselineTests.test_sar_augmentation_inverse_preserves_spatial_pattern) ... ok\n"}
+,{"stream_name":"stderr","time":26.619655468,"data":"test_sar_recovers_model_optimizer_and_entropy_state (__main__.BaselineTests.test_sar_recovers_model_optimizer_and_entropy_state) ... ok\n"}
+,{"stream_name":"stderr","time":26.626853039,"data":"test_sar_restores_perturbation_on_exception (__main__.BaselineTests.test_sar_restores_perturbation_on_exception) ... ok\n"}
+,{"stream_name":"stderr","time":26.633666141,"data":"test_sar_restores_perturbation_when_second_filter_empty (__main__.BaselineTests.test_sar_restores_perturbation_when_second_filter_empty) ... ok\n"}
+,{"stream_name":"stderr","time":26.641548594,"data":"test_source_holdout_filter_and_named_sensitivities (__main__.BaselineTests.test_source_holdout_filter_and_named_sensitivities) ... ok\n"}
+,{"stream_name":"stderr","time":26.649268886,"data":"test_tent_matches_one_manual_entropy_step (__main__.BaselineTests.test_tent_matches_one_manual_entropy_step) ... ok\n"}
+,{"stream_name":"stderr","time":26.649282719,"data":"\n"}
+,{"stream_name":"stderr","time":26.649427098,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":26.64943524,"data":"Ran 15 tests in 6.282s\n"}
+,{"stream_name":"stderr","time":26.649439066,"data":"\n"}
+,{"stream_name":"stderr","time":26.649442503,"data":"OK\n"}
+,{"stream_name":"stderr","time":26.708496076,"data":"ok\n"}
+,{"stream_name":"stderr","time":26.708515584,"data":"test_cotta_confidence_gate_and_logit_average (__main__.BaselineTests.test_cotta_confidence_gate_and_logit_average) ... ok\n"}
+,{"stream_name":"stderr","time":26.708520403,"data":"test_cotta_restore_and_teacher_update (__main__.BaselineTests.test_cotta_restore_and_teacher_update) ... ok\n"}
+,{"stream_name":"stderr","time":26.708523987,"data":"test_eata_fisher_penalty_and_weighted_entropy (__main__.BaselineTests.test_eata_fisher_penalty_and_weighted_entropy) ... ok\n"}
+,{"stream_name":"stderr","time":26.708528575,"data":"test_eata_rejects_redundant_pixels_without_optimizer_step (__main__.BaselineTests.test_eata_rejects_redundant_pixels_without_optimizer_step) ... ok\n"}
+,{"stream_name":"stderr","time":26.708532557,"data":"test_empty_reliability_filter_is_finite_and_does_not_update (__main__.BaselineTests.test_empty_reliability_filter_is_finite_and_does_not_update) ... ok\n"}
+,{"stream_name":"stderr","time":26.708536333,"data":"test_fisher_source_only_nonnegative_and_no_mutation (__main__.BaselineTests.test_fisher_source_only_nonnegative_and_no_mutation) ... ok\n"}
+,{"stream_name":"stderr","time":26.708540032,"data":"test_only_bn_parameters_change_for_entropy_methods (__main__.BaselineTests.test_only_bn_parameters_change_for_entropy_methods) ... ok\n"}
+,{"stream_name":"stderr","time":26.70854351,"data":"test_predict_does_not_update_weights (__main__.BaselineTests.test_predict_does_not_update_weights) ... ok\n"}
+,{"stream_name":"stderr","time":26.708546835,"data":"test_sar_augmentation_inverse_preserves_spatial_pattern (__main__.BaselineTests.test_sar_augmentation_inverse_preserves_spatial_pattern) ... ok\n"}
+,{"stream_name":"stderr","time":26.708550217,"data":"test_sar_recovers_model_optimizer_and_entropy_state (__main__.BaselineTests.test_sar_recovers_model_optimizer_and_entropy_state) ... ok\n"}
+,{"stream_name":"stderr","time":26.708554022,"data":"test_sar_restores_perturbation_on_exception (__main__.BaselineTests.test_sar_restores_perturbation_on_exception) ... ok\n"}
+,{"stream_name":"stderr","time":26.708557249,"data":"test_sar_restores_perturbation_when_second_filter_empty (__main__.BaselineTests.test_sar_restores_perturbation_when_second_filter_empty) ... ok\n"}
+,{"stream_name":"stderr","time":26.708560769,"data":"test_source_holdout_filter_and_named_sensitivities (__main__.BaselineTests.test_source_holdout_filter_and_named_sensitivities) ... ok\n"}
+,{"stream_name":"stderr","time":26.708583934,"data":"test_tent_matches_one_manual_entropy_step (__main__.BaselineTests.test_tent_matches_one_manual_entropy_step) ... ok\n"}
+,{"stream_name":"stderr","time":26.708589665,"data":"\n"}
+,{"stream_name":"stderr","time":26.708597624,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":26.708600031,"data":"Ran 15 tests in 6.282s\n"}
+,{"stream_name":"stderr","time":26.708602241,"data":"\n"}
+,{"stream_name":"stderr","time":26.70860444,"data":"OK\n"}
+,{"stream_name":"stderr","time":26.708606578,"data":"\n"}
+,{"stream_name":"stderr","time":26.708608796,"data":"ok\n"}
+,{"stream_name":"stderr","time":26.708612207,"data":"test_cotta_confidence_gate_and_logit_average (__main__.BaselineTests.test_cotta_confidence_gate_and_logit_average) ... ok\n"}
+,{"stream_name":"stderr","time":26.708614721,"data":"test_cotta_restore_and_teacher_update (__main__.BaselineTests.test_cotta_restore_and_teacher_update) ... ok\n"}
+,{"stream_name":"stderr","time":26.70861712,"data":"test_eata_fisher_penalty_and_weighted_entropy (__main__.BaselineTests.test_eata_fisher_penalty_and_weighted_entropy) ... ok\n"}
+,{"stream_name":"stderr","time":26.708619532,"data":"test_eata_rejects_redundant_pixels_without_optimizer_step (__main__.BaselineTests.test_eata_rejects_redundant_pixels_without_optimizer_step) ... ok\n"}
+,{"stream_name":"stderr","time":26.708621958,"data":"test_empty_reliability_filter_is_finite_and_does_not_update (__main__.BaselineTests.test_empty_reliability_filter_is_finite_and_does_not_update) ... ok\n"}
+,{"stream_name":"stderr","time":26.708624479,"data":"test_fisher_source_only_nonnegative_and_no_mutation (__main__.BaselineTests.test_fisher_source_only_nonnegative_and_no_mutation) ... ok\n"}
+,{"stream_name":"stderr","time":26.708626848,"data":"test_only_bn_parameters_change_for_entropy_methods (__main__.BaselineTests.test_only_bn_parameters_change_for_entropy_methods) ... ok\n"}
+,{"stream_name":"stderr","time":26.708629256000002,"data":"test_predict_does_not_update_weights (__main__.BaselineTests.test_predict_does_not_update_weights) ... ok\n"}
+,{"stream_name":"stderr","time":26.708631601,"data":"test_sar_augmentation_inverse_preserves_spatial_pattern (__main__.BaselineTests.test_sar_augmentation_inverse_preserves_spatial_pattern) ... ok\n"}
+,{"stream_name":"stderr","time":26.708634081,"data":"test_sar_recovers_model_optimizer_and_entropy_state (__main__.BaselineTests.test_sar_recovers_model_optimizer_and_entropy_state) ... ok\n"}
+,{"stream_name":"stderr","time":26.708636466,"data":"test_sar_restores_perturbation_on_exception (__main__.BaselineTests.test_sar_restores_perturbation_on_exception) ... ok\n"}
+,{"stream_name":"stderr","time":26.708638897,"data":"test_sar_restores_perturbation_when_second_filter_empty (__main__.BaselineTests.test_sar_restores_perturbation_when_second_filter_empty) ... ok\n"}
+,{"stream_name":"stderr","time":26.708641287,"data":"test_source_holdout_filter_and_named_sensitivities (__main__.BaselineTests.test_source_holdout_filter_and_named_sensitivities) ... ok\n"}
+,{"stream_name":"stderr","time":26.708643678,"data":"test_tent_matches_one_manual_entropy_step (__main__.BaselineTests.test_tent_matches_one_manual_entropy_step) ... ok\n"}
+,{"stream_name":"stderr","time":26.708646075,"data":"\n"}
+,{"stream_name":"stderr","time":26.708648293,"data":"----------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":26.708650621,"data":"Ran 15 tests in 6.282s\n"}
+,{"stream_name":"stderr","time":26.708652868,"data":"\n"}
+,{"stream_name":"stderr","time":26.708655026,"data":"OK\n"}
+,{"stream_name":"stdout","time":30.297368203,"data":"$ /usr/bin/python3 -m pip install -q rasterio\n"}
+,{"stream_name":"stdout","time":35.862677395,"data":"override: ks_download.py\n"}
+,{"stream_name":"stdout","time":35.863718346,"data":"override: baselines_v2.py\n"}
+,{"stream_name":"stdout","time":35.864588171,"data":"override: ks_eval.py\n"}
+,{"stream_name":"stdout","time":35.865557714,"data":"override: sen1floods11_unet_baseline.py\n"}
+,{"stream_name":"stdout","time":35.866470225,"data":"override: run_kaggle.py\n"}
+,{"stream_name":"stdout","time":35.867447443,"data":"override: conformal_px1.py\n"}
+,{"stream_name":"stdout","time":35.868452183,"data":"override: tta_px1.py\n"}
+,{"stream_name":"stdout","time":35.869221721,"data":"override: train_px1.py\n"}
+,{"stream_name":"stdout","time":35.869911078,"data":"override: dem_fetch.py\n"}
+,{"stream_name":"stdout","time":35.87121004,"data":"override: eval_baselines_v2.py\n"}
+,{"stream_name":"stdout","time":35.872227035,"data":"override: download_sen1floods11.py\n"}
+,{"stream_name":"stdout","time":35.873207239,"data":"override: ks_events.json\n"}
+,{"stream_name":"stdout","time":35.874284917,"data":"override: mm_prep.py\n"}
+,{"stream_name":"stdout","time":35.875186118,"data":"override: mm_eval.py\n"}
+,{"stream_name":"stdout","time":35.876127723,"data":"override: verify_baseline_outputs.py\n"}
+,{"stream_name":"stdout","time":35.877074346,"data":"override: test_baselines_v2.py\n"}
+,{"stream_name":"stdout","time":35.878435968,"data":"override: hand_fetch.py\n"}
+,{"stream_name":"stdout","time":43.344608553,"data":"bundle: /kaggle/input/datasets/mahim2580/px1-flood-bundle/px1_part1_code_models/code; 28 models\n"}
+,{"stream_name":"stdout","time":43.345458641,"data":"$ /usr/bin/python3 -u download_sen1floods11.py --out data --workers 16\n"}
+,{"stream_name":"stdout","time":117.327261046,"data":"setup done in 1 min\n"}
+,{"stream_name":"stderr","time":120.059814321,"data":"/usr/local/lib/python3.13/dist-packages/rasterio/warp.py:390: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.\n"}
+,{"stream_name":"stderr","time":120.059855576,"data":"  dest = _reproject(\n"}
+,{"stream_name":"stderr","time":120.262068109,"data":"/usr/local/lib/python3.13/dist-packages/rasterio/warp.py:390: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.\n"}
+,{"stream_name":"stderr","time":120.26210829,"data":"  dest = _reproject(\n"}
+,{"stream_name":"stderr","time":120.262113045,"data":"\n"}
+,{"stream_name":"stderr","time":120.262116215,"data":"/usr/local/lib/python3.13/dist-packages/rasterio/warp.py:390: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.\n"}
+,{"stream_name":"stderr","time":120.262119637,"data":"  dest = _reproject(\n"}
+,{"stream_name":"stdout","time":154.848038263,"data":"DEM: 446 new chips of 446\n"}
+,{"stream_name":"stdout","time":154.848092689,"data":"DEM_DONE\n"}
+,{"stream_name":"stdout","time":155.055089026,"data":"DEM: 446 new chips of 446\n"}
+,{"stream_name":"stdout","time":155.055114586,"data":"DEM_DONE\n"}
+,{"stream_name":"stdout","time":160.58166845,"data":"HAND layout ok: https://glo-30-hand.s3.us-west-2.amazonaws.com/v1/2021/Copernicus_DSM_COG_10_N23_00_E090_00_HAND.tif  mean 1.37 m, size 57 MB\n"}
+,{"stream_name":"stdout","time":160.784339667,"data":"HAND layout ok: https://glo-30-hand.s3.us-west-2.amazonaws.com/v1/2021/Copernicus_DSM_COG_10_N23_00_E090_00_HAND.tif  mean 1.37 m, size 57 MB\n"}
+,{"stream_name":"stdout","time":389.530076022,"data":"Sen1Floods11: 446 new HAND chips (446 total)\n"}
+,{"stream_name":"stdout","time":389.530264257,"data":"chips with no HAND coverage (all sea or failed): 0\n"}
+,{"stream_name":"stdout","time":389.53029451,"data":"HAND_DONE\n"}
+,{"stream_name":"stdout","time":389.737524626,"data":"Sen1Floods11: 446 new HAND chips (446 total)\n"}
+,{"stream_name":"stdout","time":389.737546662,"data":"chips with no HAND coverage (all sea or failed): 0\n"}
+,{"stream_name":"stdout","time":389.737550035,"data":"HAND_DONE\n"}
+,{"stream_name":"stdout","time":432.435679642,"data":"{\n"}
+,{"stream_name":"stdout","time":432.43573145,"data":"  \"dataset\": \"s1f\",\n"}
+,{"stream_name":"stdout","time":432.435737559,"data":"  \"seed\": 0,\n"}
+,{"stream_name":"stdout","time":432.435742451,"data":"  \"mode\": \"smoke\",\n"}
+,{"stream_name":"stdout","time":432.43574749,"data":"  \"events\": 1,\n"}
+,{"stream_name":"stdout","time":432.435752212,"data":"  \"methods\": [\n"}
+,{"stream_name":"stdout","time":432.435756841,"data":"    \"none\",\n"}
+,{"stream_name":"stdout","time":432.435761355,"data":"    \"adabn\",\n"}
+,{"stream_name":"stdout","time":432.435766003,"data":"    \"adabn_physa\",\n"}
+,{"stream_name":"stdout","time":432.435770739,"data":"    \"tent_v2\",\n"}
+,{"stream_name":"stdout","time":432.435775297,"data":"    \"eata_v2\",\n"}
+,{"stream_name":"stdout","time":432.435779805,"data":"    \"sar_v2\",\n"}
+,{"stream_name":"stdout","time":432.435784266,"data":"    \"cotta_v2\",\n"}
+,{"stream_name":"stdout","time":432.435788727,"data":"    \"eata_v2_d09\",\n"}
+,{"stream_name":"stdout","time":432.435793117,"data":"    \"sar_v2_scaled\"\n"}
+,{"stream_name":"stdout","time":432.435797637,"data":"  ],\n"}
+,{"stream_name":"stdout","time":432.435802287,"data":"  \"histogram_files\": 9,\n"}
+,{"stream_name":"stdout","time":432.435806968,"data":"  \"status\": \"verified\"\n"}
+,{"stream_name":"stdout","time":432.435811805,"data":"}\n"}
+,{"stream_name":"stdout","time":432.642495638,"data":"{\n"}
+,{"stream_name":"stdout","time":432.642524301,"data":"  \"dataset\": \"s1f\",\n"}
+,{"stream_name":"stdout","time":432.642530806,"data":"  \"seed\": 0,\n"}
+,{"stream_name":"stdout","time":432.642535669,"data":"  \"mode\": \"smoke\",\n"}
+,{"stream_name":"stdout","time":432.642539934,"data":"  \"events\": 1,\n"}
+,{"stream_name":"stdout","time":432.642544482,"data":"  \"methods\": [\n"}
+,{"stream_name":"stdout","time":432.642548675,"data":"    \"none\",\n"}
+,{"stream_name":"stdout","time":432.642552908,"data":"    \"adabn\",\n"}
+,{"stream_name":"stdout","time":432.642559092,"data":"    \"adabn_physa\",\n"}
+,{"stream_name":"stdout","time":432.642566683,"data":"    \"tent_v2\",\n"}
+,{"stream_name":"stdout","time":432.642569572,"data":"    \"eata_v2\",\n"}
+,{"stream_name":"stdout","time":432.642572425,"data":"    \"sar_v2\",\n"}
+,{"stream_name":"stdout","time":432.642575174,"data":"    \"cotta_v2\",\n"}
+,{"stream_name":"stdout","time":432.642578027,"data":"    \"eata_v2_d09\",\n"}
+,{"stream_name":"stdout","time":432.642580851,"data":"    \"sar_v2_scaled\"\n"}
+,{"stream_name":"stdout","time":432.642583827,"data":"  ],\n"}
+,{"stream_name":"stdout","time":432.6425866,"data":"  \"histogram_files\": 9,\n"}
+,{"stream_name":"stdout","time":432.642589495,"data":"  \"status\": \"verified\"\n"}
+,{"stream_name":"stdout","time":432.642592468,"data":"}\n"}
+,{"stream_name":"stdout","time":432.781226257,"data":"Completed smoke_seed0\n"}
+,{"stream_name":"stdout","time":432.783011028,"data":"BASELINES_V2_NOTEBOOK_DONE /kaggle/working/baselines_v2/20261112T180617Z_c4aeae69\n"}
+,{"stream_name":"stderr","time":435.774508112,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":435.774550146,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":435.950560179,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":435.95060019699997,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":436.720782027,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":436.796283544,"data":"[NbConvertApp] Writing 159040 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":439.280604132,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":439.839452623,"data":"[NbConvertApp] Writing 618190 bytes to __results__.html\n"}
+]

@@ -1,0 +1,12 @@
+1111004 none {'comparison_control': True, 'seconds': 0.29315541699997993}
+1111004 adabn {'comparison_control': True, 'seconds': 3.014168834999964}
+    adaptive dark thresholds VV -15.0 dB, VH -22.0 dB; HAND for 2/2 chips
+    pseudo-labelled share of pixels 0.800
+1111004 adabn_physa {'comparison_control': True, 'seconds': 5.189375931999962}
+1111004 tent_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 0, 'selected_pixels': 0, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.30785839300006046}
+1111004 eata_v2 {'steps': 2, 'updates': 1, 'skipped': 1, 'reliable_pixels': 622153, 'selected_pixels': 305303, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.43566317300007995}
+1111004 sar_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 621452, 'selected_pixels': 615615, 'recoveries': 2, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.5690174009999964}
+1111004 cotta_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 0, 'selected_pixels': 0, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 4, 'seconds': 0.6512093669999786}
+1111004 eata_v2_d09 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 622153, 'selected_pixels': 334680, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.30987391400003617}
+1111004 sar_v2_scaled {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 622173, 'selected_pixels': 616388, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.5430390129999978}
+BASELINES_V2_DONE

@@ -1,0 +1,12 @@
+Bolivia none {'comparison_control': True, 'seconds': 0.41532240200001524}
+Bolivia adabn {'comparison_control': True, 'seconds': 3.8150220820000413}
+    adaptive dark thresholds VV -15.4 dB, VH -23.7 dB; HAND for 2/2 chips
+    pseudo-labelled share of pixels 0.506
+Bolivia adabn_physa {'comparison_control': True, 'seconds': 5.731369667999957}
+Bolivia tent_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 0, 'selected_pixels': 0, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.45434761000001345}
+Bolivia eata_v2 {'steps': 2, 'updates': 1, 'skipped': 1, 'reliable_pixels': 800836, 'selected_pixels': 460791, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.5941600390000303}
+Bolivia sar_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 799704, 'selected_pixels': 788277, 'recoveries': 2, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.7924172300000691}
+Bolivia cotta_v2 {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 0, 'selected_pixels': 0, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 4, 'seconds': 0.9612561229999983}
+Bolivia eata_v2_d09 {'steps': 2, 'updates': 1, 'skipped': 1, 'reliable_pixels': 800836, 'selected_pixels': 460791, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.37030638699991414}
+Bolivia sar_v2_scaled {'steps': 2, 'updates': 2, 'skipped': 0, 'reliable_pixels': 800826, 'selected_pixels': 789415, 'recoveries': 0, 'augmented_calls': 0, 'plain_calls': 0, 'seconds': 0.7674014120000265}
+BASELINES_V2_DONE

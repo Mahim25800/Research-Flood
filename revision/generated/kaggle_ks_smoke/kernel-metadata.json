@@ -1,0 +1,13 @@
+{
+  "id": "mahim2580/px1-baselines-v2-ks-smoke",
+  "title": "PX1 baselines v2 KS smoke",
+  "code_file": "ks_smoke.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["mahim2580/px1-flood-bundle"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

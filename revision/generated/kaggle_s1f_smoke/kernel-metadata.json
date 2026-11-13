@@ -1,0 +1,13 @@
+{
+  "id": "mahim2580/px1-baselines-v2-s1f-smoke",
+  "title": "PX1 baselines v2 S1F smoke",
+  "code_file": "s1f_smoke.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["mahim2580/px1-flood-bundle"],
+  "competition_sources": [],
+  "kernel_sources": []
+}
