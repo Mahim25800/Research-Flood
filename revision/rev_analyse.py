@@ -27,7 +27,7 @@ from scipy.stats import wilcoxon
 BINS = 1000
 ALPHAS = [0.1, 0.2, 0.3]
 QRULES = [(0.2, 0.2), (0.2, 0.1), (0.3, 0.2)]
-ORDER = ["none", "st", "tent", "eata", "sar", "cotta", "adabn", "phys", "physa", "adabn_phys", "adabn_physa", "ft"]
+ORDER = ["none", "st", "tent", "tent_batch", "eata", "sar", "cotta", "adabn", "phys", "physa", "adabn_phys", "adabn_physa", "ft"]
 GRID = [round(x, 2) for x in np.arange(0.04, 0.501, 0.02)]
 
 
@@ -119,7 +119,8 @@ def load(roots):
 
 def load_otsu(roots, sets):
     """Per flood: counts of the model-free Otsu split on VV [tp, fp, fn] and the number of labelled pixels.
-    (tp + fp) / pixels is the share of the flood's pixels on the dark side of its own Otsu split; it needs no label."""
+    This is darkness restricted to label-valid pixels, NOT a fully label-free
+    deployment statistic: both the support mask and denominator use labels."""
     out = {}
     pats = {"S1F": ("tta_hist*.npz", ()), "KS": ("ks_hist_m0_v2*.npz", ("r34", "sens", "r50", "_ft")),
             "MM": ("mm_hist_m0_p*.npz", ("r34", "r50", "_act"))}

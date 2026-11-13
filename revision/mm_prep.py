@@ -12,6 +12,7 @@ Writes data_mm/<event>/<chip>.npz (vv, vh dB float16; dem float32; hand float32;
 data_mm/index.csv and data_mm/excluded.csv. Prints MM_PREP_DONE.
 """
 import argparse
+from contextlib import ExitStack
 import csv
 import glob
 import json
@@ -19,6 +20,8 @@ import math
 import os
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path, PurePosixPath
+from zipfile import ZipFile
 
 os.environ.setdefault("GDAL_CACHEMAX", "256")
 import numpy as np
@@ -141,8 +144,31 @@ def main():
     ap.add_argument("--data", default="data")
     ap.add_argument("--ks-events", default="ks_events.json")
     ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--smoke", action="store_true", help="Fetch only enough eligible regions to prepare one smoke region")
     a = ap.parse_args()
-    meta_path, dirs = download(a.raw)
+    with ExitStack() as stack:
+        prepare(a, stack)
+
+
+def prepare(a, stack):
+    if a.smoke:
+        from mm_range_zip import RangeFile, read_member
+
+        source = stack.enter_context(RangeFile(URL))
+        archive = stack.enter_context(ZipFile(source))
+        members = set(archive.namelist())
+        radar = {}
+        for name in sorted(members):
+            path = PurePosixPath(name)
+            if path.suffix == '.tif' and path.parent.name == 's1_raw':
+                radar.setdefault(path.parent.parent.name, []).append(path)
+        dirs = {code: str(Path(a.raw) / paths[0].parent.parent) for code, paths in radar.items()}
+        meta_path = Path(a.raw) / 'activations.json'
+        meta_path.parent.mkdir(parents=True, exist_ok=True)
+        meta_path.write_bytes(read_member(source, archive, 'activations.json'))
+        print(f'MMFlood smoke indexed {len(dirs)} regions; downloading eligible regions on demand', flush=True)
+    else:
+        meta_path, dirs = download(a.raw)
     meta = {}
     if meta_path:
         txt = open(meta_path).read()
@@ -157,6 +183,9 @@ def main():
     for d in sorted(dirs):
         info = meta.get(d) or meta.get(d.split("-")[0]) or {}
         if "lon" not in info or "lat" not in info:  # fall back to the first image's centre
+            if a.smoke:
+                # Use regions with published coordinates for the smoke diagnostic.
+                continue
             tifs = sorted(glob.glob(os.path.join(dirs[d], "s1_raw", "*.tif")))
             if tifs:
                 with rasterio.open(tifs[0]) as src:
@@ -195,6 +224,17 @@ def main():
     def do_event(item):
         code, info, _ = item
         base = dirs[code]
+        if a.smoke:
+            print(f'Fetching MMFlood smoke candidate {code}: {len(radar[code])} radar scenes', flush=True)
+            for path in radar[code]:
+                for modality in ('s1_raw', 'DEM', 'mask', 'hydro'):
+                    member = path.parent.parent / modality / path.name
+                    if modality == 'hydro' and str(member) not in members:
+                        continue
+                    destination = Path(base) / modality / path.name
+                    destination.parent.mkdir(parents=True, exist_ok=True)
+                    destination.write_bytes(read_member(source, archive, str(member)))
+            print(f'MMFlood smoke transferred {source.transferred / 1024**2:.1f} MiB from ZIP', flush=True)
         if not os.path.isdir(base):
             return []
         evdir = os.path.join(a.out, code)
@@ -228,9 +268,17 @@ def main():
         print(f"  {code} ({info.get('country')}): {len(out)} chips, water px {sum(r['water_px'] for r in out)}, dry px {sum(r['dry_px'] for r in out)}", flush=True)
         return out
 
-    with ThreadPoolExecutor(a.workers) as ex:
-        for r in ex.map(do_event, keep):
-            rows += r
+    if a.smoke:
+        for candidate in keep:
+            rows = do_event(candidate)
+            if rows:
+                break
+        if not rows:
+            raise ValueError('No eligible MMFlood smoke region produced enough chips')
+    else:
+        with ThreadPoolExecutor(a.workers) as ex:
+            for r in ex.map(do_event, keep):
+                rows += r
     with open(os.path.join(a.out, "index.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["event", "file", "image", "country", "start", "water_px", "dry_px"])
         w.writeheader(); w.writerows(rows)
