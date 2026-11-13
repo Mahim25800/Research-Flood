@@ -1,5 +1,12 @@
 # Revision experiments
 
+**12 November validity audit:** read `BASELINE_FIDELITY_AUDIT.md` before any new
+GPU run. Historical EATA/SAR/CoTTA results are custom variants. TENT-B is a new,
+separately keyed diagnostic; build its notebook with `python revision/build_tent_audit.py`
+from the repository root. CPU checks: `python revision/test_validity.py`.
+The revised manuscript source has changed; the tracked `main_wip.pdf` is the older draft.
+Do not interpret it as a rendered version of the current source until rebuilt.
+
 Added after the first full draft, to test the claims more strictly.
 
 | File | Purpose |
