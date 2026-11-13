@@ -46,6 +46,7 @@ ABLATIONS = ["phys_drop", "phys_add"]  # physics check with only the drop rule /
 COMBOS = ["adabn", "adabn_phys", "tent_phys"]  # added after the first Kuro Siwo results: recalibrate, then physics-checked self-training
 ADAPTIVE = ["physa", "adabn_physa"]  # per-flood radar thresholds + HAND gating (add rule only)
 ALL_METHODS = METHODS + ABLATIONS + COMBOS + ADAPTIVE
+ALL_METHODS += ["tent_batch"]  # separate key: never reuse historical tent histograms
 STEPS, BATCH, CROP = 200, 8, 256
 LR_TENT, LR_ST, EMA, P_HI, P_LO = 1e-3, 1e-4, 0.99, 0.9, 0.1
 ADABN_BATCHES = 50
@@ -142,7 +143,7 @@ def run_one(method, v, e, ev, mean, std, args, device, ckpt=None):
 
     # optional first stage: re-estimate batch-norm statistics (adabn) or TENT, then optional self-training
     pre, base = None, method
-    if method in ("adabn", "tent"):
+    if method in ("adabn", "tent", "tent_batch"):
         pre, base = method, "none"
     elif method.startswith(("adabn_", "tent_")):
         pre, base = method.split("_", 1)
@@ -157,8 +158,16 @@ def run_one(method, v, e, ev, mean, std, args, device, ckpt=None):
                 model(inp(r, t))
         for b in bns:
             b.momentum = 0.1
-    if pre == "tent":
+    if pre in ("tent", "tent_batch"):
         model.train()
+        if pre == "tent_batch":
+            # Official TENT BN configuration, also retained during final.eval().
+            # Event-wise 200-step adaptation and pixel-wise entropy remain PX1 choices.
+            for mod in model.modules():
+                if isinstance(mod, torch.nn.BatchNorm2d):
+                    mod.track_running_stats = False
+                    mod.running_mean = None
+                    mod.running_var = None
         params = [p for mod in model.modules() if isinstance(mod, torch.nn.BatchNorm2d) for p in (mod.weight, mod.bias)]
         for p in model.parameters():
             p.requires_grad_(False)

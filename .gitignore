@@ -15,6 +15,7 @@ runs_loeo/
 # python / latex build files
 __pycache__/
 *.pyc
+revision/generated/test_artifacts/
 paper/*.aux
 paper/*.log
 paper/*.out
