@@ -1,0 +1,1188 @@
+{
+  "reference_threshold": 0.5,
+  "pair_count": 39,
+  "method": "Match the TG-TTA false-positive count within seed and event; fractional boundary ties in expectation",
+  "exploratory": true,
+  "overall": {
+    "fpr": 0.016510633894628396,
+    "tg_tta": 0.6668370695421253,
+    "physics_vv": 0.6828263477421948,
+    "physics_vv_vh": 0.6730539447803418,
+    "physics_vv_conservative": 0.6837525300710925,
+    "physics_vv_vh_conservative": 0.6731438187474548
+  },
+  "contrasts_miss_physics_minus_tg": {
+    "physics_vv": {
+      "mean": 0.0159892782000696,
+      "median": 0.018331948894426575,
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "ci95": [
+        -0.028784025222735668,
+        0.06435094520616841
+      ],
+      "two_sided_sign_p": 1.0
+    },
+    "physics_vv_vh": {
+      "mean": 0.006216875238216304,
+      "median": -0.005537768291236755,
+      "wins": 5,
+      "losses": 8,
+      "ties": 0,
+      "ci95": [
+        -0.03131210005082264,
+        0.04914469958963028
+      ],
+      "two_sided_sign_p": 0.5810546875
+    }
+  },
+  "event_means": {
+    "EMSR788": {
+      "fpr": 0.0029542909770394424,
+      "tg_tta": 0.6422877748556245,
+      "physics_vv": 0.6706138329311607,
+      "physics_vv_vh": 0.6929908991495631,
+      "physics_vv_conservative": 0.6706138329311607,
+      "physics_vv_vh_conservative": 0.6929908991495631
+    },
+    "EMSR789": {
+      "fpr": 0.019362039432595592,
+      "tg_tta": 0.44947082655268894,
+      "physics_vv": 0.5546309126904716,
+      "physics_vv_vh": 0.48666840351850943,
+      "physics_vv_conservative": 0.5546309126904716,
+      "physics_vv_vh_conservative": 0.48666840351850943
+    },
+    "EMSR795": {
+      "fpr": 0.009553610833420947,
+      "tg_tta": 0.6103406748285582,
+      "physics_vv": 0.5351644999789643,
+      "physics_vv_vh": 0.5484546573267702,
+      "physics_vv_conservative": 0.5351823804114604,
+      "physics_vv_vh_conservative": 0.5484612310151878
+    },
+    "EMSR797": {
+      "fpr": 0.004277292253861934,
+      "tg_tta": 0.39134709931170114,
+      "physics_vv": 0.4152140877804595,
+      "physics_vv_vh": 0.3879205029647508,
+      "physics_vv_conservative": 0.4152140877804595,
+      "physics_vv_vh_conservative": 0.3879205029647508
+    },
+    "EMSR799": {
+      "fpr": 0.1052560458239582,
+      "tg_tta": 0.7673851921274601,
+      "physics_vv": 0.9633007442460421,
+      "physics_vv_vh": 0.9655005013592387,
+      "physics_vv_conservative": 0.9753202124336146,
+      "physics_vv_vh_conservative": 0.9666354264292408
+    },
+    "EMSR802": {
+      "fpr": 0.030849814707767927,
+      "tg_tta": 0.5567140583131184,
+      "physics_vv": 0.6764211752789895,
+      "physics_vv_vh": 0.5864072635766008,
+      "physics_vv_conservative": 0.6764241969345909,
+      "physics_vv_vh_conservative": 0.5864072635766008
+    },
+    "EMSR838": {
+      "fpr": 0.023171881867044466,
+      "tg_tta": 0.5158963122051592,
+      "physics_vv": 0.4299308295191495,
+      "physics_vv_vh": 0.44732610260249833,
+      "physics_vv_conservative": 0.4299308295191495,
+      "physics_vv_vh_conservative": 0.44732610260249833
+    },
+    "EMSR843": {
+      "fpr": 0.0,
+      "tg_tta": 0.9840877914951989,
+      "physics_vv": 0.9426611796982168,
+      "physics_vv_vh": 0.9519890260631002,
+      "physics_vv_conservative": 0.9426611796982168,
+      "physics_vv_vh_conservative": 0.9519890260631002
+    },
+    "EMSR845": {
+      "fpr": 0.0009565400247772542,
+      "tg_tta": 0.7968617720991418,
+      "physics_vv": 0.8613471782648902,
+      "physics_vv_vh": 0.8779370010028784,
+      "physics_vv_conservative": 0.8613471782648902,
+      "physics_vv_vh_conservative": 0.877963863816929
+    },
+    "EMSR848": {
+      "fpr": 0.005656296114846988,
+      "tg_tta": 0.685610015505068,
+      "physics_vv": 0.5686833506323761,
+      "physics_vv_vh": 0.5802867796870795,
+      "physics_vv_conservative": 0.5686833506323761,
+      "physics_vv_vh_conservative": 0.5802867796870795
+    },
+    "EMSR850": {
+      "fpr": 0.00708529458506871,
+      "tg_tta": 0.5644792531940984,
+      "physics_vv": 0.582811202088525,
+      "physics_vv_vh": 0.5326984692061232,
+      "physics_vv_conservative": 0.582811202088525,
+      "physics_vv_vh_conservative": 0.5326984692061232
+    },
+    "EMSR851": {
+      "fpr": 0.0029666251049017493,
+      "tg_tta": 0.8136267946531358,
+      "physics_vv": 0.7925531160605744,
+      "physics_vv_vh": 0.8062851050718893,
+      "physics_vv_conservative": 0.7925531160605744,
+      "physics_vv_vh_conservative": 0.8062851050718893
+    },
+    "EMSR853": {
+      "fpr": 0.002548508904885933,
+      "tg_tta": 0.8907743389066761,
+      "physics_vv": 0.8834104114787146,
+      "physics_vv_vh": 0.8852365706154394,
+      "physics_vv_conservative": 0.8834104114787146,
+      "physics_vv_vh_conservative": 0.8852365706154394
+    }
+  },
+  "event_seed_results": {
+    "EMSR788": [
+      {
+        "seed": 0,
+        "fpr": 0.0032091263819883985,
+        "tg_tta_miss": 0.6024049019873654,
+        "fp_budget": 8559,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.638905457798986,
+            "cutoff": 0.9720152020454407,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.638905457798986,
+            "conservative_fpr": 0.0032091263819883985
+          },
+          "physics_vv_vh": {
+            "miss": 0.7053927283572378,
+            "cutoff": 0.9016518592834473,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7053927283572378,
+            "conservative_fpr": 0.0032091263819883985
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.00020059383273323908,
+        "tg_tta_miss": 0.8018057099476724,
+        "fp_budget": 535,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.8176260065612884,
+            "cutoff": 0.9663652777671814,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8176260065612884,
+            "conservative_fpr": 0.00020059383273323908
+          },
+          "physics_vv_vh": {
+            "miss": 0.826315646774937,
+            "cutoff": 0.882627546787262,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.826315646774937,
+            "conservative_fpr": 0.00020059383273323908
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.0054531527163966895,
+        "tg_tta_miss": 0.5226527126318358,
+        "fp_budget": 14544,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.5553100344332077,
+            "cutoff": 0.9458990097045898,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5553100344332077,
+            "conservative_fpr": 0.0054531527163966895
+          },
+          "physics_vv_vh": {
+            "miss": 0.5472643223165143,
+            "cutoff": 0.8655821084976196,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5472643223165143,
+            "conservative_fpr": 0.0054531527163966895
+          }
+        }
+      }
+    ],
+    "EMSR789": [
+      {
+        "seed": 0,
+        "fpr": 0.01343190581268418,
+        "tg_tta_miss": 0.5022900013970331,
+        "fp_budget": 37271,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.7274275336326257,
+            "cutoff": 0.9553117752075195,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7274275336326257,
+            "conservative_fpr": 0.01343190581268418
+          },
+          "physics_vv_vh": {
+            "miss": 0.5387336839760315,
+            "cutoff": 0.9354845881462097,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5387336839760315,
+            "conservative_fpr": 0.01343190581268418
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.014209616438741234,
+        "tg_tta_miss": 0.4735602064588234,
+        "fp_budget": 39429,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.581169505412559,
+            "cutoff": 0.857706606388092,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.581169505412559,
+            "conservative_fpr": 0.014209616438741234
+          },
+          "physics_vv_vh": {
+            "miss": 0.5827968600739295,
+            "cutoff": 0.8328747749328613,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5827968600739295,
+            "conservative_fpr": 0.014209616438741234
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.030444596046361357,
+        "tg_tta_miss": 0.37256227180221035,
+        "fp_budget": 84478,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.35529569902623026,
+            "cutoff": 0.8879818320274353,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.35529569902623026,
+            "conservative_fpr": 0.030444596046361357
+          },
+          "physics_vv_vh": {
+            "miss": 0.33847466650556735,
+            "cutoff": 0.8260127305984497,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.33847466650556735,
+            "conservative_fpr": 0.030444596046361357
+          }
+        }
+      }
+    ],
+    "EMSR795": [
+      {
+        "seed": 0,
+        "fpr": 0.0040304574136145995,
+        "tg_tta_miss": 0.8383030417771047,
+        "fp_budget": 11309,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.7724346838318819,
+            "cutoff": 0.9992654919624329,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 3,
+            "conservative_miss": 0.7724346838318819,
+            "conservative_fpr": 0.0040304574136145995
+          },
+          "physics_vv_vh": {
+            "miss": 0.7786783730910009,
+            "cutoff": 0.9976553916931152,
+            "tie_fraction": 0.5,
+            "dry_at_cutoff": 2,
+            "water_at_cutoff": 1,
+            "conservative_miss": 0.7786823173040515,
+            "conservative_fpr": 0.004030101019820841
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.013569693697353955,
+        "tg_tta_miss": 0.5653871639530481,
+        "fp_budget": 38075,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.4832386722201186,
+            "cutoff": 0.9999619722366333,
+            "tie_fraction": 0.4,
+            "dry_at_cutoff": 30,
+            "water_at_cutoff": 17,
+            "conservative_miss": 0.48329231351760693,
+            "conservative_fpr": 0.013565416971828852
+          },
+          "physics_vv_vh": {
+            "miss": 0.5305360974378392,
+            "cutoff": 0.9987932443618774,
+            "tie_fraction": 0.6666666666666666,
+            "dry_at_cutoff": 3,
+            "water_at_cutoff": 3,
+            "conservative_miss": 0.5305518742900417,
+            "conservative_fpr": 0.013568980909766437
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.011060681389294287,
+        "tg_tta_miss": 0.4273318187555219,
+        "fp_budget": 31035,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.34982014388489213,
+            "cutoff": 0.9724550247192383,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.34982014388489213,
+            "conservative_fpr": 0.011060681389294287
+          },
+          "physics_vv_vh": {
+            "miss": 0.3361495014514704,
+            "cutoff": 0.9617981314659119,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 3,
+            "water_at_cutoff": 1,
+            "conservative_miss": 0.3361495014514704,
+            "conservative_fpr": 0.011060681389294287
+          }
+        }
+      }
+    ],
+    "EMSR797": [
+      {
+        "seed": 0,
+        "fpr": 0.0030390425269463954,
+        "tg_tta_miss": 0.4476624653615804,
+        "fp_budget": 2784,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.46500402252614637,
+            "cutoff": 0.973327100276947,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.46500402252614637,
+            "conservative_fpr": 0.0030390425269463954
+          },
+          "physics_vv_vh": {
+            "miss": 0.44069008670778587,
+            "cutoff": 0.9375985264778137,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.44069008670778587,
+            "conservative_fpr": 0.0030390425269463954
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.0014005357622385868,
+        "tg_tta_miss": 0.5504603557700903,
+        "fp_budget": 1283,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.5644945025475999,
+            "cutoff": 0.9689329862594604,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5644945025475999,
+            "conservative_fpr": 0.0014005357622385868
+          },
+          "physics_vv_vh": {
+            "miss": 0.5579690712434076,
+            "cutoff": 0.9438289403915405,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5579690712434076,
+            "conservative_fpr": 0.0014005357622385868
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.008392298472400821,
+        "tg_tta_miss": 0.17591847680343256,
+        "fp_budget": 7688,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.2161437382676321,
+            "cutoff": 0.9043611288070679,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 1,
+            "conservative_miss": 0.2161437382676321,
+            "conservative_fpr": 0.008392298472400821
+          },
+          "physics_vv_vh": {
+            "miss": 0.16510235094305892,
+            "cutoff": 0.7437368631362915,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.16510235094305892,
+            "conservative_fpr": 0.008392298472400821
+          }
+        }
+      }
+    ],
+    "EMSR799": [
+      {
+        "seed": 0,
+        "fpr": 0.003549411847368167,
+        "tg_tta_miss": 0.9563261480787254,
+        "fp_budget": 10962,
+        "physics": {
+          "physics_vv": {
+            "miss": 1.0,
+            "cutoff": 1.0,
+            "tie_fraction": 0.13444862816282976,
+            "dry_at_cutoff": 81533,
+            "water_at_cutoff": 0,
+            "conservative_miss": 1.0,
+            "conservative_fpr": 0.0
+          },
+          "physics_vv_vh": {
+            "miss": 1.0,
+            "cutoff": 1.0,
+            "tie_fraction": 0.31832041118564336,
+            "dry_at_cutoff": 34437,
+            "water_at_cutoff": 0,
+            "conservative_miss": 1.0,
+            "conservative_fpr": 0.0
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.1354358682281661,
+        "tg_tta_miss": 0.6537956888472353,
+        "fp_budget": 418280,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.969261238030304,
+            "cutoff": 1.0,
+            "tie_fraction": 0.5941713590881456,
+            "dry_at_cutoff": 703972,
+            "water_at_cutoff": 276,
+            "conservative_miss": 1.0,
+            "conservative_fpr": 0.0
+          },
+          "physics_vv_vh": {
+            "miss": 0.9917578037874776,
+            "cutoff": 0.9999998807907104,
+            "tie_fraction": 0.8873398218781707,
+            "dry_at_cutoff": 79833,
+            "water_at_cutoff": 18,
+            "conservative_miss": 0.9947516401124649,
+            "conservative_fpr": 0.11249874125720155
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.1767828573963403,
+        "tg_tta_miss": 0.6920337394564199,
+        "fp_budget": 545976,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.9206409947078225,
+            "cutoff": 0.9999990463256836,
+            "tie_fraction": 0.8347145068755123,
+            "dry_at_cutoff": 10981,
+            "water_at_cutoff": 34,
+            "conservative_miss": 0.9259606373008435,
+            "conservative_fpr": 0.1738149766270485
+          },
+          "physics_vv_vh": {
+            "miss": 0.9047437002902385,
+            "cutoff": 0.9999948740005493,
+            "tie_fraction": 0.4384717903154154,
+            "dry_at_cutoff": 2251,
+            "water_at_cutoff": 5,
+            "conservative_miss": 0.9051546391752577,
+            "conservative_fpr": 0.1764632743372861
+          }
+        }
+      }
+    ],
+    "EMSR802": [
+      {
+        "seed": 0,
+        "fpr": 0.0018995437692313475,
+        "tg_tta_miss": 0.5814867995953399,
+        "fp_budget": 4801,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.7778829313927053,
+            "cutoff": 0.9780803918838501,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7778829313927053,
+            "conservative_fpr": 0.0018995437692313475
+          },
+          "physics_vv_vh": {
+            "miss": 0.6390584037681254,
+            "cutoff": 0.9167484641075134,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.6390584037681254,
+            "conservative_fpr": 0.0018995437692313475
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.06290255510595862,
+        "tg_tta_miss": 0.505846903588639,
+        "fp_budget": 158983,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.5747859761337554,
+            "cutoff": 0.962202787399292,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5747859761337554,
+            "conservative_fpr": 0.06290255510595862
+          },
+          "physics_vv_vh": {
+            "miss": 0.5073970129121388,
+            "cutoff": 0.7718625068664551,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5073970129121388,
+            "conservative_fpr": 0.06290255510595862
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.02774734524811381,
+        "tg_tta_miss": 0.5828084717553764,
+        "fp_budget": 70130,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.6765946183105078,
+            "cutoff": 0.9989863038063049,
+            "tie_fraction": 0.5555555555555556,
+            "dry_at_cutoff": 9,
+            "water_at_cutoff": 3,
+            "conservative_miss": 0.6766036832773119,
+            "conservative_fpr": 0.027745366968829045
+          },
+          "physics_vv_vh": {
+            "miss": 0.6127663740495382,
+            "cutoff": 0.9754695296287537,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.6127663740495382,
+            "conservative_fpr": 0.02774734524811381
+          }
+        }
+      }
+    ],
+    "EMSR838": [
+      {
+        "seed": 0,
+        "fpr": 0.015072864033543252,
+        "tg_tta_miss": 0.7634511513530717,
+        "fp_budget": 29449,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.5590044121653955,
+            "cutoff": 0.9969045519828796,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 3,
+            "water_at_cutoff": 5,
+            "conservative_miss": 0.5590044121653955,
+            "conservative_fpr": 0.015072864033543252
+          },
+          "physics_vv_vh": {
+            "miss": 0.47900844195838777,
+            "cutoff": 0.9797478318214417,
+            "tie_fraction": 0.5,
+            "dry_at_cutoff": 2,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.47900844195838777,
+            "conservative_fpr": 0.015072352204142133
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.022348007141043805,
+        "tg_tta_miss": 0.4594879873244693,
+        "fp_budget": 43663,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.416150540244123,
+            "cutoff": 0.969720184803009,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.416150540244123,
+            "conservative_fpr": 0.022348007141043805
+          },
+          "physics_vv_vh": {
+            "miss": 0.5445372263575938,
+            "cutoff": 0.9614226818084717,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5445372263575938,
+            "conservative_fpr": 0.022348007141043805
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.03209477442654634,
+        "tg_tta_miss": 0.3247497979379366,
+        "fp_budget": 62706,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.31463753614793,
+            "cutoff": 0.9808299541473389,
+            "tie_fraction": 0.5,
+            "dry_at_cutoff": 2,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.31463753614793,
+            "conservative_fpr": 0.03209426259714522
+          },
+          "physics_vv_vh": {
+            "miss": 0.31843263949151335,
+            "cutoff": 0.9734697937965393,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 2,
+            "conservative_miss": 0.31843263949151335,
+            "conservative_fpr": 0.03209477442654634
+          }
+        }
+      }
+    ],
+    "EMSR843": [
+      {
+        "seed": 0,
+        "fpr": 0.0,
+        "tg_tta_miss": 0.9654320987654321,
+        "fp_budget": 0,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.974485596707819,
+            "cutoff": 0.930372953414917,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.974485596707819,
+            "conservative_fpr": 0.0
+          },
+          "physics_vv_vh": {
+            "miss": 0.9572016460905349,
+            "cutoff": 0.6765343546867371,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.9572016460905349,
+            "conservative_fpr": 0.0
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.0,
+        "tg_tta_miss": 1.0,
+        "fp_budget": 0,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.9168724279835391,
+            "cutoff": 0.9076509475708008,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.9168724279835391,
+            "conservative_fpr": 0.0
+          },
+          "physics_vv_vh": {
+            "miss": 0.9522633744855967,
+            "cutoff": 0.5188425779342651,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.9522633744855967,
+            "conservative_fpr": 0.0
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.0,
+        "tg_tta_miss": 0.9868312757201646,
+        "fp_budget": 0,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.9366255144032922,
+            "cutoff": 0.7385636568069458,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.9366255144032922,
+            "conservative_fpr": 0.0
+          },
+          "physics_vv_vh": {
+            "miss": 0.9465020576131687,
+            "cutoff": 0.4922826290130615,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.9465020576131687,
+            "conservative_fpr": 0.0
+          }
+        }
+      }
+    ],
+    "EMSR845": [
+      {
+        "seed": 0,
+        "fpr": 0.0004350240522140766,
+        "tg_tta_miss": 0.9340713280975267,
+        "fp_budget": 622,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.9420959832766772,
+            "cutoff": 0.999951958656311,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 15,
+            "conservative_miss": 0.9420959832766772,
+            "conservative_fpr": 0.0004350240522140766
+          },
+          "physics_vv_vh": {
+            "miss": 0.971437502442074,
+            "cutoff": 0.9999983310699463,
+            "tie_fraction": 0.23076923076923078,
+            "dry_at_cutoff": 13,
+            "water_at_cutoff": 143,
+            "conservative_miss": 0.9715180908842261,
+            "conservative_fpr": 0.0004329258654670634
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.0012680041907783294,
+        "tg_tta_miss": 0.6914586019614738,
+        "fp_budget": 1813,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.9036894854061658,
+            "cutoff": 0.9948099851608276,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 1,
+            "conservative_miss": 0.9036894854061658,
+            "conservative_fpr": 0.0012680041907783294
+          },
+          "physics_vv_vh": {
+            "miss": 0.9077140233657641,
+            "cutoff": 0.9949454665184021,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.9077140233657641,
+            "conservative_fpr": 0.0012680041907783294
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.0011665918313393565,
+        "tg_tta_miss": 0.7650553862384246,
+        "fp_budget": 1668,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.7382560661118275,
+            "cutoff": 0.9722332954406738,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 2,
+            "conservative_miss": 0.7382560661118275,
+            "conservative_fpr": 0.0011665918313393565
+          },
+          "physics_vv_vh": {
+            "miss": 0.7546594772007971,
+            "cutoff": 0.9596921801567078,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7546594772007971,
+            "conservative_fpr": 0.0011665918313393565
+          }
+        }
+      }
+    ],
+    "EMSR848": [
+      {
+        "seed": 0,
+        "fpr": 0.0038515511092753847,
+        "tg_tta_miss": 0.689905816322608,
+        "fp_budget": 8868,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.634341290893015,
+            "cutoff": 0.9287851452827454,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.634341290893015,
+            "conservative_fpr": 0.0038515511092753847
+          },
+          "physics_vv_vh": {
+            "miss": 0.7923914965594125,
+            "cutoff": 0.8209826946258545,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7923914965594125,
+            "conservative_fpr": 0.0038515511092753847
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.0033060449981736836,
+        "tg_tta_miss": 0.66130473224926,
+        "fp_budget": 7612,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.5842678660669665,
+            "cutoff": 0.8939743041992188,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5842678660669665,
+            "conservative_fpr": 0.0033060449981736836
+          },
+          "physics_vv_vh": {
+            "miss": 0.5489885826317611,
+            "cutoff": 0.8324382305145264,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5489885826317611,
+            "conservative_fpr": 0.0033060449981736836
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.009811292237091896,
+        "tg_tta_miss": 0.705619497943336,
+        "fp_budget": 22590,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.4874408949371468,
+            "cutoff": 0.8973364233970642,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.4874408949371468,
+            "conservative_fpr": 0.009811292237091896
+          },
+          "physics_vv_vh": {
+            "miss": 0.39948025987006497,
+            "cutoff": 0.793692409992218,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 1,
+            "conservative_miss": 0.39948025987006497,
+            "conservative_fpr": 0.009811292237091896
+          }
+        }
+      }
+    ],
+    "EMSR850": [
+      {
+        "seed": 0,
+        "fpr": 0.00482469085236205,
+        "tg_tta_miss": 0.6817906728373087,
+        "fp_budget": 10413,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.5129998813338079,
+            "cutoff": 0.8824985027313232,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.5129998813338079,
+            "conservative_fpr": 0.00482469085236205
+          },
+          "physics_vv_vh": {
+            "miss": 0.502438590245639,
+            "cutoff": 0.7805538773536682,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.502438590245639,
+            "conservative_fpr": 0.00482469085236205
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.005869971037028216,
+        "tg_tta_miss": 0.49211463154147383,
+        "fp_budget": 12669,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.8330248012341284,
+            "cutoff": 0.9778757095336914,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8330248012341284,
+            "conservative_fpr": 0.005869971037028216
+          },
+          "physics_vv_vh": {
+            "miss": 0.7311973418772992,
+            "cutoff": 0.8561456799507141,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7311973418772992,
+            "conservative_fpr": 0.005869971037028216
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.010561221865815863,
+        "tg_tta_miss": 0.5195324552035125,
+        "fp_budget": 22794,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.4024089236976386,
+            "cutoff": 0.9154785871505737,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.4024089236976386,
+            "conservative_fpr": 0.010561221865815863
+          },
+          "physics_vv_vh": {
+            "miss": 0.36445947549543134,
+            "cutoff": 0.7514985203742981,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.36445947549543134,
+            "conservative_fpr": 0.010561221865815863
+          }
+        }
+      }
+    ],
+    "EMSR851": [
+      {
+        "seed": 0,
+        "fpr": 0.002860726018027506,
+        "tg_tta_miss": 0.8109904899659278,
+        "fp_budget": 3944,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.7916068824955814,
+            "cutoff": 0.9090224504470825,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7916068824955814,
+            "conservative_fpr": 0.002860726018027506
+          },
+          "physics_vv_vh": {
+            "miss": 0.8135043257312362,
+            "cutoff": 0.8974024057388306,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8135043257312362,
+            "conservative_fpr": 0.002860726018027506
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.0033321945554813295,
+        "tg_tta_miss": 0.8116711593423805,
+        "fp_budget": 4594,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.7769570211432926,
+            "cutoff": 0.8662027716636658,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7769570211432926,
+            "conservative_fpr": 0.0033321945554813295
+          },
+          "physics_vv_vh": {
+            "miss": 0.7890505048942449,
+            "cutoff": 0.8427353501319885,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.7890505048942449,
+            "conservative_fpr": 0.0033321945554813295
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.002706954741196413,
+        "tg_tta_miss": 0.818218734651099,
+        "fp_budget": 3732,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.8090954445428493,
+            "cutoff": 0.9067919254302979,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8090954445428493,
+            "conservative_fpr": 0.002706954741196413
+          },
+          "physics_vv_vh": {
+            "miss": 0.8163004845901868,
+            "cutoff": 0.8977530598640442,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8163004845901868,
+            "conservative_fpr": 0.002706954741196413
+          }
+        }
+      }
+    ],
+    "EMSR853": [
+      {
+        "seed": 0,
+        "fpr": 0.001984570946604199,
+        "tg_tta_miss": 0.8987904660263252,
+        "fp_budget": 6040,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.8928495197438634,
+            "cutoff": 0.803808331489563,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8928495197438634,
+            "conservative_fpr": 0.001984570946604199
+          },
+          "physics_vv_vh": {
+            "miss": 0.8912130914265386,
+            "cutoff": 0.7139273285865784,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8912130914265386,
+            "conservative_fpr": 0.001984570946604199
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "fpr": 0.002006256655623384,
+        "tg_tta_miss": 0.9103877623621487,
+        "fp_budget": 6106,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.8951618641053006,
+            "cutoff": 0.8667859435081482,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8951618641053006,
+            "conservative_fpr": 0.002006256655623384
+          },
+          "physics_vv_vh": {
+            "miss": 0.9017075773745998,
+            "cutoff": 0.8048044443130493,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.9017075773745998,
+            "conservative_fpr": 0.002006256655623384
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "fpr": 0.0036546991124302157,
+        "tg_tta_miss": 0.8631447883315546,
+        "fp_budget": 11123,
+        "physics": {
+          "physics_vv": {
+            "miss": 0.8622198505869797,
+            "cutoff": 0.8562281131744385,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8622198505869797,
+            "conservative_fpr": 0.0036546991124302157
+          },
+          "physics_vv_vh": {
+            "miss": 0.8627890430451797,
+            "cutoff": 0.8282670974731445,
+            "tie_fraction": 0.0,
+            "dry_at_cutoff": 1,
+            "water_at_cutoff": 0,
+            "conservative_miss": 0.8627890430451797,
+            "conservative_fpr": 0.0036546991124302157
+          }
+        }
+      }
+    ]
+  }
+}

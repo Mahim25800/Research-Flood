@@ -1,0 +1,78 @@
+{
+  "activation": "EMSR843",
+  "seed": 1,
+  "arms": {
+    "source": {
+      "ap": 0.1412547453592792,
+      "miss": 0.7415637860082305,
+      "fpr": 0.0011681113147281252,
+      "tp": 314,
+      "fp": 930,
+      "fn": 901,
+      "tn": 795227,
+      "score_sha256": "a40418bf9d22651c9ac52f2bec4c83c4ea858d6b09422bbe0203169b45e76370"
+    },
+    "ordinary": {
+      "ap": 0.07663870085749588,
+      "miss": 1.0,
+      "fpr": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1215,
+      "tn": 796157,
+      "score_sha256": "90f6f73db5224dd190d80563e3c0f1266459178cf8437ae4402ca5bfdf506708"
+    },
+    "tg_tta": {
+      "ap": 0.10019215484752293,
+      "miss": 1.0,
+      "fpr": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1215,
+      "tn": 796157,
+      "score_sha256": "5352e9a54b2339af5e421407065317f06253df65ba45af9b01305b8a83e0ea6b"
+    },
+    "physics_vv": {
+      "ap": 0.2707821526805149,
+      "miss": 0.7086419753086419,
+      "fpr": 0.0008302382570271944,
+      "tp": 354,
+      "fp": 661,
+      "fn": 861,
+      "tn": 795496,
+      "score_sha256": "a23120fe992c79f9734e70a7e87994d567e7357744d9a161f969076823eec9e5"
+    },
+    "physics_vv_vh": {
+      "ap": 0.1984745837456524,
+      "miss": 0.9415637860082304,
+      "fpr": 8.792235702254706e-06,
+      "tp": 71,
+      "fp": 7,
+      "fn": 1144,
+      "tn": 796150,
+      "score_sha256": "608d2f6a2649f56703353a25a6a3cf8c2860531ac1d49358f4636e38610ab2db"
+    }
+  },
+  "diagnostics": {
+    "vv_cutoff_db": -15,
+    "vh_cutoff_db": -22,
+    "arms": {
+      "ordinary": {
+        "updates": 10,
+        "added_wet": 0
+      },
+      "tg_tta": {
+        "updates": 10,
+        "added_wet": 0
+      },
+      "physics_vv": {
+        "updates": 10,
+        "added_wet": 5235
+      },
+      "physics_vv_vh": {
+        "updates": 10,
+        "added_wet": 2927
+      }
+    }
+  }
+}

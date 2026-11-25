@@ -1,0 +1,542 @@
+{
+  "fpr": [
+    0.02,
+    0.05
+  ],
+  "mean_recall": {
+    "none_valid": [
+      0.3678674728076844,
+      0.5253885516980189
+    ],
+    "adabn_valid": [
+      0.3917712050203473,
+      0.5429610778394874
+    ],
+    "adabn_physa_valid_post": [
+      0.4388245763851369,
+      0.5702050607688782
+    ],
+    "adabn_st_valid": [
+      0.3930815502869071,
+      0.5290146622947437
+    ],
+    "adabn_physa_valid": [
+      0.5667983011256064,
+      0.7242306911036269
+    ]
+  },
+  "physics_contrasts": {
+    "none_valid": {
+      "mean_delta_recall": [
+        0.1989308283179219,
+        0.19884213940560824
+      ],
+      "physics_wins": [
+        12,
+        12
+      ]
+    },
+    "adabn_valid": {
+      "mean_delta_recall": [
+        0.1750270961052591,
+        0.18126961326413962
+      ],
+      "physics_wins": [
+        11,
+        12
+      ]
+    },
+    "adabn_physa_valid_post": {
+      "mean_delta_recall": [
+        0.1279737247404694,
+        0.15402563033474886
+      ],
+      "physics_wins": [
+        12,
+        12
+      ]
+    },
+    "adabn_st_valid": {
+      "mean_delta_recall": [
+        0.17371675083869928,
+        0.1952160288088835
+      ],
+      "physics_wins": [
+        12,
+        11
+      ]
+    }
+  },
+  "control_hash_matches": [
+    90,
+    117
+  ],
+  "event_recall": {
+    "EMSR788": {
+      "none_valid": [
+        0.7603887066308778,
+        0.9431151659752913
+      ],
+      "adabn_valid": [
+        0.8189635694854901,
+        0.942342452258945
+      ],
+      "adabn_physa_valid_post": [
+        0.8526850671944617,
+        0.9501712622798218
+      ],
+      "adabn_st_valid": [
+        0.9138650145957036,
+        0.9904517889904111
+      ],
+      "adabn_physa_valid": [
+        0.9265537872009689,
+        0.9921711899791231
+      ]
+    },
+    "EMSR789": {
+      "none_valid": [
+        0.3114792062335361,
+        0.6347450918203089
+      ],
+      "adabn_valid": [
+        0.30819806655666604,
+        0.6185671979167847
+      ],
+      "adabn_physa_valid_post": [
+        0.39475271886535745,
+        0.6524282573208935
+      ],
+      "adabn_st_valid": [
+        0.43258891192105464,
+        0.7347877579634027
+      ],
+      "adabn_physa_valid": [
+        0.46925783801974824,
+        0.7835001592114189
+      ]
+    },
+    "EMSR795": {
+      "none_valid": [
+        0.11202879801422021,
+        0.3020083932853717
+      ],
+      "adabn_valid": [
+        0.13567566999032352,
+        0.2932364634608103
+      ],
+      "adabn_physa_valid_post": [
+        0.2434052757793765,
+        0.36702217173629514
+      ],
+      "adabn_st_valid": [
+        0.07029639446337667,
+        0.14222569312970676
+      ],
+      "adabn_physa_valid": [
+        0.49870287980142197,
+        0.8500699440447641
+      ]
+    },
+    "EMSR797": {
+      "none_valid": [
+        0.8699979142457019,
+        0.969965138106731
+      ],
+      "adabn_valid": [
+        0.900479723488573,
+        0.9692500223473673
+      ],
+      "adabn_physa_valid_post": [
+        0.9003307410387057,
+        0.9692500223473673
+      ],
+      "adabn_st_valid": [
+        0.941718065611871,
+        0.9854593128929413
+      ],
+      "adabn_physa_valid": [
+        0.9365930693364323,
+        0.9851613479932064
+      ]
+    },
+    "EMSR799": {
+      "none_valid": [
+        0.017432052483598876,
+        0.052671040299906276
+      ],
+      "adabn_valid": [
+        0.1934395501405811,
+        0.31346454233052173
+      ],
+      "adabn_physa_valid_post": [
+        0.10479087334798709,
+        0.2592534025277727
+      ],
+      "adabn_st_valid": [
+        0.11040299906279287,
+        0.2537332083723836
+      ],
+      "adabn_physa_valid": [
+        0.14826616682286786,
+        0.24492346141830681
+      ]
+    },
+    "EMSR802": {
+      "none_valid": [
+        0.44939935529956093,
+        0.6702799624347776
+      ],
+      "adabn_valid": [
+        0.5035570929739255,
+        0.7317458763466008
+      ],
+      "adabn_physa_valid_post": [
+        0.6226417488859156,
+        0.7913389681166988
+      ],
+      "adabn_st_valid": [
+        0.5281032100860447,
+        0.7751054255639316
+      ],
+      "adabn_physa_valid": [
+        0.8838668972794221,
+        0.9692099337532225
+      ]
+    },
+    "EMSR838": {
+      "none_valid": [
+        0.16949210107148227,
+        0.27815646129223554
+      ],
+      "adabn_valid": [
+        0.13262483772069414,
+        0.22155618699155347
+      ],
+      "adabn_physa_valid_post": [
+        0.2549427929670954,
+        0.3278778484263582
+      ],
+      "adabn_st_valid": [
+        0.09850592371937682,
+        0.17466702690573718
+      ],
+      "adabn_physa_valid": [
+        0.3483583096544834,
+        0.5765711040945902
+      ]
+    },
+    "EMSR843": {
+      "none_valid": [
+        0.46694101508916325,
+        0.5473251028806585
+      ],
+      "adabn_valid": [
+        0.33388203017832646,
+        0.42277091906721537
+      ],
+      "adabn_physa_valid_post": [
+        0.33388203017832646,
+        0.42277091906721537
+      ],
+      "adabn_st_valid": [
+        0.20521262002743482,
+        0.3004115226337449
+      ],
+      "adabn_physa_valid": [
+        0.45157750342935526,
+        0.5127572016460905
+      ]
+    },
+    "EMSR845": {
+      "none_valid": [
+        0.4189508198856458,
+        0.5816580705661704
+      ],
+      "adabn_valid": [
+        0.30711522681983355,
+        0.47451125958921064
+      ],
+      "adabn_physa_valid_post": [
+        0.3601350955339351,
+        0.5036362481928652
+      ],
+      "adabn_st_valid": [
+        0.302253871501322,
+        0.4325718946586958
+      ],
+      "adabn_physa_valid": [
+        0.5589972518527201,
+        0.725836491749046
+      ]
+    },
+    "EMSR848": {
+      "none_valid": [
+        0.1668447827368367,
+        0.2955081433642153
+      ],
+      "adabn_valid": [
+        0.19931572675200862,
+        0.29048808928868897
+      ],
+      "adabn_physa_valid_post": [
+        0.31284870385320157,
+        0.3691174925357834
+      ],
+      "adabn_st_valid": [
+        0.11822652776176014,
+        0.20063301682492088
+      ],
+      "adabn_physa_valid": [
+        0.6282884198926179,
+        0.7873212111892771
+      ]
+    },
+    "EMSR850": {
+      "none_valid": [
+        0.294414777896444,
+        0.5352616589533642
+      ],
+      "adabn_valid": [
+        0.40559708872275624,
+        0.6599323602705588
+      ],
+      "adabn_physa_valid_post": [
+        0.4592539852062814,
+        0.6758771409358807
+      ],
+      "adabn_st_valid": [
+        0.5640797436810253,
+        0.7943198449428425
+      ],
+      "adabn_physa_valid": [
+        0.6283295755705867,
+        0.8109647561409754
+      ]
+    },
+    "EMSR851": {
+      "none_valid": [
+        0.3484176370717294,
+        0.48692483115403107
+      ],
+      "adabn_valid": [
+        0.3576040953607483,
+        0.4887064316810343
+      ],
+      "adabn_physa_valid_post": [
+        0.36037833872841163,
+        0.4898653744261687
+      ],
+      "adabn_st_valid": [
+        0.33227752231190383,
+        0.47357829696006354
+      ],
+      "adabn_physa_valid": [
+        0.35512635569873674,
+        0.49229541566596663
+      ]
+    },
+    "EMSR853": {
+      "none_valid": [
+        0.3964899798411004,
+        0.5324321119411835
+      ],
+      "adabn_valid": [
+        0.49657298707458786,
+        0.6319222103640459
+      ],
+      "adabn_physa_valid_post": [
+        0.5046721214277244,
+        0.6340566820822958
+      ],
+      "adabn_st_valid": [
+        0.49252934898612594,
+        0.6192458199928851
+      ],
+      "adabn_physa_valid": [
+        0.5344598600735208,
+        0.6842167674611646
+      ]
+    }
+  },
+  "exploratory_diagnostic": {
+    "points": [
+      {
+        "event": "EMSR788",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.02320098876953125,
+        "teacher_water_share": 0.006091011895073784,
+        "teacher_dry_on_eligible_share": 0.011400960080848913,
+        "delta_ap": 0.015649772263884643
+      },
+      {
+        "event": "EMSR789",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.05182488759358724,
+        "teacher_water_share": 0.022781901889377173,
+        "teacher_dry_on_eligible_share": 0.005831056257926184,
+        "delta_ap": 0.018393748919523945
+      },
+      {
+        "event": "EMSR795",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.025254567464192707,
+        "teacher_water_share": 4.2385525173611116e-05,
+        "teacher_dry_on_eligible_share": 0.3468708327585414,
+        "delta_ap": 0.4204091635802222
+      },
+      {
+        "event": "EMSR797",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.004911295572916667,
+        "teacher_water_share": 0.004004584418402778,
+        "teacher_dry_on_eligible_share": 0.0020783373301358913,
+        "delta_ap": -0.002919914497418463
+      },
+      {
+        "event": "EMSR799",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.23200257619222006,
+        "teacher_water_share": 6.940629747178819e-05,
+        "teacher_dry_on_eligible_share": 0.6957096703126856,
+        "delta_ap": 0.01400382100483389
+      },
+      {
+        "event": "EMSR802",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.02342065175374349,
+        "teacher_water_share": 0.0007408989800347221,
+        "teacher_dry_on_eligible_share": 0.05425265791119449,
+        "delta_ap": 0.2495604388670144
+      },
+      {
+        "event": "EMSR838",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.13535499572753906,
+        "teacher_water_share": 0.005918184916178386,
+        "teacher_dry_on_eligible_share": 0.5043299854277352,
+        "delta_ap": 0.3404609608828307
+      },
+      {
+        "event": "EMSR843",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.004191471980168269,
+        "teacher_water_share": 3.3256335136217946e-05,
+        "teacher_dry_on_eligible_share": 0.009499947802484603,
+        "delta_ap": 0.11897923920469183
+      },
+      {
+        "event": "EMSR845",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.07836151123046875,
+        "teacher_water_share": 0.007570743560791016,
+        "teacher_dry_on_eligible_share": 0.04717819462620975,
+        "delta_ap": 0.20436637506769006
+      },
+      {
+        "event": "EMSR848",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.08339977264404297,
+        "teacher_water_share": 0.005620850457085504,
+        "teacher_dry_on_eligible_share": 0.32016357969547177,
+        "delta_ap": 0.4725871363704609
+      },
+      {
+        "event": "EMSR850",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.03009933080428686,
+        "teacher_water_share": 0.015780978732638888,
+        "teacher_dry_on_eligible_share": 0.04028021786895279,
+        "delta_ap": 0.04238226211032026
+      },
+      {
+        "event": "EMSR851",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.06034434925426136,
+        "teacher_water_share": 0.020003810073390152,
+        "teacher_dry_on_eligible_share": 0.01104903575653631,
+        "delta_ap": 0.027981295222803015
+      },
+      {
+        "event": "EMSR853",
+        "cohort": "ImpactMesh",
+        "radar_dark_share": 0.010327657063802084,
+        "teacher_water_share": 0.006354120042588975,
+        "teacher_dry_on_eligible_share": 0.001739771640570092,
+        "delta_ap": 0.019041643155155774
+      },
+      {
+        "event": "EMSR857",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.0881972074313365,
+        "delta_ap": 0.0008993630505843564
+      },
+      {
+        "event": "EMSR858",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.13555157398022552,
+        "delta_ap": 6.0528659237333214e-05
+      },
+      {
+        "event": "EMSR861",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.02852030726060116,
+        "delta_ap": 0.0022055365360392396
+      },
+      {
+        "event": "EMSR864",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.052350946542686176,
+        "delta_ap": 0.0006532956866851514
+      },
+      {
+        "event": "EMSR865",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.0565682698347724,
+        "delta_ap": 0.001091005904066078
+      },
+      {
+        "event": "EMSR866",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.01658630947460259,
+        "delta_ap": 0.015910057280485928
+      },
+      {
+        "event": "EMSR868",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.05981649136144321,
+        "delta_ap": 0.0064941461551140485
+      },
+      {
+        "event": "EMSR870",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.0587552705028092,
+        "delta_ap": -0.016487872189781056
+      },
+      {
+        "event": "EMSR871",
+        "cohort": "GEOID-Flood",
+        "radar_dark_share": 0.04273974675556729,
+        "delta_ap": 0.004165252893120049
+      }
+    ],
+    "within_cohort": {
+      "radar_dark_share": {
+        "ImpactMesh": {
+          "n": 13,
+          "spearman_rho": 0.26373626373626374
+        },
+        "GEOID-Flood": {
+          "n": 9,
+          "spearman_rho": -0.5666666666666667
+        }
+      },
+      "teacher_dry_on_eligible_share": {
+        "ImpactMesh": {
+          "n": 13,
+          "spearman_rho": 0.510989010989011
+        }
+      }
+    }
+  }
+}

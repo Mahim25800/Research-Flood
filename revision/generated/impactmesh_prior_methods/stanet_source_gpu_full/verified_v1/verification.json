@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "plan_sha256": "3dbaa588fb70f8aaf29b7ba5e80a6a1c3ce87f546e93327d82e61205035343b8",
+  "seeds": [
+    {
+      "seed": 0,
+      "selected_epoch": 9,
+      "best_selection_loss": 2.0439224243164062,
+      "checkpoint_sha256": "e505897383e0f46556660db055699a8cd6178bad31921df53654fea63c938df8",
+      "calibration": {
+        "slope": 2.698137657375029,
+        "intercept": -3.297520486634461,
+        "threshold": 0.5,
+        "sample_pixels": 111990,
+        "positive_pixels": 10717,
+        "brier": 0.07718706030589893
+      },
+      "constant_prevalence_brier": 0.08653831139697847,
+      "effective_distance_threshold": 1.2221468677185883,
+      "gpu": "Tesla T4",
+      "torch": "2.11.0+cu130",
+      "normalization": [
+        -10.52140864186235,
+        3.7227406700431187
+      ]
+    },
+    {
+      "seed": 1,
+      "selected_epoch": 11,
+      "best_selection_loss": 1.9839719533920288,
+      "checkpoint_sha256": "5237a7ecff48576503b05977a59a8f5c15361a7691a24aa8316e8028ac08faa1",
+      "calibration": {
+        "slope": 2.630536363983921,
+        "intercept": -3.2417212842479053,
+        "threshold": 0.5,
+        "sample_pixels": 111990,
+        "positive_pixels": 10717,
+        "brier": 0.07474300432885238
+      },
+      "constant_prevalence_brier": 0.08653831139697847,
+      "effective_distance_threshold": 1.2323423194721972,
+      "gpu": "Tesla T4",
+      "torch": "2.11.0+cu130",
+      "normalization": [
+        -10.52140864186235,
+        3.7227406700431187
+      ]
+    },
+    {
+      "seed": 2,
+      "selected_epoch": 10,
+      "best_selection_loss": 2.0271520614624023,
+      "checkpoint_sha256": "c5ca3fb1bd3c14a159d7e17de51fb61ebc29ae55940dbfd47f0f3514964c3d14",
+      "calibration": {
+        "slope": 3.088058875871308,
+        "intercept": -3.3644736129632764,
+        "threshold": 0.5,
+        "sample_pixels": 111990,
+        "positive_pixels": 10717,
+        "brier": 0.0717242188554174
+      },
+      "constant_prevalence_brier": 0.08653831139697847,
+      "effective_distance_threshold": 1.0895108377795992,
+      "gpu": "Tesla T4",
+      "torch": "2.11.0+cu130",
+      "normalization": [
+        -10.52140864186235,
+        3.7227406700431187
+      ]
+    }
+  ],
+  "calibration_check": "report consistency and bounds; no pixel scores were archived for recomputation"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "type": "file",
+    "oid": "8e9a49fc25644388bf9e93adf7968dbd16223541",
+    "size": 860651520,
+    "lfs": {
+      "oid": "8dd089d06c5dab29d4e574d030308b6fc728d0436fdaae12ffee323fb13814e3",
+      "size": 860651520,
+      "pointerSize": 134
+    },
+    "xetHash": "1a86171d7776f45b3f20962babd1b4899ae3fb4f4cfd21b8e4a3540978c95304",
+    "path": "geoid-flood-heldout/shards/test/dem/test-dem-00000-of-00001.tar"
+  },
+  {
+    "type": "file",
+    "oid": "50bb22a19b581726034da41726909d34cbfc1644",
+    "size": 12697600,
+    "lfs": {
+      "oid": "c44864c1d483840ca7583f61a56b9c185052f5eca2919911d2f1c704645b104f",
+      "size": 12697600,
+      "pointerSize": 133
+    },
+    "xetHash": "77da749e34c1fa1d035c4a8777997d48991ec35cbcdf4249fd7d9e908f46ef22",
+    "path": "geoid-flood-heldout/shards/test/label/test-label-00000-of-00001.tar"
+  },
+  {
+    "type": "file",
+    "oid": "df54a4bc4b5b85c6bf37b95cb29465f507488728",
+    "size": 2000035840,
+    "lfs": {
+      "oid": "32b8a03a6b73d46b16324782d11315564d8a0b730bec7bd3818eaccd3becf7ae",
+      "size": 2000035840,
+      "pointerSize": 135
+    },
+    "xetHash": "d0257037394c25fbd32d92cb8b134a44920591ad20d2c9ca1f3f59bd7ee5b307",
+    "path": "geoid-flood-heldout/shards/test/s1grd/test-s1grd-00000-of-00005.tar"
+  },
+  {
+    "type": "file",
+    "oid": "94131b03889e03f3693d5f62a130f16f2c3ac30c",
+    "size": 1996800000,
+    "lfs": {
+      "oid": "eac0710b06c518cc3ebbc5fb1f1ed61a47694c442f820b7ea1e7fcf0d3d8fe53",
+      "size": 1996800000,
+      "pointerSize": 135
+    },
+    "xetHash": "ea218b591984fc932fecdff3df3fe89994895294f6953c698ae58714962bd41c",
+    "path": "geoid-flood-heldout/shards/test/s1grd/test-s1grd-00001-of-00005.tar"
+  },
+  {
+    "type": "file",
+    "oid": "4e4109ca46c40e001f82b295aae572892e6f7638",
+    "size": 1997189120,
+    "lfs": {
+      "oid": "f49fe2994b470ef537cb63ad8833877117e6f5997ded1e54e30d9babd83a08e4",
+      "size": 1997189120,
+      "pointerSize": 135
+    },
+    "xetHash": "2d0d92f59d0714bd53acfe0477d1cea9757ad88f14c373645bab378bad734af7",
+    "path": "geoid-flood-heldout/shards/test/s1grd/test-s1grd-00002-of-00005.tar"
+  },
+  {
+    "type": "file",
+    "oid": "ddd1fd3e0859d9684b1feac7be8d08e78d2a6225",
+    "size": 1998080000,
+    "lfs": {
+      "oid": "1a9a414a656b9c547f25c83be46430d5139766008b2c3deef6ff7561a8b22ff1",
+      "size": 1998080000,
+      "pointerSize": 135
+    },
+    "xetHash": "6f7fd83b8a41047de9a88cab0d2b359ec4d612c36ea7b31a38e1e35dfe430bd4",
+    "path": "geoid-flood-heldout/shards/test/s1grd/test-s1grd-00003-of-00005.tar"
+  },
+  {
+    "type": "file",
+    "oid": "c94ad9800f3ac852000aac45003885c20fb68657",
+    "size": 1708697600,
+    "lfs": {
+      "oid": "1dfa7b2997e86b9fc668a72b1647ac1adc8f74855ecf7c7df15f70e6a435344a",
+      "size": 1708697600,
+      "pointerSize": 135
+    },
+    "xetHash": "83d73f95f3a7b4fe27edeb90c33fdecd40ca9a567952ba027fa470273d029016",
+    "path": "geoid-flood-heldout/shards/test/s1grd/test-s1grd-00004-of-00005.tar"
+  }
+]

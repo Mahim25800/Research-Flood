@@ -1,0 +1,80 @@
+{
+  "task": "ImpactMesh darkness-only ablation and U-Net crossover",
+  "design": "13 original activations, seeds 0\u20132, 200 steps per arm, same Kaggle GPU family",
+  "contrasts": [
+    "darkness_only - ordinary",
+    "joint - darkness_only",
+    "joint - ordinary"
+  ],
+  "paired_unit": "activation after averaging the three seeds",
+  "primary_metric": "floodwater AP",
+  "threshold_metrics": [
+    "IoU",
+    "miss",
+    "dry-pixel FPR",
+    "FDP"
+  ],
+  "annotation": "2=floodwater, 0=dry, 1=permanent water excluded, 255=nodata excluded",
+  "steps": 200,
+  "original_snapshot_sha256": "622bd37f8c5beb5570019efa71d6fb323d21f026618be53e05229b5167f72b12",
+  "code_sha256": {
+    "src/tta_px1.py": "4aa0cf872e16c153570adbcf78830b040bd3f8fcdb6e01ec9369522c04830011",
+    "src/sen1floods11_unet_baseline.py": "be007f135df0201f763eed2a1231c0c5164d08065b893d8fd555d201d22d85c2",
+    "src/conformal_px1.py": "e680415c41797a7f16949ea96bb6d402e246e3185701136ff86ce8a83e34dda1",
+    "src/train_px1.py": "ffcdc07c58ad62f74a165a5f547af34ccde5ee10a8e80b8f8b8d3e7b129c9b5e",
+    "src/hand_fetch.py": "b68b2fab330001752f80fe5d3586a1febb2efc97f7cc0afab3c11b37818908e8",
+    "revision/fresh_sar_test/experiment.py": "2b0fcb3b46ce8370e9e1090c6ad51bebb5b0489273a9f9d50022eaf6ec0c55b1"
+  },
+  "models": {
+    "resnet50": {
+      "mean": [
+        -11.188689231872559,
+        -17.89822769165039
+      ],
+      "std": [
+        6.838869094848633,
+        6.575514793395996
+      ],
+      "threshold": 0.43,
+      "checkpoints": {
+        "0": {
+          "path": "checkpoints/resnet50/seed0.pt",
+          "sha256": "f40b89ae719cb62e8eea9be31cf1804a7aad6a56c40fae8146547f5ae3e5e1ef"
+        },
+        "1": {
+          "path": "checkpoints/resnet50/seed1.pt",
+          "sha256": "33bcca905c2d8823f05890b7adc3658f2d811b111fd7700c27c6bcbe2c8fec76"
+        },
+        "2": {
+          "path": "checkpoints/resnet50/seed2.pt",
+          "sha256": "3c3dea77bbf41385e66d8ce3ad2f2c1ac1376571c9c22405383449f31896c452"
+        }
+      }
+    },
+    "unet": {
+      "mean": [
+        -11.188685417175293,
+        -17.89824676513672
+      ],
+      "std": [
+        6.838871002197266,
+        6.575514316558838
+      ],
+      "threshold": 0.208,
+      "checkpoints": {
+        "0": {
+          "path": "checkpoints/unet/seed0.pt",
+          "sha256": "a50e379185be0a3bf4b23e290b573abd403a2ae2fbed2a61f09c9ab4d827bc9f"
+        },
+        "1": {
+          "path": "checkpoints/unet/seed1.pt",
+          "sha256": "c29837164d0ca5e24f6dd739620d5c3fd6c0709bd0a408113c452cbaced6b3df"
+        },
+        "2": {
+          "path": "checkpoints/unet/seed2.pt",
+          "sha256": "42ea4f7bd8208b1650810064cefa2d3e7b22b6b313b01c89077c39eb03b59b6f"
+        }
+      }
+    }
+  }
+}

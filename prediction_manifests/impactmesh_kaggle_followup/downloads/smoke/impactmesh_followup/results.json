@@ -1,0 +1,206 @@
+{
+  "run": {
+    "seed": 0,
+    "smoke": true,
+    "steps": 2,
+    "archive_sha256": "f42dea09a71f77d40ef108ca4d4dd960f43871c6222a49e969a390c3a294209c",
+    "protocol_sha256": "a55fd6fd1a82be756f3b22d28777f4d5f6666a94a8c054235b9dcb3b805de64f",
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "Tesla T4"
+  },
+  "events": {
+    "EMSR843": {
+      "chips": [
+        "EMSR843_1_32TNR_x500985_y5069095",
+        "EMSR843_1_32TNR_x503545_y5066535",
+        "EMSR843_1_32TNR_x503545_y5069095",
+        "EMSR843_1_32TNR_x503545_y5074215",
+        "EMSR843_1_32TNR_x506105_y5058855",
+        "EMSR843_1_32TNR_x506105_y5061415",
+        "EMSR843_1_32TNR_x506105_y5063975",
+        "EMSR843_1_32TNR_x506105_y5069095",
+        "EMSR843_1_32TNR_x508665_y5053735",
+        "EMSR843_1_32TNR_x508665_y5063975",
+        "EMSR843_1_32TNR_x511225_y5053735",
+        "EMSR843_1_32TNR_x511225_y5056295",
+        "EMSR843_1_32TNR_x511225_y5058855"
+      ],
+      "metrics": {
+        "resnet50": {
+          "ordinary": {
+            "ap": 0.08386631086659754,
+            "iou": 0.07258310460506252,
+            "miss": 0.8041152263374486,
+            "fpr": 0.0025924534984933874,
+            "fdp": 0.896611642050391,
+            "threshold": 0.43,
+            "tp": 238,
+            "fp": 2064,
+            "fn": 977,
+            "tn": 794093,
+            "seconds": 14.027398127000026,
+            "score_file": "EMSR843_resnet50_ordinary.npz",
+            "score_sha256": "a243763ed6093638be70d92b3b6ebec4d26f21344ff78bc2218b7f7c459b20d5",
+            "score_values_sha256": "06fe8fd6296d1c1cb5ce5178b2a44ee10c2b02266c7c87ced78ac8a47ef8dac3",
+            "diagnostics": {
+              "validity_corrected": true,
+              "pseudo_water": 0,
+              "pseudo_dry": 1000819,
+              "physical_additions": 0,
+              "physical_conflicts": 0,
+              "invalid_targets_removed": 0,
+              "skipped_updates": 0,
+              "adabn_skipped_batches": 0,
+              "valid_radar_pixels": 851968,
+              "valid_terrain_pixels": 851968
+            }
+          },
+          "darkness_only": {
+            "ap": 0.0861896128633793,
+            "iou": 0.07317810704566072,
+            "miss": 0.8008230452674897,
+            "fpr": 0.0026276224413024065,
+            "fdp": 0.8963153384747216,
+            "threshold": 0.43,
+            "tp": 242,
+            "fp": 2092,
+            "fn": 973,
+            "tn": 794065,
+            "seconds": 2.976746196000022,
+            "score_file": "EMSR843_resnet50_darkness_only.npz",
+            "score_sha256": "2bb4b741a9402c92988e8bc2b8b3c5d8350905f0df2ff417a99421d1ed0d6a8d",
+            "score_values_sha256": "276f181e42d14e1e80a0b608ce20fc21a50ea1aafeba8d23b31b4a1a57078c57",
+            "diagnostics": {
+              "validity_corrected": true,
+              "pseudo_water": 3377,
+              "pseudo_dry": 1000683,
+              "physical_additions": 3377,
+              "physical_conflicts": 125,
+              "invalid_targets_removed": 0,
+              "skipped_updates": 0,
+              "adabn_skipped_batches": 0,
+              "valid_radar_pixels": 851968,
+              "valid_terrain_pixels": 851968
+            }
+          },
+          "joint": {
+            "ap": 0.08596381027335118,
+            "iou": 0.07335556229160352,
+            "miss": 0.8008230452674897,
+            "fpr": 0.002617574171928401,
+            "fdp": 0.8959587274290628,
+            "threshold": 0.43,
+            "tp": 242,
+            "fp": 2084,
+            "fn": 973,
+            "tn": 794073,
+            "seconds": 2.9754017590000217,
+            "score_file": "EMSR843_resnet50_joint.npz",
+            "score_sha256": "4cd73cb2e6643d0f339ec5c8a2f2795db5b375b39f072d6a78d730c9d778fee3",
+            "score_values_sha256": "93c37255a0d4142017c0da2a16974e0cc334ee1588a1f38e7b799b463b33d1e3",
+            "diagnostics": {
+              "validity_corrected": true,
+              "pseudo_water": 3134,
+              "pseudo_dry": 1000749,
+              "physical_additions": 3134,
+              "physical_conflicts": 62,
+              "invalid_targets_removed": 0,
+              "skipped_updates": 0,
+              "adabn_skipped_batches": 0,
+              "valid_radar_pixels": 851968,
+              "valid_terrain_pixels": 851968
+            }
+          }
+        },
+        "unet": {
+          "ordinary": {
+            "ap": 0.003801112977644314,
+            "iou": 0.005762119083794398,
+            "miss": 0.8345679012345679,
+            "fpr": 0.042288141660501634,
+            "fdp": 0.994065369511943,
+            "threshold": 0.208,
+            "tp": 201,
+            "fp": 33668,
+            "fn": 1014,
+            "tn": 762489,
+            "seconds": 4.564000056999987,
+            "score_file": "EMSR843_unet_ordinary.npz",
+            "score_sha256": "11560c9ae4d660fee6089e5c960d4e691d2a21091448dbf8d4f5d7c40204d6c8",
+            "score_values_sha256": "a2ed044fe070fbd1703319b9dad6723064350a7ad55bd3fbaafed606b60f9976",
+            "diagnostics": {
+              "validity_corrected": true,
+              "pseudo_water": 0,
+              "pseudo_dry": 832992,
+              "physical_additions": 0,
+              "physical_conflicts": 0,
+              "invalid_targets_removed": 0,
+              "skipped_updates": 0,
+              "adabn_skipped_batches": 0,
+              "valid_radar_pixels": 851968,
+              "valid_terrain_pixels": 851968
+            }
+          },
+          "darkness_only": {
+            "ap": 0.0038057166485518518,
+            "iou": 0.0057563434331863225,
+            "miss": 0.8345679012345679,
+            "fpr": 0.04233210283901291,
+            "fdp": 0.994071495988674,
+            "threshold": 0.208,
+            "tp": 201,
+            "fp": 33703,
+            "fn": 1014,
+            "tn": 762454,
+            "seconds": 4.523584765999999,
+            "score_file": "EMSR843_unet_darkness_only.npz",
+            "score_sha256": "3c40b1b6ce73b84430de1c35b1f7865a48f9f3159f2e7e14be69ae68b21f8abf",
+            "score_values_sha256": "16c634a944f52a4f3db9fecad9248b569024f7ab0952d979bedf6f9fbedc6ba7",
+            "diagnostics": {
+              "validity_corrected": true,
+              "pseudo_water": 3467,
+              "pseudo_dry": 832961,
+              "physical_additions": 3467,
+              "physical_conflicts": 35,
+              "invalid_targets_removed": 0,
+              "skipped_updates": 0,
+              "adabn_skipped_batches": 0,
+              "valid_radar_pixels": 851968,
+              "valid_terrain_pixels": 851968
+            }
+          },
+          "joint": {
+            "ap": 0.003804587055335068,
+            "iou": 0.0057570029214641695,
+            "miss": 0.8345679012345679,
+            "fpr": 0.04232707870432591,
+            "fdp": 0.994070796460177,
+            "threshold": 0.208,
+            "tp": 201,
+            "fp": 33699,
+            "fn": 1014,
+            "tn": 762458,
+            "seconds": 4.538582603999998,
+            "score_file": "EMSR843_unet_joint.npz",
+            "score_sha256": "3ccb3ff97fb24dda7451fafa81cb6ad2fe24e030b8d9cf59bc961babd9c6856b",
+            "score_values_sha256": "358be51fcbeb21fc0216091d25d03b7dfff4d8b6236785e3e843236f63956164",
+            "diagnostics": {
+              "validity_corrected": true,
+              "pseudo_water": 3169,
+              "pseudo_dry": 832971,
+              "physical_additions": 3169,
+              "physical_conflicts": 27,
+              "invalid_targets_removed": 0,
+              "skipped_updates": 0,
+              "adabn_skipped_batches": 0,
+              "valid_radar_pixels": 851968,
+              "valid_terrain_pixels": 851968
+            }
+          }
+        }
+      }
+    }
+  }
+}

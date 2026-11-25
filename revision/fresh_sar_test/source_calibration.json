@@ -1,0 +1,24 @@
+{
+  "mean": [
+    -11.188689231872559,
+    -17.89822769165039
+  ],
+  "std": [
+    6.838869094848633,
+    6.575514793395996
+  ],
+  "threshold": 0.43,
+  "source_validation_mean_miss": 0.1997637900817324,
+  "events": [
+    "Ghana",
+    "India",
+    "Mekong",
+    "Nigeria",
+    "Pakistan",
+    "Paraguay",
+    "Somalia",
+    "Spain",
+    "Sri-Lanka",
+    "USA"
+  ]
+}

@@ -1,0 +1,6732 @@
+{
+  "run": {
+    "spec_sha256": "ca9f4a526a738266a22be8606d9b1bac36ae8ef6089b0fc0668d067205ad8767",
+    "gpu": "Tesla T4",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "steps": 200,
+    "adaptation_seed": 0,
+    "threshold": 0.43
+  },
+  "events": {
+    "EMSR857": {
+      "selected": [
+        [
+          "EMSR857-1-1",
+          0,
+          0
+        ],
+        [
+          "EMSR857-1-15",
+          0,
+          512
+        ],
+        [
+          "EMSR857-1-21",
+          512,
+          512
+        ],
+        [
+          "EMSR857-1-27",
+          0,
+          512
+        ],
+        [
+          "EMSR857-1-32",
+          512,
+          0
+        ],
+        [
+          "EMSR857-1-38",
+          0,
+          0
+        ],
+        [
+          "EMSR857-1-41",
+          512,
+          0
+        ],
+        [
+          "EMSR857-1-46",
+          512,
+          512
+        ],
+        [
+          "EMSR857-1-52",
+          0,
+          512
+        ],
+        [
+          "EMSR857-14-0",
+          512,
+          512
+        ],
+        [
+          "EMSR857-2-11",
+          0,
+          0
+        ],
+        [
+          "EMSR857-2-16",
+          512,
+          0
+        ],
+        [
+          "EMSR857-2-22",
+          0,
+          0
+        ],
+        [
+          "EMSR857-2-27",
+          0,
+          512
+        ],
+        [
+          "EMSR857-2-31",
+          512,
+          512
+        ],
+        [
+          "EMSR857-2-9",
+          0,
+          512
+        ],
+        [
+          "EMSR857-3-12",
+          512,
+          0
+        ],
+        [
+          "EMSR857-3-17",
+          0,
+          0
+        ],
+        [
+          "EMSR857-3-20",
+          512,
+          0
+        ],
+        [
+          "EMSR857-3-26",
+          512,
+          512
+        ],
+        [
+          "EMSR857-3-9",
+          0,
+          512
+        ],
+        [
+          "EMSR857-4-2",
+          512,
+          512
+        ],
+        [
+          "EMSR857-5-1",
+          0,
+          0
+        ],
+        [
+          "EMSR857-5-20",
+          512,
+          0
+        ],
+        [
+          "EMSR857-5-7",
+          0,
+          0
+        ],
+        [
+          "EMSR857-6-19",
+          512,
+          0
+        ],
+        [
+          "EMSR857-6-22",
+          512,
+          512
+        ],
+        [
+          "EMSR857-6-27",
+          0,
+          512
+        ],
+        [
+          "EMSR857-6-31",
+          512,
+          512
+        ],
+        [
+          "EMSR857-6-36",
+          0,
+          0
+        ],
+        [
+          "EMSR857-6-41",
+          512,
+          0
+        ],
+        [
+          "EMSR857-6-46",
+          0,
+          0
+        ],
+        [
+          "EMSR857-6-52",
+          0,
+          512
+        ],
+        [
+          "EMSR857-6-57",
+          512,
+          512
+        ],
+        [
+          "EMSR857-6-62",
+          0,
+          512
+        ],
+        [
+          "EMSR857-6-70",
+          512,
+          0
+        ],
+        [
+          "EMSR857-7-13",
+          0,
+          0
+        ],
+        [
+          "EMSR857-7-19",
+          512,
+          0
+        ],
+        [
+          "EMSR857-7-5",
+          512,
+          512
+        ],
+        [
+          "EMSR857-8-1",
+          0,
+          512
+        ],
+        [
+          "EMSR857-8-13",
+          512,
+          512
+        ],
+        [
+          "EMSR857-8-8",
+          0,
+          0
+        ],
+        [
+          "EMSR857-9-12",
+          512,
+          0
+        ],
+        [
+          "EMSR857-9-2",
+          0,
+          0
+        ],
+        [
+          "EMSR857-9-24",
+          0,
+          512
+        ],
+        [
+          "EMSR857-9-3",
+          512,
+          512
+        ],
+        [
+          "EMSR857-9-4",
+          0,
+          512
+        ],
+        [
+          "EMSR857-9-9",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "72ae0c3a0fd8388c262461f5180282947433869c633f22104bbd4431f8ddfd0a",
+      "rows": {
+        "0:source": {
+          "ap": 0.8247058948006448,
+          "iou": 0.5749633724181599,
+          "miss": 0.21321773909457786,
+          "fpr": 0.10457869654319946,
+          "matched_recall": [
+            0.5481191376221174,
+            0.6759170306919653
+          ],
+          "tp": 1244031,
+          "fp": 582507,
+          "fn": 337132,
+          "tn": 4987528,
+          "score_sha256": "6ecaad40cffdf508845119e8d456480a1a4901dc8dc4f07afd570ab08aef9a97",
+          "score_file": "EMSR857_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.893382882207832,
+          "iou": 0.6473148138011655,
+          "miss": 0.13988753847642527,
+          "fpr": 0.093318982735297,
+          "matched_recall": [
+            0.6652015004145683,
+            0.7737488165356766
+          ],
+          "tp": 1359978,
+          "fp": 519790,
+          "fn": 221185,
+          "tn": 5050245,
+          "score_sha256": "059e9579faf0e198c66b02665da7411eae09e2ca51b8cbc55f6366e95b585ebc",
+          "score_file": "EMSR857_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.9053091561936081,
+          "iou": 0.669726905451898,
+          "miss": 0.10988873379910863,
+          "fpr": 0.09341180082351368,
+          "matched_recall": [
+            0.6652015004145683,
+            0.8264783580187495
+          ],
+          "tp": 1407411,
+          "fp": 520307,
+          "fn": 173752,
+          "tn": 5049728,
+          "score_sha256": "36632684293c6efba85c31c111321f8b1ed7826717eb828a2f0b137e2c17e574",
+          "score_file": "EMSR857_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.9236865444789595,
+          "iou": 0.7018664773152514,
+          "miss": 0.05103585145870476,
+          "fpr": 0.09993851026070752,
+          "matched_recall": [
+            0.7517964861940231,
+            0.8976236162875048
+          ],
+          "tp": 1500467,
+          "fp": 556661,
+          "fn": 80696,
+          "tn": 5013374,
+          "score_sha256": "097376a750beca87837d001b009815337bdfb64d3a824f6907233999a52e89b3",
+          "score_file": "EMSR857_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 19954298,
+            "pseudo_dry": 76704526,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 2038175,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.890482862287851,
+          "iou": 0.6944814143195417,
+          "miss": 0.04955719302816977,
+          "fpr": 0.10462429769292293,
+          "matched_recall": [
+            0.6725583953077576,
+            0.8679022445292905
+          ],
+          "tp": 1502805,
+          "fp": 582761,
+          "fn": 78358,
+          "tn": 4987274,
+          "score_sha256": "2e816bcfa5c14ccc9003f41d443440a15f61e9a09674def6cf6dcb9bdd88e69e",
+          "score_file": "EMSR857_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 20696216,
+            "pseudo_dry": 76681598,
+            "physical_additions": 331123,
+            "physical_conflicts": 33783,
+            "invalid_targets_removed": 1952633,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.8883227255146293,
+          "iou": 0.6944207327088241,
+          "miss": 0.05075884017017853,
+          "fpr": 0.1041670294710895,
+          "matched_recall": [
+            0.6667261010441449,
+            0.8637551915899879
+          ],
+          "tp": 1500905,
+          "fp": 580214,
+          "fn": 80258,
+          "tn": 4989821,
+          "score_sha256": "c04023402b8e89229206befe155b2146aba25b56150fb9b506120b3ff9dd2a40",
+          "score_file": "EMSR857_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 20669215,
+            "pseudo_dry": 76698297,
+            "physical_additions": 327017,
+            "physical_conflicts": 33646,
+            "invalid_targets_removed": 1951971,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.951350595524133,
+          "iou": 0.6844479391015916,
+          "miss": 0.03988519842672767,
+          "fpr": 0.11433069989685882,
+          "matched_recall": [
+            0.8309067439599839,
+            0.9105373702774476
+          ],
+          "tp": 1518098,
+          "fp": 636826,
+          "fn": 63065,
+          "tn": 4933209,
+          "score_sha256": "864c17936a74b9b5ee944db1c3ad7714ccfd2ed23b6cdb1fbdadc928080275a6",
+          "score_file": "EMSR857_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.9456143607421534,
+          "iou": 0.6757170653165898,
+          "miss": 0.038644339641137566,
+          "fpr": 0.11999709158021449,
+          "matched_recall": [
+            0.8110163215304178,
+            0.8998673761022741
+          ],
+          "tp": 1520060,
+          "fp": 668388,
+          "fn": 61103,
+          "tn": 4901647,
+          "score_sha256": "235fe42f9db52d4b72962511aa3378ab1555a2b2c018e9532695a6e5eaf5192e",
+          "score_file": "EMSR857_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.945646474970761,
+          "iou": 0.6757120910110901,
+          "miss": 0.038642442303544924,
+          "fpr": 0.12000086175401052,
+          "matched_recall": [
+            0.8110163215304178,
+            0.9000716561164156
+          ],
+          "tp": 1520063,
+          "fp": 668409,
+          "fn": 61100,
+          "tn": 4901626,
+          "score_sha256": "92c425b801093073fbb69f266e8d9445cf3e73c8f9e3db9158f4cb7c71436025",
+          "score_file": "EMSR857_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.9279483548168724,
+          "iou": 0.6578832341982572,
+          "miss": 0.035726234423648924,
+          "fpr": 0.132204196203435,
+          "matched_recall": [
+            0.7689005891202374,
+            0.8949085459563625
+          ],
+          "tp": 1524674,
+          "fp": 736382,
+          "fn": 56489,
+          "tn": 4833653,
+          "score_sha256": "0462e3da44248b118bdf7a1e4bbe782475b19fe5b72b449c8dbbb77d50ff5eaf",
+          "score_file": "EMSR857_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 22332612,
+            "pseudo_dry": 74981211,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 2122017,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.9262768941165546,
+          "iou": 0.6571179149187002,
+          "miss": 0.03549855391253147,
+          "fpr": 0.13278713688513627,
+          "matched_recall": [
+            0.7473223163280281,
+            0.8908033675212487
+          ],
+          "tp": 1525034,
+          "fp": 739629,
+          "fn": 56129,
+          "tn": 4830406,
+          "score_sha256": "12b301f028e985131ececa88432d7e459377945c0fdec3c75af57c36da1e083c",
+          "score_file": "EMSR857_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 22334955,
+            "pseudo_dry": 74888482,
+            "physical_additions": 15146,
+            "physical_conflicts": 2661,
+            "invalid_targets_removed": 2122037,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.9285334673609399,
+          "iou": 0.658623126852074,
+          "miss": 0.036416232861507636,
+          "fpr": 0.13143938951909637,
+          "matched_recall": [
+            0.7552399626770819,
+            0.890670705814259
+          ],
+          "tp": 1523583,
+          "fp": 732122,
+          "fn": 57580,
+          "tn": 4837913,
+          "score_sha256": "2f2f06290dd4c0c392a6e4b80675c9f0ce8cb3438a51ff3fc39cd5f2fde2a278",
+          "score_file": "EMSR857_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 22311320,
+            "pseudo_dry": 74905810,
+            "physical_additions": 13528,
+            "physical_conflicts": 2533,
+            "invalid_targets_removed": 2122034,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.8995363256745276,
+          "iou": 0.6832868616565659,
+          "miss": 0.035379654090059026,
+          "fpr": 0.11687915785089321,
+          "matched_recall": [
+            0.6636467587465682,
+            0.8664957376310981
+          ],
+          "tp": 1525222,
+          "fp": 651021,
+          "fn": 55941,
+          "tn": 4919014,
+          "score_sha256": "bf677a48f299308a503e7f3b44e0ac9e36ee2858f5fd5bbcb2fda40733aa8b50",
+          "score_file": "EMSR857_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.8992822919582718,
+          "iou": 0.692168205251169,
+          "miss": 0.0652551318238537,
+          "fpr": 0.09948465314849907,
+          "matched_recall": [
+            0.6744276206817387,
+            0.8420928139603571
+          ],
+          "tp": 1477984,
+          "fp": 554133,
+          "fn": 103179,
+          "tn": 5015902,
+          "score_sha256": "7173e8e6d7efd905aac0b089f6736116bcb37e546f7bcaf7b11c9b01c4159eb0",
+          "score_file": "EMSR857_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.9037737410727944,
+          "iou": 0.6927496276415676,
+          "miss": 0.06428812209746876,
+          "fpr": 0.09955915896399214,
+          "matched_recall": [
+            0.6744276206817387,
+            0.8628623361411821
+          ],
+          "tp": 1479513,
+          "fp": 554548,
+          "fn": 101650,
+          "tn": 5015487,
+          "score_sha256": "2177f0c56f67b4d5bde1acb0d4ffdd81235d962762a0cb9c931922768765f211",
+          "score_file": "EMSR857_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.9121435472518826,
+          "iou": 0.7021025915641693,
+          "miss": 0.05138622646747995,
+          "fpr": 0.09966777587573507,
+          "matched_recall": [
+            0.7064919303069955,
+            0.8815517438746037
+          ],
+          "tp": 1499913,
+          "fp": 555153,
+          "fn": 81250,
+          "tn": 5014882,
+          "score_sha256": "3cbdded20fc6b858cea11eb71162266f5326d42b1d5d2fb9e3c22c17ea5cb67e",
+          "score_file": "EMSR857_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 19867858,
+            "pseudo_dry": 76354176,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 2043280,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.9129776714502833,
+          "iou": 0.699116833052358,
+          "miss": 0.04847318081690503,
+          "fpr": 0.10248858400351164,
+          "matched_recall": [
+            0.7044883623209197,
+            0.8820475814321483
+          ],
+          "tp": 1504519,
+          "fp": 570865,
+          "fn": 76644,
+          "tn": 4999170,
+          "score_sha256": "7cc4dcc971997e96c490f51c05e4a0abe5fc7bdebc346667f2ea97c490de3ad8",
+          "score_file": "EMSR857_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 20325510,
+            "pseudo_dry": 76198792,
+            "physical_additions": 168715,
+            "physical_conflicts": 3510,
+            "invalid_targets_removed": 2047772,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.915400378010133,
+          "iou": 0.7000327271897772,
+          "miss": 0.048982932183462426,
+          "fpr": 0.10177638022023201,
+          "matched_recall": [
+            0.7151261661261529,
+            0.8825394662030417
+          ],
+          "tp": 1503713,
+          "fp": 566898,
+          "fn": 77450,
+          "tn": 5003137,
+          "score_sha256": "34feed083c2795bfa341d9bbfaee9ac293abb147542cd5ed037e1e4530153b6b",
+          "score_file": "EMSR857_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 20287736,
+            "pseudo_dry": 76220300,
+            "physical_additions": 160239,
+            "physical_conflicts": 3355,
+            "invalid_targets_removed": 2047765,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12316331,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    },
+    "EMSR858": {
+      "selected": [
+        [
+          "EMSR858-10-1",
+          0,
+          0
+        ],
+        [
+          "EMSR858-10-1",
+          0,
+          512
+        ],
+        [
+          "EMSR858-10-1",
+          512,
+          0
+        ],
+        [
+          "EMSR858-10-1",
+          512,
+          512
+        ],
+        [
+          "EMSR858-10-3",
+          0,
+          0
+        ],
+        [
+          "EMSR858-10-3",
+          0,
+          512
+        ],
+        [
+          "EMSR858-10-3",
+          512,
+          0
+        ],
+        [
+          "EMSR858-10-3",
+          512,
+          512
+        ],
+        [
+          "EMSR858-12-2",
+          0,
+          0
+        ],
+        [
+          "EMSR858-12-2",
+          0,
+          512
+        ],
+        [
+          "EMSR858-12-2",
+          512,
+          0
+        ],
+        [
+          "EMSR858-12-2",
+          512,
+          512
+        ],
+        [
+          "EMSR858-12-4",
+          0,
+          0
+        ],
+        [
+          "EMSR858-12-4",
+          0,
+          512
+        ],
+        [
+          "EMSR858-12-4",
+          512,
+          0
+        ],
+        [
+          "EMSR858-12-4",
+          512,
+          512
+        ],
+        [
+          "EMSR858-12-5",
+          0,
+          0
+        ],
+        [
+          "EMSR858-12-5",
+          0,
+          512
+        ],
+        [
+          "EMSR858-12-5",
+          512,
+          0
+        ],
+        [
+          "EMSR858-12-5",
+          512,
+          512
+        ],
+        [
+          "EMSR858-13-0",
+          0,
+          0
+        ],
+        [
+          "EMSR858-13-0",
+          0,
+          512
+        ],
+        [
+          "EMSR858-13-0",
+          512,
+          0
+        ],
+        [
+          "EMSR858-13-0",
+          512,
+          512
+        ],
+        [
+          "EMSR858-13-1",
+          0,
+          0
+        ],
+        [
+          "EMSR858-13-1",
+          0,
+          512
+        ],
+        [
+          "EMSR858-13-1",
+          512,
+          0
+        ],
+        [
+          "EMSR858-13-1",
+          512,
+          512
+        ],
+        [
+          "EMSR858-13-2",
+          0,
+          0
+        ],
+        [
+          "EMSR858-13-2",
+          0,
+          512
+        ],
+        [
+          "EMSR858-13-2",
+          512,
+          0
+        ],
+        [
+          "EMSR858-13-2",
+          512,
+          512
+        ],
+        [
+          "EMSR858-13-3",
+          0,
+          0
+        ],
+        [
+          "EMSR858-13-3",
+          0,
+          512
+        ],
+        [
+          "EMSR858-13-3",
+          512,
+          0
+        ],
+        [
+          "EMSR858-13-3",
+          512,
+          512
+        ],
+        [
+          "EMSR858-14-1",
+          0,
+          0
+        ],
+        [
+          "EMSR858-14-1",
+          0,
+          512
+        ],
+        [
+          "EMSR858-14-1",
+          512,
+          0
+        ],
+        [
+          "EMSR858-14-1",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "2ca8f28ef1586118b935950824a19473e07ad05bb7b28866f4904fdaa87f9c06",
+      "rows": {
+        "0:source": {
+          "ap": 0.08580096421656525,
+          "iou": 0.07153043608796818,
+          "miss": 0.8473637004292396,
+          "fpr": 0.018919336398810653,
+          "matched_recall": [
+            0.16208597603946442,
+            0.4010186430905247
+          ],
+          "tp": 4765,
+          "fp": 35397,
+          "fn": 26453,
+          "tn": 1835546,
+          "score_sha256": "7728f226280ea3bb1f0c8ccce56a9f1da9aacfa211b32ca3282c1d98583b9ff9",
+          "score_file": "EMSR858_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "0:adabn": {
+          "ap": 0.09228320471499078,
+          "iou": 0.09202628934575378,
+          "miss": 0.7829137036325197,
+          "fpr": 0.0226751964116491,
+          "matched_recall": [
+            0.19027484143763213,
+            0.4205266192581203
+          ],
+          "tp": 6777,
+          "fp": 42424,
+          "fn": 24441,
+          "tn": 1828519,
+          "score_sha256": "2ae0998acabe36b7dc46a2b470fbd0c314d127eb3b5e12af9210b6f76ec811a6",
+          "score_file": "EMSR858_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "0:post": {
+          "ap": 0.0923944091082856,
+          "iou": 0.09204344874405974,
+          "miss": 0.782849638029342,
+          "fpr": 0.022679472330263403,
+          "matched_recall": [
+            0.19027484143763213,
+            0.4205266192581203
+          ],
+          "tp": 6779,
+          "fp": 42432,
+          "fn": 24439,
+          "tn": 1828511,
+          "score_sha256": "7e46efbf85d3a72baf81020547055817f6efcdf08a7aa6d1412b8ddb2b0fc385",
+          "score_file": "EMSR858_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.063284548218821,
+          "iou": 0.02420702402957486,
+          "miss": 0.9475623037990902,
+          "fpr": 0.019459171123866414,
+          "matched_recall": [
+            0.057210583637644946,
+            0.2835863924658851
+          ],
+          "tp": 1637,
+          "fp": 36407,
+          "fn": 29581,
+          "tn": 1834536,
+          "score_sha256": "657fceae2d98370ac228874ef67b252b742e9841afe82d3f8f275853eb754959",
+          "score_file": "EMSR858_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 28088890,
+            "pseudo_dry": 70740226,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 4817702,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "0:darkness": {
+          "ap": 0.06166614185874767,
+          "iou": 0.04055063193045243,
+          "miss": 0.907809597027356,
+          "fpr": 0.021248643063952244,
+          "matched_recall": [
+            0.08318918572618361,
+            0.3055929271574092
+          ],
+          "tp": 2878,
+          "fp": 39755,
+          "fn": 28340,
+          "tn": 1831188,
+          "score_sha256": "de9eb5db645d9b5671d41849df33c9dccf798a408bb90d98d780102e09eaa60c",
+          "score_file": "EMSR858_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 28155709,
+            "pseudo_dry": 70590148,
+            "physical_additions": 31598,
+            "physical_conflicts": 8126,
+            "invalid_targets_removed": 4817959,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "0:joint": {
+          "ap": 0.06177840602543823,
+          "iou": 0.025973418924603853,
+          "miss": 0.9466013197514255,
+          "fpr": 0.01761838816040895,
+          "matched_recall": [
+            0.07114485232878467,
+            0.2860208853866359
+          ],
+          "tp": 1667,
+          "fp": 32963,
+          "fn": 29551,
+          "tn": 1837980,
+          "score_sha256": "37e36218e1b39a070d2a6757f17944c27460514dc2329fe7342a042a781636f3",
+          "score_file": "EMSR858_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 28109335,
+            "pseudo_dry": 70704156,
+            "physical_additions": 20337,
+            "physical_conflicts": 1219,
+            "invalid_targets_removed": 4817825,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "1:source": {
+          "ap": 0.07142657046204487,
+          "iou": 0.058241505381842355,
+          "miss": 0.8540585559613044,
+          "fpr": 0.02512529777764475,
+          "matched_recall": [
+            0.10404253956050996,
+            0.3413735665321289
+          ],
+          "tp": 4556,
+          "fp": 47008,
+          "fn": 26662,
+          "tn": 1823935,
+          "score_sha256": "7ef4de470762c532ceb205979cba90b93ab209b1efbfaba213dc31403cea124e",
+          "score_file": "EMSR858_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "1:adabn": {
+          "ap": 0.07931610964005474,
+          "iou": 0.08282808285282982,
+          "miss": 0.7855724261643924,
+          "fpr": 0.02651069540867894,
+          "matched_recall": [
+            0.1541418412454353,
+            0.38503427509770005
+          ],
+          "tp": 6694,
+          "fp": 49600,
+          "fn": 24524,
+          "tn": 1821343,
+          "score_sha256": "a6f6445fde2b6dafdda511e3a82051f1659e3af7fb2cd9abc4b55096ffb3ddc7",
+          "score_file": "EMSR858_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "1:post": {
+          "ap": 0.07948043191373852,
+          "iou": 0.082832256947022,
+          "miss": 0.7855403933628035,
+          "fpr": 0.026514971327293243,
+          "matched_recall": [
+            0.15404574284066885,
+            0.38503427509770005
+          ],
+          "tp": 6695,
+          "fp": 49608,
+          "fn": 24523,
+          "tn": 1821335,
+          "score_sha256": "0599c172f07004a2bafa222febc62df21bea46747bb415469bb060c8026d83e4",
+          "score_file": "EMSR858_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.05927438318849126,
+          "iou": 0.020525185082147106,
+          "miss": 0.9574604394900378,
+          "fpr": 0.017896322870338648,
+          "matched_recall": [
+            0.057018386828111986,
+            0.26981228778268945
+          ],
+          "tp": 1328,
+          "fp": 33483,
+          "fn": 29890,
+          "tn": 1837460,
+          "score_sha256": "85feaf386836f28a8f9d5864c9c347124726a089f64baabbd240ce167383b10f",
+          "score_file": "EMSR858_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 28078693,
+            "pseudo_dry": 70572103,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 4818954,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "1:darkness": {
+          "ap": 0.06203574567271111,
+          "iou": 0.03547713906279643,
+          "miss": 0.9221282593375617,
+          "fpr": 0.01993914298832193,
+          "matched_recall": [
+            0.07848036389262605,
+            0.2997949900698315
+          ],
+          "tp": 2431,
+          "fp": 37305,
+          "fn": 28787,
+          "tn": 1833638,
+          "score_sha256": "035d925631442084d3b4d7fa189f5866c195588d99512d8080d44455ffb1656f",
+          "score_file": "EMSR858_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 28137497,
+            "pseudo_dry": 70439477,
+            "physical_additions": 27492,
+            "physical_conflicts": 7512,
+            "invalid_targets_removed": 4819080,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "1:joint": {
+          "ap": 0.06218323152142681,
+          "iou": 0.02742717715456216,
+          "miss": 0.9416682683067461,
+          "fpr": 0.01880121414709053,
+          "matched_recall": [
+            0.06800563777307964,
+            0.29056954321224937
+          ],
+          "tp": 1821,
+          "fp": 35176,
+          "fn": 29397,
+          "tn": 1835767,
+          "score_sha256": "6db18a129851bf677a2e048bad2d74a2a008f65658f82c7d6f7e88e2781b9a2c",
+          "score_file": "EMSR858_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 28110572,
+            "pseudo_dry": 70520457,
+            "physical_additions": 15305,
+            "physical_conflicts": 1176,
+            "invalid_targets_removed": 4819035,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "2:source": {
+          "ap": 0.09307703803078288,
+          "iou": 0.07550060030636324,
+          "miss": 0.8247485425075277,
+          "fpr": 0.022045032905866187,
+          "matched_recall": [
+            0.1548145300788007,
+            0.41261451726568005
+          ],
+          "tp": 5471,
+          "fp": 41245,
+          "fn": 25747,
+          "tn": 1829698,
+          "score_sha256": "c977bc1ddf09d1eff11279dab340ff33eabcd387c3ffd4ed0a94c8a5fe92b0d5",
+          "score_file": "EMSR858_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "2:adabn": {
+          "ap": 0.09168522668086942,
+          "iou": 0.0871110606404724,
+          "miss": 0.7542763790121084,
+          "fpr": 0.03038147073427678,
+          "matched_recall": [
+            0.1543340380549683,
+            0.3918252290345314
+          ],
+          "tp": 7671,
+          "fp": 56842,
+          "fn": 23547,
+          "tn": 1814101,
+          "score_sha256": "6d469c84a28455950399c517b23e07ebf47055d7be9b5542fff41d62ddfb83a8",
+          "score_file": "EMSR858_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "2:post": {
+          "ap": 0.09185287355025248,
+          "iou": 0.08712585729209248,
+          "miss": 0.7542123134089307,
+          "fpr": 0.030385746652891083,
+          "matched_recall": [
+            0.1543340380549683,
+            0.3918572618361202
+          ],
+          "tp": 7673,
+          "fp": 56850,
+          "fn": 23545,
+          "tn": 1814093,
+          "score_sha256": "daad2eb121962b04f5027aeb102f501c21f261f68a804b9e46a8948a4c154c21",
+          "score_file": "EMSR858_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.059396263001969936,
+          "iou": 0.007519307476873462,
+          "miss": 0.9858094688961496,
+          "fpr": 0.014803764732543963,
+          "matched_recall": [
+            0.03369850727144596,
+            0.27820488179896213
+          ],
+          "tp": 443,
+          "fp": 27697,
+          "fn": 30775,
+          "tn": 1843246,
+          "score_sha256": "38b3c85f8f9775a59c88095ea75ad4cb52849901805e90a0fb46b93f7dbc1f17",
+          "score_file": "EMSR858_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 27809885,
+            "pseudo_dry": 70791571,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 4778788,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "2:darkness": {
+          "ap": 0.060293223272417186,
+          "iou": 0.013060324670986705,
+          "miss": 0.9749503491575373,
+          "fpr": 0.015317409456087118,
+          "matched_recall": [
+            0.05182907297072202,
+            0.3001793836888974
+          ],
+          "tp": 782,
+          "fp": 28658,
+          "fn": 30436,
+          "tn": 1842285,
+          "score_sha256": "bb17824753686ce87c7f64e4476621b87c303b3aa5062bbc8b252f5f71c0549a",
+          "score_file": "EMSR858_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 27942419,
+            "pseudo_dry": 70680298,
+            "physical_additions": 86202,
+            "physical_conflicts": 10358,
+            "invalid_targets_removed": 4782802,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        },
+        "2:joint": {
+          "ap": 0.06094314823228512,
+          "iou": 0.010033444816053512,
+          "miss": 0.9809725158562368,
+          "fpr": 0.014957163312832086,
+          "matched_recall": [
+            0.045358447049778976,
+            0.2989941700301108
+          ],
+          "tp": 594,
+          "fp": 27984,
+          "fn": 30624,
+          "tn": 1842959,
+          "score_sha256": "15f38d459f23ca4376043b435be7016639d729bff307bd563895949789d6fd7c",
+          "score_file": "EMSR858_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 27914810,
+            "pseudo_dry": 70750225,
+            "physical_additions": 73297,
+            "physical_conflicts": 2285,
+            "invalid_targets_removed": 4782681,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 10016136,
+            "valid_terrain_pixels": 10485760
+          }
+        }
+      }
+    },
+    "EMSR861": {
+      "selected": [
+        [
+          "EMSR861-1-1",
+          0,
+          0
+        ],
+        [
+          "EMSR861-1-21",
+          0,
+          512
+        ],
+        [
+          "EMSR861-1-33",
+          512,
+          0
+        ],
+        [
+          "EMSR861-1-48",
+          0,
+          0
+        ],
+        [
+          "EMSR861-1-59",
+          0,
+          512
+        ],
+        [
+          "EMSR861-1-9",
+          512,
+          0
+        ],
+        [
+          "EMSR861-12-31",
+          0,
+          0
+        ],
+        [
+          "EMSR861-13-7",
+          0,
+          512
+        ],
+        [
+          "EMSR861-14-23",
+          512,
+          0
+        ],
+        [
+          "EMSR861-14-36",
+          0,
+          0
+        ],
+        [
+          "EMSR861-14-50",
+          0,
+          512
+        ],
+        [
+          "EMSR861-14-70",
+          512,
+          0
+        ],
+        [
+          "EMSR861-14-84",
+          0,
+          0
+        ],
+        [
+          "EMSR861-15-11",
+          0,
+          512
+        ],
+        [
+          "EMSR861-15-27",
+          512,
+          0
+        ],
+        [
+          "EMSR861-15-5",
+          0,
+          0
+        ],
+        [
+          "EMSR861-17-18",
+          0,
+          512
+        ],
+        [
+          "EMSR861-17-39",
+          512,
+          0
+        ],
+        [
+          "EMSR861-18-13",
+          0,
+          0
+        ],
+        [
+          "EMSR861-18-27",
+          0,
+          512
+        ],
+        [
+          "EMSR861-18-41",
+          512,
+          0
+        ],
+        [
+          "EMSR861-18-63",
+          0,
+          0
+        ],
+        [
+          "EMSR861-19-23",
+          0,
+          512
+        ],
+        [
+          "EMSR861-19-4",
+          512,
+          0
+        ],
+        [
+          "EMSR861-2-2",
+          0,
+          0
+        ],
+        [
+          "EMSR861-2-32",
+          0,
+          512
+        ],
+        [
+          "EMSR861-23-1",
+          512,
+          0
+        ],
+        [
+          "EMSR861-28-2",
+          0,
+          0
+        ],
+        [
+          "EMSR861-3-19",
+          0,
+          512
+        ],
+        [
+          "EMSR861-3-31",
+          512,
+          0
+        ],
+        [
+          "EMSR861-3-45",
+          0,
+          0
+        ],
+        [
+          "EMSR861-3-59",
+          0,
+          512
+        ],
+        [
+          "EMSR861-3-70",
+          512,
+          0
+        ],
+        [
+          "EMSR861-3-9",
+          0,
+          0
+        ],
+        [
+          "EMSR861-31-18",
+          0,
+          512
+        ],
+        [
+          "EMSR861-32-12",
+          512,
+          0
+        ],
+        [
+          "EMSR861-33-4",
+          0,
+          0
+        ],
+        [
+          "EMSR861-4-17",
+          0,
+          512
+        ],
+        [
+          "EMSR861-4-30",
+          512,
+          0
+        ],
+        [
+          "EMSR861-4-44",
+          0,
+          0
+        ],
+        [
+          "EMSR861-5-102",
+          0,
+          512
+        ],
+        [
+          "EMSR861-5-116",
+          512,
+          0
+        ],
+        [
+          "EMSR861-5-131",
+          0,
+          0
+        ],
+        [
+          "EMSR861-5-20",
+          0,
+          512
+        ],
+        [
+          "EMSR861-5-31",
+          512,
+          0
+        ],
+        [
+          "EMSR861-5-59",
+          0,
+          0
+        ],
+        [
+          "EMSR861-5-80",
+          0,
+          512
+        ],
+        [
+          "EMSR861-7-1",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "3bffa8554a3c61fb725062665e87cd029c97bca616c10479e50e665c7dcec9ec",
+      "rows": {
+        "0:source": {
+          "ap": 0.7902786569673518,
+          "iou": 0.44739920738971145,
+          "miss": 0.03127214125949904,
+          "fpr": 0.028139264229800225,
+          "matched_recall": [
+            0.9523809523809523,
+            0.9830325595180209
+          ],
+          "tp": 209190,
+          "fp": 251626,
+          "fn": 6753,
+          "tn": 8690541,
+          "score_sha256": "5fd2930095fb387aaf41fee3fdfc7311888769b757c4343ea21b5720e5f2cf13",
+          "score_file": "EMSR861_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.8499793108926337,
+          "iou": 0.3945837339908482,
+          "miss": 0.023260767887822248,
+          "fpr": 0.03562838851030181,
+          "matched_recall": [
+            0.9556086559879228,
+            0.9834956446840138
+          ],
+          "tp": 210920,
+          "fp": 318595,
+          "fn": 5023,
+          "tn": 8623572,
+          "score_sha256": "ec7ab1dcc5dbdb8aedbfcf676c306e04232a5d114e6e24e414dc7c0171b2788a",
+          "score_file": "EMSR861_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.8517626065017225,
+          "iou": 0.39235135110029445,
+          "miss": 0.02201506879130141,
+          "fpr": 0.03604517786348656,
+          "matched_recall": [
+            0.9595819267121416,
+            0.9839263138883872
+          ],
+          "tp": 211189,
+          "fp": 322322,
+          "fn": 4754,
+          "tn": 8619845,
+          "score_sha256": "5e91249046b3b2fcd2070a1dea62c77e9ce438c81f77b6a154e2ad3f96422893",
+          "score_file": "EMSR861_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.8467766946243616,
+          "iou": 0.5244457443402006,
+          "miss": 0.036773593031494425,
+          "fpr": 0.020204274869838598,
+          "matched_recall": [
+            0.9626938590276137,
+            0.9868437504341423
+          ],
+          "tp": 208002,
+          "fp": 180670,
+          "fn": 7941,
+          "tn": 8761497,
+          "score_sha256": "06ee55fe5c2d073af5ac7a95a0df58749da80644a60de99ffa7c6c083831dbb1",
+          "score_file": "EMSR861_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3714144,
+            "pseudo_dry": 97135484,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 111373,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.841925220542903,
+          "iou": 0.4461457155550502,
+          "miss": 0.01875958007437148,
+          "fpr": 0.028963449239988472,
+          "matched_recall": [
+            0.9706172462177519,
+            0.9876124718096905
+          ],
+          "tp": 211892,
+          "fp": 258996,
+          "fn": 4051,
+          "tn": 8683171,
+          "score_sha256": "4885cb0e892d3eaa7578c0d2132a39db5b93720b9903bc49050a8d068ed9be97",
+          "score_file": "EMSR861_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 4148311,
+            "pseudo_dry": 95826343,
+            "physical_additions": 175430,
+            "physical_conflicts": 78980,
+            "invalid_targets_removed": 111430,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.8508815673730867,
+          "iou": 0.47048035362145946,
+          "miss": 0.021112052717615296,
+          "fpr": 0.026095576161796127,
+          "matched_recall": [
+            0.9701124833868197,
+            0.9874550228532529
+          ],
+          "tp": 211384,
+          "fp": 233351,
+          "fn": 4559,
+          "tn": 8708816,
+          "score_sha256": "035ca7bba5eed70e3150e8ed72d9fac910ae08f14b385b16fbb14227ba139692",
+          "score_file": "EMSR861_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 4028028,
+            "pseudo_dry": 96206400,
+            "physical_additions": 137078,
+            "physical_conflicts": 21465,
+            "invalid_targets_removed": 111349,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.8350810718075878,
+          "iou": 0.4341324972848917,
+          "miss": 0.01890313647582927,
+          "fpr": 0.030425175463620842,
+          "matched_recall": [
+            0.9690381258017162,
+            0.9874411302982732
+          ],
+          "tp": 211861,
+          "fp": 272067,
+          "fn": 4082,
+          "tn": 8670100,
+          "score_sha256": "e4ce6c83d6df2694aac419c74130f532faec0f8336758a279b09693386f94895",
+          "score_file": "EMSR861_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.8757871053939873,
+          "iou": 0.4321195163793808,
+          "miss": 0.02019051323728947,
+          "fpr": 0.03060745790142367,
+          "matched_recall": [
+            0.9675238373089194,
+            0.9868344887308225
+          ],
+          "tp": 211583,
+          "fp": 273697,
+          "fn": 4360,
+          "tn": 8668470,
+          "score_sha256": "6afc44693040dc18df60731b834383cdd1922535d303a7e0c95a67f7167d0039",
+          "score_file": "EMSR861_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.8749664199365964,
+          "iou": 0.4295192428612575,
+          "miss": 0.019375483345142004,
+          "fpr": 0.03098477136470388,
+          "matched_recall": [
+            0.968723227888841,
+            0.9870428770555193
+          ],
+          "tp": 211759,
+          "fp": 277071,
+          "fn": 4184,
+          "tn": 8665096,
+          "score_sha256": "0c96c7f48886af028fe2def64bd69ce764a98b8c88a1d937b46b5a3726d84a3e",
+          "score_file": "EMSR861_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.8605023738560306,
+          "iou": 0.5189310742857998,
+          "miss": 0.036088226985824964,
+          "fpr": 0.020707508593834134,
+          "matched_recall": [
+            0.961702856772389,
+            0.9873022047484753
+          ],
+          "tp": 208150,
+          "fp": 185170,
+          "fn": 7793,
+          "tn": 8756997,
+          "score_sha256": "b3c50ee49398c37f8f750a389687447e7025cfb9a0120981ac4f28e6dcaa709e",
+          "score_file": "EMSR861_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3707831,
+            "pseudo_dry": 97587001,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 111811,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.8776764272313968,
+          "iou": 0.446471491098611,
+          "miss": 0.019347698235182433,
+          "fpr": 0.028892884688912653,
+          "matched_recall": [
+            0.9703440259698161,
+            0.9884136091468582
+          ],
+          "tp": 211765,
+          "fp": 258365,
+          "fn": 4178,
+          "tn": 8683802,
+          "score_sha256": "0ba4ced8bf75a3629b324707899a7b82f7858ddee9311629c113c495489ec492",
+          "score_file": "EMSR861_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 4144683,
+            "pseudo_dry": 96245892,
+            "physical_additions": 164465,
+            "physical_conflicts": 77032,
+            "invalid_targets_removed": 111890,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.8715819432548758,
+          "iou": 0.45907647149497505,
+          "miss": 0.02079715480474014,
+          "fpr": 0.027360258425055135,
+          "matched_recall": [
+            0.9700013429469814,
+            0.9882237442288011
+          ],
+          "tp": 211452,
+          "fp": 244660,
+          "fn": 4491,
+          "tn": 8697507,
+          "score_sha256": "92d129f8ea98287c0bf54812079ee38a3b2ee30dde24307ac53204741afe5c17",
+          "score_file": "EMSR861_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 4044196,
+            "pseudo_dry": 96658866,
+            "physical_additions": 124491,
+            "physical_conflicts": 21125,
+            "invalid_targets_removed": 111885,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.8113999087028336,
+          "iou": 0.5197738433991842,
+          "miss": 0.02807685361414818,
+          "fpr": 0.0210069885744697,
+          "matched_recall": [
+            0.9699087259137829,
+            0.9877143505462089
+          ],
+          "tp": 209880,
+          "fp": 187848,
+          "fn": 6063,
+          "tn": 8754319,
+          "score_sha256": "34b1102bdc8c0ddf2d2873e35a2c0717c9d357cda1c8afd08aff338c3e339364",
+          "score_file": "EMSR861_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.8829155930490767,
+          "iou": 0.4195298336645761,
+          "miss": 0.020523934556804343,
+          "fpr": 0.03223144904361549,
+          "matched_recall": [
+            0.9611564162765174,
+            0.9860796599102541
+          ],
+          "tp": 211511,
+          "fp": 288219,
+          "fn": 4432,
+          "tn": 8653948,
+          "score_sha256": "ae3b755149abb193fb64d9758be20311313b7a14729865a805b2744c101e24e2",
+          "score_file": "EMSR861_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.8821825017635556,
+          "iou": 0.4168863148356086,
+          "miss": 0.02000064831923239,
+          "fpr": 0.03261927450024139,
+          "matched_recall": [
+            0.9631939910068861,
+            0.9862926790866108
+          ],
+          "tp": 211624,
+          "fp": 291687,
+          "fn": 4319,
+          "tn": 8650480,
+          "score_sha256": "22beaa05e6ca47a17b8b952f412f6df2c22ff039294aa056abc10bea27c0bd75",
+          "score_file": "EMSR861_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.8681574942621219,
+          "iou": 0.5243702564361179,
+          "miss": 0.036968088801211434,
+          "fpr": 0.0202017027863604,
+          "matched_recall": [
+            0.962485470702917,
+            0.987709719694549
+          ],
+          "tp": 207960,
+          "fp": 180647,
+          "fn": 7983,
+          "tn": 8761520,
+          "score_sha256": "b3a5546c7553f881d590d02303891944ea4cf29fff2969ccf792af56cdec5bf6",
+          "score_file": "EMSR861_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3603076,
+            "pseudo_dry": 97763153,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 111511,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.873382108704074,
+          "iou": 0.48416545891504154,
+          "miss": 0.022283658187577278,
+          "fpr": 0.024616963650980796,
+          "matched_recall": [
+            0.9711266399003441,
+            0.9882422676354409
+          ],
+          "tp": 211131,
+          "fp": 220129,
+          "fn": 4812,
+          "tn": 8722038,
+          "score_sha256": "d35b75466846371a62326ae5fd66ca43465ed0b91e1c365ff421467b8cad3732",
+          "score_file": "EMSR861_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3973039,
+            "pseudo_dry": 96852138,
+            "physical_additions": 195095,
+            "physical_conflicts": 85994,
+            "invalid_targets_removed": 111731,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.8720816110686694,
+          "iou": 0.49734563848729735,
+          "miss": 0.02472874786401967,
+          "fpr": 0.023205896288897312,
+          "matched_recall": [
+            0.9700522823152405,
+            0.9881450197505823
+          ],
+          "tp": 210603,
+          "fp": 207511,
+          "fn": 5340,
+          "tn": 8734656,
+          "score_sha256": "71d1279a0eab80df9d5ada4dff902cbd35bfaabc61a97b61cabe538a9b8c4c01",
+          "score_file": "EMSR861_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3880966,
+            "pseudo_dry": 97149709,
+            "physical_additions": 150360,
+            "physical_conflicts": 27636,
+            "invalid_targets_removed": 111689,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12571218,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    },
+    "EMSR864": {
+      "selected": [
+        [
+          "EMSR864-1-0",
+          0,
+          0
+        ],
+        [
+          "EMSR864-1-11",
+          0,
+          512
+        ],
+        [
+          "EMSR864-1-5",
+          512,
+          0
+        ],
+        [
+          "EMSR864-1-9",
+          0,
+          0
+        ],
+        [
+          "EMSR864-11-2",
+          0,
+          512
+        ],
+        [
+          "EMSR864-12-0",
+          512,
+          0
+        ],
+        [
+          "EMSR864-12-2",
+          0,
+          0
+        ],
+        [
+          "EMSR864-12-9",
+          0,
+          512
+        ],
+        [
+          "EMSR864-14-12",
+          512,
+          0
+        ],
+        [
+          "EMSR864-14-6",
+          0,
+          0
+        ],
+        [
+          "EMSR864-15-12",
+          0,
+          512
+        ],
+        [
+          "EMSR864-15-15",
+          512,
+          0
+        ],
+        [
+          "EMSR864-15-7",
+          0,
+          0
+        ],
+        [
+          "EMSR864-18-11",
+          0,
+          512
+        ],
+        [
+          "EMSR864-18-6",
+          512,
+          0
+        ],
+        [
+          "EMSR864-2-10",
+          0,
+          0
+        ],
+        [
+          "EMSR864-2-13",
+          0,
+          512
+        ],
+        [
+          "EMSR864-2-4",
+          512,
+          0
+        ],
+        [
+          "EMSR864-2-9",
+          0,
+          0
+        ],
+        [
+          "EMSR864-23-3",
+          0,
+          512
+        ],
+        [
+          "EMSR864-3-0",
+          512,
+          0
+        ],
+        [
+          "EMSR864-3-13",
+          0,
+          0
+        ],
+        [
+          "EMSR864-3-19",
+          0,
+          512
+        ],
+        [
+          "EMSR864-3-22",
+          512,
+          0
+        ],
+        [
+          "EMSR864-3-29",
+          0,
+          0
+        ],
+        [
+          "EMSR864-3-32",
+          0,
+          512
+        ],
+        [
+          "EMSR864-3-37",
+          512,
+          0
+        ],
+        [
+          "EMSR864-3-40",
+          0,
+          0
+        ],
+        [
+          "EMSR864-3-43",
+          0,
+          512
+        ],
+        [
+          "EMSR864-3-47",
+          512,
+          0
+        ],
+        [
+          "EMSR864-3-50",
+          0,
+          0
+        ],
+        [
+          "EMSR864-3-54",
+          0,
+          512
+        ],
+        [
+          "EMSR864-3-58",
+          512,
+          0
+        ],
+        [
+          "EMSR864-3-69",
+          0,
+          0
+        ],
+        [
+          "EMSR864-3-72",
+          0,
+          512
+        ],
+        [
+          "EMSR864-3-76",
+          512,
+          0
+        ],
+        [
+          "EMSR864-4-1",
+          0,
+          0
+        ],
+        [
+          "EMSR864-4-4",
+          0,
+          512
+        ],
+        [
+          "EMSR864-5-10",
+          512,
+          0
+        ],
+        [
+          "EMSR864-5-15",
+          0,
+          0
+        ],
+        [
+          "EMSR864-5-19",
+          0,
+          512
+        ],
+        [
+          "EMSR864-5-5",
+          512,
+          0
+        ],
+        [
+          "EMSR864-6-1",
+          0,
+          0
+        ],
+        [
+          "EMSR864-6-14",
+          0,
+          512
+        ],
+        [
+          "EMSR864-6-17",
+          512,
+          0
+        ],
+        [
+          "EMSR864-6-20",
+          0,
+          0
+        ],
+        [
+          "EMSR864-6-6",
+          0,
+          512
+        ],
+        [
+          "EMSR864-6-9",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "fa20a70d22a65a25d090d2d68315bd773dd512ac80d185dd236c7247a18b666b",
+      "rows": {
+        "0:source": {
+          "ap": 0.8844459702616979,
+          "iou": 0.6911570153367884,
+          "miss": 0.1273964442294613,
+          "fpr": 0.03670192366606228,
+          "matched_recall": [
+            0.7551053534587846,
+            0.9223788244498587
+          ],
+          "tp": 537584,
+          "fp": 161734,
+          "fn": 78485,
+          "tn": 4244956,
+          "score_sha256": "1bcc6350f3b545dd8fb1185b10c20c504cc8b010b95180162f7ee9fd60459543",
+          "score_file": "EMSR864_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.8971576588926753,
+          "iou": 0.7058537235648027,
+          "miss": 0.08896406084383406,
+          "fpr": 0.04063889222976883,
+          "matched_recall": [
+            0.8004054740621587,
+            0.9353741220545101
+          ],
+          "tp": 561261,
+          "fp": 179083,
+          "fn": 54808,
+          "tn": 4227607,
+          "score_sha256": "3234ae0daeb67f10a877f98c37189f0d27f725b17460d308f8fa8d9e89f171bc",
+          "score_file": "EMSR864_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.904024178684475,
+          "iou": 0.7094128897115277,
+          "miss": 0.0836091411838609,
+          "fpr": 0.0407888914355219,
+          "matched_recall": [
+            0.8300336488282968,
+            0.9374355794561973
+          ],
+          "tp": 564560,
+          "fp": 179744,
+          "fn": 51509,
+          "tn": 4226946,
+          "score_sha256": "0fe548c027c94fd6948331ca737514ad1dc5e10d6ebbad59465eeebef08a105c",
+          "score_file": "EMSR864_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.9154480254919971,
+          "iou": 0.7222464951116601,
+          "miss": 0.052810642963694004,
+          "fpr": 0.04354152436409187,
+          "matched_recall": [
+            0.8590774734648229,
+            0.9582855167197181
+          ],
+          "tp": 583534,
+          "fp": 191874,
+          "fn": 32535,
+          "tn": 4214816,
+          "score_sha256": "ceef4d68f5ad1bb3e6f089e357741117675e4de911af5143e5ae72f85db7d52e",
+          "score_file": "EMSR864_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 13004678,
+            "pseudo_dry": 88400855,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 523205,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.9153654830782988,
+          "iou": 0.7131655654877574,
+          "miss": 0.04687299636891322,
+          "fpr": 0.04704006862293467,
+          "matched_recall": [
+            0.862666032538563,
+            0.9579527617848
+          ],
+          "tp": 587192,
+          "fp": 207291,
+          "fn": 28877,
+          "tn": 4199399,
+          "score_sha256": "045ecaabc62d7dd596c600ea6af2f3cdbbdc67f0886911ca3fdfe4e7a06d8ab6",
+          "score_file": "EMSR864_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 13259252,
+            "pseudo_dry": 87984395,
+            "physical_additions": 108434,
+            "physical_conflicts": 18822,
+            "invalid_targets_removed": 523725,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.9172782183683665,
+          "iou": 0.7185874523274933,
+          "miss": 0.045171888213820205,
+          "fpr": 0.045961254365521516,
+          "matched_recall": [
+            0.8666642859809535,
+            0.960770627965374
+          ],
+          "tp": 588240,
+          "fp": 202537,
+          "fn": 27829,
+          "tn": 4204153,
+          "score_sha256": "1a5a722ff0e9c692b4aa4da97eedd06705f775ec0e341670a72503f518821ecb",
+          "score_file": "EMSR864_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 13198901,
+            "pseudo_dry": 88219665,
+            "physical_additions": 88413,
+            "physical_conflicts": 5929,
+            "invalid_targets_removed": 523583,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.9169553778160864,
+          "iou": 0.7110889844469003,
+          "miss": 0.050598228445190394,
+          "fpr": 0.04685330713074893,
+          "matched_recall": [
+            0.8713098695113697,
+            0.9529744233194658
+          ],
+          "tp": 584897,
+          "fp": 206468,
+          "fn": 31172,
+          "tn": 4200222,
+          "score_sha256": "7d57341a23ac89d0726398529b1c6c2d7873e30d98a74e19609c9b731a9d05e2",
+          "score_file": "EMSR864_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.9063240168009459,
+          "iou": 0.6935562817615133,
+          "miss": 0.06160186602474723,
+          "fpr": 0.04935382339125285,
+          "matched_recall": [
+            0.838274608850632,
+            0.9394499642085545
+          ],
+          "tp": 578118,
+          "fp": 217487,
+          "fn": 37951,
+          "tn": 4189203,
+          "score_sha256": "afd2f475e131592a431b1e83882b55c889b56939a818a7d005d879c3a5a1dad2",
+          "score_file": "EMSR864_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.907402780436714,
+          "iou": 0.6939870135320675,
+          "miss": 0.06058087649273052,
+          "fpr": 0.049442098264230065,
+          "matched_recall": [
+            0.847526819236157,
+            0.9403232430133638
+          ],
+          "tp": 578747,
+          "fp": 217876,
+          "fn": 37322,
+          "tn": 4188814,
+          "score_sha256": "567a11ed18a20ccf43dc19641ab5c775fb65b955b97a1f6b816c3243a7ecf197",
+          "score_file": "EMSR864_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.9096606670511794,
+          "iou": 0.7062421094898345,
+          "miss": 0.0492948030171945,
+          "fpr": 0.0483923307516526,
+          "matched_recall": [
+            0.8495457489339667,
+            0.9531270036310868
+          ],
+          "tp": 585700,
+          "fp": 213250,
+          "fn": 30369,
+          "tn": 4193440,
+          "score_sha256": "6a15a4baba04aa8afc903d5acb333b26f63fd33b706b3f7e9694011b6c31fdf1",
+          "score_file": "EMSR864_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 13072719,
+            "pseudo_dry": 88055210,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 525407,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.9065249739114686,
+          "iou": 0.6965681681102645,
+          "miss": 0.038326875723336186,
+          "fpr": 0.05320728256355677,
+          "matched_recall": [
+            0.85102577795669,
+            0.9573619188759701
+          ],
+          "tp": 592457,
+          "fp": 234468,
+          "fn": 23612,
+          "tn": 4172222,
+          "score_sha256": "ae1c22cad608d4facc0c3272faad78eb62dc355c24e18f6ad25e2926c5139dfa",
+          "score_file": "EMSR864_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 13334295,
+            "pseudo_dry": 87588025,
+            "physical_additions": 75318,
+            "physical_conflicts": 18223,
+            "invalid_targets_removed": 525645,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.9125509637416209,
+          "iou": 0.7001133417579698,
+          "miss": 0.040464623280833806,
+          "fpr": 0.05180305399290624,
+          "matched_recall": [
+            0.8572481329201761,
+            0.9570421494994878
+          ],
+          "tp": 591140,
+          "fp": 228280,
+          "fn": 24929,
+          "tn": 4178410,
+          "score_sha256": "3c2b2dd8031ce683d4bb96a557c1d89359d44572c78d345b0e10455019e37327",
+          "score_file": "EMSR864_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 13273792,
+            "pseudo_dry": 87772246,
+            "physical_additions": 57830,
+            "physical_conflicts": 5528,
+            "invalid_targets_removed": 525589,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.8839474887815979,
+          "iou": 0.7200448662950962,
+          "miss": 0.09137125873887503,
+          "fpr": 0.03661523728694326,
+          "matched_recall": [
+            0.8273667397645393,
+            0.9390798757931336
+          ],
+          "tp": 559778,
+          "fp": 161352,
+          "fn": 56291,
+          "tn": 4245338,
+          "score_sha256": "9ee564d022ec82cd9ad8207b54588cbc0d037ea3c12d53232de0951978eed4ae",
+          "score_file": "EMSR864_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.8862633411769484,
+          "iou": 0.7006623359445774,
+          "miss": 0.08855176936349662,
+          "fpr": 0.042058098028225264,
+          "matched_recall": [
+            0.8156261717437495,
+            0.9283018622913992
+          ],
+          "tp": 561515,
+          "fp": 185337,
+          "fn": 54554,
+          "tn": 4221353,
+          "score_sha256": "e8f2e16a7f57c09444cf7abe441d74a7fdf4b99fe0487f6d7beb4ddbb2499e84",
+          "score_file": "EMSR864_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.8920519645394971,
+          "iou": 0.7021210802534175,
+          "miss": 0.08598062879320335,
+          "fpr": 0.04219221229539632,
+          "matched_recall": [
+            0.8307933039967925,
+            0.9297254041349264
+          ],
+          "tp": 563099,
+          "fp": 185928,
+          "fn": 52970,
+          "tn": 4220762,
+          "score_sha256": "a7d87510c16f2415f004a72931d0a6964514b89ac09034c743af232a0d0009cb",
+          "score_file": "EMSR864_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.9011319275875929,
+          "iou": 0.7227476038338658,
+          "miss": 0.08200217832742761,
+          "fpr": 0.037767803044915796,
+          "matched_recall": [
+            0.8340283312421174,
+            0.9436442995833259
+          ],
+          "tp": 565550,
+          "fp": 166431,
+          "fn": 50519,
+          "tn": 4240259,
+          "score_sha256": "e8ec21787203583957d68ca4fa322dbe1062f45819f60d0f6685dc5e81c31397",
+          "score_file": "EMSR864_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11410968,
+            "pseudo_dry": 88694257,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 515001,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.9007923305627366,
+          "iou": 0.7112251613358996,
+          "miss": 0.06851829908662828,
+          "fpr": 0.04329508088837654,
+          "matched_recall": [
+            0.8361060205918492,
+            0.9429463258174003
+          ],
+          "tp": 573857,
+          "fp": 190788,
+          "fn": 42212,
+          "tn": 4215902,
+          "score_sha256": "629b09887755bc4aa31f3f01259dfac1f04749a8aed6956a257da47e16919c07",
+          "score_file": "EMSR864_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 12050736,
+            "pseudo_dry": 88091255,
+            "physical_additions": 217205,
+            "physical_conflicts": 22821,
+            "invalid_targets_removed": 516054,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.9022933513690976,
+          "iou": 0.7147311349969033,
+          "miss": 0.07089790266999313,
+          "fpr": 0.04193147237495717,
+          "matched_recall": [
+            0.8380230136559379,
+            0.9435907341547781
+          ],
+          "tp": 572391,
+          "fp": 184779,
+          "fn": 43678,
+          "tn": 4221911,
+          "score_sha256": "89050204f8887828371dc87650be69182f955cdd8edcf7e0ffaa37975a1948fc",
+          "score_file": "EMSR864_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11977088,
+            "pseudo_dry": 88248970,
+            "physical_additions": 190726,
+            "physical_conflicts": 8038,
+            "invalid_targets_removed": 515971,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12511216,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    },
+    "EMSR865": {
+      "selected": [
+        [
+          "EMSR865-1-13",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-14",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-15",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-16",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-17",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-18",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-19",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-20",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-26",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-28",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-29",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-3",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-30",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-32",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-33",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-34",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-35",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-39",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-4",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-40",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-41",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-45",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-46",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-47",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-48",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-49",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-50",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-51",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-52",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-53",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-54",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-56",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-57",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-58",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-59",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-6",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-60",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-61",
+          512,
+          512
+        ],
+        [
+          "EMSR865-1-67",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-68",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-69",
+          0,
+          0
+        ],
+        [
+          "EMSR865-1-7",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-70",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-72",
+          0,
+          512
+        ],
+        [
+          "EMSR865-1-75",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-76",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-77",
+          512,
+          0
+        ],
+        [
+          "EMSR865-1-9",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "b6819e00a762464f7907649d9609f1d7178a767ad10ae18d52bc02d5c05f5974",
+      "rows": {
+        "0:source": {
+          "ap": 0.7368404056818864,
+          "iou": 0.33466773071484957,
+          "miss": 0.0853386951232703,
+          "fpr": 0.1397845440084519,
+          "matched_recall": [
+            0.6612959865105742,
+            0.8045589043693945
+          ],
+          "tp": 617304,
+          "fp": 1169629,
+          "fn": 57595,
+          "tn": 7197741,
+          "score_sha256": "c10862dd94edc1e0eea9b87d8361e338e16a0e1aa2ab47304b1913920e9ae5bd",
+          "score_file": "EMSR865_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.6810138172009235,
+          "iou": 0.3678566222976455,
+          "miss": 0.1623561451417175,
+          "fpr": 0.10300835268429626,
+          "matched_recall": [
+            0.5808157961413486,
+            0.7275933139625337
+          ],
+          "tp": 565325,
+          "fp": 861909,
+          "fn": 109574,
+          "tn": 7505461,
+          "score_sha256": "6c99457e29dd4948ebd81d40b765d36eb1e6af9a82fd48b969c0a57f709ef088",
+          "score_file": "EMSR865_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.7021694811944482,
+          "iou": 0.3735202957784001,
+          "miss": 0.14825181249342495,
+          "fpr": 0.10326912757533131,
+          "matched_recall": [
+            0.6530414180492192,
+            0.7671073745849379
+          ],
+          "tp": 574844,
+          "fp": 864091,
+          "fn": 100055,
+          "tn": 7503279,
+          "score_sha256": "c5bd53b73daca31dc3afa56167736575a50863e2bbba2ef4a44be5817b4a80ad",
+          "score_file": "EMSR865_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.7100262016691983,
+          "iou": 0.3822715319929956,
+          "miss": 0.13991723205990822,
+          "fpr": 0.10081710262603423,
+          "matched_recall": [
+            0.6073348160243237,
+            0.757180704075721
+          ],
+          "tp": 580469,
+          "fp": 843574,
+          "fn": 94430,
+          "tn": 7523796,
+          "score_sha256": "d584c8caf023d7453fa6680bb4721c58048931bda696121acdc09601e27974c8",
+          "score_file": "EMSR865_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11948505,
+            "pseudo_dry": 85487800,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 342684,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.7372748211799898,
+          "iou": 0.3874323246696507,
+          "miss": 0.10519648125126871,
+          "fpr": 0.10562817229308612,
+          "matched_recall": [
+            0.6464648170120053,
+            0.7963028542048514
+          ],
+          "tp": 603902,
+          "fp": 883830,
+          "fn": 70997,
+          "tn": 7483540,
+          "score_sha256": "acfdd39d8325067e81ca778c5c6fd12909884137441cb97038d572c8408eb8bd",
+          "score_file": "EMSR865_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 12700780,
+            "pseudo_dry": 84525156,
+            "physical_additions": 204546,
+            "physical_conflicts": 17744,
+            "invalid_targets_removed": 341874,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.7373717815900418,
+          "iou": 0.38659609080913926,
+          "miss": 0.10492532956783163,
+          "fpr": 0.10608769541683946,
+          "matched_recall": [
+            0.6443899033906565,
+            0.7957620325411654
+          ],
+          "tp": 604085,
+          "fp": 887675,
+          "fn": 70814,
+          "tn": 7479695,
+          "score_sha256": "691d61712ec82125453e93a970f09a2f38da0ee40b89a6b344c589f57fdb8045",
+          "score_file": "EMSR865_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 12665447,
+            "pseudo_dry": 84583258,
+            "physical_additions": 185534,
+            "physical_conflicts": 9039,
+            "invalid_targets_removed": 341942,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.7542529408404743,
+          "iou": 0.3590788316524147,
+          "miss": 0.09010385257645959,
+          "fpr": 0.12372788582314395,
+          "matched_recall": [
+            0.684803800272337,
+            0.819933056649958
+          ],
+          "tp": 614088,
+          "fp": 1035277,
+          "fn": 60811,
+          "tn": 7332093,
+          "score_sha256": "24edff3026a07d329533d632cefe679ab27de33864a727df300cb85a693fa9e3",
+          "score_file": "EMSR865_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.7341829957153936,
+          "iou": 0.386763992000802,
+          "miss": 0.13113962237312546,
+          "fpr": 0.10053971558566192,
+          "matched_recall": [
+            0.6309684856548906,
+            0.7744951466812071
+          ],
+          "tp": 586393,
+          "fp": 841253,
+          "fn": 88506,
+          "tn": 7526117,
+          "score_sha256": "4338798a8419f875ada8517102737e854bfd163f8ca18a5b636ac89ec55ff4db",
+          "score_file": "EMSR865_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.743170842972764,
+          "iou": 0.3887931363906491,
+          "miss": 0.12563064991946943,
+          "fpr": 0.10073691016412564,
+          "matched_recall": [
+            0.6673191099705289,
+            0.7902575051970739
+          ],
+          "tp": 590111,
+          "fp": 842903,
+          "fn": 84788,
+          "tn": 7524467,
+          "score_sha256": "9816034878f52edb9f9a462e5d7e9bba5ff5ca893091bbcd8964822f2ef868c0",
+          "score_file": "EMSR865_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.7243809992774575,
+          "iou": 0.400452963246983,
+          "miss": 0.12024762223680877,
+          "fpr": 0.096539533927626,
+          "matched_recall": [
+            0.6377629245264848,
+            0.7878608502901916
+          ],
+          "tp": 593744,
+          "fp": 807782,
+          "fn": 81155,
+          "tn": 7559588,
+          "score_sha256": "68a8ea7f316c31ce5ee5d560d95f86628ef0ea8e874225f5b0c982caf8e13f2a",
+          "score_file": "EMSR865_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11686995,
+            "pseudo_dry": 85266132,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 343438,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.7431671108159443,
+          "iou": 0.38260052670639405,
+          "miss": 0.0948215955276271,
+          "fpr": 0.11016795002491822,
+          "matched_recall": [
+            0.6625401346853002,
+            0.8104638620000919
+          ],
+          "tp": 610904,
+          "fp": 921816,
+          "fn": 63995,
+          "tn": 7445554,
+          "score_sha256": "853085ac5471439b5fef8adb90f10e5070bd7c70dda54dc6c63ae9ad02685b97",
+          "score_file": "EMSR865_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 12765376,
+            "pseudo_dry": 83904926,
+            "physical_additions": 186313,
+            "physical_conflicts": 14166,
+            "invalid_targets_removed": 340846,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.7448315235993699,
+          "iou": 0.38571135918745164,
+          "miss": 0.09610475048859163,
+          "fpr": 0.1083605720793989,
+          "matched_recall": [
+            0.6618388101964748,
+            0.8101567790143414
+          ],
+          "tp": 610038,
+          "fp": 906693,
+          "fn": 64861,
+          "tn": 7460677,
+          "score_sha256": "533ca2ee495212fd60aaa8f8d77b0db20dd935a3123c85fbd09b1cc90d18e669",
+          "score_file": "EMSR865_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 12677155,
+            "pseudo_dry": 84053480,
+            "physical_additions": 167210,
+            "physical_conflicts": 6907,
+            "invalid_targets_removed": 341191,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.7007120005585786,
+          "iou": 0.32554826141459625,
+          "miss": 0.10958824950103645,
+          "fpr": 0.13995162159675023,
+          "matched_recall": [
+            0.6102513116777474,
+            0.7653811903707073
+          ],
+          "tp": 600938,
+          "fp": 1171027,
+          "fn": 73961,
+          "tn": 7196343,
+          "score_sha256": "52f3b0e82727c1aafb807b89c7a548612c1b996515f8c7553c865c52b94907c7",
+          "score_file": "EMSR865_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.6450585827407513,
+          "iou": 0.36057040665785256,
+          "miss": 0.1978725705624101,
+          "fpr": 0.09877488386434446,
+          "matched_recall": [
+            0.5417536549913394,
+            0.691436792764547
+          ],
+          "tp": 541355,
+          "fp": 826486,
+          "fn": 133544,
+          "tn": 7540884,
+          "score_sha256": "2da66842eba0c4eef5318ac99690f5edd25fc0a09ed1f658e1e92933b6d3a5d9",
+          "score_file": "EMSR865_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.673540255232071,
+          "iou": 0.36829811270600743,
+          "miss": 0.17881786756240564,
+          "fpr": 0.0991830168858315,
+          "matched_recall": [
+            0.6172568043514659,
+            0.7343854413771542
+          ],
+          "tp": 554215,
+          "fp": 829901,
+          "fn": 120684,
+          "tn": 7537469,
+          "score_sha256": "013815daeb93c85a95f777fc594e79062495f9506eb17fbba11aca18a17a914f",
+          "score_file": "EMSR865_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.6854789304847291,
+          "iou": 0.3956506737395173,
+          "miss": 0.16407195743363082,
+          "fpr": 0.08975615994033968,
+          "matched_recall": [
+            0.5657229699061144,
+            0.731473894612379
+          ],
+          "tp": 564167,
+          "fp": 751023,
+          "fn": 110732,
+          "tn": 7616347,
+          "score_sha256": "6c2558044f159b19c4c25059a693eb7aaadb2a30c303c22ce7997f4dec3fc30b",
+          "score_file": "EMSR865_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 10424571,
+            "pseudo_dry": 86127427,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 341506,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.6960636667994642,
+          "iou": 0.39377636260316096,
+          "miss": 0.13034691116744876,
+          "fpr": 0.09747531183633568,
+          "matched_recall": [
+            0.5979245783443152,
+            0.768176917336273
+          ],
+          "tp": 586928,
+          "fp": 815612,
+          "fn": 87971,
+          "tn": 7551758,
+          "score_sha256": "af188a76af793c91d2bd4646c7c6cbb07424df40255701c41f2fbe786a2864f6",
+          "score_file": "EMSR865_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11617938,
+            "pseudo_dry": 84864073,
+            "physical_additions": 377335,
+            "physical_conflicts": 37887,
+            "invalid_targets_removed": 342195,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.6955233916671391,
+          "iou": 0.3918431974601765,
+          "miss": 0.1316982244750696,
+          "fpr": 0.09807597847352274,
+          "matched_recall": [
+            0.5957839348082925,
+            0.7645899608682188
+          ],
+          "tp": 586016,
+          "fp": 820638,
+          "fn": 88883,
+          "tn": 7546732,
+          "score_sha256": "b437fc087200560c22b022fd1ed76d004f59bb822e35d23d78b31cdd1d461b53",
+          "score_file": "EMSR865_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11620306,
+            "pseudo_dry": 84853935,
+            "physical_additions": 346379,
+            "physical_conflicts": 29668,
+            "invalid_targets_removed": 342249,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12539733,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    },
+    "EMSR866": {
+      "selected": [
+        [
+          "EMSR866-1-0",
+          0,
+          0
+        ],
+        [
+          "EMSR866-1-13",
+          0,
+          0
+        ],
+        [
+          "EMSR866-1-17",
+          0,
+          0
+        ],
+        [
+          "EMSR866-1-21",
+          0,
+          0
+        ],
+        [
+          "EMSR866-1-25",
+          0,
+          0
+        ],
+        [
+          "EMSR866-1-29",
+          0,
+          512
+        ],
+        [
+          "EMSR866-1-33",
+          0,
+          512
+        ],
+        [
+          "EMSR866-1-37",
+          0,
+          512
+        ],
+        [
+          "EMSR866-1-41",
+          0,
+          512
+        ],
+        [
+          "EMSR866-1-45",
+          512,
+          0
+        ],
+        [
+          "EMSR866-1-49",
+          512,
+          0
+        ],
+        [
+          "EMSR866-1-53",
+          512,
+          0
+        ],
+        [
+          "EMSR866-1-57",
+          512,
+          0
+        ],
+        [
+          "EMSR866-1-61",
+          512,
+          512
+        ],
+        [
+          "EMSR866-1-65",
+          512,
+          512
+        ],
+        [
+          "EMSR866-1-7",
+          512,
+          512
+        ],
+        [
+          "EMSR866-1-79",
+          512,
+          512
+        ],
+        [
+          "EMSR866-2-0",
+          512,
+          512
+        ],
+        [
+          "EMSR866-2-13",
+          0,
+          0
+        ],
+        [
+          "EMSR866-2-2",
+          0,
+          0
+        ],
+        [
+          "EMSR866-2-24",
+          0,
+          0
+        ],
+        [
+          "EMSR866-2-31",
+          0,
+          0
+        ],
+        [
+          "EMSR866-2-37",
+          0,
+          512
+        ],
+        [
+          "EMSR866-2-40",
+          0,
+          512
+        ],
+        [
+          "EMSR866-2-52",
+          0,
+          512
+        ],
+        [
+          "EMSR866-2-56",
+          0,
+          512
+        ],
+        [
+          "EMSR866-2-6",
+          512,
+          0
+        ],
+        [
+          "EMSR866-2-63",
+          512,
+          0
+        ],
+        [
+          "EMSR866-2-67",
+          512,
+          0
+        ],
+        [
+          "EMSR866-2-70",
+          512,
+          0
+        ],
+        [
+          "EMSR866-5-18",
+          512,
+          512
+        ],
+        [
+          "EMSR866-5-24",
+          512,
+          512
+        ],
+        [
+          "EMSR866-5-29",
+          512,
+          512
+        ],
+        [
+          "EMSR866-5-33",
+          512,
+          512
+        ],
+        [
+          "EMSR866-5-38",
+          512,
+          512
+        ],
+        [
+          "EMSR866-5-43",
+          0,
+          0
+        ],
+        [
+          "EMSR866-5-47",
+          0,
+          0
+        ],
+        [
+          "EMSR866-5-51",
+          0,
+          0
+        ],
+        [
+          "EMSR866-7-1",
+          0,
+          0
+        ],
+        [
+          "EMSR866-7-13",
+          0,
+          512
+        ],
+        [
+          "EMSR866-7-17",
+          0,
+          512
+        ],
+        [
+          "EMSR866-7-20",
+          0,
+          512
+        ],
+        [
+          "EMSR866-7-24",
+          0,
+          512
+        ],
+        [
+          "EMSR866-7-28",
+          512,
+          0
+        ],
+        [
+          "EMSR866-7-31",
+          512,
+          0
+        ],
+        [
+          "EMSR866-7-37",
+          512,
+          0
+        ],
+        [
+          "EMSR866-7-5",
+          512,
+          0
+        ],
+        [
+          "EMSR866-7-9",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "6f7c8a06dcd09ebcd9c0c4d687857473a5282a08adf905f1a589b856359a2889",
+      "rows": {
+        "0:source": {
+          "ap": 0.6958823859907567,
+          "iou": 0.38463714637146373,
+          "miss": 0.2475413273566648,
+          "fpr": 0.03396289208143349,
+          "matched_recall": [
+            0.6858949018421568,
+            0.7963143113482223
+          ],
+          "tp": 218897,
+          "fp": 278191,
+          "fn": 72012,
+          "tn": 7912837,
+          "score_sha256": "f56c5287f28c7c8196a487ec1f3ba1292dff1be0b850c919f9a642dc7f702b03",
+          "score_file": "EMSR866_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.6756277947366186,
+          "iou": 0.4338697727521164,
+          "miss": 0.3860313706348033,
+          "fpr": 0.014742471885091835,
+          "matched_recall": [
+            0.6392858247768203,
+            0.7457417955443111
+          ],
+          "tp": 178609,
+          "fp": 120756,
+          "fn": 112300,
+          "tn": 8070272,
+          "score_sha256": "e121122ef77d5c88ccc6b0cc41820fab097fc53b45e51dd80b911943e093942b",
+          "score_file": "EMSR866_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.6820922065871707,
+          "iou": 0.4417957915220517,
+          "miss": 0.3725357414174192,
+          "fpr": 0.014925721167111137,
+          "matched_recall": [
+            0.649010515315786,
+            0.7475396086061277
+          ],
+          "tp": 182535,
+          "fp": 122257,
+          "fn": 108374,
+          "tn": 8068771,
+          "score_sha256": "812b547bc1742bd51b73207e62bb680d37609093ca60ed2548c27cd230ed23ab",
+          "score_file": "EMSR866_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.670419631410531,
+          "iou": 0.45916382951215307,
+          "miss": 0.41400575437679826,
+          "fpr": 0.009810123955137254,
+          "matched_recall": [
+            0.6452773891491841,
+            0.754400860750269
+          ],
+          "tp": 170471,
+          "fp": 80355,
+          "fn": 120438,
+          "tn": 8110673,
+          "score_sha256": "91346c3cf1caf201c8338743c16375bf33dfeebeafe887a3d8e21ee4ff99616b",
+          "score_file": "EMSR866_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 2739730,
+            "pseudo_dry": 99432669,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 15841,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.7668523611689353,
+          "iou": 0.4958518249955799,
+          "miss": 0.2383941369981678,
+          "fpr": 0.019034729218359404,
+          "matched_recall": [
+            0.7687249277265399,
+            0.8790240246950077
+          ],
+          "tp": 221558,
+          "fp": 155914,
+          "fn": 69351,
+          "tn": 8035114,
+          "score_sha256": "5f37587c99393ec22efe7dcf7f6b2ab5ffc6ee01cf7042fdc3e779137f22ff0d",
+          "score_file": "EMSR866_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3428717,
+            "pseudo_dry": 97871420,
+            "physical_additions": 162922,
+            "physical_conflicts": 74715,
+            "invalid_targets_removed": 16086,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.7681245751921648,
+          "iou": 0.5003788876043086,
+          "miss": 0.24867226521008287,
+          "fpr": 0.017811683710518385,
+          "matched_recall": [
+            0.7674289898215593,
+            0.885273401647938
+          ],
+          "tp": 218568,
+          "fp": 145896,
+          "fn": 72341,
+          "tn": 8045132,
+          "score_sha256": "6c1316c68be2894b7c562cf6b500ffc4f1f6cbbcc95532d705d6f4d1a503c8f8",
+          "score_file": "EMSR866_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3276227,
+            "pseudo_dry": 98227868,
+            "physical_additions": 111215,
+            "physical_conflicts": 27298,
+            "invalid_targets_removed": 16078,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.6895347993863371,
+          "iou": 0.3621877224091967,
+          "miss": 0.27752321172600364,
+          "fpr": 0.03532938722709775,
+          "matched_recall": [
+            0.652791766497427,
+            0.7678655524579852
+          ],
+          "tp": 210175,
+          "fp": 289384,
+          "fn": 80734,
+          "tn": 7901644,
+          "score_sha256": "a0cef0150feaf70783f96ff5791045c5998e9b5a87715da95cdcd07c6b3eea5a",
+          "score_file": "EMSR866_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.6986108231735316,
+          "iou": 0.4328413426511209,
+          "miss": 0.34444792013997505,
+          "fpr": 0.018273896756304583,
+          "matched_recall": [
+            0.6650052078141274,
+            0.7770883678401149
+          ],
+          "tp": 190706,
+          "fp": 149682,
+          "fn": 100203,
+          "tn": 8041346,
+          "score_sha256": "d568b2ad0383dd425d04987a3119cf5830378ba3551117e4f32eb3db3902cd08",
+          "score_file": "EMSR866_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.7052755246325205,
+          "iou": 0.43865829515244076,
+          "miss": 0.3335510417347005,
+          "fpr": 0.01844286211694063,
+          "matched_recall": [
+            0.6741798981812182,
+            0.7794258685705839
+          ],
+          "tp": 193876,
+          "fp": 151066,
+          "fn": 97033,
+          "tn": 8039962,
+          "score_sha256": "5dab53777476fc48b5b0e2fe9aa888fd4d45629c71a7ce0a863fa4a41e6d1b18",
+          "score_file": "EMSR866_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.6990685475091802,
+          "iou": 0.4333337900919912,
+          "miss": 0.347758233674448,
+          "fpr": 0.017941459850949113,
+          "matched_recall": [
+            0.6678548962046551,
+            0.8181252556641424
+          ],
+          "tp": 189743,
+          "fp": 146959,
+          "fn": 101166,
+          "tn": 8044069,
+          "score_sha256": "898cb46a581f2e77110401859c989335266bf1013b11a5d129d6bdb252715899",
+          "score_file": "EMSR866_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3259881,
+            "pseudo_dry": 98185504,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 16039,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.7594762971273258,
+          "iou": 0.4566110952562151,
+          "miss": 0.20801694000529375,
+          "fpr": 0.026085492565768302,
+          "matched_recall": [
+            0.7529846103076907,
+            0.8770165240676637
+          ],
+          "tp": 230395,
+          "fp": 213667,
+          "fn": 60514,
+          "tn": 7977361,
+          "score_sha256": "aaebd934698d0d89edb4f44d3ff039cb04b74ac3c999db0d312918f422698916",
+          "score_file": "EMSR866_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3855692,
+            "pseudo_dry": 96824900,
+            "physical_additions": 136174,
+            "physical_conflicts": 63926,
+            "invalid_targets_removed": 16150,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.7576395587024676,
+          "iou": 0.46419493866725603,
+          "miss": 0.22028194383810745,
+          "fpr": 0.024140681731279638,
+          "matched_recall": [
+            0.7508224221320069,
+            0.8856480892650279
+          ],
+          "tp": 226827,
+          "fp": 197737,
+          "fn": 64082,
+          "tn": 7993291,
+          "score_sha256": "d1dff60ec521c52a3b762f73e21993a270a63406c2506c6e9086099720f91a6b",
+          "score_file": "EMSR866_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3704864,
+            "pseudo_dry": 97298391,
+            "physical_additions": 87721,
+            "physical_conflicts": 21848,
+            "invalid_targets_removed": 16168,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.6854528328985198,
+          "iou": 0.4236841230395864,
+          "miss": 0.29906259345706043,
+          "fpr": 0.023240916768933032,
+          "matched_recall": [
+            0.6798586499558281,
+            0.8079330649790828
+          ],
+          "tp": 203909,
+          "fp": 190367,
+          "fn": 87000,
+          "tn": 8000661,
+          "score_sha256": "b9762a3d8387d2bdd97a82483097fd18ad4a6c965f1888c090f86258a4b5576a",
+          "score_file": "EMSR866_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.7175102321844965,
+          "iou": 0.46454202736665734,
+          "miss": 0.31379572306116343,
+          "fpr": 0.0169467129156438,
+          "matched_recall": [
+            0.7063445957326862,
+            0.8173483804213689
+          ],
+          "tp": 199623,
+          "fp": 138811,
+          "fn": 91286,
+          "tn": 8052217,
+          "score_sha256": "322294fb95a749aeb224740b2d8efd65501745cd685a6a4a8411efe0f24df476",
+          "score_file": "EMSR866_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.7186979834081741,
+          "iou": 0.46786731352559763,
+          "miss": 0.30648415827629943,
+          "fpr": 0.017128863434479776,
+          "matched_recall": [
+            0.7115386598558312,
+            0.8188540058918768
+          ],
+          "tp": 201750,
+          "fp": 140303,
+          "fn": 89159,
+          "tn": 8050725,
+          "score_sha256": "aa210d990a40304983c82d5f996e0ad22466534e723843bda880b522d9ab61cb",
+          "score_file": "EMSR866_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.7046229623455629,
+          "iou": 0.4577488182563098,
+          "miss": 0.3605388626683946,
+          "fpr": 0.014098596659662255,
+          "matched_recall": [
+            0.6930483415776068,
+            0.8314971348428546
+          ],
+          "tp": 186025,
+          "fp": 115482,
+          "fn": 104884,
+          "tn": 8075546,
+          "score_sha256": "821e59bc992524f13b6e2dd702b5385d03492df7e149ba048b620f51c4240fd0",
+          "score_file": "EMSR866_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 2894560,
+            "pseudo_dry": 98806500,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 15752,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.7448569684015901,
+          "iou": 0.46073506000801057,
+          "miss": 0.22101756906799033,
+          "fpr": 0.024531963509342173,
+          "matched_recall": [
+            0.7476633586447996,
+            0.8839946512483285
+          ],
+          "tp": 226613,
+          "fp": 200942,
+          "fn": 64296,
+          "tn": 7990086,
+          "score_sha256": "75d8b39d636566fafcd51fb16f169d6766bcdc0607f432efc4214974cf493693",
+          "score_file": "EMSR866_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3732013,
+            "pseudo_dry": 97251513,
+            "physical_additions": 163596,
+            "physical_conflicts": 74862,
+            "invalid_targets_removed": 15968,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.7365280865717552,
+          "iou": 0.46200802776721983,
+          "miss": 0.23953194985373433,
+          "fpr": 0.022943274031049583,
+          "matched_recall": [
+            0.740578668930834,
+            0.8762637113324098
+          ],
+          "tp": 221227,
+          "fp": 187929,
+          "fn": 69682,
+          "tn": 8003099,
+          "score_sha256": "42df3d904e51894e59a22bfa0e61aa9467d723b1ca5846c3a6b837b21a89d97e",
+          "score_file": "EMSR866_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 3591932,
+            "pseudo_dry": 97627120,
+            "physical_additions": 113457,
+            "physical_conflicts": 27123,
+            "invalid_targets_removed": 15969,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12580496,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    },
+    "EMSR868": {
+      "selected": [
+        [
+          "EMSR868-1-0",
+          0,
+          0
+        ],
+        [
+          "EMSR868-1-0",
+          512,
+          0
+        ],
+        [
+          "EMSR868-1-10",
+          0,
+          512
+        ],
+        [
+          "EMSR868-1-10",
+          512,
+          512
+        ],
+        [
+          "EMSR868-1-11",
+          512,
+          0
+        ],
+        [
+          "EMSR868-1-12",
+          0,
+          512
+        ],
+        [
+          "EMSR868-1-12",
+          512,
+          512
+        ],
+        [
+          "EMSR868-1-13",
+          512,
+          0
+        ],
+        [
+          "EMSR868-1-14",
+          0,
+          0
+        ],
+        [
+          "EMSR868-1-14",
+          512,
+          512
+        ],
+        [
+          "EMSR868-1-15",
+          512,
+          0
+        ],
+        [
+          "EMSR868-1-16",
+          0,
+          0
+        ],
+        [
+          "EMSR868-1-16",
+          512,
+          512
+        ],
+        [
+          "EMSR868-1-3",
+          512,
+          0
+        ],
+        [
+          "EMSR868-1-4",
+          0,
+          0
+        ],
+        [
+          "EMSR868-1-4",
+          512,
+          512
+        ],
+        [
+          "EMSR868-1-5",
+          0,
+          512
+        ],
+        [
+          "EMSR868-1-6",
+          0,
+          0
+        ],
+        [
+          "EMSR868-1-6",
+          512,
+          512
+        ],
+        [
+          "EMSR868-1-8",
+          0,
+          512
+        ],
+        [
+          "EMSR868-1-9",
+          0,
+          0
+        ],
+        [
+          "EMSR868-1-9",
+          512,
+          0
+        ],
+        [
+          "EMSR868-2-0",
+          0,
+          512
+        ],
+        [
+          "EMSR868-2-1",
+          0,
+          0
+        ],
+        [
+          "EMSR868-2-1",
+          512,
+          0
+        ],
+        [
+          "EMSR868-2-11",
+          0,
+          512
+        ],
+        [
+          "EMSR868-2-12",
+          0,
+          0
+        ],
+        [
+          "EMSR868-2-12",
+          512,
+          0
+        ],
+        [
+          "EMSR868-2-13",
+          0,
+          512
+        ],
+        [
+          "EMSR868-2-13",
+          512,
+          512
+        ],
+        [
+          "EMSR868-2-14",
+          512,
+          0
+        ],
+        [
+          "EMSR868-2-15",
+          0,
+          512
+        ],
+        [
+          "EMSR868-2-15",
+          512,
+          512
+        ],
+        [
+          "EMSR868-2-16",
+          512,
+          0
+        ],
+        [
+          "EMSR868-2-17",
+          0,
+          0
+        ],
+        [
+          "EMSR868-2-17",
+          512,
+          512
+        ],
+        [
+          "EMSR868-2-18",
+          512,
+          0
+        ],
+        [
+          "EMSR868-2-19",
+          0,
+          0
+        ],
+        [
+          "EMSR868-2-19",
+          512,
+          512
+        ],
+        [
+          "EMSR868-2-2",
+          512,
+          0
+        ],
+        [
+          "EMSR868-2-3",
+          0,
+          0
+        ],
+        [
+          "EMSR868-2-3",
+          512,
+          512
+        ],
+        [
+          "EMSR868-2-5",
+          0,
+          512
+        ],
+        [
+          "EMSR868-2-6",
+          0,
+          0
+        ],
+        [
+          "EMSR868-2-6",
+          512,
+          512
+        ],
+        [
+          "EMSR868-2-7",
+          0,
+          512
+        ],
+        [
+          "EMSR868-2-8",
+          0,
+          0
+        ],
+        [
+          "EMSR868-2-8",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "d0ed8f5e44e0c5e71b178a79fdb7dd603a6884f92241dd905e901790c6f98872",
+      "rows": {
+        "0:source": {
+          "ap": 0.872156208178589,
+          "iou": 0.5155759681627451,
+          "miss": 0.07605393455974559,
+          "fpr": 0.03120798287046682,
+          "matched_recall": [
+            0.8872441922097397,
+            0.9561878660168319
+          ],
+          "tp": 214410,
+          "fp": 183806,
+          "fn": 17649,
+          "tn": 5705905,
+          "score_sha256": "054be7afd75e30699794f0deea3e9eece6eb1e9d7b9b5db617567f5ef695506b",
+          "score_file": "EMSR868_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.8702130195321068,
+          "iou": 0.6031520721142589,
+          "miss": 0.11192843199358783,
+          "fpr": 0.018612288446750613,
+          "matched_recall": [
+            0.8947250483713194,
+            0.9506203163850573
+          ],
+          "tp": 206085,
+          "fp": 109621,
+          "fn": 25974,
+          "tn": 5780090,
+          "score_sha256": "00676ce80cd8b7c2d0c86e0e6f4e8beeefd91aa2cadee8c5ac8d28c9f4187205",
+          "score_file": "EMSR868_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.8723033396472313,
+          "iou": 0.6040892301937957,
+          "miss": 0.1091532756755825,
+          "fpr": 0.01870329460987135,
+          "matched_recall": [
+            0.8968926005886434,
+            0.9513097962156176
+          ],
+          "tp": 206729,
+          "fp": 110157,
+          "fn": 25330,
+          "tn": 5779554,
+          "score_sha256": "3bce2e241b0c841523017565462a67a3e3e17b167f75ab811e46dc2fa62c0d88",
+          "score_file": "EMSR868_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.8737432419938019,
+          "iou": 0.652372300168035,
+          "miss": 0.1768817412813121,
+          "fpr": 0.010312390540045173,
+          "matched_recall": [
+            0.9008657281122473,
+            0.9706798702054219
+          ],
+          "tp": 191012,
+          "fp": 60737,
+          "fn": 41047,
+          "tn": 5828974,
+          "score_sha256": "1e5be29411fd2906fe5a22267ebdb140332668e1e712310af33f9cfff89037dc",
+          "score_file": "EMSR868_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11146123,
+            "pseudo_dry": 87316113,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 2186201,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.8787370001912005,
+          "iou": 0.6478981723237598,
+          "miss": 0.14454513722803253,
+          "fpr": 0.012622181292087167,
+          "matched_recall": [
+            0.9115655932327554,
+            0.9782253651011166
+          ],
+          "tp": 198516,
+          "fp": 74341,
+          "fn": 33543,
+          "tn": 5815370,
+          "score_sha256": "8097726654958de0bbefc1ffc2d44045cfacdc1e253b015757388f7f8461000a",
+          "score_file": "EMSR868_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11638643,
+            "pseudo_dry": 86581564,
+            "physical_additions": 89732,
+            "physical_conflicts": 13242,
+            "invalid_targets_removed": 2189260,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.8786695179827582,
+          "iou": 0.6481089792836057,
+          "miss": 0.14568277894845708,
+          "fpr": 0.012536098969881544,
+          "matched_recall": [
+            0.9114492435113484,
+            0.9781779633627655
+          ],
+          "tp": 198252,
+          "fp": 73834,
+          "fn": 33807,
+          "tn": 5815877,
+          "score_sha256": "07e51374f2647e87736cc7473324155944f73e722489a6ccdf067aa5b28ca261",
+          "score_file": "EMSR868_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11626427,
+            "pseudo_dry": 86606308,
+            "physical_additions": 84447,
+            "physical_conflicts": 10837,
+            "invalid_targets_removed": 2189304,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.8587445646358045,
+          "iou": 0.3672912376696313,
+          "miss": 0.024610120702062838,
+          "fpr": 0.06523308189485019,
+          "matched_recall": [
+            0.8870287297626896,
+            0.9624147307365799
+          ],
+          "tp": 226348,
+          "fp": 384204,
+          "fn": 5711,
+          "tn": 5505507,
+          "score_sha256": "82714537b0b31c5342e00eb5f743e6e20a92b345047ddbfdd35f04eabab06f18",
+          "score_file": "EMSR868_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.8653088363223193,
+          "iou": 0.6039631057332852,
+          "miss": 0.10608078118064802,
+          "fpr": 0.018915868707310088,
+          "matched_recall": [
+            0.8994005834723066,
+            0.9642763262790928
+          ],
+          "tp": 207442,
+          "fp": 111409,
+          "fn": 24617,
+          "tn": 5778302,
+          "score_sha256": "5628d7e18c8b4c8a82ce327c5295f5ae295a5976f59c15ff75232388523f9304",
+          "score_file": "EMSR868_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.8685602601313713,
+          "iou": 0.6049130436046427,
+          "miss": 0.10322805838170465,
+          "fpr": 0.01901010083516831,
+          "matched_recall": [
+            0.9016155374279817,
+            0.9648753118818921
+          ],
+          "tp": 208104,
+          "fp": 111964,
+          "fn": 23955,
+          "tn": 5777747,
+          "score_sha256": "780f1282f1b045df546df6d02d7649a83f7d2c6de2144c1edf0f5548782fc6bb",
+          "score_file": "EMSR868_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.8747328686109996,
+          "iou": 0.6400641409030806,
+          "miss": 0.14683765766464563,
+          "fpr": 0.013117791348336107,
+          "matched_recall": [
+            0.9018870201112648,
+            0.9740497028772855
+          ],
+          "tp": 197984,
+          "fp": 77260,
+          "fn": 34075,
+          "tn": 5812451,
+          "score_sha256": "796b5ed36d729ae78ebdfabe9b30a3fb55c03930606d852010184d346a5645d9",
+          "score_file": "EMSR868_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11394481,
+            "pseudo_dry": 86384501,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 2200907,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.8832925783104888,
+          "iou": 0.6388090613300327,
+          "miss": 0.10149574030742183,
+          "fpr": 0.016017594072103028,
+          "matched_recall": [
+            0.9258507534721774,
+            0.9870894901727578
+          ],
+          "tp": 208506,
+          "fp": 94339,
+          "fn": 23553,
+          "tn": 5795372,
+          "score_sha256": "e6949a60e5a4ac6303ea6087cec773bd5fb63686f061ce0f3f4c7f9110ccc856",
+          "score_file": "EMSR868_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11821583,
+            "pseudo_dry": 85794280,
+            "physical_additions": 81658,
+            "physical_conflicts": 9392,
+            "invalid_targets_removed": 2200660,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.8828809616766915,
+          "iou": 0.6399381386765743,
+          "miss": 0.10487419147716745,
+          "fpr": 0.01571180657251264,
+          "matched_recall": [
+            0.9252000568820861,
+            0.9869860681981737
+          ],
+          "tp": 207722,
+          "fp": 92538,
+          "fn": 24337,
+          "tn": 5797173,
+          "score_sha256": "c64e860ab4a106985777cd6f02a9289bfec89cf01bf4ce7747c52850704f88d0",
+          "score_file": "EMSR868_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11796000,
+            "pseudo_dry": 85847836,
+            "physical_additions": 76127,
+            "physical_conflicts": 7120,
+            "invalid_targets_removed": 2200798,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.8673851076539918,
+          "iou": 0.5022999738928127,
+          "miss": 0.06312187848779836,
+          "fpr": 0.03408859959342657,
+          "matched_recall": [
+            0.8941777737558121,
+            0.9597085224016306
+          ],
+          "tp": 217411,
+          "fp": 200772,
+          "fn": 14648,
+          "tn": 5688939,
+          "score_sha256": "b7edaf1fe519177fcd018972d4f16886f7dcf15fc9678a641d32c2ced4e675ac",
+          "score_file": "EMSR868_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.8152895040712376,
+          "iou": 0.558619032036673,
+          "miss": 0.16872864228493617,
+          "fpr": 0.019230824738259652,
+          "matched_recall": [
+            0.8364553841910893,
+            0.929311080371802
+          ],
+          "tp": 192904,
+          "fp": 113264,
+          "fn": 39155,
+          "tn": 5776447,
+          "score_sha256": "02f593cd3ec4cc8c63ef83c0ac4ab84da700d6530e67d44a61c28ee35b853709",
+          "score_file": "EMSR868_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.8267686965733707,
+          "iou": 0.5625646956773167,
+          "miss": 0.16157959829181373,
+          "fpr": 0.019320302812820527,
+          "matched_recall": [
+            0.8425055697042563,
+            0.9299014474767193
+          ],
+          "tp": 194563,
+          "fp": 113791,
+          "fn": 37496,
+          "tn": 5775920,
+          "score_sha256": "947f8842186daa99366950fa37f10d92746c5ef58a93a73c44884cb50798e9d8",
+          "score_file": "EMSR868_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.8501499548458731,
+          "iou": 0.6312903962697698,
+          "miss": 0.19020593900689048,
+          "fpr": 0.011140954114726513,
+          "matched_recall": [
+            0.885628223856864,
+            0.9703739135306108
+          ],
+          "tp": 187920,
+          "fp": 65617,
+          "fn": 44139,
+          "tn": 5824094,
+          "score_sha256": "69f516cc37b637b93d98e21a37a2039668ff0418fe20387b32dc69d7c21a39f9",
+          "score_file": "EMSR868_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 10325627,
+            "pseudo_dry": 87480339,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 2121969,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.8678639050340031,
+          "iou": 0.6427599510283081,
+          "miss": 0.14708328485428274,
+          "fpr": 0.012882465710117186,
+          "matched_recall": [
+            0.9034900607173176,
+            0.9801731456224495
+          ],
+          "tp": 197927,
+          "fp": 75874,
+          "fn": 34132,
+          "tn": 5813837,
+          "score_sha256": "9289ec5013d1a0a330f0e96cd7dfa0efee3efb24aa85ef07d2bc1958ad5b7e2a",
+          "score_file": "EMSR868_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11087077,
+            "pseudo_dry": 86690412,
+            "physical_additions": 191413,
+            "physical_conflicts": 18017,
+            "invalid_targets_removed": 2152579,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.8680133885550583,
+          "iou": 0.6415318629419607,
+          "miss": 0.13952917146070612,
+          "fpr": 0.013446500176324441,
+          "matched_recall": [
+            0.9053473470108895,
+            0.9828707354595168
+          ],
+          "tp": 199680,
+          "fp": 79196,
+          "fn": 32379,
+          "tn": 5810515,
+          "score_sha256": "1f3002860eeae5b83d4c0b6b34d383e7d62473f175c7569e9bca0f252ba321f7",
+          "score_file": "EMSR868_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 11074894,
+            "pseudo_dry": 86693069,
+            "physical_additions": 182880,
+            "physical_conflicts": 15100,
+            "invalid_targets_removed": 2152423,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12254246,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    },
+    "EMSR870": {
+      "selected": [
+        [
+          "EMSR870-10-2",
+          0,
+          0
+        ],
+        [
+          "EMSR870-10-2",
+          512,
+          0
+        ],
+        [
+          "EMSR870-10-3",
+          0,
+          512
+        ],
+        [
+          "EMSR870-10-3",
+          512,
+          512
+        ],
+        [
+          "EMSR870-10-5",
+          512,
+          0
+        ],
+        [
+          "EMSR870-10-6",
+          0,
+          512
+        ],
+        [
+          "EMSR870-10-6",
+          512,
+          512
+        ],
+        [
+          "EMSR870-10-7",
+          512,
+          0
+        ],
+        [
+          "EMSR870-10-8",
+          0,
+          0
+        ],
+        [
+          "EMSR870-10-8",
+          512,
+          512
+        ],
+        [
+          "EMSR870-13-0",
+          512,
+          0
+        ],
+        [
+          "EMSR870-13-1",
+          0,
+          0
+        ],
+        [
+          "EMSR870-13-1",
+          512,
+          512
+        ],
+        [
+          "EMSR870-13-2",
+          512,
+          0
+        ],
+        [
+          "EMSR870-13-3",
+          0,
+          0
+        ],
+        [
+          "EMSR870-13-3",
+          512,
+          512
+        ],
+        [
+          "EMSR870-5-0",
+          0,
+          512
+        ],
+        [
+          "EMSR870-5-1",
+          0,
+          0
+        ],
+        [
+          "EMSR870-5-1",
+          512,
+          512
+        ],
+        [
+          "EMSR870-5-2",
+          0,
+          512
+        ],
+        [
+          "EMSR870-5-3",
+          0,
+          0
+        ],
+        [
+          "EMSR870-5-3",
+          512,
+          0
+        ],
+        [
+          "EMSR870-8-1",
+          0,
+          512
+        ],
+        [
+          "EMSR870-8-10",
+          0,
+          0
+        ],
+        [
+          "EMSR870-8-10",
+          512,
+          0
+        ],
+        [
+          "EMSR870-8-11",
+          0,
+          512
+        ],
+        [
+          "EMSR870-8-12",
+          0,
+          0
+        ],
+        [
+          "EMSR870-8-12",
+          512,
+          0
+        ],
+        [
+          "EMSR870-8-13",
+          0,
+          512
+        ],
+        [
+          "EMSR870-8-13",
+          512,
+          512
+        ],
+        [
+          "EMSR870-8-14",
+          512,
+          0
+        ],
+        [
+          "EMSR870-8-15",
+          0,
+          512
+        ],
+        [
+          "EMSR870-8-15",
+          512,
+          512
+        ],
+        [
+          "EMSR870-8-17",
+          512,
+          0
+        ],
+        [
+          "EMSR870-8-18",
+          0,
+          0
+        ],
+        [
+          "EMSR870-8-18",
+          512,
+          512
+        ],
+        [
+          "EMSR870-8-19",
+          512,
+          0
+        ],
+        [
+          "EMSR870-8-2",
+          0,
+          0
+        ],
+        [
+          "EMSR870-8-2",
+          512,
+          512
+        ],
+        [
+          "EMSR870-8-21",
+          512,
+          0
+        ],
+        [
+          "EMSR870-8-3",
+          0,
+          0
+        ],
+        [
+          "EMSR870-8-3",
+          512,
+          512
+        ],
+        [
+          "EMSR870-8-4",
+          0,
+          512
+        ],
+        [
+          "EMSR870-8-5",
+          0,
+          0
+        ],
+        [
+          "EMSR870-8-5",
+          512,
+          512
+        ],
+        [
+          "EMSR870-8-6",
+          0,
+          512
+        ],
+        [
+          "EMSR870-8-9",
+          0,
+          0
+        ],
+        [
+          "EMSR870-8-9",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "a9fb8d3ee8389c43cfddb213a4315624ea89d5be5953a05b4c8a986eb04995d4",
+      "rows": {
+        "0:source": {
+          "ap": 0.6246421467962406,
+          "iou": 0.43801791838839116,
+          "miss": 0.32731059649767047,
+          "fpr": 0.01605508530822311,
+          "matched_recall": [
+            0.7187578894218631,
+            0.8750315576874527
+          ],
+          "tp": 117239,
+          "fp": 93374,
+          "fn": 57045,
+          "tn": 5722478,
+          "score_sha256": "87a865e1275fdf471fda0a0d19e4b32eccb788772f2f84768730b62aacb8159c",
+          "score_file": "EMSR870_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.6518256934738983,
+          "iou": 0.4547129433572704,
+          "miss": 0.30751531982281793,
+          "fpr": 0.015669931078026056,
+          "matched_recall": [
+            0.7290342200087214,
+            0.8334729521929723
+          ],
+          "tp": 120689,
+          "fp": 91134,
+          "fn": 53595,
+          "tn": 5724718,
+          "score_sha256": "1385a8cc2b731e406d5af27bcf98b91b1f95a213d93871bb7f1e82d9c13931ca",
+          "score_file": "EMSR870_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.6480598048537849,
+          "iou": 0.45436320976067573,
+          "miss": 0.3055530054393978,
+          "fpr": 0.01583448134512364,
+          "matched_recall": [
+            0.7291948773266622,
+            0.8334614766702624
+          ],
+          "tp": 121031,
+          "fp": 92091,
+          "fn": 53253,
+          "tn": 5723761,
+          "score_sha256": "8eb2b0836cc3155b481e884e3a82225f94b2426275b24d135f275cfbba1670c3",
+          "score_file": "EMSR870_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.7039019753376432,
+          "iou": 0.5074761515619817,
+          "miss": 0.2802494778637167,
+          "fpr": 0.01253505075438646,
+          "matched_recall": [
+            0.7785281494572078,
+            0.8717323449083105
+          ],
+          "tp": 125441,
+          "fp": 72902,
+          "fn": 48843,
+          "tn": 5742950,
+          "score_sha256": "24c8c454ae092837b9b07e66e2f99f23e45713398f3ec798d0a4ae40b4601014",
+          "score_file": "EMSR870_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 7740772,
+            "pseudo_dry": 92168579,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 455326,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.6905218427465925,
+          "iou": 0.4582997188824957,
+          "miss": 0.26008698446214223,
+          "fpr": 0.018413983024327302,
+          "matched_recall": [
+            0.7477966996396685,
+            0.8174186959215992
+          ],
+          "tp": 128955,
+          "fp": 107093,
+          "fn": 45329,
+          "tn": 5708759,
+          "score_sha256": "a7de5c6a21ad1163e5d54570279605a4c644ffa92cdfa3d5c05ce08d17fabce6",
+          "score_file": "EMSR870_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 8694134,
+            "pseudo_dry": 90383022,
+            "physical_additions": 487413,
+            "physical_conflicts": 297656,
+            "invalid_targets_removed": 456053,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.720549402114636,
+          "iou": 0.4807560718989353,
+          "miss": 0.2501778706020059,
+          "fpr": 0.01677174728655406,
+          "matched_recall": [
+            0.7719985770351839,
+            0.8653117899520323
+          ],
+          "tp": 130682,
+          "fp": 97542,
+          "fn": 43602,
+          "tn": 5718310,
+          "score_sha256": "fa93392a01c7a36d3b6c075a9091d9cca8feb05e09ec3e4e184988eeaff62a2c",
+          "score_file": "EMSR870_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 8536495,
+            "pseudo_dry": 91430448,
+            "physical_additions": 275532,
+            "physical_conflicts": 13361,
+            "invalid_targets_removed": 457108,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.6978829448579538,
+          "iou": 0.40175700244733986,
+          "miss": 0.2379908654839228,
+          "fpr": 0.026871213366502448,
+          "matched_recall": [
+            0.7282653599871474,
+            0.8237990865483923
+          ],
+          "tp": 132806,
+          "fp": 156279,
+          "fn": 41478,
+          "tn": 5659573,
+          "score_sha256": "f0c85e02111ce23abe4d5bfe165ff05d072db0d53e319794cea6b7819f02404f",
+          "score_file": "EMSR870_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.6940252208053277,
+          "iou": 0.45194724832733885,
+          "miss": 0.2624337288563494,
+          "fpr": 0.018938411775265257,
+          "matched_recall": [
+            0.744600766564917,
+            0.8339147598173097
+          ],
+          "tp": 128546,
+          "fp": 110143,
+          "fn": 45738,
+          "tn": 5705709,
+          "score_sha256": "093f24d4109e15e39966d600e3a7bfc620d17bb39334f0ab93b1fded20cbeecd",
+          "score_file": "EMSR870_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.6896102325064073,
+          "iou": 0.45091602839267175,
+          "miss": 0.26226159601569854,
+          "fpr": 0.01906169551769887,
+          "matched_recall": [
+            0.7439925638612839,
+            0.8338803332491795
+          ],
+          "tp": 128576,
+          "fp": 110860,
+          "fn": 45708,
+          "tn": 5704992,
+          "score_sha256": "ad9aaf3135a73248dcb97e0a8ee03ed19cb6e886adb2ebcc163e70ffe41952c7",
+          "score_file": "EMSR870_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.691279479895235,
+          "iou": 0.5001127083621696,
+          "miss": 0.27439696128158636,
+          "fpr": 0.013511519894247653,
+          "matched_recall": [
+            0.7740985976911249,
+            0.8672052511991921
+          ],
+          "tp": 126461,
+          "fp": 78581,
+          "fn": 47823,
+          "tn": 5737271,
+          "score_sha256": "5a42f0759b46ec1a73685fd4a6442d75e713a3c04a85f7f477c4a4fa3374921a",
+          "score_file": "EMSR870_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 8023485,
+            "pseudo_dry": 91833877,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 465908,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.6950386658927351,
+          "iou": 0.454997624932018,
+          "miss": 0.24155401528539625,
+          "fpr": 0.019985721782466267,
+          "matched_recall": [
+            0.7585205756122191,
+            0.84072548254573
+          ],
+          "tp": 132185,
+          "fp": 116234,
+          "fn": 42099,
+          "tn": 5699618,
+          "score_sha256": "6f26702609252c7d01cd63f3e3d1108379c2d78abf0f5d54a58924cffc4cce01",
+          "score_file": "EMSR870_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9064812,
+            "pseudo_dry": 89449529,
+            "physical_additions": 375281,
+            "physical_conflicts": 277297,
+            "invalid_targets_removed": 467886,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.7285312991033909,
+          "iou": 0.47690901106495714,
+          "miss": 0.23979252254940212,
+          "fpr": 0.017801347076920115,
+          "matched_recall": [
+            0.7738576117142136,
+            0.8592756650065411
+          ],
+          "tp": 132492,
+          "fp": 103530,
+          "fn": 41792,
+          "tn": 5712322,
+          "score_sha256": "b528c942cfa626cf489d50cf6cc7d2424cd0df0f69783b7ae478b3893407c4cb",
+          "score_file": "EMSR870_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 8814289,
+            "pseudo_dry": 90755601,
+            "physical_additions": 176275,
+            "physical_conflicts": 13895,
+            "invalid_targets_removed": 468316,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.6005137829879076,
+          "iou": 0.40758648848610995,
+          "miss": 0.23822037593812398,
+          "fpr": 0.026041412333051118,
+          "matched_recall": [
+            0.7225735007229579,
+            0.8469394780932271
+          ],
+          "tp": 132766,
+          "fp": 151453,
+          "fn": 41518,
+          "tn": 5664399,
+          "score_sha256": "1324477acfd4e7d0ef75d7617505b937c3268047c9a98a96359424c7b413f49e",
+          "score_file": "EMSR870_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.6464877656038134,
+          "iou": 0.3987425494978523,
+          "miss": 0.2580213903743315,
+          "fpr": 0.02579553262359496,
+          "matched_recall": [
+            0.7075004016432949,
+            0.8183137866929838
+          ],
+          "tp": 129315,
+          "fp": 150023,
+          "fn": 44969,
+          "tn": 5665829,
+          "score_sha256": "67da5656df73d061424c928d2db2b3ca96627ec23e776a5fd0df0606a1d93eb0",
+          "score_file": "EMSR870_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.6384672826411135,
+          "iou": 0.39764850534081303,
+          "miss": 0.25773450230658007,
+          "fpr": 0.0259705714657113,
+          "matched_recall": [
+            0.7062839962360286,
+            0.8181818181818182
+          ],
+          "tp": 129365,
+          "fp": 151041,
+          "fn": 44919,
+          "tn": 5664811,
+          "score_sha256": "b0b383bdf40ab74fbdf973fd663bf0dd49a1db45b54d17866c22c5c6d554ed9e",
+          "score_file": "EMSR870_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.6791996956764249,
+          "iou": 0.49367339792225984,
+          "miss": 0.27199857703518393,
+          "fpr": 0.01422422716396497,
+          "matched_recall": [
+            0.7794232402285924,
+            0.878577494204861
+          ],
+          "tp": 126879,
+          "fp": 82726,
+          "fn": 47405,
+          "tn": 5733126,
+          "score_sha256": "5ba102862faac7769d78abb4cc178c71bea6556c37f81b2e9a8d0c1c42439a30",
+          "score_file": "EMSR870_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 7487726,
+            "pseudo_dry": 91644269,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 450445,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.6653050555418221,
+          "iou": 0.46483374598287447,
+          "miss": 0.24809506323013014,
+          "fpr": 0.018507004648674004,
+          "matched_recall": [
+            0.7609246976199766,
+            0.8399336714787359
+          ],
+          "tp": 131045,
+          "fp": 107634,
+          "fn": 43239,
+          "tn": 5708218,
+          "score_sha256": "09e70d6b4c0dfbd53c6670ec68a0a3b0327d907efbf7c87a1433f5e391af64d2",
+          "score_file": "EMSR870_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 8630912,
+            "pseudo_dry": 90012755,
+            "physical_additions": 514691,
+            "physical_conflicts": 340262,
+            "invalid_targets_removed": 452810,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.6639779840740969,
+          "iou": 0.4758920151600446,
+          "miss": 0.23847283743774528,
+          "fpr": 0.01798653060634968,
+          "matched_recall": [
+            0.7757338596773083,
+            0.8803619379862753
+          ],
+          "tp": 132722,
+          "fp": 104607,
+          "fn": 41562,
+          "tn": 5711245,
+          "score_sha256": "e5557bd2e2fe307e59196630934821f04155b019b4d3d0e2f2fb84e39464964b",
+          "score_file": "EMSR870_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 8294863,
+            "pseudo_dry": 90838196,
+            "physical_additions": 354041,
+            "physical_conflicts": 15289,
+            "invalid_targets_removed": 452994,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12516358,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    },
+    "EMSR871": {
+      "selected": [
+        [
+          "EMSR871-1-1",
+          0,
+          0
+        ],
+        [
+          "EMSR871-1-1",
+          512,
+          512
+        ],
+        [
+          "EMSR871-1-3",
+          512,
+          512
+        ],
+        [
+          "EMSR871-1-4",
+          512,
+          0
+        ],
+        [
+          "EMSR871-2-1",
+          512,
+          0
+        ],
+        [
+          "EMSR871-2-10",
+          0,
+          512
+        ],
+        [
+          "EMSR871-2-12",
+          0,
+          512
+        ],
+        [
+          "EMSR871-2-2",
+          0,
+          0
+        ],
+        [
+          "EMSR871-2-3",
+          0,
+          0
+        ],
+        [
+          "EMSR871-2-3",
+          512,
+          512
+        ],
+        [
+          "EMSR871-2-4",
+          512,
+          512
+        ],
+        [
+          "EMSR871-2-5",
+          512,
+          512
+        ],
+        [
+          "EMSR871-2-6",
+          512,
+          0
+        ],
+        [
+          "EMSR871-2-9",
+          512,
+          0
+        ],
+        [
+          "EMSR871-3-1",
+          0,
+          512
+        ],
+        [
+          "EMSR871-3-11",
+          0,
+          512
+        ],
+        [
+          "EMSR871-3-12",
+          0,
+          0
+        ],
+        [
+          "EMSR871-3-13",
+          0,
+          0
+        ],
+        [
+          "EMSR871-3-13",
+          512,
+          512
+        ],
+        [
+          "EMSR871-3-14",
+          512,
+          512
+        ],
+        [
+          "EMSR871-3-19",
+          512,
+          512
+        ],
+        [
+          "EMSR871-3-20",
+          512,
+          0
+        ],
+        [
+          "EMSR871-3-21",
+          512,
+          0
+        ],
+        [
+          "EMSR871-3-22",
+          0,
+          512
+        ],
+        [
+          "EMSR871-3-24",
+          0,
+          512
+        ],
+        [
+          "EMSR871-3-25",
+          0,
+          0
+        ],
+        [
+          "EMSR871-3-3",
+          0,
+          0
+        ],
+        [
+          "EMSR871-3-3",
+          512,
+          512
+        ],
+        [
+          "EMSR871-3-4",
+          512,
+          512
+        ],
+        [
+          "EMSR871-3-6",
+          512,
+          512
+        ],
+        [
+          "EMSR871-3-7",
+          512,
+          0
+        ],
+        [
+          "EMSR871-3-8",
+          512,
+          0
+        ],
+        [
+          "EMSR871-3-9",
+          0,
+          512
+        ],
+        [
+          "EMSR871-4-1",
+          0,
+          512
+        ],
+        [
+          "EMSR871-4-10",
+          0,
+          0
+        ],
+        [
+          "EMSR871-4-12",
+          0,
+          0
+        ],
+        [
+          "EMSR871-4-12",
+          512,
+          512
+        ],
+        [
+          "EMSR871-4-13",
+          512,
+          512
+        ],
+        [
+          "EMSR871-4-14",
+          512,
+          512
+        ],
+        [
+          "EMSR871-4-15",
+          512,
+          0
+        ],
+        [
+          "EMSR871-4-16",
+          512,
+          0
+        ],
+        [
+          "EMSR871-4-17",
+          0,
+          512
+        ],
+        [
+          "EMSR871-4-18",
+          0,
+          512
+        ],
+        [
+          "EMSR871-4-19",
+          0,
+          0
+        ],
+        [
+          "EMSR871-4-3",
+          0,
+          0
+        ],
+        [
+          "EMSR871-4-3",
+          512,
+          512
+        ],
+        [
+          "EMSR871-4-7",
+          512,
+          512
+        ],
+        [
+          "EMSR871-4-9",
+          512,
+          512
+        ]
+      ],
+      "truth_sha256": "f8c2ecf412dbf4ab5416e066d4b171ad79de1f82faeca5d7128097b7d856c303",
+      "rows": {
+        "0:source": {
+          "ap": 0.1730107024576511,
+          "iou": 0.17183110728134424,
+          "miss": 0.6743103532755157,
+          "fpr": 0.011852086616241486,
+          "matched_recall": [
+            0.3736096820030379,
+            0.42742580887516946
+          ],
+          "tp": 19941,
+          "fp": 54823,
+          "fn": 41286,
+          "tn": 4570776,
+          "score_sha256": "1a9180945646e2bd1aede30fff04584552fee2b2a9f0166204e1b888f9e7ef8a",
+          "score_file": "EMSR871_0_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:adabn": {
+          "ap": 0.21559008798248017,
+          "iou": 0.15415938689850553,
+          "miss": 0.6382804971662829,
+          "fpr": 0.017821691850071743,
+          "matched_recall": [
+            0.36674996325150666,
+            0.4235876329070508
+          ],
+          "tp": 22147,
+          "fp": 82436,
+          "fn": 39080,
+          "tn": 4543163,
+          "score_sha256": "9093d48277c57889f800c9d3640c28869841d1f843da6a3cbeca98acb9a9f47c",
+          "score_file": "EMSR871_0_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:post": {
+          "ap": 0.21588956767669137,
+          "iou": 0.15424017816751923,
+          "miss": 0.638035507210871,
+          "fpr": 0.017826447990843996,
+          "matched_recall": [
+            0.3669622878795303,
+            0.4236366308981332
+          ],
+          "tp": 22162,
+          "fp": 82458,
+          "fn": 39065,
+          "tn": 4543141,
+          "score_sha256": "d5d810154fea7fc5eabedb99e19760ac2205481e94f4a8ef22aef55321587025",
+          "score_file": "EMSR871_0_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:ordinary": {
+          "ap": 0.2759566298246262,
+          "iou": 0.19640499545245615,
+          "miss": 0.6719911150309504,
+          "fpr": 0.008869337787387103,
+          "matched_recall": [
+            0.366521305959789,
+            0.44266418410178515
+          ],
+          "tp": 20083,
+          "fp": 41026,
+          "fn": 41144,
+          "tn": 4584573,
+          "score_sha256": "d7a3677f7fa35f54757c3f30288b734fb3bb5c7c765df3d2d0a1db6f54baa5fc",
+          "score_file": "EMSR871_0_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9199396,
+            "pseudo_dry": 93362957,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 1358570,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:darkness": {
+          "ap": 0.2890380938920218,
+          "iou": 0.19164074973006395,
+          "miss": 0.6608359057278651,
+          "fpr": 0.01018938303990467,
+          "matched_recall": [
+            0.36394074509611773,
+            0.42497590932105117
+          ],
+          "tp": 20766,
+          "fp": 47132,
+          "fn": 40461,
+          "tn": 4578467,
+          "score_sha256": "fd6040fa5189af3627b5184ef8cacbdfb0bec4299f5190b83f89fd27f97fee73",
+          "score_file": "EMSR871_0_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9247359,
+            "pseudo_dry": 93240732,
+            "physical_additions": 17435,
+            "physical_conflicts": 12770,
+            "invalid_targets_removed": 1358777,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "0:joint": {
+          "ap": 0.28632196392135595,
+          "iou": 0.19462870393248816,
+          "miss": 0.6655070475443841,
+          "fpr": 0.009512065356292234,
+          "matched_recall": [
+            0.36723994316233033,
+            0.44504875300112695
+          ],
+          "tp": 20480,
+          "fp": 43999,
+          "fn": 40747,
+          "tn": 4581600,
+          "score_sha256": "34cf17521874c6b399b77bbb46d6b77029894d8474c9579df5cce6402e66624e",
+          "score_file": "EMSR871_0_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9224650,
+            "pseudo_dry": 93322221,
+            "physical_additions": 11314,
+            "physical_conflicts": 1127,
+            "invalid_targets_removed": 1358687,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:source": {
+          "ap": 0.16337167862353755,
+          "iou": 0.1584055006745289,
+          "miss": 0.6432946249203783,
+          "fpr": 0.016570178262318026,
+          "matched_recall": [
+            0.36581900142094176,
+            0.417185228738955
+          ],
+          "tp": 21840,
+          "fp": 76647,
+          "fn": 39387,
+          "tn": 4548952,
+          "score_sha256": "6b58006974a359c8f9386d021295adc4522f0f9919db98cca6b5faf161b1b1a8",
+          "score_file": "EMSR871_1_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:adabn": {
+          "ap": 0.18962122743361776,
+          "iou": 0.13955424932647564,
+          "miss": 0.6277459290835743,
+          "fpr": 0.022071303630081206,
+          "matched_recall": [
+            0.3668969572247538,
+            0.4259722018063926
+          ],
+          "tp": 22792,
+          "fp": 102093,
+          "fn": 38435,
+          "tn": 4523506,
+          "score_sha256": "d11bba90a1f987183dbc3bd1db534135fa3e923c8ef572262af786032c314e00",
+          "score_file": "EMSR871_1_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:post": {
+          "ap": 0.1898197276812498,
+          "iou": 0.13960621533262316,
+          "miss": 0.627566269782939,
+          "fpr": 0.02207519501798578,
+          "matched_recall": [
+            0.36709294918908325,
+            0.4260865304522515
+          ],
+          "tp": 22803,
+          "fp": 102111,
+          "fn": 38424,
+          "tn": 4523488,
+          "score_sha256": "ba15539f875c3ef9ed682b6a99598818a5f885bf3c1916b7c12cea3df3f977ea",
+          "score_file": "EMSR871_1_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:ordinary": {
+          "ap": 0.24167370572372368,
+          "iou": 0.18270394524889635,
+          "miss": 0.6572917177062407,
+          "fpr": 0.011592012191285929,
+          "matched_recall": [
+            0.36129485357767,
+            0.4247635846930276
+          ],
+          "tp": 20983,
+          "fp": 53620,
+          "fn": 40244,
+          "tn": 4571979,
+          "score_sha256": "a20fdc9c2ab57d18d154f5a8c3272ce6dd3018692b93d5b8aa08499a6c0ec463",
+          "score_file": "EMSR871_1_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9274422,
+            "pseudo_dry": 93110222,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 1358944,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:darkness": {
+          "ap": 0.2517370912413998,
+          "iou": 0.17407300711963455,
+          "miss": 0.6545804955330164,
+          "fpr": 0.013029231457374493,
+          "matched_recall": [
+            0.36152351086938767,
+            0.4259722018063926
+          ],
+          "tp": 21149,
+          "fp": 60268,
+          "fn": 40078,
+          "tn": 4565331,
+          "score_sha256": "040a3d5e7c113d50de0e453979a466e906a9eeda1363e00c17a5784fcbde28f4",
+          "score_file": "EMSR871_1_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9310556,
+            "pseudo_dry": 92978887,
+            "physical_additions": 13589,
+            "physical_conflicts": 12853,
+            "invalid_targets_removed": 1358985,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "1:joint": {
+          "ap": 0.2434790111478108,
+          "iou": 0.1808170027210534,
+          "miss": 0.6559524392833227,
+          "fpr": 0.011949155125638863,
+          "matched_recall": [
+            0.36382641645025887,
+            0.4356411387133128
+          ],
+          "tp": 21065,
+          "fp": 55272,
+          "fn": 40162,
+          "tn": 4570327,
+          "score_sha256": "2e89c1c22370e179c7e53337e24d29e01ff7acf7722ec936983da6ef0578b2b7",
+          "score_file": "EMSR871_1_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9290639,
+            "pseudo_dry": 93066818,
+            "physical_additions": 8013,
+            "physical_conflicts": 1180,
+            "invalid_targets_removed": 1358968,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:source": {
+          "ap": 0.2688959147071496,
+          "iou": 0.18394801947508826,
+          "miss": 0.6587616574387117,
+          "fpr": 0.011318317908664369,
+          "matched_recall": [
+            0.38115537262972216,
+            0.45344374213990557
+          ],
+          "tp": 20893,
+          "fp": 52354,
+          "fn": 40334,
+          "tn": 4573245,
+          "score_sha256": "405fbbaedfc8f5b2779d47ed8367b2d0960b7de738b5dd4fb85da3c42557c4a4",
+          "score_file": "EMSR871_2_source.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:adabn": {
+          "ap": 0.30179879804242027,
+          "iou": 0.1391341595750757,
+          "miss": 0.602119979747497,
+          "fpr": 0.024615838943237406,
+          "matched_recall": [
+            0.3840299214398876,
+            0.48534143433452565
+          ],
+          "tp": 24361,
+          "fp": 113863,
+          "fn": 36866,
+          "tn": 4511736,
+          "score_sha256": "d707127a31084399d1c2cab841a14f1be4506ffcd331d8cd4c422c941a2fe023",
+          "score_file": "EMSR871_2_adabn.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:post": {
+          "ap": 0.3024267288476305,
+          "iou": 0.1391828227165006,
+          "miss": 0.6019239877831676,
+          "fpr": 0.02462124364866042,
+          "matched_recall": [
+            0.38424224606791124,
+            0.48534143433452565
+          ],
+          "tp": 24373,
+          "fp": 113888,
+          "fn": 36854,
+          "tn": 4511711,
+          "score_sha256": "ed045372b3b6771827bb8e2b525ff73d9108941d31545339801616316cb8ad8c",
+          "score_file": "EMSR871_2_post.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 0,
+            "pseudo_dry": 0,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 0,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:ordinary": {
+          "ap": 0.2936163087720455,
+          "iou": 0.1787998240508899,
+          "miss": 0.654776487497346,
+          "fpr": 0.01232035029409164,
+          "matched_recall": [
+            0.3705718065559312,
+            0.49143351789243306
+          ],
+          "tp": 21137,
+          "fp": 56989,
+          "fn": 40090,
+          "tn": 4568610,
+          "score_sha256": "3093882f11e519f085274a1ba828465f3377e082b267638dd6e7864539c5f517",
+          "score_file": "EMSR871_2_ordinary.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9273756,
+            "pseudo_dry": 92166540,
+            "physical_additions": 0,
+            "physical_conflicts": 0,
+            "invalid_targets_removed": 1354108,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:darkness": {
+          "ap": 0.2946991838505505,
+          "iou": 0.17200634227572964,
+          "miss": 0.647410456171297,
+          "fpr": 0.013896578583660191,
+          "matched_recall": [
+            0.36712561451647147,
+            0.4647459454162379
+          ],
+          "tp": 21588,
+          "fp": 64280,
+          "fn": 39639,
+          "tn": 4561319,
+          "score_sha256": "1dc581bba7fa854aa7d0fb9be38ac562ae088d56cc99474057377ab84b6e013b",
+          "score_file": "EMSR871_2_darkness.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9333853,
+            "pseudo_dry": 91988681,
+            "physical_additions": 21291,
+            "physical_conflicts": 11151,
+            "invalid_targets_removed": 1354313,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        },
+        "2:joint": {
+          "ap": 0.29047945011101,
+          "iou": 0.17593185287311044,
+          "miss": 0.6498603557254152,
+          "fpr": 0.013106843027249012,
+          "matched_recall": [
+            0.36714194718016563,
+            0.45623662763160044
+          ],
+          "tp": 21438,
+          "fp": 60627,
+          "fn": 39789,
+          "tn": 4564972,
+          "score_sha256": "01334ebded81d10b4426d0e6987155e58686c488b96c55ba491cc9fc181546d1",
+          "score_file": "EMSR871_2_joint.npz",
+          "diagnostics": {
+            "validity_corrected": true,
+            "pseudo_water": 9301087,
+            "pseudo_dry": 92126671,
+            "physical_additions": 14839,
+            "physical_conflicts": 948,
+            "invalid_targets_removed": 1354243,
+            "skipped_updates": 0,
+            "adabn_skipped_batches": 0,
+            "valid_radar_pixels": 12424360,
+            "valid_terrain_pixels": 12582912
+          }
+        }
+      }
+    }
+  }
+}
