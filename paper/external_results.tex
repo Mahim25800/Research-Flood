@@ -20,7 +20,7 @@ GEOID-Flood & SSL4EO ResNet-50 & 66.39 & 67.58 & +1.19 & 8/9 \\
 \subsection{ImpactMesh-Flood: incremental value of physical cues}
 \label{sec:external}
 
-The paired AP gain on ImpactMesh had a median of 4.24 points, with improvements on 12 of 13 activations (one-sided exact sign test, $p=0.00171$). Mean AP rose from 45.10\% to 60.03\%, with a mean gain of 14.93 points (post-hoc 95\% bootstrap interval 6.67--24.30 points). Four activations contributed 76\% of the net gain. The exploratory two-sided signed-rank result is reported with the archived-score diagnostics. On EMSR795, misses fell from 99.47\% to 18.06\%. On EMSR799, misses fell from 100.00\% to 40.97\%, but FPR rose by 25.18 points and AP remained near 2\% (Fig.~\ref{fig:impactmesh_paired}).
+Table~\ref{tab:impactmesh} reports the original frozen ImpactMesh run. The ImpactMesh rows in Table~\ref{tab:backbone_cohort} use the matched Kaggle crossover. Mean AP rose from 45.10\% to 60.03\% in the original run, a gain of 14.93 points (post-hoc 95\% bootstrap interval 6.67--24.30). The median gain was 4.24 points, with 12 of 13 activations improving (one-sided exact sign test, $p=0.00171$). Four activations contributed 76\% of the net gain. Appendix A reports the signed-rank sensitivity. Misses fell from 99.47\% to 18.06\% on EMSR795 and from 100.00\% to 40.97\% on EMSR799, where FPR rose by 25.18 points and AP stayed near 2\% (Figs.~\ref{fig:impactmesh_paired} and \ref{fig:impact_examples}).
 
 At the 0.430 source threshold, mean IoU rose from 25.96\% to 42.01\% and the mean miss rate fell from 60.08\% to 28.88\% (Table~\ref{tab:impactmesh}). Dry-pixel FPR increased on all 13 activations. On the nine activations with defined FDP for every seed in both arms, mean FDP was 40.32\% for ordinary self-training and 39.38\% for physics-guided self-training. For physics-guided self-training, FDP was defined on all 13 activations and averaged 47.32\%.
 
@@ -86,7 +86,7 @@ Table~\ref{tab:model_free_radar} compares the standalone radar masks with physic
 
 \begin{table}[pos=t]
 \centering
-\caption{Post-hoc model-free radar controls and the archived physics-guided self-training result. Each mask uses its own input-derived threshold. The network uses its source-calibrated threshold. All metrics weight activations equally.}
+\caption{Post-hoc model-free radar controls and the archived physics-guided self-training result. Each mask uses its own input-derived threshold. The network uses its source-calibrated threshold on ImpactMesh (ResNet-50, 0.430) and GEOID-Flood (U-Net, 0.208). All metrics weight activations equally.}
 \label{tab:model_free_radar}
 \begin{tabular}{@{}llrrr@{}}
 \toprule

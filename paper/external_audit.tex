@@ -38,18 +38,6 @@ For ImpactMesh, the local snapshot used to produce the scores has SHA-256 prefix
 To construct the matched-FPR curves for source, AdaBN and post-processing, we regenerated their control scores from the archived checkpoints and chips. The regenerated outputs reproduced the archived fixed-threshold contingency counts for all 117 controls. Of these, 90 reproduced the archived score digest exactly. The maximum absolute AP difference across all controls was $5.5\times10^{-11}$. For the 27 outputs with differing digests, a second CPU run at a different thread count reproduced all 54 matched-recall values exactly.
 
 \begin{table}[pos=H]
-\centering
-\caption{ImpactMesh per-flood changes (physics-guided minus ordinary self-training, percentage points) and radar acquisition timing relative to activation. Miss and FPR differences use threshold 0.430. Lags describe the retained chips.}
-\label{tab:impactmesh_lag}
-\begin{tabular}{@{}lrrrrrrrr@{}}
-\toprule
-Activation & Chips & Flood (\%) & $\Delta$AP & $\Delta$Miss & $\Delta$FPR & Min d & Median d & Max d \\
-\midrule
-\input{tables/tab_impactmesh_review_lag}
-\end{tabular}
-\end{table}
-
-\begin{table}[pos=H]
 \caption{GEOID-Flood paired changes in percentage points after averaging seeds within each activation. The primary comparison is the AP change from same-rule post-processing to physics-guided self-training. The remaining columns compare physics-guided with ordinary self-training. IoU, miss and FPR use the 0.208 source threshold.}
 \label{tab:geoid_events}
 \centering
@@ -60,6 +48,18 @@ Activation & Chips & Flood (\%) & $\Delta$AP & $\Delta$Miss & $\Delta$FPR & Min 
 Activation & $\Delta$AP & $\Delta$AP & $\Delta$IoU & $\Delta$Miss & $\Delta$FPR \\
 \midrule
 \input{tables/tab_geoid_events_rows}
+\end{tabular}
+\end{table}
+
+\begin{table}[pos=H]
+\centering
+\caption{ImpactMesh per-flood changes (physics-guided minus ordinary self-training, percentage points) and radar acquisition timing relative to activation. Miss and FPR differences use threshold 0.430. Lags describe the retained chips.}
+\label{tab:impactmesh_lag}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Activation & Chips & Flood (\%) & $\Delta$AP & $\Delta$Miss & $\Delta$FPR & Min d & Median d & Max d \\
+\midrule
+\input{tables/tab_impactmesh_review_lag}
 \end{tabular}
 \end{table}
 
