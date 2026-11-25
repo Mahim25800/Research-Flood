@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "ca9f4a526a738266a22be8606d9b1bac36ae8ef6089b0fc0668d067205ad8767",
+  "runner_sha256": "4f2c8e618e26e237f168bf044442ce0cf211eb1f55108d0826a3fd072e7dc5aa",
+  "kernel": "mostofaseum/px1-geoid-flood-resnet50-followup",
+  "cohort_count": 9,
+  "seed_count": 3
+}

@@ -1,0 +1,41 @@
+{
+  "task": "Post-hoc relaxed ordinary ImpactMesh control",
+  "changes": "Set strict positive teacher cutoff to 0.7 for ordinary self-training only.",
+  "positive_cutoff": 0.7,
+  "negative_cutoff": 0.1,
+  "steps": 200,
+  "adabn_batches": 50,
+  "backbone": "SSL4EO-S12 ResNet-50",
+  "activations": 13,
+  "chips": 516,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "archive_sha256": "f42dea09a71f77d40ef108ca4d4dd960f43871c6222a49e969a390c3a294209c",
+  "protocol_sha256": "a55fd6fd1a82be756f3b22d28777f4d5f6666a94a8c054235b9dcb3b805de64f",
+  "input_metadata_sha256": {
+    "selected.json": "76b6bbf2737f79d5762310ab8647cd23886ba553bae18cc4eee3c8966871647e",
+    "input_verification.json": "4935f7984c6f26fabef8ce5866457a2d143da7ce6bee7b73b71cb1a2b0945915",
+    "source_calibration.json": "4faae6be40f6e857e2cd1bdb014b6825e6004d95497d0c116eb9633a2b70ef89"
+  },
+  "scripts_sha256": {
+    "smoke": "4a50b54afacf60e4cfda72911f4775749872446de822feaa55c8dc4f9688c0e6",
+    "seed0": "765fde3dc5a1dd1046aae5da73e8e6cf84b735fa0d1a4260e06f0fced60910c7",
+    "seed1": "ef25f130a5a5a4cf1dc68eb8b8eb3c97f0a585728fa6af1e4b8a4bb07667dc65",
+    "seed2": "ad063bc37e3426d2bf4e3b49d541963247b1f6128a70566e5f0e7a06291368c0"
+  },
+  "source_threshold": 0.43,
+  "matched_fpr": [
+    0.02,
+    0.05
+  ],
+  "references": [
+    "archived ordinary (0.9)",
+    "archived physics"
+  ],
+  "metric_support": "floodwater versus dry, excluding permanent water and nodata",
+  "aggregation": "Average three seeds per activation, then weight all activations equally.",
+  "reference_report_sha256": "6202520b59dd68756bfe77d5690db68c9533b7649c5f7cfcf237bd569928fac2"
+}

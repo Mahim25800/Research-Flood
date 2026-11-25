@@ -1,0 +1,44 @@
+{
+  "cohort": "frozen original 13 ImpactMesh activations and 516 chips",
+  "primary": "floodwater AP by activation averaged over seeds",
+  "fixed_threshold": 0.5,
+  "arms": [
+    "source",
+    "ordinary",
+    "tg_tta",
+    "physics_vv",
+    "physics_vv_vh"
+  ],
+  "steps": 10,
+  "batch_size": 2,
+  "lr": 5e-05,
+  "teacher_passes": 4,
+  "gate_c": 2.0,
+  "epsilon": 1e-06,
+  "port_choices": {
+    "teacher": "common frozen MC teacher; train only encoder/attention with frozen BN, clean paired inputs",
+    "unit": "event reset and sampling of existing 256px tiles; no stride-64 retile",
+    "terrain": "unclipped archived GLO-30 HAND and DEM gradient slope; percentile scaling over valid pixels within an activation",
+    "gate_c": "paper unspecified; 2.0 is a fixed port value before scoring",
+    "physics": "VV-only matched information and original joint VV/VH cue with additional VH; label thresholds from PX1",
+    "scoring": "dry (0) and floodwater (2) on the original support; exclude permanent water and nodata"
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "archive_sha256": "3dd75b8cb13ad3d1139b091d3037c131f941775a97983ba09ab68a2ff14560f8",
+  "input_manifest_sha256": "6fb7012a6298802e9bc2480f48adb7469247e9957bddb53dc2a0a48a8897afe1",
+  "stanet_commit": "6152d72f55df00a43d341580970be7a58c6b0cd5",
+  "stanet_files": {
+    "backbone.py": "e3d0d37202ac2a5439a9b78271f725d90cff9514420715e4361e28725b9774ab",
+    "mynet3.py": "bed713f258893065a07d6b714af7f0486688f60daf40c8a89019868e2439478b",
+    "BAM.py": "2050f2b1afde16e4e94baa6bc29e7c6aaa5fb8dc36b69467ac2ce3f0b367fb2a",
+    "PAM2.py": "2398f756c9c92f746120dd24f70950c62cfc81b098d41e29bd616768b4ed1269"
+  },
+  "code_sha256": {
+    "tg_tta_objective.py": "5e7c1b129609113eacbcadfc1d06285e162052907a20360a07b7984fe0f8fe64",
+    "run_impactmesh_tg_tta.py": "06bba943723347774a51353a347643b11b5a3c518ccd64f64f116ae93700958b"
+  }
+}
