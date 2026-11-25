@@ -1,5 +1,0 @@
-- Label-free adaptation with pseudo-labels checked by radar and terrain physics
-- Map threshold calibrated over flood events to hold a chosen miss rate
-- At matched miss rates, six adaptation baselines do not beat the unadapted model
-- Adaptation made a source-calibrated threshold valid on Kuro Siwo, not on MMFlood
-- Pre-registered test on 30 MMFlood activations, reported with its negative parts

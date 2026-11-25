@@ -1,6 +1,6 @@
 # PX1 results
 
-The [current manuscript](../paper/main.pdf) uses activation-level means. The analysis first averages the three source checkpoints within an activation, then weights activations equally. External metrics score floodwater against dry pixels and exclude permanent water and nodata. AP uses unrounded scores.
+The analysis first averages the three source checkpoints within an activation, then weights activations equally. External metrics score floodwater against dry pixels and exclude permanent water and nodata. AP uses unrounded scores.
 
 ## Verified external results
 
@@ -17,4 +17,4 @@ The archival reports include comparisons at fixed source thresholds and matched 
 
 ## Historical benchmarks
 
-The older [Sen1Floods11](sen1floods11/), [Kuro Siwo](kuro_siwo/) and [Kaggle analysis](final/final_analysis_kaggle.md) records support the historical experiments in the supplement. The [baseline fidelity audit](../revision/BASELINE_FIDELITY_AUDIT.md) describes the earlier implementations. The [supplement](../paper/supplement.pdf) explains the assumptions and scope of the flood-level calibration results.
+The older [Sen1Floods11](sen1floods11/), [Kuro Siwo](kuro_siwo/) and [Kaggle analysis](final/final_analysis_kaggle.md) records document the historical benchmarks. The [baseline fidelity audit](../revision/BASELINE_FIDELITY_AUDIT.md) describes the earlier implementations.

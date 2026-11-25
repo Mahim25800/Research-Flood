@@ -1,5 +1,0 @@
-- Physics adds 12.17–14.15 AP points on ImpactMesh across two backbones.
-- GEOID-Flood gains over ordinary self-training are 0.17–1.19 AP points.
-- The preregistered U-Net test gains 3.50 AP points over post-processing.
-- On ImpactMesh, physics leads the relaxed ordinary control by 11.47 AP points.
-- Equal false alarms remove the mean miss-rate advantage over the TG-TTA port.

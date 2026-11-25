@@ -12,14 +12,10 @@ runs/
 runs_loeo/
 *.pt
 *.pth
-# python / latex build files
+# Python caches and local manuscript material
 __pycache__/
 *.pyc
 revision/generated/test_artifacts/
-paper/*.aux
-paper/*.log
-paper/*.out
-paper/*.blg
-paper/*.fls
-paper/*.fdb_latexmk
-paper/*.abs
+/paper/
+/revision/paper_wip/
+/docs/references.bib
