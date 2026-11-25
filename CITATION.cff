@@ -1,6 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the paper."
-title: "Safe test-time adaptation for SAR flood mapping: physics-checked self-training with a flood-level miss-rate guarantee"
+message: "Please cite this repository and identify the manuscript as a working draft."
+title: "When do dark-water pseudo-labels help test-time adaptation in SAR flood mapping?"
 type: software
 repository-code: "https://github.com/Mahim25800/Research-Flood"
 license: MIT
+authors:
+  - family-names: Hasan
+    given-names: MD Sakib
+  - family-names: Seum
+    given-names: Mostofa
+  - family-names: Mursalin
+    given-names: Meer
+  - family-names: Ahmed
+    given-names: Tanvir
+  - family-names: Mahmud
+    given-names: Rifath
+  - family-names: Tasnim
+    given-names: Syeda Anika

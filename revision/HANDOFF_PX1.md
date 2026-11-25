@@ -1,3 +1,5 @@
+> Historical record. The [current results index](../results/README.md) covers the 25 November manuscript and external follow-ups.
+
 # PX1 handoff — state as of Tue 10 Nov 2026, 20:20 (Asia/Dhaka)
 
 Paste this file into a new session to continue the project. Everything needed is in the GitHub repo and on the PC; the cloud workspace of the old session is not shared.

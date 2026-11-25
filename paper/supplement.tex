@@ -1,0 +1,50 @@
+\PassOptionsToPackage{hypertexnames=false}{hyperref}
+\documentclass[a4paper,fleqn]{cas-sc}
+\renewcommand{\sfdefault}{\rmdefault}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\let\printorcid\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+\shorttitle{Supplementary Material}
+\shortauthors{M.S. Hasan et al.}
+
+\title[mode=title]{Supplementary Material for When do dark-water pseudo-labels help test-time adaptation in SAR flood mapping?}
+\author[1]{MD Sakib Hasan}
+\author[1]{Mostofa Seum}
+\author[1]{Meer Mursalin}
+\author[1]{Tanvir Ahmed}
+\cormark[1]
+\ead{tanvir.ahmed@aiub.edu}
+\author[1]{Rifath Mahmud}
+\author[1]{Syeda Anika Tasnim}
+\affiliation[1]{organization={Department of Computer Science, American International University-Bangladesh (AIUB)},
+            city={Dhaka}, country={Bangladesh}}
+\cortext[1]{Corresponding author}
+\begin{abstract}
+The supplement covers calibration, historical benchmarks and external score verification.
+\end{abstract}
+\maketitle
+
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theequation}{S\arabic{equation}}
+
+\input{historical_appendix}
+\input{external_followups}
+
+\clearpage
+\bibliographystyle{unsrtnat}
+\bibliography{references,audit_refs,external_refs}
+\end{document}

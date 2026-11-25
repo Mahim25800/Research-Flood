@@ -1,3 +1,5 @@
+> Historical record. The [current results index](../README.md) covers the 25 November manuscript and external follow-ups.
+
 Final Kaggle run (notebook notebookd6a6e506fc, 10 Nov 2026), U-Net, Kuro Siwo, radar only (V0).
 
 | Method | 0.5 | 10% guar. | 20% guar. | 30% guar. | 20%: mean miss rate | 20%: events meeting |

@@ -1,3 +1,5 @@
+> Historical record. The [current results index](../results/README.md) covers the 25 November manuscript and external follow-ups.
+
 # PX1 revision (started 10 Nov 2026, after the Q1-readiness review)
 
 Paper: paper_latex/main.tex (backup of the pre-revision version: main_v1_backup.tex). Tables are generated:

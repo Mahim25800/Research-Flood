@@ -1,3 +1,5 @@
+> Historical record. The [current results index](../results/README.md) covers the 25 November manuscript and external follow-ups.
+
 # PX1 handoff — 12 November 2026 validity repair
 
 Latest prior handoff: 10 Nov 20:20. Repository fetched to

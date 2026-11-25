@@ -1,61 +1,47 @@
-# Safe test-time adaptation for SAR flood mapping
+# When do dark-water pseudo-labels help test-time adaptation in SAR flood mapping?
 
-Code, stored results and manuscript for **"Safe test-time adaptation for SAR flood mapping: physics-checked self-training with a flood-level miss-rate guarantee"**.
+PX1 studies whether a model trained on Sentinel-1 radar can improve its floodwater maps when it adapts to a new event without target labels. We compare ordinary teacher–student self-training with an adaptive VV/VH darkness rule, with and without terrain gates based on height above nearest drainage (HAND) and slope.
 
-A flood-mapping network trained on some floods (Sentinel-1 radar) is adapted to a new flood without any labels:
+[Current manuscript](paper/main.pdf) · [Supplement](paper/supplement.pdf) · [Verified results](results/README.md) · [Reproduction bundle](revision/reproduction/px1_external_20261125/) · [GEOID-Flood preregistration](https://osf.io/wv4se/)
 
-1. **AdaBN**: batch-normalisation statistics are re-estimated on the new flood.
-2. **Physics-checked self-training**: a mean teacher produces confident pseudo-labels, which are corrected with a per-flood radar darkness test (VV and VH, Otsu-based, capped) and terrain limits (HAND < 5 m, slope < 3°) before each student update.
-3. **Flood-level miss-rate guarantee**: the decision threshold is set by conformal risk control on other flood events, so the expected share of missed flood water per flood stays below a chosen target α.
+## Main findings
 
-## Main results
+The table compares joint radar-and-terrain self-training with standard ordinary self-training. Floodwater average precision (AP) excludes permanent water and ignored pixels. Gains are in percentage points, calculated before rounding.
 
-| | Sen1Floods11 (11 floods, leave one out) | Kuro Siwo (26 events) | MMFlood (30 activations, pre-registered) |
-| --- | --- | --- | --- |
-| No adaptation, IoU at 0.5 / 20% guarantee | 0.551 / 0.479 | 0.186 / 0.565 | 0.193 / 0.110 |
-| TENT | 0.504 / 0.442 | 0.576 / 0.467 | 0.192 / 0.096 |
-| AdaBN | 0.573 / 0.479 | 0.570 / 0.562 | 0.194 / 0.098 |
-| **Proposed** (AdaBN + adaptive physics check) | 0.561 / 0.494 | **0.673 / 0.677** | 0.203 / **0.112** |
+| Cohort | Backbone | Ordinary AP | Joint AP | Gain | Activations improved |
+| --- | --- | ---: | ---: | ---: | ---: |
+| ImpactMesh-Flood | U-Net | 47.91% | 60.09% | +12.17 | 12/13 |
+| ImpactMesh-Flood | SSL4EO-S12 ResNet-50 | 45.81% | 59.95% | +14.15 | 12/13 |
+| GEOID-Flood | U-Net | 67.75% | 67.91% | +0.17 | 8/9 |
+| GEOID-Flood | SSL4EO-S12 ResNet-50 | 66.39% | 67.58% | +1.19 | 8/9 |
 
-* The mean miss rate stayed at or below the target on all three datasets.
-* On MMFlood (fixed before testing) the proposed method beat TENT on 28/30 and AdaBN on 28/30 activations under the 20% guarantee (Holm-corrected p < 1e-7).
-* Results held with an ImageNet-pretrained ResNet-34 backbone and under one-at-a-time changes of the method's settings.
+- **Preregistered GEOID-Flood result.** The primary U-Net contrast was against same-rule post-processing. Joint self-training gained **3.50 AP points** (8/9 activations, one-sided exact sign test *p* = 0.0195). The ResNet-50 GEOID-Flood follow-up was post hoc.
+- **What drove the gain.** Radar darkness accounted for most of the observed AP gain on ImpactMesh and in the GEOID-Flood ResNet-50 follow-up. On GEOID-Flood, darkness alone added **0.99 AP points** over ordinary self-training. HAND and slope added **0.20 points** beyond darkness alone (95% paired interval −0.16 to +0.72).
+- **Stronger ordinary control.** On ImpactMesh, lowering the teacher’s positive cutoff from 0.90 to 0.70 cut misses and raised false alarms. Joint physics still gained **11.47 AP points** and improved recall by **11.91** and **13.33 points** at matched 2% and 5% false-positive rates on the same Kaggle T4 stack.
+- **Paired-input comparison.** On STANet, the physics variants reduced misses and increased false alarms at the fixed threshold. Mean miss rates were similar to the independent TG-TTA port at matched false alarms. [Detailed results](results/README.md)
 
-## Repository layout
+The larger gain on ImpactMesh recurred across both backbones. The comparison leaves open which differences in observations, labels, adaptation protocols or source training explain the pattern. Matched false-alarm rates use reference labels retrospectively. Historical conformal calibration experiments and their assumptions are documented in the supplement.
 
-| Folder | Contents |
-| --- | --- |
-| `src/` | Data download, U-Net baseline, training, test-time adaptation, conformal calibration, Kuro Siwo evaluation, HAND/DEM fetching |
-| `mmflood/` | MMFlood preparation (overlap exclusion, chipping), evaluation, pre-registered analysis, per-activation tables, raw-data check |
-| `extensions/` | ResNet-34 backbone patch, mixed Sen1Floods11 + Kuro Siwo training, second-backbone analysis, sensitivity analysis, example maps |
-| `kaggle/` | Kaggle runner and the exact notebook cells used (scripts embedded with MD5 checks) |
-| `scripts/windows/` | Batch files used for the local (Windows, GPU) runs |
-| `analysis/` | Scripts that make every paper figure from stored results |
-| `data/` | Small metadata files (Kuro Siwo event locations, MMFlood activations used, per-activation results) |
-| `results/` | Stored probability histograms and summaries behind every table and figure |
-| `paper/` | LaTeX manuscript (Elsevier CAS template), figures, references, highlights, graphical abstract |
-| `docs/` | Annotated literature list (91 references) |
+## Reproduce the headline numbers
 
-## Reproducing
+From the repository root, run:
 
 ```bash
-pip install -r requirements.txt
-python src/download_sen1floods11.py --out data
-python src/train_px1.py --data data --out runs              # U-Net, three seeds
-python src/conformal_px1.py ...                             # leave-one-flood-out calibration
-python src/ks_download.py --out data_ks                     # Kuro Siwo test events
-python src/ks_eval.py --data data --ks data_ks --runs runs --out runs_ks --methods none,tent,adabn,physa,adabn_physa
-python mmflood/mm_prep.py ...; python mmflood/mm_eval.py ...; python mmflood/mm_analyse_act.py ...
+python revision/reproduction/px1_external_20261125/verify_headlines.py
 ```
 
-The figures can be rebuilt from `results/` alone, e.g. `python analysis/paper_figs.py results`.
-GPU runs were done on a local RTX GPU and on Kaggle (T4 x2); `kaggle/` contains the exact cells.
+The bundle includes nine source checkpoints, frozen protocols, prediction manifests, verified summaries and scripts. The headline script aggregates the archived activation-level records using only Python’s standard library. Exact per-pixel recomputation requires the referenced score arrays and prepared labels, which are available through the corresponding author. See the [reproduction guide](revision/reproduction/px1_external_20261125/README.md) and [pinned release](https://github.com/Mahim25800/Research-Flood/tree/e233cddf7ba7a9518bf1d5ecc7d410124f93f311).
 
-## Data
+## Repository guide
 
-* Sen1Floods11 (Bonafilia et al., 2020), Kuro Siwo (Bountos et al., 2023), MMFlood (Montello et al., 2022), GLO-30 HAND.
-* Datasets and model weights are not included; the download scripts fetch the public data.
+| Path | Contents |
+| --- | --- |
+| [`paper/`](paper/README.md) | Current manuscript and supplement, LaTeX source and highlights |
+| [`results/`](results/README.md) | Verified external results index and historical experiments |
+| [`revision/`](revision/README.md) | Project status, protocol history and reproduction materials |
+| [`src/`](src/) | Data preparation, source training, adaptation and calibration |
+| [`analysis/`](analysis/) | Analysis for the historical benchmarks |
+| [`mmflood/`](mmflood/) | Historical MMFlood evaluation |
+| [`docs/`](docs/) | Literature and background documentation |
 
-## Citation
-
-If you use this code, please cite the paper (citation will be added after publication).
+The manuscript is a working draft. See [CITATION.cff](CITATION.cff) for repository citation metadata.

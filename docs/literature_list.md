@@ -1,5 +1,7 @@
 # PX1 paper: literature list
 
+> This annotated list is the 9 November 2026 snapshot. The [current Related Work](../paper/main.pdf) covers CIM-TTDA and the TG-TTA method by Song and Lee. Historical flood-level calibration is described in the [supplement](../paper/supplement.pdf).
+
 91 sources, grouped by topic. Every entry was checked against a live source (publisher, proceedings, arXiv or an institutional repository) on 9 Nov 2026. Each entry says what the work is and where it fits in our paper. BibTeX keys match `references.bib`; the same table is in `references.csv`.
 
 ## Where our paper sits (what the search found)

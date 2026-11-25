@@ -1,24 +1,20 @@
-# PX1 manuscript (LaTeX, Elsevier CAS single-column template)
+# PX1 manuscript and supplementary material
 
-Same template as the group's earlier Elsevier submission (cas-sc), same author order and affiliation.
+**Working draft, 25 November 2026.** *When do dark-water pseudo-labels help test-time adaptation in SAR flood mapping?*
 
-- `main.tex`: complete manuscript (18 pages: 6 figures, 8 tables). No open items remain.
-- `main.pdf`: compiled manuscript.
-- `references.bib`: the 90 checked references (same keys as literature_list.md).
-- `highlights.txt`: highlights for the separate upload (each under 85 characters).
-- `figures/`:
-  - `fig_method.pdf` (Fig. 1, method overview; source `fig_method.tex`, TikZ)
-  - `fig_sites.pdf` (Fig. 2, study sites; script `figure_scripts/paper_map.py`)
-  - `fig_guarantee.pdf` (Fig. 3, IoU and realised miss rate vs target; `figure_scripts/paper_figs.py`)
-  - `fig_ks_events.pdf` (Fig. 4, Kuro Siwo per event; `paper_figs.py`)
-  - `fig_maps.pdf` (Fig. 5, example maps on Kuro Siwo; `figure_scripts/paper_fig_maps.py` from `maps_rows_compact.json`, produced by maps.py on Kaggle)
-  - `fig_mmflood_water.pdf` (Fig. 6, water share and MMFlood per-activation IoU; `paper_fig_mm.py`)
-  - `graphical_abstract.pdf/.png` (separate upload; source `graphical_abstract.tex`, bars `ga_bars.pdf`)
-  - `paper_numbers.json`, `guarantee_curves.json`, `water_fraction.json`: every number the figures and Table 4 use.
-- `cas-sc.cls`, `cas-common.sty`, `cas-model2-names.bst`, `thumbnails/`: Elsevier CAS class files, so it compiles anywhere.
+- [Main PDF](main.pdf) and [LaTeX source](main.tex)
+- [Supplement PDF](supplement.pdf) and [LaTeX source](supplement.tex)
+- [Highlights](highlights.txt)
+- [Results index](../results/README.md) and [reproduction guide](../revision/reproduction/px1_external_20261125/README.md)
 
-All figures are computed from stored results only (no model runs): the probability histograms in
-runs_ks/ and runs_loeo/, and the MMFlood per-activation table and pixel counts read from the Kaggle logs
-(px1-mmflood-final, px1-mmflood-activation), saved in figure_scripts/.
+The current paper leads with the two-backbone, two-cohort AP comparison. It retains the preregistered GEOID-Flood U-Net contrast against same-rule post-processing and labels the ResNet-50 crossover and relaxed teacher as post hoc. It reports the ImpactMesh matched-FPR STANet comparison and acquisition-timing sensitivity. Supplement Section S3 contains the complete GEOID-Flood ResNet-50 readback across six arms.
 
-Compile: `latexmk -pdf main.tex` (or upload the folder to Overleaf; Overleaf also has the CAS class built in).
+## Build the PDFs
+
+Run from this directory with a LaTeX distribution that provides `latexmk` and the packages used by the Elsevier CAS template.
+
+```bash
+latexmk -pdf main.tex supplement.tex
+```
+
+The current sources use the included bibliography, figures, tables and CAS template files. Older figure assets remain in this directory for historical source revisions. The included PDFs are local builds of the working draft.

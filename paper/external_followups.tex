@@ -1,0 +1,21 @@
+\section{External follow-up verification}
+
+\subsection{GEOID-Flood ResNet-50 score readback}
+The post-hoc crossover used the frozen v4 424-window selection from nine activations. Input verification recovered 1,416 selected radar, DEM, HAND and label raster hashes. CPU readback reconstructed the floodwater and dry label arrays from the archived rasters. It checked all 162 score digests and recomputed AP, source-threshold confusion counts and recall at matched false alarms. Table~\ref{tab:geoid_resnet_all} reports all six arms. Darkness-only and joint self-training share the positive teacher threshold, model, checkpoints, source normalisation and optimisation. The terrain gates are the only cue difference in this comparison. Joint physics improved AP over darkness alone on six of nine activations, with a mean gain of 0.20 points and a 95\% paired activation bootstrap interval of $-0.16$ to 0.72 points.
+
+\begin{table}[pos=t]
+\centering
+\caption{Verified post-hoc GEOID-Flood ResNet-50 comparison. Metrics are percentages, averaged across the three checkpoints within each of nine activations, then across activations. IoU, miss and FPR use the fixed source threshold 0.430. The last two columns interpolate each activation--checkpoint ROC curve using reference labels.}
+\label{tab:geoid_resnet_all}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Method & AP & IoU & Miss & FPR & Recall at 2\% FPR & Recall at 5\% FPR \\
+\midrule
+\input{tables/tab_geoid_resnet_six_arms}
+\end{tabular}
+\end{table}
+
+\subsection{ImpactMesh controls and archived scores}
+The relaxed ordinary comparison used the three original SSL4EO-S12 source checkpoints and the original 516 chips. It decreased the positive pseudo-label cutoff to 0.70 and kept the dry cutoff at 0.10. All 39 score arrays passed hash and reference-mask checks. The primary follow-up comparison used the earlier Kaggle ordinary and joint arms on the same Tesla T4 and software stack. The original frozen comparison gave the same direction of AP and matched-recall gains.
+
+For the acquisition-time sensitivity, we retained chips acquired within three days of activation issuance and recomputed AP from the stored predictions. Gains were 16.30 points on average and 9.76 points at the median, with improvement on 11 of 12 scorable activations. Excluding EMSR848 gave 13.68 mean points, 7.63 median points and improvement on 10 of 11. A separate full-activation filter based on the median chip lag retained nine activations, excluded EMSR848 and gave a 15.51-point mean gain with eight improvements. Adaptation used the original chips. The filters changed only the scoring subset.
